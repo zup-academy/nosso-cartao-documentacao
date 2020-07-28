@@ -187,7 +187,7 @@ Já sabemos a responsabilidade do repositório, para declarar o mesmo o Spring D
 
 **Repository**
 
-Interface de marcação, sem métodos, para que o Spring entenda que a classe é um repositório e faça todas as configurações 
+Repository é uma interface de marcação, sem métodos, para que o Spring entenda que a classe é um repositório e faça todas as configurações 
 necessárias.
 
 Geralmente não é muito utilizada, pois precisamos declarar todas as nossas operações que gostaríamos.
@@ -224,6 +224,91 @@ Pensando nisso a comunidade do Spring criou a interface [PagingAndSortingReposit
 
 **PagingAndSortingRepository**
 
-FIXME
+PagingAndSortingRepository é uma interface que herda a CrudRepository, ou seja, tem todos os métodos CRUD complementando 
+os mesmo com a possibilidade de ordenar e ou limitar as consultas.
 
-Quer saber mais sobre os repositórios no Spring Data, acesse o [link!]()https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.definition-tuning
+- **findAll(Pageable pageable):** Busca todas as entidades e aplica a ordenação e limite configurado passado como Pageable.
+- **findAll(Sort sort):** Busca todas as entidades e aplica o(s) limite(s) configurado passado como Sort.
+
+Para ordenar ou limitar as consultas é precisso passar o seguinte objeto:
+
+- **Pageable**: Limita e pagina as consultas.
+- **Sort**: Ordena as consultas.
+
+Código de exemplo:
+
+**Limitando \ Paginando**
+
+```
+Integer page = 1;
+Integer size = 1;
+PageRequest pageRequest = PageRequest.of(page, size);
+repository.findAll(pageRequest);
+```
+
+**Ordenando**
+
+```
+Collection<String> fields = new ArrayList<>("nome");
+Sort sort =Sort.by(Sort.Direction.DESC, fields);
+repository.findAll(sort);
+```
+
+**Paginando e Ordenando**
+
+```
+Collection<String> fields = new ArrayList<>("nome");
+Sort sort =Sort.by(Sort.Direction.DESC, fields);
+
+Integer page = 1;
+Integer size = 1;
+
+PageRequest pageRequest = PageRequest.of(page, size, sort);
+repository.findAll(pageRequest);
+```
+
+Quer sabemos mais sobre os métodos dessa interface, acesse o [link!](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)
+
+---
+
+Já sabemos sobre as interfaces de repositório do Spring Data, como eu declaro?
+
+Para declarar seu repositório é necessário algumas passos, conforme abaixo:
+
+1º Precisamos ter nossa entidade declarada.
+
+Não sei declarar minha entidade, não tem problema, nesta página existe um tutorial (Como mapear minha entidade?) 
+para te auxiliar.
+
+2º Após ter configurado sua entidade, precisamos criar um interface que vai representar o repositório da mesma, conforme 
+código abaixo:
+
+```
+public interface CarroRepository extends CrudRepository<Carro, String> {
+
+}
+```
+
+No primeiro parâmetro da interface CrudRepository deve ser passado a sua entidade, e no segundo o tipo do identificador.
+
+3º Precisamos dizer para o Spring que existe um repositório que necessita ser configurado pelo mesmo, para tal, devemos 
+anotar nosso repositório com a anotação @Repository
+
+```
+@Repository
+public interface CarroRepository extends CrudRepository<Carro, String> {
+
+}
+```
+
+Quer saber mais sobre a anotação @Repository, acesse o [link!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.namespace)
+
+---
+
+Quer saber mais sobre os repositórios no Spring Data, acesse o [link!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.definition-tuning)
+
+Eba, temos nosso repositório criado e configurado!
+
+## Como fazer consultas no banco de dados?
+
+FIXME
