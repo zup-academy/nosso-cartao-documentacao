@@ -20,7 +20,7 @@ como por exemplo:
 [maven-archetype-quickstart](https://maven.apache.org/archetypes/maven-archetype-quickstart/): Archetype para gerar um 
 projeto na estrutura do Maven, conforme imagem abaixo:
 
-![alt text](../images/maven-quickstart-archetype.png "maven-archetype-quickstart")
+![alt text](../images/maven-001.png "maven-archetype-quickstart")
 
 Para saber quais são os outros Archetype, acesse o [catálogo](https://maven.apache.org/archetypes).
 
