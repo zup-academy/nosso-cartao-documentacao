@@ -169,3 +169,61 @@ private Montadora montadora;
 Quer saber mais sobre as notações do JPA, acesso o [link!](https://dzone.com/articles/all-jpa-annotations-mapping-annotations)
 
 ## Como declarar meu repositório?
+
+Antes de aprendermos a declarar nosso repositório, o que é o repositório no Spring Data?
+
+#### O que é o repositório?
+
+O repositório é uma classe que representa as operações do banco de dados da sua entidade, como por exemplo:
+
+- Salvar
+- Alterar
+- Buscar
+- Remover
+
+#### Declarando nosso repositório
+
+Já sabemos a responsabilidade do repositório, para declarar o mesmo o Spring Data fornece algumas interfaces:
+
+**Repository**
+
+Interface de marcação, sem métodos, para que o Spring entenda que a classe é um repositório e faça todas as configurações 
+necessárias.
+
+Geralmente não é muito utilizada, pois precisamos declarar todas as nossas operações que gostaríamos.
+
+Não seria legal termos já um repositório com todas as operações padrão?
+
+Pensando nisso a comunidade do Spring criou a interface [CrudRepository](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html).
+
+**CrudRepository**
+
+Antes de falarmos sobre o CrudRepository, precisamos entender o que significa CRUD.
+
+O CRUD é um acrônimo em inglês para as 4 operações básicas de um banco de dados:
+
+- **C**reate: Representado pela operação insert.
+- **R**ead: Representado pela operação select.
+- **U**pdate: Representado pela operação update.
+- **D**elete: Representado pela operação delete.
+
+Agora que sabemos o significado de CRUD fica muito dedutível a interface CrudRepository, na qual representa essas operações:
+
+- **save:** Salve ou atualiza uma entidade.
+- **saveAll:** Salva ou atualiza um conjunto de entidade.
+- **deleteById:** Remove uma determinada entidade, de acordo com sua identificação.
+- **deleteAll:** Remove todas as entidades.
+- **findById:** Busca uma determinada entidade, de acordo com sua identificação.
+- **findAll:** Busca todas as entidades.
+
+Quer sabemos mais sobre os métodos dessa interface, acesse o [link!](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html)
+
+Não seria legal além de termos as operações de CRUD, termos a possibilidade ordenar e limitar nossas consultas?
+
+Pensando nisso a comunidade do Spring criou a interface [PagingAndSortingRepository](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html).
+
+**PagingAndSortingRepository**
+
+FIXME
+
+Quer saber mais sobre os repositórios no Spring Data, acesse o [link!]()https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.definition-tuning
