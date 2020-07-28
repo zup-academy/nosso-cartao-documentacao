@@ -63,4 +63,18 @@ body.
 
 
 ## Configurando Headers
+Algumas vezes precisamos manipular os Headers da nossa resposta, como por exemplo incluir uma
+meta-informação do objeto que foi criado, nesse caso podemos utilizar o método _header()_ adicionando
+os headers necessário.
+
+```java
+ResponseEntity.ok().header("x-custom-data", "custom").body("Body");
+```
+
+Como podemos ver na assinatura do método _header()_ recebe dois parâmetros o primeiro
+é header já o segundo é o valor da entrada do header.
+
+Como podemos ver a classe _ResponseEntity_ provê uma abstração bastante fluída para manipularmos
+nosso Response.
+
 
