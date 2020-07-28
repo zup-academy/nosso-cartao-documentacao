@@ -9,7 +9,7 @@ mas afinal o que é Spring Initializr?
 com o objetivo de fornecer uma ferramenta para auxiliar na criação de projetos que utilizam Spring e seus módulos, 
 otimizando o tempo de setup do seu futuro projeto.
 
-## Conhecendo e criando nosso projeto
+## Criando nosso projeto
 
 Vamos acessar o site do [Spring Initializr](https://start.spring.io/), para tal acesse o link abaixo:
 
