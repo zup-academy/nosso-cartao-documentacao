@@ -14,10 +14,30 @@ ou [@Valid](https://docs.oracle.com/javaee/7/api/javax/validation/Valid.html).
 
 ```
 @PostMapping
-public Response post(@Validated @RequestBody Body Body) {
+public Response post(@Validated @RequestBody Body body) {
     ...
 }
 ```
+
+Após anotar a classe, método ou parâmetro com a anotação @Validated ou @Valid precisamos colocar os validadores nos 
+atributos desejados, conforme código abaixo:
+
+```java
+public class Pessoa {
+
+    @NotBlank
+    private String nome;
+
+    @NotNull
+    @Positive
+    private Integer idade;
+
+}
+```
+
+Pronto! Temos uma classe que será validada, caso for violado alguma restrição será gerado a exception [MethodArgumentNotValidException](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/MethodArgumentNotValidException.html).
+
+## Anotações de validação
 
 #### [@AssertFalse](https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/AssertFalse.html)
 
