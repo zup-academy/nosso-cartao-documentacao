@@ -37,7 +37,7 @@ public class Pessoa {
 
 Pronto! Temos uma classe que será validada, caso for violado alguma restrição será gerado a exception [MethodArgumentNotValidException](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/MethodArgumentNotValidException.html).
 
-## Anotações de validação
+## Anotações de validação \ restrição
 
 #### [@AssertFalse](https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/AssertFalse.html)
 
@@ -127,6 +127,8 @@ Verifica se o campo atende o REGEX definido, se não, ocorre um erro.
 
 Verifica se o campo atende o minimo e máximo de tamanho definido, se não, ocorre um erro.
 
+Quer saber mais sobre as anotações, acesse o [link!](https://docs.oracle.com/javaee/7/api/javax/validation/constraints/package-summary.html)
+
 ## Qual diferença do @Valid e @Validated
 
 
@@ -136,5 +138,4 @@ Verifica se o campo atende o minimo e máximo de tamanho definido, se não, ocor
 
 [Validação com Bean Validation](https://blog.algaworks.com/validacao-com-bean-validation/)
 
-# FIXME - Luram - Bean Validation
 # FIXME - Luram - Bean Validation Spring
