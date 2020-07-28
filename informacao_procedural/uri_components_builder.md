@@ -24,14 +24,15 @@ com sucesso, agora precisamos retornar o **Response** configurado corretamente c
 Veja um exemplo prático de como fazer isso:
 
 ```java
-  @PostMapping
-  public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid NovaProposta novaProposta,
-      UriComponentsBuilder uriComponentsBuilder){
-    ....
-    codigo omitido
-    ...
-    return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/propostas/{id}",nova).toUri()).body(nova);
-  }
+    @PostMapping
+    public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid NovaProposta novaProposta,
+        UriComponentsBuilder uriComponentsBuilder){
+      ....
+      codigo omitido
+      ...
+      return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/propostas/{id}",nova.getId()).toUri()).body(nova);
+    }
+
 
 ``` 
 Um ponto bastante interessante é que o próprio _UriComponentsBuilder_ consegue gerenciar o endereço
