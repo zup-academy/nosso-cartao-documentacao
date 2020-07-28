@@ -372,7 +372,7 @@ Ops, não entendi, declarar uma operação de acordo com o nome do método!?
 
 Digamos que eu tenho o seguinte método no meu repositório:
 
-```javajava
+```java
 @Repository
 public interface MeuRepositorio extends CrudRepository<MinhaEntidade, String> {
 
@@ -402,7 +402,7 @@ Esses são apenas alguns exemplo, se deseja ver todas as possibilidades, acesse 
 
 Caso deseja retornar apenas um elemento na consulta, devemos declarar como retorno a Entidade, conforme código abaixo:
 
-```javajava
+```java
 @Repository
 public interface MeuRepositorio extends CrudRepository<MinhaEntidade, String> {
 
@@ -413,9 +413,9 @@ public interface MeuRepositorio extends CrudRepository<MinhaEntidade, String> {
 
 * Ponto de atenção, se a consulta retornar mais que um elemento o Spring irá gerar a exception [IncorrectResultSizeDataAccessException](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/dao/IncorrectResultSizeDataAccessException.html)
 
-Caso deseja retornar uma lista de entidade, você deve declarar o retorno do tipo lista, conforme código abaixo:
+Caso deseja retornar uma lista de entidade, devemos declarar o retorno do tipo lista, conforme código abaixo:
 
-```javajava
+```java
 @Repository
 public interface MeuRepositorio extends CrudRepository<MinhaEntidade, String> {
 
@@ -426,7 +426,30 @@ public interface MeuRepositorio extends CrudRepository<MinhaEntidade, String> {
 
 **Parâmetros**
 
-Uma coisa importante 
+Os parâmetros são ordenados de acordo com o declarado no método, ou segue a primeira cláusula irá utilizar o valor do 
+primeiro parâmetro e assim sucesivamente, conforme exemplo abaixo:
+
+```java
+@Repository
+public interface MeuRepositorio extends CrudRepository<MinhaEntidade, String> {
+
+    Collection<MinhaEntidade> findBySexoAndCidade(String sexo, String cidade);
+
+}
+
+public class Exemplo {
+    
+    @Autowired
+    private MeuRepositorio meuRepositorio;
+
+    public void metodoDeExemplo() {
+        String sexo = "Masculino";
+        String cidade = "São Paulo";
+       meuRepositorio.findBySexoAndCidade(sexo, cidade);
+    }
+
+}
+```
 
 Eba, agora sabemos como criar consultas utilizando o Spring Data e Query Methods, se quiser se aprofundar mais no assunto, 
 acesse o [link!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods)
