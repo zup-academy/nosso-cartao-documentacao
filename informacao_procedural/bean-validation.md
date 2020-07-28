@@ -3,6 +3,9 @@
 Bean Validation é uma especificação que permite validar objetos com facilidade em diferentes camadas da aplicação. 
 A vantagem de usar Bean Validation é que as restrições ficam inseridas nas classes de modelo.
 
+De acordo com a [documentação](https://docs.spring.io/spring/docs/4.1.x/spring-framework-reference/html/validation.html#validation-beanvalidation) 
+do Spring, a implementação padrão utilizada é a [Hibernate Validator](http://hibernate.org/validator/).
+
 ## Como utilizar
 
 No Spring para efetuar validações, deve-se anotar o classe, método ou parâmetro com a anotação 
@@ -104,7 +107,14 @@ Verifica se o campo atende o REGEX definido, se não, ocorre um erro.
 
 Verifica se o campo atende o minimo e máximo de tamanho definido, se não, ocorre um erro.
 
+## Qual diferença do @Valid e @Validated
+
+
 ## Validando classes internas
+
+# Referências
+
+[Validação com Bean Validation](https://blog.algaworks.com/validacao-com-bean-validation/)
 
 # FIXME - Luram - Bean Validation
 # FIXME - Luram - Bean Validation Spring
