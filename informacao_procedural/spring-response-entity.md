@@ -50,7 +50,8 @@ Veja como o método _body()_ é utilizado permitindo a definição do conteúdo 
 
 
 
-### Customizando Status Code 
+### Customizando Status Code
+
 Em algumas situações precisamos usar um Status Code que não possui um método pré-definido, nesse
 caso pode usar o método _status()_ combinado com a nossa denição de body usando novamente o
 método _body()_. Vamos ver essa construção
@@ -63,6 +64,7 @@ body.
 
 
 ## Configurando Headers
+
 Algumas vezes precisamos manipular os Headers da nossa resposta, como por exemplo incluir uma
 meta-informação do objeto que foi criado, nesse caso podemos utilizar o método _header()_ adicionando
 os headers necessário.

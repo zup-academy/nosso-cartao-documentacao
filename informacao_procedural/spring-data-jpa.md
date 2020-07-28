@@ -21,7 +21,7 @@ dados, existem inúmeros módulos implementados:
 Para configurar o módulo ou projeto do Spring é necessário mapear a dependência no `pom.xml` do seu [Maven](https://maven.apache.org/what-is-maven.html)
 , conforme código abaixo:
 
-```
+```xml
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -33,7 +33,7 @@ Além de configurar seu projeto, você precisa adicionar a dependência do drive
 
 **PostgreSQL**
 
-```
+```xml
 <dependency>
     <groupId>org.postgresql</groupId>
     <artifactId>postgresql</artifactId>
@@ -43,7 +43,7 @@ Além de configurar seu projeto, você precisa adicionar a dependência do drive
 
 **MySQL**
 
-```
+```xml
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
@@ -54,7 +54,7 @@ Além de configurar seu projeto, você precisa adicionar a dependência do drive
 Após configurar suas dependências é necessário configurar os acessos, para tal, acesse o arquivo `application.properties` 
 ou `application.yaml` e adiciona as seguintes properties:
 
-```
+```properties
 spring.datasource.platform=postgres
 spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
 spring.datasource.username=postgres
@@ -76,7 +76,7 @@ Para mapear nossa entidade, precisamos utilizar algumas anotações, como por ex
 Anotação utilizada para especificar que a classe é uma representação de uma entidade em nosso banco de dados, conforme 
 código abaixo:
 
-```
+```java
 @Entity
 public class Carro {
     // Código omitido
@@ -87,20 +87,28 @@ public class Carro {
 
 Anotação utilizada para especificar o identificador da nossa entidade, conforme código abaixo:
 
-```
-@Id
-@GeneratedValue(generator = "UUID")
-@GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
-private String id;
+```java
+public class MinhaEntidade {
+
+    @Id
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
+    private String id;
+
+}
 ```
 
 #### @Column
 
 Anotação utilizada para especificar uma coluna da nossa entidade e seu tipo, conforme código abaixo:
 
-```
-@Column(nullable = false)
-private String nome;
+```java
+public class MinhaEntidade {
+    
+    @Column(nullable = false)
+    private String nome;
+
+}
 ```
 
 Nesse caso, dependendo do seu banco de dados, será criado uma coluna do tipo VARCHAR(255), pois o atributo é String, 
@@ -110,60 +118,84 @@ quer saber mais do mapeamento de tipo de atributo x tipo no banco de dados, aces
 
 Anotação utilizada para especificar que um atributo de entidade representa um tipo enumerado, conforme código abaixo:
 
-```
-@Enumerated
-private TipoEnum tipo;
+```java
+public class MinhaEntidade {
+
+    @Enumerated
+    private TipoEnum tipo;
+
+}
 ```
 
 #### @Temporal
 
 Anotação utilizada para especificar que um atributo de entidade representa uma data, conforme código abaixo:
 
-```
-@Temporal(TemporalType.DATE)
-private LocalDate data;
+```java
+public class MinhaEntidade {
+    
+    @Temporal(TemporalType.DATE)
+    private LocalDate data;
+    
+    @Temporal(TemporalType.TIME)
+    private LocalDateTime hora;
+    
+    @Temporal(TemporalType.TIMESTAMP)
+    private LocalDateTime dataEhora;
 
-@Temporal(TemporalType.TIME)
-private LocalDateTime hora;
-
-@Temporal(TemporalType.TIMESTAMP)
-private LocalDateTime dataEhora;
+}
 ```
 
 #### @OneToMany
 
 Anotação utilizada para especificar um relacionamento de banco de dados um para muitos, conforme código abaixo:
 
-```
-@OneToMany
-private Collection<Pneu> pneus = new ArrayList<>();
+```java
+public class MinhaEntidade {
+    
+    @OneToMany
+    private Collection<Pneu> pneus = new ArrayList<>();
+
+}
 ```
 
 #### @ManyToOne
 
 Anotação utilizada para especificar um relacionamento de banco de dados muitos para um, conforme código abaixo:
 
-```
-@ManyToOne
-private Pessoa pessoa;
+```java
+public class MinhaEntidade {
+
+    @ManyToOne
+    private Pessoa pessoa;
+
+}
 ```
 
 #### @ManyToMany
 
 Anotação utilizada para especificar um relacionamento de banco de dados muitos para muitos, conforme código abaixo:
 
-```
-@ManyToMany
-private Collection<Pessoa> donos = new ArrayList<>();
+```java
+public class MinhaEntidade {
+    
+    @ManyToMany
+    private Collection<Pessoa> donos = new ArrayList<>();
+
+}
 ```
 
 #### @OneToOne
 
 Anotação utilizada para especificar um relacionamento de banco de dados um para um, conforme código abaixo:
 
-```
-@OneToOne
-private Montadora montadora;
+```java
+public class MinhaEntidade {
+    
+    @OneToOne
+    private Montadora montadora;
+
+}
 ```
 
 Quer saber mais sobre as notações do JPA, acesso o [link!](https://dzone.com/articles/all-jpa-annotations-mapping-annotations)
@@ -239,32 +271,50 @@ Código de exemplo:
 
 **Limitando \ Paginando**
 
-```
-Integer page = 1;
-Integer size = 1;
-PageRequest pageRequest = PageRequest.of(page, size);
-repository.findAll(pageRequest);
+```java
+public class Example {
+
+    public void someMethod() {
+        Integer page = 1;
+        Integer size = 1;
+        PageRequest pageRequest = PageRequest.of(page, size);
+        repository.findAll(pageRequest);
+    }
+
+}
 ```
 
 **Ordenando**
 
-```
-Collection<String> fields = new ArrayList<>("nome");
-Sort sort =Sort.by(Sort.Direction.DESC, fields);
-repository.findAll(sort);
+```java
+public class Example {
+
+    public void someMethod() {
+        Collection<String> fields = new ArrayList<>("nome");
+        Sort sort =Sort.by(Sort.Direction.DESC, fields);
+        repository.findAll(sort);
+    }
+
+}
 ```
 
 **Paginando e Ordenando**
 
-```
-Collection<String> fields = new ArrayList<>("nome");
-Sort sort =Sort.by(Sort.Direction.DESC, fields);
+```java
+public class Example {
 
-Integer page = 1;
-Integer size = 1;
+    public void someMethod() {
+        Collection<String> fields = new ArrayList<>("nome");
+        Sort sort =Sort.by(Sort.Direction.DESC, fields);
+        
+        Integer page = 1;
+        Integer size = 1;
+        
+        PageRequest pageRequest = PageRequest.of(page, size, sort);
+        repository.findAll(pageRequest);
+    }
 
-PageRequest pageRequest = PageRequest.of(page, size, sort);
-repository.findAll(pageRequest);
+}
 ```
 
 Quer sabemos mais sobre os métodos dessa interface, acesse o [link!](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)
@@ -283,7 +333,7 @@ para te auxiliar.
 2º Após ter configurado sua entidade, precisamos criar um interface que vai representar o repositório da mesma, conforme 
 código abaixo:
 
-```
+```java
 public interface CarroRepository extends CrudRepository<Carro, String> {
 
 }
@@ -294,7 +344,7 @@ No primeiro parâmetro da interface CrudRepository deve ser passado a sua entida
 3º Precisamos dizer para o Spring que existe um repositório que necessita ser configurado pelo mesmo, para tal, devemos 
 anotar nosso repositório com a anotação @Repository
 
-```
+```java
 @Repository
 public interface CarroRepository extends CrudRepository<Carro, String> {
 
@@ -309,4 +359,74 @@ Eba, temos nosso repositório criado e configurado!
 
 ## Como fazer consultas no banco de dados?
 
-FIXME
+Para fazer consultas no Spring Data é utilizado uma funcionalidade denominada Query Methods.
+
+#### Query Methods
+
+Query methods é uma funcionalidade na qual você declara a operação no banco de dados de acordo com o nome do método, 
+para isso é necessário seguir algumas regras.
+
+Ops, não entendi, declarar uma operação de acordo com o nome do método!?
+
+É isso mesmo, fique calmo, vamos detalhar melhor!
+
+Digamos que eu tenho o seguinte método no meu repositório:
+
+```javajava
+@Repository
+public interface MeuRepositorio extends CrudRepository<MinhaEntidade, String> {
+
+    MinhaEntidade findByNome(String nome);
+
+}
+```
+
+Ao chamar o método `findByNome` você está executando esse SQL:
+
+`SELECT * FROM MINHA_ENTIDADE WHERE NOME = <VALOR DO PARÂMETRO>;`
+
+O Spring Data irá interpretar esse método e gerar a operação de acordo com o banco de dados, como tudo que é 
+interpretado necessita de seguir algumas regras, e quais são elas?
+
+Para efetuar uma busca seu método deve começar com `find` e em seguida você deve utilizar algumas das expressões abaixo:
+
+|Palavra Chave|Exemplo|Consulta|
+|---|---|---|
+|And|findByLastnameAndFirstname|… where x.lastname = ?1 and x.firstname = ?2|
+|Or|findByLastnameOrFirstname|… where x.lastname = ?1 or x.firstname = ?2|
+|Is, Equals|findByFirstname,findByFirstnameIs,findByFirstnameEquals|… where x.firstname = ?1|
+
+Esses são apenas alguns exemplo, se deseja ver todas as possibilidades, acesse o [link!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation)
+
+**Retornos**
+
+Caso deseja retornar apenas um elemento na consulta, devemos declarar como retorno a Entidade, conforme código abaixo:
+
+```javajava
+@Repository
+public interface MeuRepositorio extends CrudRepository<MinhaEntidade, String> {
+
+    MinhaEntidade findByNome(String nome);
+
+}
+```
+
+* Ponto de atenção, se a consulta retornar mais que um elemento o Spring irá gerar a exception [IncorrectResultSizeDataAccessException](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/dao/IncorrectResultSizeDataAccessException.html)
+
+Caso deseja retornar uma lista de entidade, você deve declarar o retorno do tipo lista, conforme código abaixo:
+
+```javajava
+@Repository
+public interface MeuRepositorio extends CrudRepository<MinhaEntidade, String> {
+
+    Collection<MinhaEntidade> findBySexo(String sexo);
+
+}
+```
+
+**Parâmetros**
+
+Uma coisa importante 
+
+Eba, agora sabemos como criar consultas utilizando o Spring Data e Query Methods, se quiser se aprofundar mais no assunto, 
+acesse o [link!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods)
