@@ -180,5 +180,3 @@ public class Exemplo {
 # Referências
 
 [Validação com Bean Validation](https://blog.algaworks.com/validacao-com-bean-validation/)
-
-# FIXME - Luram - Bean Validation Spring
