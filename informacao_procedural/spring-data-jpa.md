@@ -303,8 +303,6 @@ public interface CarroRepository extends CrudRepository<Carro, String> {
 
 Quer saber mais sobre a anotação @Repository, acesse o [link!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.namespace)
 
----
-
 Quer saber mais sobre os repositórios no Spring Data, acesse o [link!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.definition-tuning)
 
 Eba, temos nosso repositório criado e configurado!
