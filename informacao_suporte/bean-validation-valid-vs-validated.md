@@ -1,4 +1,4 @@
-# Qual diferença do @Valid e @Validated
+# Qual diferença do @Valid e @Validated?
 
 Existem duas anotações para habilitar a validação da classe, parâmetro, etc.
 

@@ -1,4 +1,4 @@
-# Bean Validation
+# Como utilizar Bean Validation? 
 
 Bean Validation é uma especificação que permite validar objetos com facilidade em diferentes camadas da aplicação. 
 A vantagem de usar Bean Validation é que as restrições ficam inseridas nas classes de modelo.
@@ -37,4 +37,4 @@ public class Pessoa {
 
 Pronto! Temos uma classe que será validada, caso for violado alguma restrição será gerado a exception [MethodArgumentNotValidException](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/MethodArgumentNotValidException.html).
 
-Quer saber mais sobre as anotações, acesse o [link!](https://docs.oracle.com/javaee/7/api/javax/validation/constraints/package-summary.html)
+Quer saber mais sobre as anotações, acesse o [link!](https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/package-summary.html)
