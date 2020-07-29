@@ -12,3 +12,7 @@ POST http://localhost:8080/v1/carros
 ```
 
 Olhando o método e o recurso sabemos que estamos criando um carro Gol 2020.
+
+#Informação de Suporte
+
+Quer saber mais sobre a especificação, acesse o [link!](https://tools.ietf.org/html/rfc7231#section-4.3.3)

@@ -18,3 +18,7 @@ De acordo com a [especificação](https://tools.ietf.org/html/rfc7231#section-4.
 identificador `cc0cfe13-edce-4fe4-a12d-90b32bb844ba` não existir, devemos criar um novo.
 
 Porém essa pratica não é muito aplicada pelo mercado, pois utiliza-se o método POST para tal objetivo.
+
+#Informação de Suporte
+
+Quer saber mais sobre a especificação, acesse o [link!](https://tools.ietf.org/html/rfc7231#section-4.3.4)

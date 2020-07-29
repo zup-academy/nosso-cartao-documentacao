@@ -15,3 +15,7 @@ GET http://localhost:8080/v1/carros
 ```
 
 Quando não há identificador, sabemos que estamos buscando todos os recursos, ou seja, todos os carros.
+
+#Informação de Suporte
+
+Quer saber mais sobre a especificação, acesse o [link!](https://tools.ietf.org/html/rfc7231#section-4.3.1)

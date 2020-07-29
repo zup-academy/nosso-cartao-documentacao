@@ -17,3 +17,7 @@ DELETE http://localhost:8080/v1/carros
 Quando não há identificador, sabemos que estamos removendo todos os recursos, ou seja, todos os carros.
 
 Cuidado com essa última abordagem, pois você está removendo todos os recursos do seu sistema!
+
+#Informação de Suporte
+
+Quer saber mais sobre a especificação, acesse o [link!](https://tools.ietf.org/html/rfc7231#section-4.3.5)
