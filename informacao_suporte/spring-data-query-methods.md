@@ -92,4 +92,6 @@ public class Exemplo {
 }
 ```
 
-### Quer saber mais sobre Query Methods? [clique aqui!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods)
+# Informação de Suporte
+
+Quer saber mais sobre Query Methods? [clique aqui!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods)

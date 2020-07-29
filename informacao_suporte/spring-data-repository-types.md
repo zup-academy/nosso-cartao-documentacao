@@ -45,6 +45,8 @@ os mesmo com a possibilidade de ordenar e ou limitar as consultas.
 - **findAll(Pageable pageable):** Busca todas as entidades e aplica a ordenação e limite configurado passado como Pageable.
 - **findAll(Sort sort):** Busca todas as entidades e aplica o(s) limite(s) configurado passado como Sort.
 
-## Quer sabemos mais sobre CrudRepository, acesse o [link!](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html)
+# Informação de Suporte
 
-## Quer sabemos mais sobre PagingAndSortingRepository, acesse o [link!](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)
+Quer saber mais sobre CrudRepository, acesse o [link!](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html)
+
+Quer saber mais sobre PagingAndSortingRepository, acesse o [link!](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)

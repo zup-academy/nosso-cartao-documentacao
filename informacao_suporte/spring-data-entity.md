@@ -1,7 +1,6 @@
 # Como mapear minha entidade utilizando Spring Data?
 
-Neste tutorial, iremos ver como mapear uma entidade utilizando o [Java Persistence API (JPA)](https://www.oracle.com/java/technologies/persistence-jsp.html), 
-caso deseja mapear utilizando outro módulo, como o [MongoDB](https://www.mongodb.com/), por favor, acesse o [link!](https://emmanuelneri.com.br/2017/04/17/utilizando-mongodb-com-spring-data-e-spring-boot/)
+Neste tutorial, iremos ver como mapear uma entidade utilizando o [Java Persistence API (JPA)](https://www.oracle.com/java/technologies/persistence-jsp.html).
 
 Para mapear nossa entidade, precisamos utilizar algumas anotações, como por exemplo:
 
@@ -132,4 +131,6 @@ public class MinhaEntidade {
 }
 ```
 
-## Quer saber mais sobre as anotações do JPA? [clique aqui!](https://dzone.com/articles/all-jpa-annotations-mapping-annotations)
+# Informação de Suporte
+
+Quer saber mais sobre as anotações do JPA? [clique aqui!](https://docs.oracle.com/javaee/7/api/javax/persistence/package-summary.html)

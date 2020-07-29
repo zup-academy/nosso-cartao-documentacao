@@ -52,7 +52,3 @@ mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes \
 6º Escolha o **package**, se necessário.
 
 **Pronto! Temos um projeto, bora começar a codificar?**
-
-# Referências
-
-[Introdução ao Maven](https://www.devmedia.com.br/introducao-ao-maven/25128#1)

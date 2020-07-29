@@ -65,4 +65,6 @@ public class Example {
 }
 ```
 
-## Quer sabemos mais sobre os métodos dessa interface, acesse o [link!](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)
+# Informação de Suporte
+
+Quer saber mais sobre os métodos dessa interface, acesse o [link!](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)
