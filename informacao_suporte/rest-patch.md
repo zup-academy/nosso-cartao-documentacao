@@ -3,7 +3,7 @@
 O método PATCH é utilizado para atualização parcial de um determinado recurso, como por exemplo?
 
 ```
-PATCH http://localhost:80808/v1/carros/cc0cfe13-edce-4fe4-a12d-90b32bb844ba
+PATCH http://localhost:8080/v1/carros/cc0cfe13-edce-4fe4-a12d-90b32bb844ba
 
 {
    "nome" : "Gol"

@@ -3,7 +3,7 @@
 O método POST é utilizado para criação de um determinado recurso, como por exemplo?
 
 ```
-POST http://localhost:80808/v1/carros
+POST http://localhost:8080/v1/carros
 
 {
    "nome" : "Gol",
