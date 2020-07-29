@@ -32,7 +32,7 @@ public class meuController {
     @PostMapping
     public ResponseEntity<?> minhaOperacao() {
         // código omitido
-        return ResponseEntity.status(HttpStatus.CREATED).body(body);
+        return ResponseEntity.status(status).body(body);
     }
 
 }
