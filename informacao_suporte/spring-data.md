@@ -16,6 +16,4 @@ dados, existem inúmeros módulos implementados:
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa): Suporte ao [Java Persistence API (JPA)](https://www.oracle.com/java/technologies/persistence-jsp.html).
 - [Spring Data MongoDB](https://spring.io/projects/spring-data-mongodb): Suporte ao [MongoDB](https://www.mongodb.com/).
 
-## Quer saber mais sobre Spring Data?
-
-Acesse a documentação oficial, [clique aqui!](https://spring.io/projects/spring-data)
+## Quer saber mais sobre Spring Data? [clique aqui!](https://spring.io/projects/spring-data)
