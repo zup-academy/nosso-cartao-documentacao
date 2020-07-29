@@ -1,6 +1,6 @@
 # Qual objetivo do método GET do REST \ HTTP?
 
-O método GET é utilizado para obter um ou vários recursos, como por exemplo?
+O método GET é utilizado para **obter** um ou vários recursos, como por exemplo?
 
 ```
 GET http://localhost:8080/v1/carros/cc0cfe13-edce-4fe4-a12d-90b32bb844ba

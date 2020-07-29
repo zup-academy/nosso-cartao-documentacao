@@ -1,6 +1,6 @@
 # Qual objetivo do método POST do REST \ HTTP?
 
-O método POST é utilizado para criação de um determinado recurso, como por exemplo?
+O método POST é utilizado para **criação** de um determinado recurso, como por exemplo?
 
 ```
 POST http://localhost:8080/v1/carros

@@ -1,6 +1,6 @@
 # Qual objetivo do método DELETE do REST \ HTTP?
 
-O método DELETE é utilizado para remover um ou vários recursos, como por exemplo?
+O método DELETE é utilizado para **remover** um ou vários recursos, como por exemplo?
 
 ```
 DELETE http://localhost:8080/v1/carros/cc0cfe13-edce-4fe4-a12d-90b32bb844ba

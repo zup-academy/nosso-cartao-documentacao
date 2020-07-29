@@ -1,6 +1,6 @@
 # Qual objetivo do método PUT do REST \ HTTP?
 
-O método PUT é utilizado para atualização completa de um determinado recurso, como por exemplo?
+O método PUT é utilizado para **atualização completa** de um determinado recurso, como por exemplo?
 
 ```
 PUT http://localhost:8080/v1/carros/cc0cfe13-edce-4fe4-a12d-90b32bb844ba
