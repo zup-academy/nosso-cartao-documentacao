@@ -43,6 +43,6 @@ Identificador de um item do carrinho.
 
 #Informação de Suporte
 
-Quer conhecer mais sobre REST e ver todos os status codes e suas descrições [Veja Aqui !!!](../informacao_procedural/rest.md)
+Quer conhecer mais sobre REST e ver todos os status codes e suas descrições [Veja Aqui !!!](../informacao_suporte/rest-status.md)
 
 Procura uma descrição mais detalhada do que essa prática recomenda. [Neste link você pode encontrar](https://restfulapi.net/http-status-201-created/) 

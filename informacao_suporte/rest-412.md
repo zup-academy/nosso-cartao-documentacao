@@ -29,4 +29,6 @@ Content-Type: application/json
 }
 ```
 
-## Quer saber mais sobre status code, acesse o [link!](https://restfulapi.net/http-status-codes/)
+## Quer saber mais sobre status code, acesse o [link!](../informacao_suporte/rest-status.md)
+
+## Quer saber mais sobre REST, acesse o [link!](https://restfulapi.net/)
