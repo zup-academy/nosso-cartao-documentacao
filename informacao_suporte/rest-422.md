@@ -22,6 +22,12 @@ Content-Type: application/json
 }
 ```
 
-## Quer saber mais sobre status code, acesse o [link!](../informacao_suporte/rest-status.md)
+## Vamos fazer isso com Spring, então!!!
 
-## Quer saber mais sobre REST, acesse o [link!](https://restfulapi.net/)
+FIXME
+
+# Informação de Suporte
+
+Quer saber mais sobre status code, acesse o [link!](../informacao_suporte/rest-status.md)
+
+Quer saber mais sobre REST, acesse o [link!](https://restfulapi.net/)
