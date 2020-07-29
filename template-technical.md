@@ -26,7 +26,7 @@ Vestibulum et luctus nisi, sed porta justo. Quisque eu hendrerit sem, id sceleri
 
 ## Informações Importantes
 
-## Informações para criação do conteúdo
+## Informações de suporte
 
 ### Claudio
 

@@ -32,9 +32,11 @@ Vestibulum et luctus nisi, sed porta justo. Quisque eu hendrerit sem, id sceleri
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-## Informações Importantes
+## Informações de suporte
 
-## Informações para criação do conteúdo
+## Informações complementares
+
+## Informações de suporte
 
 ### Claudio
 
