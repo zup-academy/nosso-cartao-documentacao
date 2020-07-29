@@ -9,38 +9,6 @@ Adicionalmente você pode incluir o elemento criado no _Body_ na resposta da req
 recomendada é incluir o cabeçalho **Location** na sua resposta. Se você tem dúvida como fazer isso
 usando o Spring [veja neste material !!!](../informacao_suporte/spring-response-entity.md)
 
-### Exemplo
-
-**Path API**
-
-http://servidor/carrinhos/efa3df09-366b-4d85-9c10-b5244ffb35a9/itens/fbcc35b6-b02b-4f74-a992-7a4d6a84d10f
-
-#### Vamos entender um pouco dessa URL
-
-**Recurso**
-
-_/carrinhos_
-
-Coleções dos elementos sempre no plural
-
-**Identificador do recurso**
-
-_efa3df09-366b-4d85-9c10-b5244ffb35a9_
-
-Identificador do carrinho
-
-**Sub Recurso**
-
-_itens_
-
-Sub Recurso do carrinho, neste caso o carrinho possui itens.
-
-**Identificador do sub recurso**
-
-_fbcc35b6-b02b-4f74-a992-7a4d6a84d10f_
-
-Identificador de um item do carrinho.
-
 #Informação de Suporte
 
 Quer conhecer mais sobre REST e ver todos os status codes e suas descrições [Veja Aqui !!!](../informacao_procedural/rest.md)
