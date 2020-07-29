@@ -30,7 +30,15 @@ Content-Type: application/json
 ```
 ## Vamos fazer isso com Spring, então!!!
 
-FIXME
+O Spring provê uma classe denominada ResponseEntity na qual você consegue passar todas as informações da requisição HTTP, 
+como por exemplo, status, body, header, etc.
+
+```java
+public ResponseEntity<?> novaProposta(){
+    ....
+    return ResponseEntity.status(HttpStatus.PRECONDITION_FAILED).body(body);
+}
+```
 
 # Informação de Suporte
 

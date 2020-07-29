@@ -11,11 +11,14 @@ usando o Spring [veja neste material !!!](../informacao_suporte/spring-response-
 
 ## Vamos fazer isso com Spring, então!!!
 
+O Spring provê uma classe denominada ResponseEntity na qual você consegue passar todas as informações da requisição HTTP, 
+como por exemplo, status, body, header, etc.
+
 ```java
 @PostMapping
-public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid ....){
+public ResponseEntity<?> novaProposta(@RequestBody @Valid ....){
     ....
-    return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/propostas/{id}",nova).toUri()).body(nova);
+    return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/resource/{id}", id).toUri()).body(body);
 }
 ```
 
