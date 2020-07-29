@@ -1,4 +1,4 @@
-# Como modelar nosso HTTP Response com Spring
+# Como modelar nosso HTTP Response com Spring?
 
 Quando escolhemos seguir o modelo arquitetural REST devemos seguir as práticas sugeridas pelo modelo,
 nesse caso o modelo define um modelo rigoroso no controle de Status Code na resposta. Se você tem dúvida pode clicar
