@@ -13,9 +13,8 @@ usando o Spring [veja neste material !!!](../informacao_suporte/spring-response-
 
 ```java
   @PostMapping
-  public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid NovaProposta novaProposta,
-      UriComponentsBuilder uriComponentsBuilder){
-    var nova = this.criacaoDaProposta.nova(novaProposta);
+  public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid ....){
+    ....
     return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/propostas/{id}",nova).toUri()).body(nova);
   }
 ```
