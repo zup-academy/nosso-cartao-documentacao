@@ -20,4 +20,6 @@ Cuidado com essa última abordagem, pois você está removendo todos os recursos
 
 #Informação de Suporte
 
+Como expor uma API DELETE no Spring? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-delete-api.md)
+
 Quer saber mais sobre a especificação, acesse o [link!](https://tools.ietf.org/html/rfc7231#section-4.3.5)

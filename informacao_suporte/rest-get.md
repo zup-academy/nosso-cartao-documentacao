@@ -18,4 +18,6 @@ Quando não há identificador, sabemos que estamos buscando todos os recursos, o
 
 #Informação de Suporte
 
+Como expor uma API GET no Spring? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-get-api.md)
+
 Quer saber mais sobre a especificação, acesse o [link!](https://tools.ietf.org/html/rfc7231#section-4.3.1)

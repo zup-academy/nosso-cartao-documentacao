@@ -15,4 +15,6 @@ Olhando o método e o recurso sabemos que estamos atualizando somente o nome do 
 
 #Informação de Suporte
 
+Como expor uma API PATCH no Spring? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-patch-api.md)
+
 Quer saber mais sobre a especificação, acesse o [link!](https://tools.ietf.org/html/rfc5789)

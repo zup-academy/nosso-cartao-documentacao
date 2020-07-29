@@ -21,4 +21,6 @@ Porém essa pratica não é muito aplicada pelo mercado, pois utiliza-se o méto
 
 #Informação de Suporte
 
+Como expor uma API PUT no Spring? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-put-api.md)
+
 Quer saber mais sobre a especificação, acesse o [link!](https://tools.ietf.org/html/rfc7231#section-4.3.4)
