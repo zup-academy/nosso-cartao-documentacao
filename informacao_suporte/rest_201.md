@@ -1,4 +1,4 @@
-# Mas por que 201? Entendendo um pouco sobre REST!!!
+# Mas porque 201? Entendendo um pouco sobre REST!!!
 
 Seguindo o estilo arquitetural REST temos que aplicar algumas características que o modelo define.
 
