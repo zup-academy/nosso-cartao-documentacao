@@ -1,4 +1,4 @@
-## Como configurar meu projeto?
+# Como configurar meu projeto?
 
 Para configurar o módulo ou projeto do Spring é necessário mapear a dependência no `pom.xml` do seu [Maven](https://maven.apache.org/what-is-maven.html)
 , conforme código abaixo:

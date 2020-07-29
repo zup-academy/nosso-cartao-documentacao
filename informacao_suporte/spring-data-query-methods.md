@@ -1,8 +1,8 @@
-## Como fazer consultas no banco de dados?
+# Como fazer consultas no banco de dados?
 
 Para fazer consultas no Spring Data é utilizado uma funcionalidade denominada Query Methods.
 
-#### Query Methods
+## Query Methods
 
 Query methods é uma funcionalidade na qual você declara a operação no banco de dados de acordo com o nome do método, 
 para isso é necessário seguir algumas regras.
@@ -92,5 +92,4 @@ public class Exemplo {
 }
 ```
 
-Eba, agora sabemos como criar consultas utilizando o Spring Data e Query Methods, se quiser se aprofundar mais no assunto, 
-acesse o [link!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods)
+### Quer saber mais sobre Query Methods? [clique aqui!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods)
