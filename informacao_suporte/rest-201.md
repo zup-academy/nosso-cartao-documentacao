@@ -12,16 +12,16 @@ usando o Spring [veja neste material !!!](../informacao_suporte/spring-response-
 ## Vamos fazer isso com Spring, então!!!
 
 ```java
-  @PostMapping
-  public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid ....){
+@PostMapping
+public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid ....){
     ....
     return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/propostas/{id}",nova).toUri()).body(nova);
-  }
+}
 ```
+
 **@PostMapping** aqui nosso código faz a relação com o verbo HTTP POST. Perceba que no retorno do nosso
 método chamamos a classe **ResponseEntity.created()** com isso seguimos nossa prática
 recomendada, para criação verbo **HTTP POST** e retorno com status **201**.
-
 
 #Informação de Suporte
 
