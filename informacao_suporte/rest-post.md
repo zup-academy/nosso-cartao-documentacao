@@ -1,7 +1,5 @@
 # Qual objetivo do método POST do REST \ HTTP?
 
-## POST
-
 O método POST é utilizado para criação de um determinado recurso, como por exemplo?
 
 ```
