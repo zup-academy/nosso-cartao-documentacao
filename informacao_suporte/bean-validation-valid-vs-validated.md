@@ -38,3 +38,9 @@ public class Exemplo {
 
 }
 ```
+
+# Informação de Suporte
+
+Quer saber mais sobre Spring Validation, acesse o [link!](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#validation)
+
+Quer saber mais sobre Bean Validation, acesse o [link!](https://beanvalidation.org/)

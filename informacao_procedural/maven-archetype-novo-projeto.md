@@ -10,7 +10,7 @@ de construção (build) de projetos. Entretanto, por fornecer diversas funcional
 plugins e estimular o emprego de melhores práticas de organização, desenvolvimento e manutenção de projetos, é 
 muito mais do que apenas uma ferramenta auxiliar!
 
-Já sabemos o que é [Maven](https://maven.apache.org/what-is-maven.html) bora falar de Archetype?
+Já sabemos o que é [Maven](https://maven.apache.org/what-is-maven.html), bora falar de Archetype?
 
 ## [Maven Archetype](https://maven.apache.org/archetype/index.html)
 
@@ -29,7 +29,7 @@ Para saber quais são os outros Archetype, acesse o [catálogo](https://maven.ap
 Para gerar nosso projeto, iremos utilizar o [maven-archetype-quickstart](https://maven.apache.org/archetypes/maven-archetype-quickstart/) 
 para tal precisamos instalar o [Maven](https://maven.apache.org/what-is-maven.html) em nosso ambiente.
 
-- Ops, não tenho Maven instalado, não tem problema, acesse o [link](https://maven.apache.org/install.html).
+- Ops, não tenho Maven instalado, não tem problema, [aqui você encontra como fazer isto!](https://maven.apache.org/install.html)
 
 Agora que tudo está ok, vamos começar?
 

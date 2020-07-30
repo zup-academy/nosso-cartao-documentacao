@@ -9,14 +9,12 @@ Uma característica bastante interessante no Spring é que o objeto UriComponent
 de um método no Controller. Veja um exemplo abaixo:
 
 ```java
-  @PostMapping
-  public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid NovaProposta novaProposta,
-      UriComponentsBuilder uriComponentsBuilder){
-    ....
-    codigo omitido
-    ...
-  }
+@PostMapping
+public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid NovaProposta novaProposta, UriComponentsBuilder uriComponentsBuilder) {
+    // Código omitido
+}
 ```
+
 Perceba que não foi utilizada nenhuma anotação declarativamente no método do controller, 
 mas o Spring consegue injetar automaticamente o objeto com sucesso. Primeiro passo concluído
 com sucesso, agora precisamos retornar o **Response** configurado corretamente com o Header **Location**.
@@ -24,17 +22,13 @@ com sucesso, agora precisamos retornar o **Response** configurado corretamente c
 Veja um exemplo prático de como fazer isso:
 
 ```java
-    @PostMapping
-    public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid NovaProposta novaProposta,
-        UriComponentsBuilder uriComponentsBuilder){
-      ....
-      codigo omitido
-      ...
-      return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/propostas/{id}",nova.getId()).toUri()).body(nova);
-    }
-
-
+@PostMapping
+public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid NovaProposta novaProposta, UriComponentsBuilder uriComponentsBuilder) {
+  // Código omitido
+  return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/propostas/{id}",nova.getId()).toUri()).body(nova);
+}
 ``` 
+
 Um ponto bastante interessante é que o próprio _UriComponentsBuilder_ consegue gerenciar o endereço
 do servidor baseado nas próprias configurações internas da aplicação.
 

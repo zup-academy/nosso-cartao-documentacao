@@ -14,8 +14,8 @@ ou [@Valid](https://docs.oracle.com/javaee/7/api/javax/validation/Valid.html).
 
 ```
 @PostMapping
-public Response post(@Validated @RequestBody Body body) {
-    ...
+public Response post(@Validated @RequestBody Pessoa pessoa) {
+    // Código omitido
 }
 ```
 
@@ -36,5 +36,7 @@ public class Pessoa {
 ```
 
 Pronto! Temos uma classe que será validada, caso for violado alguma restrição será gerado a exception [MethodArgumentNotValidException](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/MethodArgumentNotValidException.html).
+
+# Informação de Suporte
 
 Quer saber mais sobre as anotações, acesse o [link!](https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/package-summary.html)
