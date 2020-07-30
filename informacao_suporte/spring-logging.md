@@ -69,7 +69,7 @@ public void criarCarro(Carro carro) {
 **Saída no sistema**
 
 ```
-11:50:11.558 [main] INFO com.example.Exemplo - Carro modelo=Gol ano=2020 criado com sucesso!
+11:50:11.558 [main] INFO br.com.zup.CarroService - Carro modelo=Gol ano=2020 criado com sucesso!
 ```
 
 Ficou bem mais fácil de identificar, qual carro, modelo, ano e quando o mesmo foi criado!
