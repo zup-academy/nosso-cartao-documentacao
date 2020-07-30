@@ -34,6 +34,8 @@ Vestibulum et luctus nisi, sed porta justo. Quisque eu hendrerit sem, id sceleri
 
 ## Informações de suporte
 
+## Sugestões de busca de conteúdo
+
 ## Informações complementares
 
 ## Informações de suporte
