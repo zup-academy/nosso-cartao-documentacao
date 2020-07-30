@@ -6,13 +6,13 @@ Uma das maneiras de se encontrar um erro é por meio de Logs!
 
 Log de dados é um arquivo de texto gerado por um software para descrever eventos sobre o seu funcionamento, 
 utilização por usuários ou interação com outros sistemas. Um log, após ser gerado, passa a ser incrementado ao 
-longo do tempo com informações que permitem diagnosticar possivéis bugs!
+longo do tempo com informações que permitem diagnosticar possíveis bugs!
 
 ## Vamos fazer isso com Spring, então!!!
 
 O [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging) 
 utiliza por padrão o [Logback](http://logback.qos.ch/) em caso de utilizar os `Starters`, para utilizar o mesmo, 
-precisamos instânciar uma classe denominada Logger, conforme código abaixo:
+precisamos instanciar uma classe denominada Logger, conforme código abaixo:
 
 ```java
 import org.slf4j.Logger;
