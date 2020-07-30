@@ -69,10 +69,12 @@ public void criarProposta(Proposta proposta) {
 **Saída no sistema**
 
 ```
-11:50:11.558 [main] INFO br.com.zup.PropostaService - Proposta documento=307.896.890-14 salário=1200 criada com sucesso!
+11:50:11.558 [main] INFO br.com.zup.PropostaService - Proposta documento=307.896.890-14 salário=-1200 criada com sucesso!
 ```
 
 Ficou bem mais fácil de identificar, qual proposta, documento, salário e quando a mesma foi criada!
+
+E sabemos que tem um furo de validação, pois não existe salário negativo!
 
 # Informação de Suporte
 
