@@ -47,32 +47,32 @@ Trate seus logs como eventos que aconteceram no sistema, como por exemplo:
 ```java
 private final Logger logger = LoggerFactory.getLogger(Exemplo.class);
 
-public void criarCarro(Carro carro) {
+public void criarProposta(Proposta proposta) {
     // Código omitido
-    logger.info("Carro criado com sucesso!");
+    logger.info("Proposta criada com sucesso!");
 }
 ```
 
-Este log parece não ajudar, pois você não consegue responder qual carro foi criado, correto!?
+Este log parece não ajudar, pois você não consegue responder qual proposta foi criada, correto!?
 
 Além de tratar seu log como evento, dê informações para ajudar a rastrear o problema, como por exemplo:
 
 ```java
 private final Logger logger = LoggerFactory.getLogger(Exemplo.class);
 
-public void criarCarro(Carro carro) {
+public void criarProposta(Proposta proposta) {
     // Código omitido
-    logger.info("Carro modelo={} ano={} criado com sucesso!", carro.getModelo(), carro.getAno());
+    logger.info("Proposta documento={} salário={} criada com sucesso!", proposta.getDocumento(), proposta.getSalario());
 }
 ```
 
 **Saída no sistema**
 
 ```
-11:50:11.558 [main] INFO br.com.zup.CarroService - Carro modelo=Gol ano=2020 criado com sucesso!
+11:50:11.558 [main] INFO br.com.zup.PropostaService - Proposta documento=307.896.890-14 salário=1200 criada com sucesso!
 ```
 
-Ficou bem mais fácil de identificar, qual carro, modelo, ano e quando o mesmo foi criado!
+Ficou bem mais fácil de identificar, qual proposta, documento, salário e quando a mesma foi criada!
 
 # Informação de Suporte
 
