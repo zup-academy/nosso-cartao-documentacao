@@ -74,7 +74,7 @@ public void criarProposta(Proposta proposta) {
 
 Ficou bem mais fácil de identificar, qual proposta, documento, salário e quando a mesma foi criada!
 
-E sabemos que tem um furo de validação, pois não existe salário negativo!
+E o mais importante! Sabemos que tem um furo de validação, pois não existe salário negativo!
 
 # Informação de Suporte
 
