@@ -37,7 +37,7 @@ Pronto!!!
 
 Agora você pode logar suas informações e diagnosticar possíveis erros mais rápido!
 
-# Dica
+# Dicas
 
 Tenha uma equilíbrio na quantidade de logs da sua aplicação, pois, pouco log complica na depuração de problemas e logs 
 demais também!
