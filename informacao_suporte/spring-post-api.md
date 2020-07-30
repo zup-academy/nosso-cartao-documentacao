@@ -6,30 +6,18 @@ Para expor uma API POST no Spring devemos utilizar a anotação [@PostMapping](h
 
 ```java
 @RestController
-public class meuController {
+public class MeuController {
    // código omitido
 }
 ```
 
-2º Precisamos definir o recurso da nossa API utilizando a anotação [@RequestMapping](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/bind/annotation/RequestMapping.html).
-
-
-```java
-@RestController
-@RequestMapping("/v1/meu-recurso")
-public class meuController {
-   // código omitido
-}
-```
-
-3º Precisamos criar nossa API de acordo com o objetivo e seu método HTTP.
+2º Precisamos criar nossa API de acordo com o objetivo e seu método HTTP.
 
 ```java
 @RestController
-@RequestMapping("/v1/meu-recurso")
-public class meuController {
+public class MeuController {
 
-    @PostMapping
+    @PostMapping("/v1/minha-api")
     public ResponseEntity<?> minhaOperacao() {
         // código omitido
         return ResponseEntity.status(status).body(body);
