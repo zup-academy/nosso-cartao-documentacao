@@ -29,7 +29,7 @@ como por exemplo, status, body, header, etc.
 
 ```java
 public ResponseEntity<?> novaProposta(){
-    ....
+    // Código omitido
     return ResponseEntity.status(HttpStatus.UNPROCESSABLE_ENTITY).body(body);
 }
 ```

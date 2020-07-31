@@ -17,7 +17,7 @@ como por exemplo, status, body, header, etc.
 ```java
 @PostMapping
 public ResponseEntity<?> novaProposta(@RequestBody @Valid ....){
-    ....
+    // Código omitido
     return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/resource/{id}", id).toUri()).body(body);
 }
 ```

@@ -35,7 +35,7 @@ como por exemplo, status, body, header, etc.
 
 ```java
 public ResponseEntity<?> novaProposta(){
-    ....
+    // Código omitido
     return ResponseEntity.status(HttpStatus.PRECONDITION_FAILED).body(body);
 }
 ```
