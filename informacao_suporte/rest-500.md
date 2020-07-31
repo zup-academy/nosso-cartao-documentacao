@@ -28,6 +28,8 @@ recomendada, para criação verbo **HTTP POST** e retorno com status **201**.
 
 # Informação de Suporte
 
-Quer saber mais sobre status code, acesse o [link!](../informacao_suporte/rest-status.md)
+Quer saber mais sobre status code? Acesse o [link!](../informacao_suporte/rest-status.md)
 
-Quer saber mais sobre REST, acesse o [link!](https://restfulapi.net/)
+Quer saber mais sobre REST? Acesse o [link!](https://restfulapi.net/)
+
+Quer saber sobre a especificação? Acesse o [link!](https://tools.ietf.org/html/rfc7231#section-6.6.1)
