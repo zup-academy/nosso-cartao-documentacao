@@ -20,12 +20,17 @@ Mas se nossa aplicação é uma aplicação de processamento em lote, ou batch p
 funcionalidade via linha de comando, seguindo os mesmo princípios, ou seja validando
 conexões externas da nossas aplicações.
 
+## Dicas Claudio
+- Incorpore esse padrão nos seus serviços, de maneira que todo serviço seja produzido já implementando esse padrão.
+
 ## Informações de Suporte
 
-O **Spring Boot** oferece uma maneira eficiente de lidar com healthchecks. [Aqui](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html) você pode descobrir como.
+- O **Spring Boot** oferece uma maneira eficiente de lidar com healthchecks. [Aqui](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html) você pode descobrir como.
 
-Se você quer descobrir como o **kubernetes** utiliza seu healthcheck para garantir que sua aplicação
+- Se você quer descobrir como o **kubernetes** utiliza seu healthcheck para garantir que sua aplicação
 esteja viva. Esse [link](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) vai resolver o seu problema.
 
-Este padrão é bastante comum na arquitetura de microsserviços, se você deseja ver uma descrição
+- Este padrão é bastante comum na arquitetura de microsserviços, se você deseja ver uma descrição
 detalhada, esse [link](https://microservices.io/patterns/observability/health-check-api.html) é uma boa opção.
+
+
