@@ -1,4 +1,4 @@
-# Padronização de erros utilizada pela Zup?
+# Padronização de erros utilizada pelo Spring Boot?
 
 Estamos construíndo um produto de geração de cartão, transação, etc. E algum parceiro tanto interno quanto externo gostaria 
 de se integrar com a gente, ou seja, gostaria de usar nossas APIs e para que a integração seja o mais eficiente possível 
@@ -124,56 +124,35 @@ Demais né!?
 
 Mais e os outros casos de uso, como por exemplo [422](../informacao_suporte/rest-422.md)!
 
-Neste caso, caso tenha uma a exceção específica na qual não foi tratada e chegou na camada de controller, precisamos 
-tratar a mesma, como por exemplo a exceção `ContaBloquedaException`.
+Neste caso o Spring fornece uma exceção denominada [ResponseStatusException](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/server/ResponseStatusException.html) 
+na qual você fornece qual status code esperado e o motivo do erro.
 
-Nesse cenário, gostaríamos de retornar 422! Vamos lá?
+Primeiro precisamos tratar a exceção, pois definimos nosso proprio padrão de erro.
 
 ```java
-@ExceptionHandler(ContaBloquedaException.class)
-public ResponseEntity<ErroPadronizado> handle(ContaBloquedaException contaBloquedaException) {
+@ExceptionHandler(ResponseStatusException.class)
+public ResponseEntity<ErroPadronizado> handleResponseStatusException(ResponseStatusException responseStatusException) {
     Collection<String> mensagens = new ArrayList<>();
-    
-    // Trata sua exceção
+    mensagens.add(responseStatusException.getReason());
 
     ErroPadronizado erroPadronizado = new ErroPadronizado(mensagens);
-    return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(erroPadronizado);
+    return ResponseEntity.status(responseStatusException.getStatus()).body(erroPadronizado);
 }
 ```
 
-Demais né!? Mais temos um problema! Eu vou ter que ficar criando uma tratativa por exceção, isso é muito ruim!
-
-Visando isso, vamos criar uma exceção de API? Que tenha o status code desejado e a mensagem de erro?
+Agora que está tudo configurado, basta lançar a exceção, conforme código abaixo:
 
 ```java
-public class ApiErroException extends RuntimeException {
-
-    private final HttpStatus httpStatus;
-
-    private final String reason;
-
-    public ApiErroException(HttpStatus httpStatus, String reason) {
-        super(reason);
-        this.httpStatus = httpStatus;
-        this.reason = reason;
-    }
-
-    // Getters, setters, construtor omitidos
-
-}
+throw new ResponseStatusException(HttpStatus.UNPROCESSABLE_ENTITY, "Documento já cadastrado");
 ```
 
-Assim agora, quando a gente quiser gerar um erro na API precisamos somente lançar essa exceção e adicionar somente uma 
-tratativa no `HandlerAdvice`, conforme código abaixo:
+Resposta da API
 
-```java
-@ExceptionHandler(ApiErroException.class)
-public ResponseEntity<ErroPadronizado> handleApiErroException(ApiErroException apiErroException) {
-    Collection<String> mensagens = new ArrayList<>();
-    mensagens.add(apiErroException.getReason());
-
-    ErroPadronizado erroPadronizado = new ErroPadronizado(mensagens);
-    return ResponseEntity.status(apiErroException.getHttpStatus()).body(erroPadronizado);
+```json
+{
+  "mensagens": [
+    "Documento já cadastrado"
+  ]
 }
 ```
 
@@ -181,19 +160,31 @@ Demais né!?
 
 ## Dicas de Luram Archanjo
 
-Está é uma pratica utilizada pela Zup e outras empresas, porém acarreta outros problemas, como por exemplo:
+Está é uma pratica utilizada pelo Spring Boot, porém acarreta outros problemas, como por exemplo:
 
-- Criação de inúmeras exceções
-- Tratativa de inúmeras exceções
 - Violação do objetivo da Exceção que é ser utilizada para indicar um erro e ser tratada e não ser utilizada para indicar 
 um determinado erro de API.
 - Violação das camadas, pois você pode lançar ela de qualquer lugar, como por exemplo: Service e Repository.
 
 Lembre-se devemos alinhar com nossos(as) companheiros(as) de equipe!
 
-# Informação de Suporte
+Caso for utilizar essa abordagem, tenta ao máximo utilizar na camada do controller, como por exemplo o código abaixo:
 
-Gostaria de saber a padronização de erros utilizada pelo Spring Boot? [Aqui você encontra como fazer isso !!!](error-spring.md)
+```java
+@GetMapping("/proposta/{id}")
+public Proposta getProposta(@PathVariable("id") String id) {
+    try {
+        return propostaService.get(id);
+    } catch (PropostaNotFoundException propostaNotFoundException) {
+        throw new ResponseStatusException(
+          HttpStatus.NOT_FOUND, "Proposta não encontrada!", propostaNotFoundException);
+    }
+}
+```
+
+Nas camadas de serviço, utiliza exceção do negócio, caso necessário, e não voltada para API!
+
+# Informação de Suporte
 
 Gostaria de saber a padronização de erros seguindo as boas práticas de Orientação a Objetos? [Aqui você encontra como fazer isso !!!](error-object-oriented.md)
 
