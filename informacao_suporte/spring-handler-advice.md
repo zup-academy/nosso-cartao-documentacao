@@ -28,7 +28,7 @@ nosso Controller.
 Vamos começar?
 
 **1º** Precisamos definir como será o erro padrão em nossas APIs, aqui é apenas uma sugestão, no cenário real, devemos alinhar 
-com nossos companheiros de equipe!
+com nossos companheiros(as) de equipe!
 
 ```java
 public class ErroPadronizado {
