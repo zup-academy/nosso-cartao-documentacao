@@ -1,13 +1,8 @@
-# Mas porque 201? Entendendo um pouco sobre REST!!!
+# Mas porque 500? Entendendo um pouco sobre REST!!!
 
-Seguindo o estilo arquitetural REST temos que aplicar algumas características que o modelo define.
-
-Toda criação de um novo recurso deve ser realizada utilizando o método **HTTP POST** e quando essa operação
-for realizada com sucesso ele deve retornar o status code **201** indicando que o recurso foi criado com sucesso.
-
-Adicionalmente você pode incluir o elemento criado no _Body_ na resposta da requisição caso você precise. Outra prática
-recomendada é incluir o cabeçalho **Location** na sua resposta. Se você tem dúvida como fazer isso
-usando o Spring [veja neste material !!!](../informacao_suporte/spring-response-entity.md)
+Seguindo o estilo arquitetural REST temos que aplicar algumas características que o modelo define, portanto, todo erro 
+não tratado, devemos representar como **500 Internal Server Error**, pois indica que o servidor encontrou um erro 
+inesperado.
 
 ## Vamos fazer isso com Spring, então!!!
 
@@ -15,16 +10,11 @@ O Spring provê uma classe denominada ResponseEntity na qual você consegue pass
 como por exemplo, status, body, header, etc.
 
 ```java
-@PostMapping
-public ResponseEntity<?> novaProposta(@RequestBody @Valid ....){
+public ResponseEntity<?> novaProposta(){
     // Código omitido
-    return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/resource/{id}", id).toUri()).body(body);
+    return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(body);
 }
 ```
-
-**@PostMapping** aqui nosso código faz a relação com o verbo HTTP POST. Perceba que no retorno do nosso
-método chamamos a classe **ResponseEntity.created()** com isso seguimos nossa prática
-recomendada, para criação verbo **HTTP POST** e retorno com status **201**.
 
 # Informação de Suporte
 
