@@ -166,7 +166,7 @@ Está é uma pratica utilizada pelo Spring Boot, porém acarreta outros problema
 um determinado erro de API.
 - Violação das camadas, pois você pode lançar ela de qualquer lugar, como por exemplo: Service e Repository.
 
-Lembre-se devemos alinhar com nossos(as) companheiros(as) de equipe!
+Lembre-se, devemos alinhar com nossos(as) companheiros(as) de equipe!
 
 Caso for utilizar essa abordagem, tenta ao máximo utilizar na camada do controller, como por exemplo o código abaixo:
 

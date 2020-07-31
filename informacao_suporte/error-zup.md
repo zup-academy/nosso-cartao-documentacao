@@ -189,7 +189,7 @@ Está é uma pratica utilizada pela Zup e outras empresas, porém acarreta outro
 um determinado erro de API.
 - Violação das camadas, pois você pode lançar ela de qualquer lugar, como por exemplo: Service e Repository.
 
-Lembre-se devemos alinhar com nossos(as) companheiros(as) de equipe!
+Lembre-se, devemos alinhar com nossos(as) companheiros(as) de equipe!
 
 # Informação de Suporte
 
