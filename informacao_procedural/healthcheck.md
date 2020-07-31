@@ -1,6 +1,6 @@
-# Porque healthcheck ???
+# Porque Health Check ???
 
-Uma característica bastante importante que sua aplicação deve implementar é o **Healthcheck**.
+Uma característica bastante importante que sua aplicação deve implementar é o **Health Check**.
  
 Nossas aplicações normalmente rodam em um ambiente gerenciado, ou seja uma plataforma que é capaz de detectar se alguma coisa não está
 funcionando conforme o esperado, um _crash_ de aplicação ou carga demasiada.
@@ -25,9 +25,9 @@ conexões externas da nossas aplicações.
 
 ## Informações de Suporte
 
-- O **Spring Boot** oferece uma maneira eficiente de lidar com healthchecks. [Aqui](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html) você pode descobrir como.
+- O **Spring Boot** oferece uma maneira eficiente de lidar com Health Check. [Aqui](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html) você pode descobrir como.
 
-- Se você quer descobrir como o **kubernetes** utiliza seu healthcheck para garantir que sua aplicação
+- Se você quer descobrir como o **kubernetes** utiliza seu Health Check para garantir que sua aplicação
 esteja viva. Esse [link](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) vai resolver o seu problema.
 
 - Este padrão é bastante comum na arquitetura de microsserviços, se você deseja ver uma descrição

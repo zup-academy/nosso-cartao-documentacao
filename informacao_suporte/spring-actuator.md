@@ -3,7 +3,7 @@
 O Spring Boot Actuator inclui vários recursos adicionais para ajudá-lo a monitorar e gerenciar seu aplicativo quando 
 você o envia à produção, como por exemplo:
 
-- Endpoint para monitoramento da saúde da aplicação (Healthcheck).
+- Endpoint para monitoramento da saúde da aplicação (Health Check).
 - Endpoint para expor métricas da aplicação.
 - Endpoint para expor as propriedades da sua aplicação.
 
@@ -29,7 +29,7 @@ Vamos configurar!?
 Neste endpoint irá listar todos os endpoints configurados, como por exemplo:
 
 ```
-# Endpoint para monitoramento da saúde da aplicação (Healthcheck)
+# Endpoint para monitoramento da saúde da aplicação (Health Check)
 
 http://localhost:8080/actuator/health
 ```
