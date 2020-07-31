@@ -28,7 +28,7 @@ nosso Controller.
 Vamos começar?
 
 **1º** Precisamos definir como será o erro padrão em nossas APIs, aqui é apenas uma sugestão, no cenário real, devemos alinhar 
-com nossos companheiros(as) de equipe!
+com nossos(as) companheiros(as) de equipe!
 
 ```java
 public class ErroPadronizado {
@@ -187,6 +187,8 @@ Está é uma pratica utilizada pela Zup e outras empresas, porém acarreta outro
 - Tratativa de inúmeras exceções
 - Violação do objetivo da Exceção que é ser utilizada para indicar um erro e ser tratada e não ser utilizada para indicar 
 um determinado erro de API.
+
+Lembre-se devemos alinhar com nossos(as) companheiros(as) de equipe!
 
 # Informação de Suporte
 
