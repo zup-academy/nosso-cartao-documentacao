@@ -1,13 +1,15 @@
-# Mas porque 201? Entendendo um pouco sobre REST!!!
+# Mas porque 200? Entendendo um pouco sobre REST!!!
 
 Seguindo o estilo arquitetural REST temos que aplicar algumas características que o modelo define.
 
-Toda criação de um novo recurso deve ser realizada utilizando o método **HTTP POST** e quando essa operação
-for realizada com sucesso ele deve retornar o status code **201** indicando que o recurso foi criado com sucesso.
+Toda operação realizada com sucesso ela deve retornar o status code **200**, porém temos algumas regras a serem seguidas:
 
-Adicionalmente você pode incluir o elemento criado no _Body_ na resposta da requisição caso você precise. Outra prática
-recomendada é incluir o cabeçalho **Location** na sua resposta. Se você tem dúvida como fazer isso
-usando o Spring [veja neste material !!!](../informacao_suporte/spring-response-entity.md)
+- Os métodos GET, PUT, PATCH e DELETE são operações de alteração ou obtenção de um determinado recurso, portanto devemos
+retornar 200.
+
+- Quando utilizado o método POST para criação de um determinado recurso devemos retornar [201](rest-201.md).
+
+- Quando utilizado o método POST para ordenar algo, como por exemplo: Enviar email, resetar senha, etc. Devemos retornar 200.
 
 ## Vamos fazer isso com Spring, então!!!
 
@@ -15,16 +17,11 @@ O Spring provê uma classe denominada ResponseEntity na qual você consegue pass
 como por exemplo, status, body, header, etc.
 
 ```java
-@PostMapping
-public ResponseEntity<?> novaProposta(@RequestBody @Valid ....){
+public ResponseEntity<?> obterProposta(){
     // Código omitido
-    return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/resource/{id}", id).toUri()).body(body);
+    return ResponseEntity.status(HttpStatus.OK).body(body);
 }
 ```
-
-**@PostMapping** aqui nosso código faz a relação com o verbo HTTP POST. Perceba que no retorno do nosso
-método chamamos a classe **ResponseEntity.created()** com isso seguimos nossa prática
-recomendada, para criação verbo **HTTP POST** e retorno com status **201**.
 
 # Informação de Suporte
 
