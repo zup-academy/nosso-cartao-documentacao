@@ -109,7 +109,7 @@ Pronto! Nesse trecho de código acima, estamos tratando e recebendo a exceção 
 pois o Spring irá passar como parâmetro para a gente, demais né!?
 
 E a partir do momento que temos a exceção, podemos usufruir da mesma, como por exemplo no código acima, que estamos 
-pegando todos os campos que deram erro e formatando de acordo com o erro padrão:
+pegando todos os campos que deram erro e formatado de acordo com o erro padrão:
 
 ```json
 {
@@ -124,7 +124,7 @@ Demais né!?
 
 Mais e os outros casos de uso, como por exemplo [422](../informacao_suporte/rest-422.md)!
 
-Neste caso, caso tenha uma a exceção especifica na qual não foi tratada e chegou na camada de controller, precisamos 
+Neste caso, caso tenha uma a exceção específica na qual não foi tratada e chegou na camada de controller, precisamos 
 tratar a mesma, como por exemplo a exceção `ContaBloquedaException`.
 
 Nesse cenário, gostaríamos de retornar 422! Vamos lá?
@@ -140,6 +140,44 @@ public ResponseEntity<ErroPadronizado> handle(ContaBloquedaException contaBloque
     return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(erroPadronizado);
 }
 ```
+
+Demais né!? Mais temos um problema! Eu vou ter que ficar criando uma tratativa por exceção, isso é muito ruim!
+
+Visando isso, vamos criar uma exceção de API? Que tenha o status code desejado e a mensagem de erro?
+
+```java
+public class ApiErroException extends RuntimeException {
+
+    private final HttpStatus httpStatus;
+
+    private final String reason;
+
+    public ApiErroException(HttpStatus httpStatus, String reason) {
+        super(reason);
+        this.httpStatus = httpStatus;
+        this.reason = reason;
+    }
+
+    // Getters, setters, construtor omitidos
+
+}
+```
+
+Assim agora, quando a gente quiser gerar um erro na API precisamos somente lançar essa exceção e adicionar somente uma 
+tratativa no `HandlerAdvice`, conforme código abaixo:
+
+```java
+@ExceptionHandler(ApiErroException.class)
+public ResponseEntity<ErroPadronizado> handleApiErroException(ApiErroException apiErroException) {
+    Collection<String> mensagens = new ArrayList<>();
+    mensagens.add(apiErroException.getReason());
+
+    ErroPadronizado erroPadronizado = new ErroPadronizado(mensagens);
+    return ResponseEntity.status(apiErroException.getHttpStatus()).body(erroPadronizado);
+}
+```
+
+Demais né!?
 
 ## Dicas de Luram Archanjo
 
