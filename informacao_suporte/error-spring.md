@@ -188,4 +188,6 @@ Nas camadas de serviço, utiliza exceção do negócio, caso necessário, e não
 
 Gostaria de saber a padronização de erros seguindo as boas práticas de Orientação a Objetos? [Aqui você encontra como fazer isso !!!](error-object-oriented.md)
 
+Gostaria de saber a padronização de erros utilizada pela Zup? [Aqui você encontra como fazer isso !!!](../informacao_suporte/error-zup.md)
+
 Quer sabemos mais sobre Handler Advice, acesse o [link!](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc)
