@@ -2,7 +2,7 @@
 
 Nos desenvolvedores usamos os logs da nossa aplicação como uma ferramenta de encontrar
 problemas, normalmente nossos logs indicam os passos ou informações que nos ajudam a direcionar
-a resolução desses problemas. Se você tem dúvidar de como usar de maneira eficiente, [aqui você pode encontrar alguns direcionamentos]().
+a resolução desses problemas. Se você tem dúvidar de como usar de maneira eficiente, [aqui você pode encontrar alguns direcionamentos](../informacao_suporte/spring-logging.md).
 
 Em alguns casos precisamos "logar" algumas informações que possam identificar uma pessoa e nesse caso
 que começam nossos problemas. 
