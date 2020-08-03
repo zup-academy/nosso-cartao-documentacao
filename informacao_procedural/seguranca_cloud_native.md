@@ -16,34 +16,23 @@ Pronto, durante o processo de desenvolvimento entendi que preciso tomar cuidado
 com as novas features e verificar se elas causam algum problema de segurança.
 
 Tem mais alguma coisa que eu possa fazer durante a fase de desenvolvimento para minimizar
-minhas chances de ser atacado ou que meus dados sejam comprometidos??? Existem técnicas
-que nos ajudam com isso, quer saber delas [clique aqui!!!](ofuscamento.md) 
+minhas chances de ser atacado ou que meus dados sejam comprometidos??? 
+
+Existem técnicas que nos ajudam com isso, podemos ofuscar dados sensíveis durante os processos 
+na nossa aplicação. Tem dúvida do que é ofuscamento de dados. [Aqui tem o que você precisa](ofuscamento.md)  
+
+Outra prática amplamente utilizada para evitar ataques ou roubo de dados nas nossas aplicações
+é encriptar os dados em trânsito, utilizando um canal seguro você pode resolver isso!!!
+[Clique aqui para mais informações sobre como resolver isso](encriptacao.md) 
  
-
-
-
-Mas e na fase de produção, quando sistema já esta sendo executado pelo usuário
-final. Tem alguma técnica que eu possa aplicar para reduzir ainda mais os riscos??
-
-
-
-
-
-
-## Rode sua aplicação com o mínimo de privilégios
-
-Provavelmente sua aplicação deve se conectar ou utilizar serviços adicionais para o funcionamento.
-
-Garanta que sua aplicação utilize somente o conjunto de permissões que ela necessita. Exemplo
-se sua aplicação precise de acesso de leitura no banco de dados crie uma conta que permita somente leitura,
-não conceda privilégio de escrita sem a necessidade. Esse tópico garante que nossa aplicação
-reduza o espaço ou brechas de segurança.
-
+Mas... e na fase de produção, quando sistema já esta sendo executado pelo usuário
+final. 
+Tem alguma técnica que eu possa aplicar para reduzir ainda mais os riscos?? Simmm!!!!
+Existe uma prática recomendada para você minimizar a área de ataques. [Saiba como aumentar
+seu nível de segurança aqui!!!](minimo_privilegios.md)
 
 
 # Informação de Suporte
-
-
 
 
 ## Dicas Claudio
