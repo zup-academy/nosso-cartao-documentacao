@@ -36,7 +36,33 @@ http://localhost:8080/actuator/health
 
 Eba! Está tudo OK!
 
+Sim, mas antes de continuar com sua tarefa, aconselhamos dar uma lida no tópico abaixo, sobre segurança!
+
 # Configurando segurança
+
+O Spring Boot Actuator fornece muitas APIs interessantes para monitoramento do nosso sistema, contrapartida, essas 
+informações podem ser utilizadas para explorar falhas de segurança!
+
+Como assim!?
+
+Vou dar um exemplo, imagina que por algum motivo o recurso de `/actuator/env` está público, ou seja, qualquer um pode 
+acesso de qualquer lugar!
+
+Um Hacker, pode por exemplo obter todas as versões das dependências utilizadas no seu projeto e 
+explorar falhas, como por exemplo na imagem abaixo:
+
+![alt text](../images/spring-008.png "Spring Boot Actuator")
+
+O Hacker sabe que estou utilizando Spring Boot 2.3.0 e com uma simples pesquisa no google pode encontrar falhas 
+relacionadas a esta versão, como por exemplo na imagem abaixo:
+
+![alt text](../images/spring-009.png "Spring Boot Actuator")
+
+Este tópico é bastante importante para todos os projetos da Zup, portanto vamos falar de segurança?
+
+* Gostaria de saber mais sobre segurança? [Aqui tem uma explicação do que entendemos que você deve considerar](../informacao_procedural/seguranca_cloud_native.md)
+
+## Utilizando somente o necessário!
 
 Sabemos que no Spring Boot Actuator existem vários Endpoints e que alguns podem expor informações sensíveis!
 
