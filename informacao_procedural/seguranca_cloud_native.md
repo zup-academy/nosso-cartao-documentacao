@@ -7,19 +7,27 @@ ambientes. Por esse motivo devemos nos preocupar com ainda mais segurança nesse
 Provedores de nuvem pública possuem um elevado nível de segurança, mas pouco adianta se nossas
 aplicações não implementarem e seguirem boas práticas de segurança.
 
+O processo de adição de segurança deve ser iniciado no momento da criação
+do projeto e continuamente sendo trabalhado junto com cada nova feature. Mas você deve
+estar pensando em como fazer isso. Como criar esse mindset de segurança, está com
+essa dúvida??? [clique aqui](incorpore_seguranca_design.md)
+
+Pronto, durante o processo de desenvolvimento entendi que preciso tomar cuidado
+com as novas features e verificar se elas causam algum problema de segurança.
+
+Tem mais alguma coisa que eu possa fazer durante a fase de desenvolvimento para minimizar
+minhas chances de ser atacado ou que meus dados sejam comprometidos??? Existem técnicas
+que nos ajudam com isso, quer saber delas [clique aqui!!!](ofuscamento.md) 
+ 
+
+
+
+Mas e na fase de produção, quando sistema já esta sendo executado pelo usuário
+final. Tem alguma técnica que eu possa aplicar para reduzir ainda mais os riscos??
 
 
 
 
-
-
-## Incorpore segurança no design
-
-Segurança deve ser tratada igualmente como qualquer outra feature do seu sistema. Durante
-todo o processo de desenvolvimento preocupações inerentes a segurança devem ser levantadas e
-tratadas de maneira regular e com frequência. 
-
-Incorporar segurança no seu design é um princípio bastante importante.
 
 
 ## Rode sua aplicação com o mínimo de privilégios
