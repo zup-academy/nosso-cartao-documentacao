@@ -14,8 +14,32 @@ Eba! Estamos contextualizados e prontos para por em prática nosso conhecimento 
 public class MeuHealthCheck {
     // Código omitido
 }
-
 ```
+
+2º Precisamos implementar a interface [HealthIndicator](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/actuate/health/HealthIndicator.html) 
+que o Spring Boot Actuator nos provê, conforme código abaixo:
+
+```java
+public class MeuHealthCheck implements HealthIndicator {
+
+    @Override
+    public Health health() {
+        // TODO Precisamos implementar o método
+        return null;
+    }
+
+}
+```
+
+Ao implementar essa interface, precisamos implementar o método `health` no qual é necessário retornar o objeto [Health](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/actuate/health/Health.html).
+
+Este objeto é bastante simples, você precisa passar qual [status](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/actuate/health/Status.html) 
+do Health Check, como por exemplo
+
+- **DOWN:** Status indicando que o componente ou subsistema sofreu uma falha inesperada.
+- **OUT_OF_SERVICE:** Status indicando que o componente ou subsistema foi retirado de serviço e não deve ser usado.
+- **UNKNOWN:**  Status indicando que o componente ou subsistema está em um estado desconhecido.
+- **UP:** Status indicando que o componente ou subsistema está funcionando conforme o esperado.
 
 # Informação de Suporte
 
