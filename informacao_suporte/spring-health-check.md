@@ -80,16 +80,6 @@ Pronto! Criamos nosso primeiro Health Check customizado utilizando Spring Boot A
 
 Para testar, basta abrir seu navegador e chamar o endereço `http://localhost:8080/actuator/health`!
 
-# Está utilizando Spring Boot 2.3.0 ou superior?
-
-Se você está utilizando Spring Boot 2.3.0 ou superior, podemos implementar nosso Health Check de acordo com a necessidade!
-
-Como assim!?
-
-No Spring Boot 2.3.0 foi desenvolvido o suporte para Health Checks do tipo Liveness e Readiness!
-
-* Ficou com dúvida sobre os tipos de Health Checks?[Aqui tem uma explicação do que entendemos que você deve considerar](../informacao_procedural/readiness_checks.md)
-
 # Informação de Suporte
 
 Gostaria de saber mais sobre Health Check no Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#writing-custom-healthindicators)
