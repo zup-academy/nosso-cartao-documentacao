@@ -6,7 +6,7 @@ Nesse tutorial iremos aprender como fazer nosso próprio Health Check caso for n
 
 2º Precisamos saber quais os tipos de Health Checks que existem! [Aqui tem uma explicação do que entendemos que você deve considerar](../informacao_procedural/readiness_checks.md)
 
-Eba! Estamos contextualizados e prontos para por em prática nosso conhecimento sobre esse tema! Vamos lá?
+Eba! Estamos contextualizados e prontos para pôr em prática nosso conhecimento sobre esse tema! Vamos lá?
 
 1º Precisamos criar nossa classe que irá representar o Health Check desejado, conforme código abaixo:
 
@@ -40,6 +40,32 @@ do Health Check, como por exemplo
 - **OUT_OF_SERVICE:** Status indicando que o componente ou subsistema foi retirado de serviço e não deve ser usado.
 - **UNKNOWN:**  Status indicando que o componente ou subsistema está em um estado desconhecido.
 - **UP:** Status indicando que o componente ou subsistema está funcionando conforme o esperado.
+
+Caso necessário, você pode passar detalhes do seu Health Check, como por exemplo:
+
+- Versão
+- Descrição
+- IP
+
+Muito legal né? Vamos implementar?
+
+```java
+public class MeuHealthCheck implements HealthIndicator {
+
+    @Override
+    public Health health() {
+        Map<String, Object> details = new HashMap<>();
+        details.put("versão", "1.2.3");
+        details.put("descrição", "Meu primeiro Health Check customizado!");
+        details.put("endereço", "127.0.0.1");
+        
+        return Health.status(Status.UP).withDetails(details).build();
+    }
+
+}
+```
+
+Pronto! Criamos nosso primeiro Health Check customizado utilizando Spring Boot Actuator!
 
 # Informação de Suporte
 
