@@ -65,7 +65,30 @@ public class MeuHealthCheck implements HealthIndicator {
 }
 ```
 
+E para finalizar, precisamos dizer para o Spring Boot considerar essa implementação, para isto, precisamos adicionar a 
+anotação [@Component](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Component.html)
+, conforme código abaixo:
+
+```java
+@Component
+public class MeuHealthCheck implements HealthIndicator {
+    // Código omitido
+}
+```
+
 Pronto! Criamos nosso primeiro Health Check customizado utilizando Spring Boot Actuator!
+
+Para testar, basta abrir seu navegador e chamar o endereço `http://localhost:8080/actuator/health`!
+
+# Está utilizando Spring Boot 2.3.0 ou superior?
+
+Se você está utilizando Spring Boot 2.3.0 ou superior, podemos implementar nosso Health Check de acordo com a necessidade!
+
+Como assim!?
+
+No Spring Boot 2.3.0 foi desenvolvido o suporte para Health Checks do tipo Liveness e Readiness!
+
+* Ficou com dúvida sobre os tipos de Health Checks?[Aqui tem uma explicação do que entendemos que você deve considerar](../informacao_procedural/readiness_checks.md)
 
 # Informação de Suporte
 
