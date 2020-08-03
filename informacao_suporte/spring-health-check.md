@@ -1,0 +1,48 @@
+# Como implementar um Health Check utilizando Spring Boot Actuator?
+
+Nesse tutorial iremos aprender como fazer nosso próprio Health Check caso for necessário.
+
+1ª Precisamos saber qual motivação do uso do Health Check! [Aqui tem uma explicação do que entendemos que você deve considerar](../informacao_procedural/healthcheck.md)
+
+2º Precisamos saber quais os tipos de Health Checks que existem! [Aqui tem uma explicação do que entendemos que você deve considerar](../informacao_procedural/readiness_checks.md)
+
+Eba! Estamos contextualizados e prontos para por em prática nosso conhecimento sobre esse tema! Vamos lá?
+
+1º Precisamos criar nossa classe que irá representar o Health Check desejado, conforme código abaixo:
+
+```java
+public class MeuHealthCheck {
+    // Código omitido
+}
+```
+
+2º Precisamos implementar a interface [HealthIndicator](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/actuate/health/HealthIndicator.html) 
+que o Spring Boot Actuator nos provê, conforme código abaixo:
+
+```java
+public class MeuHealthCheck implements HealthIndicator {
+
+    @Override
+    public Health health() {
+        // TODO Precisamos implementar o método
+        return null;
+    }
+
+}
+```
+
+Ao implementar essa interface, precisamos implementar o método `health` no qual é necessário retornar o objeto [Health](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/actuate/health/Health.html).
+
+Este objeto é bastante simples, você precisa passar qual [status](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/actuate/health/Status.html) 
+do Health Check, como por exemplo
+
+- **DOWN:** Status indicando que o componente ou subsistema sofreu uma falha inesperada.
+- **OUT_OF_SERVICE:** Status indicando que o componente ou subsistema foi retirado de serviço e não deve ser usado.
+- **UNKNOWN:**  Status indicando que o componente ou subsistema está em um estado desconhecido.
+- **UP:** Status indicando que o componente ou subsistema está funcionando conforme o esperado.
+
+# Informação de Suporte
+
+Gostaria de saber mais sobre Health Check no Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#writing-custom-healthindicators)
+
+Gostaria de saber sobre os Health Checks implementados pelo Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-health-indicators)
