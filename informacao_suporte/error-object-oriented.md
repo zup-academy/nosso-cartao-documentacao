@@ -21,7 +21,82 @@ assim o parceiro tem uma sensação de familiaridade e fica muito mais fácil ou
 Imagina só! Termos 10 APIs cada uma com um formato de erro diferente!
 
 # Vamos fazer isso com Spring, então!
-  
+
+O Spring fornece uma forma de tratar todos os erros não tratados que aconteceram na camada da nossa API, ou seja, no 
+nosso Controller, porém seguindo as boas práticas de orientação a objetos, não devemos lançar uma exceção com o objetivo 
+de mapear um erro na API e ainda mais, ficando totalmente implícito para quem está dando manutenção, pois simplesmente 
+você lança a exceção e ninguém trata e "magicamente" a sua API retorna um erro tratado.
+
+Vamos fazer de uma forma explícita e que todos conseguem entender, sem ter que entender a fundo sobre Spring?
+
+**1º** Precisamos definir como será o erro padrão em nossas APIs, aqui é apenas uma sugestão, no cenário real, devemos 
+alinhar com a equipe!
+
+```java
+public class ErroPadronizado {
+
+    private Collection<String> mensagens;
+
+    // Getters, setters, construtor omitidos
+}
+```
+
+Essa classe convertida em [JSON](https://www.json.org/json-en.html), ficaria assim:
+
+```json
+{
+  "mensagens": [
+    "Campo documento must not be blank",
+    "Campo salario must not be null"
+  ]
+}
+```
+
+Muito intuitivo né!?
+
+2º Precisamos definir o modelo de tratativa de erro, aqui é apenas uma sugestão, no cenário real, devemos alinhar 
+com a equipe!
+
+Um modelo legal e bastante intuitivo é um objeto de resultado da nossa operação, na qual retorna o status da operação, 
+erro da operação, em cenário de erro, e o objeto criado, em caso de sucesso, conforme o código abaixo:
+
+```java
+public class ResultadoCriarProposta {
+
+    private Proposta proposta;
+
+    private Throwable excecao;
+
+    private boolean sucesso;
+
+    // getters e setters omitidos
+}
+```
+
+Muito intuitivo né!?
+
+3º Precisamos definir uma inteligência na camada do Controller ao receber o resultado do Serviço, conforme código abaixo:
+
+```java
+@PostMapping("/v1/api-test")
+public ResponseEntity<?> post(@Validated @RequestBody CriarPropostaRequest criarPropostaRequest) {
+    ResultadoCriarProposta resultadoCriarProposta = propostaService.criar(criarPropostaRequest);
+    if (resultadoCriarProposta.isSucesso()) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(resultadoCriarProposta.getProposta());
+    } else {
+        Collection<String> mensagens = new ArrayList<>();
+        mensagens.add(resultadoCriarProposta.getExcecao().getMessage());
+
+        ErroPadronizado erroPadronizado = new ErroPadronizado(mensagens);
+        return ResponseEntity.status(HttpStatus.UNPROCESSABLE_ENTITY).body(erroPadronizado);
+    }
+}
+```
+
+Muito intuitivo né!?
+
+Lembrando este código é apenas uma sugestão, lembre-se sempre de alinhar com sua equipe!
+
 # Informação de Suporte
 
 Gostaria de saber a padronização de erros utilizada pelo Spring Boot? [Aqui você encontra como fazer isso !!!](error-spring.md)
