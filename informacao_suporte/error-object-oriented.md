@@ -65,7 +65,7 @@ public class ResultadoCriarProposta {
 
     private Proposta proposta;
 
-    private Throwable throwable;
+    private Throwable excecao;
 
     private boolean sucesso;
 
@@ -73,13 +73,29 @@ public class ResultadoCriarProposta {
 }
 ```
 
-### Remover
+Muito intuitivo né!?
 
-Either do scala
+3º Precisamos definir uma inteligência na camada do Controller ao receber o resultando do Serviço, conforme código abaixo:
 
-- Proposta
-- Throwable 
-- success: boolean 
+```java
+@PostMapping("/v1/api-test")
+public ResponseEntity<?> post(@Validated @RequestBody CriarPropostaRequest criarPropostaRequest) {
+    ResultadoCriarProposta resultadoCriarProposta = propostaService.criar(criarPropostaRequest);
+    if (resultadoCriarProposta.isSucesso()) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(resultadoCriarProposta.getProposta());
+    } else {
+        Collection<String> mensagens = new ArrayList<>();
+        mensagens.add(resultadoCriarProposta.getExcecao().getMessage());
+
+        ErroPadronizado erroPadronizado = new ErroPadronizado(mensagens);
+        return ResponseEntity.status(HttpStatus.UNPROCESSABLE_ENTITY).body(erroPadronizado);
+    }
+}
+```
+
+Muito intuitivo né!?
+
+Lembrando este código é apenas uma sugestão, lembre-se sempre de alinhar com sua equipe!
 
 # Informação de Suporte
 
