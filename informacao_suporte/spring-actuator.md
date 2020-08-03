@@ -78,6 +78,32 @@ Existem duas alternativas!
 
 `management.endpoints.web.exposure.exclude=env,beans`
 
+## Utilizando CORS!
+
+O CORS (Cross-origin Resource Sharing) é um mecanismo utilizado pelos navegadores para compartilhar recursos entre 
+diferentes origens. O CORS é uma especificação do W3C e faz uso de headers do HTTP para informar aos navegadores se 
+determinado recurso pode ser ou não acessado.
+
+Permitindo receber somente de uma origem, aumenta demais a segurança das APIs do Spring Boot Actuator!
+
+Para isto, basta adicionar as seguintes propriedades no arquivo `application.properties`:
+
+```properties
+management.endpoints.web.cors.allowed-origins=https://example.com
+management.endpoints.web.cors.allowed-methods=GET
+```
+
+## Dicas de Luram Archanjo
+
+Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas, como por exemplo:
+
+- Adicionar autenticação
+- Adicionar autorização
+
+# Dicas de Cláudio
+
+Não negligencie as informações que você está expondo sobre a sua infraestrutura.
+
 # Informação de Suporte
 
 Quer saber mais sobre Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-enabling)
