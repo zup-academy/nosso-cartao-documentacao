@@ -93,7 +93,7 @@ management.endpoints.web.cors.allowed-origins=https://example.com
 management.endpoints.web.cors.allowed-methods=GET
 ```
 
-## Dicas de Luram Archanjo
+# Dicas de Luram Archanjo
 
 Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas, como por exemplo:
 
