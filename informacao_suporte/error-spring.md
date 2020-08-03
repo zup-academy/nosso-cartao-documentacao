@@ -127,7 +127,7 @@ Mais e os outros casos de uso, como por exemplo [422](../informacao_suporte/rest
 Neste caso o Spring fornece uma exceção denominada [ResponseStatusException](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/server/ResponseStatusException.html) 
 na qual você fornece qual status code esperado e o motivo do erro.
 
-Primeiro precisamos tratar a exceção, pois definimos nosso proprio padrão de erro.
+Primeiro precisamos tratar a exceção, pois definimos nosso próprio padrão de erro.
 
 ```java
 @ExceptionHandler(ResponseStatusException.class)

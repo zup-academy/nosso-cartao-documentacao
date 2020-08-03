@@ -75,7 +75,7 @@ public class ResultadoCriarProposta {
 
 Muito intuitivo né!?
 
-3º Precisamos definir uma inteligência na camada do Controller ao receber o resultando do Serviço, conforme código abaixo:
+3º Precisamos definir uma inteligência na camada do Controller ao receber o resultado do Serviço, conforme código abaixo:
 
 ```java
 @PostMapping("/v1/api-test")
