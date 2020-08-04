@@ -179,7 +179,7 @@ public ResponseEntity<ErroPadronizado> handleApiErroException(ApiErroException a
 
 Demais né!?
 
-## Dicas de Luram Archanjo
+# Dicas de Luram Archanjo
 
 Está é uma pratica utilizada pela Zup e outras empresas, porém acarreta outros problemas, como por exemplo:
 

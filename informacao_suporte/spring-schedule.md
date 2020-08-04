@@ -171,6 +171,12 @@ Você aplicou o fator III. Configurações, na qual diz que você deve armazenar
 
 Quer saber mais?  Acesse o [link!](https://12factor.net/pt_br/config)
 
+# Dicas de Luram Archanjo
+
+Se você deixar a lógica no agendamento e o deploy for feito em várias instâncias? Como evitar a concorrência?
+
+Concorrência é um ponto sempre importante a ser considerado, portanto alinhe sempre com sua equipe as melhores práticas!
+
 # Informação de Suporte
 
 Quer saber mais sobre Spring Schedule, acesse o [link!](https://docs.spring.io/spring/docs/current/spring-framework-reference/integration.html#scheduling-annotation-support)
