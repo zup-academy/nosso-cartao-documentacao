@@ -18,7 +18,7 @@ passos a seguir até o retorno:
 
 5º Servidor responde a requisição
 
-Em todos esses passos o requisitante ficou aguardando os mesmos a serem executados sequencialmente, ou seja, síncronamente!
+Em todos esses passos o requisitante ficou aguardando os mesmos a serem executados sequencialmente, ou seja, sincronamente!
 
 Quando falamos de assíncrono, estamos falando em não aguardar os passos a serem executados, pois eles estão sendo 
 executados em `segundo plano`!
@@ -59,7 +59,7 @@ Demais né!?
 
 ![alt text](../images/synchronous-vs-asynchronous-002.png "Synchronous vs Asynchronous")
 
-Voltando para nosso Bootcamp, quando falamos de `segundo plano` estamos falando de processar assíncronamente e 
+Voltando para nosso Bootcamp, quando falamos de `segundo plano`, estamos falando de processar assíncronamente e 
 existem várias formas de processar em `segundo plano', como por exemplo:
 
 - Executar uma operação assíncronamente de tempos em tempos, ou seja, agendada!

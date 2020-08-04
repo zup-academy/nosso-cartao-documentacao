@@ -44,7 +44,7 @@ e [@Scheduled](https://docs.spring.io/spring-framework/docs/current/javadoc-api/
 @Component
 public class MinhaTarefa {
 
-    @Scheduled
+    @Scheduled(fixedDelay = 1000) \\ Tempo sempre em milisegundos!
     private void executaOperacao() {
         // Código omitido
     }
@@ -52,8 +52,29 @@ public class MinhaTarefa {
 }
 ```
 
-Para testar, vamos fazer algo simples! Vamos adicionar um log!
+Para testar, vamos fazer algo simples! Vamos adicionar um log no método `executaOperacao`!
 
 ```java
 System.out.println("Executando minha operação");
 ```
+
+Iniciou sua aplicação!? Muito legal esse recurso, né!?
+
+## Indo além
+
+Sempre quando aprendemos algo é super importante ir mais fundo, e quando falamos de Anotações, por exemplo, existem 
+várias configurações que podem atender seu cenário!
+
+Vamos aprender mais sobre a anotação [@Scheduled](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/Scheduled.html)?
+
+No exemplo acima a gente utilizou o atributo `fixedDelay`, o que ele faz? qual objetivo?
+
+O atributo `fixedDelay` execute o método anotado com um período fixo em milissegundos entre o final da última chamada e o 
+início da próxima.
+
+Existem outras anotações, como por exemplo:
+
+- fixedRate: Execute o método anotado com um período fixo em milissegundos entre chamadas.
+- initialDelay: Número de milissegundos a atrasar antes da primeira execução de uma tarefa.
+
+Super bacana né! Temos várias possibilidades e aplicabilidade em apenas uma anotação!
