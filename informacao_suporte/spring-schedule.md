@@ -33,11 +33,11 @@ public class MinhaTarefa {
 }
 ```
 
-No código de exemplo foi criado a função da nossa operação, porém não é o suficiente!
+No código de exemplo foi criado a função da nossa tarefa, porém não é o suficiente!
 
-3º Precisamos dizer para o Spring que está classe é uma tarefa e que precisa executar o método a cada X  tempos, para 
+3º Precisamos dizer para o Spring que está classe é uma tarefa e que precisa executar o método `executaOperacao` a cada 1 segundo, para 
 isto, precisamos adicionar duas anotações: [@Component](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Component.html) 
-e [@Scheduled](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/Scheduled.html) 
+e [@Scheduled](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/Scheduled.html)
 , conforme código abaixo:
 
 ```java
@@ -72,10 +72,10 @@ No exemplo acima a gente utilizou o atributo `fixedDelay`, o que ele faz? qual o
 O atributo `fixedDelay` execute o método anotado com um período fixo em milissegundos entre o final da última chamada e o 
 início da próxima.
 
-Existem outras anotações, como por exemplo:
+Existem outros atributos, como por exemplo:
 
-- fixedRate: Execute o método anotado com um período fixo em milissegundos entre chamadas.
-- initialDelay: Número de milissegundos a atrasar antes da primeira execução de uma tarefa.
+- **fixedRate:** Execute o método anotado com um período fixo em milissegundos entre chamadas.
+- **initialDelay:** Número de milissegundos a atrasar antes da primeira execução de uma tarefa.
 
 Super bacana né! Temos várias possibilidades e aplicabilidade em apenas uma anotação!
 
@@ -104,7 +104,7 @@ periodicidade.executa-operacao=1000
 
 Não entendeu, não tem problema! Vamos explicar melhor!
 
-Para cada possibilidade de configuração na anotação @Scheduled tem via String, como por exemplo:
+Para cada possibilidade de configuração na anotação @Scheduled existe a mesma via String, como por exemplo:
 
 - initialDelayString
 - fixedRateString
@@ -131,7 +131,7 @@ Vamos falar de variável de ambiente?
 Uma variável de ambiente é um valor nomeado dinamicamente que pode afetar o modo como os processos em execução irão se 
 comportar em um computador, ou seja, se tiver uma variável de ambiente que representa a periodicidade, basta alterar ela.
  
-Assim a gente não precisa modificar o código e passar por todo ciclo de desenvolvimento e ganha muito tempo!
+Assim a gente não precisa modificar o código e passar por todo ciclo de desenvolvimento, ganhando muito tempo!
 
 Talvez você esteja pensando, como receber uma variável de ambiente utilizando Spring?
 
