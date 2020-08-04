@@ -47,7 +47,7 @@ O método `supports` tem como objetivo determinar para qual classe esse validado
 ```java
 @Override
 public boolean supports(Class<?> aClass) {
-    return Proposta.class.equals(aClass);
+    return NovaPropostaRequest.class.equals(aClass);
 }
 ```
 
@@ -56,15 +56,10 @@ public boolean supports(Class<?> aClass) {
 ```java
 @Override
 public void validate(Object object, Errors errors) {
-    final Proposta proposta = (Proposta) object;
-    final Integer salario = proposta.getSalario();
-    if (salario == null) {
-        errors.rejectValue("salario", "Campo salário é obrigatório.");
-    }
-
-    if (salario != null && salario < 0) {
-        errors.rejectValue("salario", "Campo salário não pode ser negativo.");
-    }
+    final NovaPropostaRequest request = (NovaPropostaRequest) object;    
+    //se essa proposta está com um documento invalido. Como pode fazer isso?
+        errors.rejectValue("documento", "Documento inválido");
+    //fecha condicao
 }
 ```
 
