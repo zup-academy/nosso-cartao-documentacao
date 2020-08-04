@@ -7,7 +7,7 @@ Se não, não tem problema! [Aqui tem uma explicação do que entendemos que voc
 Vamos começar nosso tutorial de como agendar tarefas no Spring?
 
 1º Precisamos habilitar a funcionalidade no Spring, para isto adicione a anotação [@EnableScheduling](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/EnableScheduling.html) 
-na classe de inicialização do seu sistema, ou seja, na classe que tem o método `main`, como por exemplo no código abaxio:
+na classe de inicialização do seu sistema, ou seja, na classe que tem o método `main`, como por exemplo no código abaixo:
 
 ```java
 @SpringBootApplication
@@ -126,7 +126,7 @@ Demais né!? Sim, porém caímos no mesmo problema, vai levar dias!
 
 Vamos melhorar isso? Estamos a um passo de fazer uma revolução!
 
-Vamos falar de viarável de ambiente?
+Vamos falar de variável de ambiente?
 
 Uma variável de ambiente é um valor nomeado dinamicamente que pode afetar o modo como os processos em execução irão se 
 comportar em um computador, ou seja, se tiver uma variável de ambiente que representa a periodicidade, basta alterar ela.
@@ -135,7 +135,7 @@ Assim a gente não precisa modificar o código e passar por todo ciclo de desenv
 
 Talvez você esteja pensando, como receber uma variável de ambiente utilizando Spring?
 
-No spring para receber um valor de uma variável de ambiente, basta definir no propertie, como por exemplo:
+No spring para receber um valor de uma variável de ambiente, basta definir nossa propriedade, como por exemplo:
 
 ```properties
 periodicidade.executa-operacao=${NOME_DA_VARIAVEL_DE_AMBIENTE}
@@ -143,7 +143,7 @@ periodicidade.executa-operacao=${NOME_DA_VARIAVEL_DE_AMBIENTE}
 
 Dessa forma fica obrigatório ter essa propriedade para executar nossa aplicação, isso é ruim!
 
-Não seria legal termnos um valor padrão, caso não existir a variável de ambiente?
+Não seria legal termos um valor padrão, caso não existir a variável de ambiente?
 
 Para isto, precisamos definir o valor padrão, conforme exemplo abaixo:
 
@@ -160,7 +160,8 @@ periodicidade.minha-tarefa=${PERIODICIDADE_MINHA_TAREFA:1000}
 Analisando a propriedade sabemos que se não existir a variável de ambiente `PERIODICIDADE_MINHA_TAREFA` o valor padrão 
 será um segundo, demais né!
 
-Aplicando isso, podemos economizar muito tempo, pois agora leva-se minutos ao invêz de dias para fazer o ajuste solicitado.
+Aplicando isso, podemos economizar muito tempo, pois agora leva-se minutos ao invés de dias para fazer o ajuste solicitado 
+pelo cliente.
 
 **Importante**
 
