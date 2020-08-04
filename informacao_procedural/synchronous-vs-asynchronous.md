@@ -78,6 +78,3 @@ enviado na base de dados.
 
 Hoje temos outras formas de fazer isso, porém não temos o histórico do porque tomaram essa decisão o bom é que sabemos 
 como lidar!
-
-# Informação de Suporte
-
