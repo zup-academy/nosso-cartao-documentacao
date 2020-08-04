@@ -31,7 +31,6 @@ construído para servir aplicações em rede.
 | **403**  | Credencial não tem os privilégios suficientes para acessar o recurso solicitado.  |
 | **404**  | URI informada não existe.  |
 | **405**  | Método HTTP utilizado não é permitido na URI solicitada.  |
-| **412**  | Campos da requisição na foram informados ou estão num formato não esperado.  |
 | **415**  | Normalmente este erro é ocasionado pela falta do Header Content. Verifique o Header Content-Type ou Content-Encoding.  |
 | **422**  | Ocorreu algum erro de negócio com sua mensagem. Sintaticamente a requisição é válida, semanticamente não.  |
 

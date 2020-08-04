@@ -44,4 +44,4 @@ característica de imprevisibilidade, ou aqui podemos usar o identificador seque
 
 #Informação de Suporte
 
-Quer aprender sobre como modelar Status Codes, [Veja Aqui !!!](../informacao_procedural/rest.md)
+Quer aprender sobre como modelar Status Codes, [Veja Aqui !!!](../informacao_suporte/rest-status.md)
