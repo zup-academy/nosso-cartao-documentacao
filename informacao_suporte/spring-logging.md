@@ -1,6 +1,6 @@
 # Como utilizar logs no Spring?
 
-Seu código não está funcionando e está com dificuldade de encontrar o problema, não se preocupe!
+Talvez seu código não está funcionando e está com dificuldade de encontrar o problema, não se preocupe!
 
 Uma das maneiras de se encontrar um erro é por meio de Logs!
 
