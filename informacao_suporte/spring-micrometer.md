@@ -35,7 +35,7 @@ class MinhasMetricas {
 }
 ```
 
-Agora que sabemos sobre o `MeterRegistry` é hora de explorar os tips de métricas, vamos começar pelo contador?
+Agora que sabemos sobre o `MeterRegistry` é hora de explorar os tipos de métricas, vamos começar pelo contador?
 
 ## Métrica tipo Counter
 
@@ -45,7 +45,7 @@ deve ser positivo!
 Imagina que precisamos de uma métrica de números de propostas criadas, isso irá ajudar muito o pessoal de negócio a 
 identificar qual emissora ou banco utilizam mais o sistema!
 
-Vamos fazer isto? Para essa tarefa precisamos utilizar o Meter registry e o método de criação de contador, conforme código 
+Vamos fazer isto? Para essa tarefa precisamos utilizar o MeterRegistry e o método de criação de contador, conforme código 
 abaixo:
 
 ```java
@@ -81,15 +81,61 @@ Achou a métrica? Ficou algo parecido conforme o exemplo abaixo?
 ```
 # HELP proposta_criada_total  
 # TYPE proposta_criada_total counter
-proposta_criada_total{ambiente="desenvolvimento",aplicacao="serviÃ§o de proposta",banco="Itaú",emissora="Mastercard",} 44.0
+proposta_criada_total{banco="Itaú",emissora="Mastercard",} 44.0
 ```
 
 Eba! Aprendemos como criar uma métrica de contador! Vamos aprender outra?
 
 ## Métrica tipo Timer
 
-## Métrica tipo Guauge
+Os temporizadores destinam-se a medir latências de curta duração e a frequência desses eventos. Todas as implementações 
+do Timer relatam pelo menos o tempo total e a contagem de eventos como séries temporais separadas. 
 
+Imagina que a API de consultar proposta está demorando demais, segundo os clientes, porém não temos métricas para saber 
+se tem relação com o horário da consulta, quantidade de usuário, etc.
+
+Vamos criar uma métrica? Para essa tarefa precisamos utilizar o MeterRegistry e o método de criação de temporizadores, 
+conforme código abaixo:
+
+```java
+Collection<Tag> tags = new ArrayList<>();
+tags.add(Tag.of("emissora", "Mastercard"));
+tags.add(Tag.of("banco", "Itaú"));
+
+Timer timerConsultarProposta = this.meterRegistry.timer("consultar_proposta", tags);
+timerConsultarProposta.record(() -> {
+    // Método da sua operação
+    consultarProposta();
+});
+```
+
+Pronto agora temos um temporizador, precisamos achar uma maneira de estimular o mesmo! O que acha de colocar na sua API de 
+consultar proposta?
+
+Para testar, precisamos consultar algumas propostas!
+
+Após consultar as propostas, vamos abrir o endereço `http://localhost:8080/actuator/prometheus` em seu navegador e procurar 
+pelo nome da métrica `consultar_proposta`, como é um temporizador o Micrometer irá criar duas métricas e adicionar no 
+final a palavra `count` e  `sum`, portanto, o nome da métrica será `consultar_proposta_seconds_count` 
+e `consultar_proposta_seconds_sum`.
+
+Achou a métrica? Ficou algo parecido conforme o exemplo abaixo?
+
+```
+# HELP consultar_proposta_seconds  
+# TYPE consultar_proposta_seconds summary
+consultar_proposta_seconds_count{banco="Itaú",emissora="Mastercard",} 12.0
+consultar_proposta_seconds_sum{banco="Itaú",emissora="Mastercard",} 36.003066791
+```
+
+Talvez esteja se perguntando o motivo de ter duas métricas?
+
+Com as duas métricas conseguimos responder quantas consultas foram feitas (12) e quantos segundos elas demoraram em 
+média (36 / 12 = 3s) no período selecionado, demais né!?
+
+Eba! Aprendemos como criar uma métrica de temporizador! Vamos aprender outra?
+
+## Métrica tipo Gauge
 
 # Informação de Suporte
 
