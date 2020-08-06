@@ -60,7 +60,7 @@ Quer saber mais sobre Push Model e quando utilizar? O Prometheus tem uma [págin
 
 # Dicas de Luram Archanjo
 
-Prometheus é muito utilizado no mercado e recomendado pela Zup, portanto, tente se aprofundar ao 
+Prometheus é muito utilizado no mercado e **recomendado pela Zup**, portanto, tente se aprofundar ao 
 máximo sobre o tema em sua área de atuação!
 
 Aprenda sobre as melhores práticas de métricas! [Aqui você encontra como fazer isso!](https://prometheus.io/docs/practices/naming/)
