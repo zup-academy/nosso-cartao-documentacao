@@ -73,8 +73,58 @@ Eba, está tudo configurado! Vamos testar?
 
 Para testar, basta abrir seu navegador e chamar o endereço `http://localhost:8080/actuator/prometheus`!
 
-Deu tudo certo!? Nossa aplicação agora está expondo sua métrica! Entre em contato com a sua equipe para informar para o 
-time de operação \ sustentação que sua aplicação está pronta para ser monitorada!
+Deu tudo certo!? Nossa aplicação agora está expondo sua métrica! 
+
+Digamos que entramos em contato com o time de operação \ sustentação para informar que a sua aplicação está pronta para 
+ser monitorada, e tivemos um retorno do time, dizendo que precisamos adicionar uma LABEL com o nome da aplicação e qual 
+ambiente.
+
+Talvez esteja pensando, o que é LABEL? Não se preocupe! [Aqui tem uma explicação do que entendemos que você deve considerar](https://prometheus.io/docs/practices/naming/)
+
+No material anterior você aprendeu sobre o formato de métrica do Prometheus, vamos recapitular?
+
+- NAME é o nome da métrica, como por exemplo: `proposta_criadas_total`
+- LABEL é utilizado para diferenciar as características da métrica, como por exemplo:
+
+`proposta_criadas_total{aplicacao="serviço de proposta", ambiente="desenvolvimento"}`
+
+Sabemos que essa métrica vem do serviço de proposta e do ambiente de desenvolvimento!
+
+**Importante** 
+
+Cuidado com a quantidade de LABEL, quanto mais, mais irá aumentar os dados armazenados no Prometheus, podendo causar 
+problemas de performance e de disco.
+
+Como por exemplo na métrica acima, a gente criou dois registros no Prometheus um para a LABEL aplicação e outra para a 
+ambiente, assim você consegue fazer buscas inteligente ao troco de talvez ter problema de performance e disco, portanto,
+use com parcimônia!
+
+Agora que estamos bem contextualizados e fundamentados, vamos adicionar o nome da aplicação e o ambiente?
+
+Para isto, o Spring provê uma forma simples e rápida via properties, conforme exemplo abaixo:
+
+```properties
+management.metrics.tags.aplicacao=serviço de proposta
+management.metrics.tags.ambiente=desenvolvimento
+```
+
+Para testar, basta abrir seu navegador e chamar o endereço `http://localhost:8080/actuator/prometheus`!
+
+Está tudo funcionando conforme esperado, porém, imagina quando a gente levar esse código para outros ambientes, como por 
+exemplo: homologação, pré-produção e produção!
+
+Vamos ter que alterar o código? Lembra do [The Twelve Factor App](https://12factor.net/pt_br/)?
+
+Aqui também se aplica o fator III. Configurações, na qual diz que você deve armazenar as configurações no ambiente!
+
+* Talvez não esteja se recordando, não tem problema! [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_procedural/twelve-factor-config.md)
+
+Vamos aplicá-los?
+
+```properties
+management.metrics.tags.aplicacao=${NOME_DA_APLICACAO:serviço de proposta}
+management.metrics.tags.ambiente=${AMBIENTE:desenvolvimento}
+```
 
 Demais né! Lembre-se de ler abaixo sobre segurança é extremamente importante!
 
@@ -147,3 +197,5 @@ Não negligencie as informações que você está expondo sobre a sua infraestru
 # Informação de Suporte
 
 Quer saber mais sobre Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-enabling)
+
+Quer saber mais sobre o The Twelve-Factor App? Acesse o [link!](https://12factor.net/pt_br/)
