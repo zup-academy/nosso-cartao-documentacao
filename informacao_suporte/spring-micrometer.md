@@ -215,7 +215,7 @@ Achou a métrica? Ficou algo parecido conforme o exemplo abaixo?
 ```
 # HELP meu_gauge  
 # TYPE meu_gauge gauge
-meu_gauge{ambiente="desenvolvimento",aplicacao="serviÃ§o de proposta",banco="Itaú",emissora="Mastercard",} 1.0
+meu_gauge{banco="Itaú",emissora="Mastercard",} 1.0
 ```
 
 Após achar a métrica fique atualizando a página para ver se o número sobe ou desce conforme as interações do @Scheduled.
