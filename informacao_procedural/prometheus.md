@@ -11,7 +11,7 @@ O mesmo é escrito principalmente em Go e licenciado sob a licença Apache 2.0, 
 contribuíram para o projeto em si, que não são controladas por nenhuma empresa.
 
 Demais né! Um projeto focado em métrica, código aberto e sem nenhuma empresa por traz, esses fatores o deixam muito 
-poderoso e fica claro sua utilização no mercado, principalmente na Zup onde é extremamente **recomendado**!
+poderoso e fica claro sua utilização no mercado, principalmente na **Zup** onde é extremamente **recomendado**!
 
 E ainda mais, para instrumentar seu próprio código, existem bibliotecas em todas as linguagens populares, incluindo Go, 
 Java, C#, Python, Ruby, Node.js, etc. Softwares como Kubernetes e Docker já estão instrumentados com as bibliotecas do 
