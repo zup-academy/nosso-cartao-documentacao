@@ -137,6 +137,91 @@ Eba! Aprendemos como criar uma métrica de temporizador! Vamos aprender outra?
 
 ## Métrica tipo Gauge
 
+Um medidor é uma alça para obter o valor atual. Exemplos típicos de medidores seriam o tamanho de uma coleção ou mapa 
+ou o número de threads em um estado de execução.
+
+Uma forma de visualizar esse tipo de métrica e fazer uma analogia com o velocímetro do carro, ele vai de zero até 100 e 
+conforme você acelera ele sobe até o limite!
+
+Quando falamos de limite geralmente utilizamos Gauge, pois imagina que temos um limite de número de threads e gostaríamos 
+de saber quantas estão sendo utilizadas, por que quando chegar no limite, possivelmente irá acarretar alguns problemas, como 
+perda de performance, erros, etc.
+
+Vamos criar uma métrica? 
+
+Primeiro precisamos nosso exemplo, conforme código abaixo:
+
+```java
+@Component
+public class MinhasMetricas {
+
+    private final MeterRegistry meterRegistry;
+
+    private final Collection<String> strings = new ArrayList<>();
+
+    private final Random random = new Random();
+
+    public MinhasMetricas(MeterRegistry meterRegistry) {
+        this.meterRegistry = meterRegistry;
+        criarGauge();
+    }
+
+    public void criarGauge() {
+        Collection<Tag> tags = new ArrayList<>();
+        tags.add(Tag.of("emissora", "Mastercard"));
+        tags.add(Tag.of("banco", "Itaú"));
+
+        this.meterRegistry.gauge("meu_gauge", tags, strings, Collection::size);
+    }
+
+}
+```
+
+No código acima a gente criou um medidor que irá mostrar o tamanho da lista `Collection::size`, portanto, precisamos 
+simular uma interação na lista, para isso vamos criar duas situações, uma que adiciona e outra que remove:
+
+```java
+public void removeString() {
+    strings.removeIf(Objects::nonNull);
+}
+
+public void addString() {
+    strings.add(UUID.randomUUID().toString());
+}
+```
+
+Agora que está tudo criado, vamos criar uma simulação que baseada se o número é par adiciona se for ímpar remove:
+
+```java
+public void simulandoGauge() {
+    double randomNumber = random.nextInt();
+    if (randomNumber % 2 == 0) {
+        addString();
+    } else {
+        removeString();
+    }
+}
+```
+
+Agora vamos utilizar da criatividade, vamos adicionar a anotação `@Scheduled(fixedDelay = 1000)` no método `simulandoGauge`.
+
+Para testar, precisamos iniciar a aplicação!
+
+Após iniciar a aplicação, vamos abrir o endereço `http://localhost:8080/actuator/prometheus` em seu navegador e procurar 
+pelo nome da métrica `meu_gauge`.
+
+Achou a métrica? Ficou algo parecido conforme o exemplo abaixo?
+
+```
+# HELP meu_gauge  
+# TYPE meu_gauge gauge
+meu_gauge{ambiente="desenvolvimento",aplicacao="serviÃ§o de proposta",banco="Itaú",emissora="Mastercard",} 1.0
+```
+
+Após achar a métrica fique atualizando a página para ver se o número sobe ou desce conforme as interações do @Scheduled.
+
+Eba! Aprendemos como criar métrica de medidor!
+
 # Informação de Suporte
 
 Está em dúvida de como configurar o Spring Boot Actuator? [Aqui você encontra como fazer isto!](../informacao_suporte/spring-actuator.md)
