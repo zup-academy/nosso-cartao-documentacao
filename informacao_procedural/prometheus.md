@@ -56,6 +56,17 @@ Para atender esse cenário o Prometheus provê uma API para receber essas métri
 Demais né! Lembrando é apenas para casos de operações com curta duração! Se você utiliza uma aplicação que roda horas, 
 dias, meses, etc. Utilize o modelo de pull model e remova a complexidade da sua aplicação!
 
+Quer saber mais sobre Push Model e quando utilizar? O Prometheus tem uma [página](https://prometheus.io/docs/practices/pushing/) sobre isso!
+
+# Dicas de Luram Archanjo
+
+Prometheus é muito utilizado no mercado e recomendado a sua utilização dentro da Zup, portanto, tente se aprofundar ao 
+máximo sobre o tema em sua área de atuação!
+
+Aprenda sobre as melhores práticas de métricas! [Aqui você encontra como fazer isso!](https://prometheus.io/docs/practices/naming/)
+
+Aprenda sobre alertas, pode te ajudar muito quando estiver com alguma aplicação em Produção! [Aqui você encontra como fazer isso!](https://prometheus.io/docs/alerting/latest/overview/)
+
 # Informações de suporte
 
 Quer saber mais sobre Prometheus? Acesse o [link!](https://prometheus.io/)
