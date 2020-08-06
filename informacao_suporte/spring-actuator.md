@@ -38,6 +38,46 @@ Eba! Está tudo OK!
 
 Sim, mas antes de continuar com sua tarefa, aconselhamos dar uma lida no tópico abaixo, sobre segurança!
 
+# Configurando métricas
+
+O Spring Boot Actuator fornece gerenciamento de dependência e configuração automática para o [Micrometer](https://micrometer.io/)
+, uma biblioteca de métricas de aplicativos que suporta vários sistemas de monitoramento, incluindo:
+
+- [Prometheus](https://prometheus.io/)
+- [Datadog](https://docs.datadoghq.com/metrics/)
+- [Dynatrace](https://www.dynatrace.com/)
+
+Dentre outros, gostaria de saber a lista completa? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-metrics)
+
+Já sabemos que o Spring em conjunto com o Micrometer, suporta vários sistemas de monitoramento de métrica, para 
+habilitados, precisamos adicionar a dependência dos desejados, como por exemplo o Prometheus!
+
+Para habilitar um endpoint que exporta métrica no formato prometheus, precisamos adicionar a seguinte dependência no 
+arquivo `pom.xml`, conforme exemplo abaixo:
+
+```xml
+<dependency>
+    <groupId>io.micrometer</groupId>
+    <artifactId>micrometer-registry-prometheus</artifactId>
+</dependency>
+```
+
+Está quase tudo pronto, temos que habilitar o endpoint `/actuator/prometheus` para isso, vamos adicionar a seguinte 
+propriedade no arquivo `application.properties`, conforme exemplo abaixo:
+
+```properties
+management.endpoints.web.exposure.include=info,health,prometheus
+```
+
+Eba, está tudo configurado! Vamos testar?
+
+Para testar, basta abrir seu navegador e chamar o endereço `http://localhost:8080/actuator/prometheus`!
+
+Deu tudo certo!? Nossa aplicação agora está expondo sua métrica! Entre em contato com a sua equipe para informar para o 
+time de operação \ sustentação que sua aplicação está pronta para ser monitorada!
+
+Demais né! Lembre-se de ler abaixo sobre segurança é extremamente importante!
+
 # Configurando segurança
 
 O Spring Boot Actuator fornece muitas APIs interessantes para monitoramento do nosso sistema, contrapartida, essas 
@@ -72,7 +112,7 @@ Existem duas alternativas!
 
 1º Habilitar somente o que é utilizado, para isto é necessário adicionar a propriedade:
 
-`management.endpoints.web.exposure.include=health,metrics` 
+`management.endpoints.web.exposure.include=health,metrics,prometheus` 
 
 2º Remover os não utilizados, para isto é necessário adicionar a propriedade:
 
