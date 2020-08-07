@@ -155,6 +155,8 @@ Agora, com muita ajuda do uso dos generics do Java conseguimos criar uma classe 
     Resultado.erro(new Exception(...));
 ```
 
+Essa abordaem é inspirada numa abstração chamada de ```Either``` e vem da [linguagem Scala.](https://www.scala-lang.org/api/2.9.3/scala/Either.html)
+
 
 # Informação de Suporte
 
