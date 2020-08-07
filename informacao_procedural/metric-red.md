@@ -30,6 +30,11 @@ fazer sua transferência, porém levou-se muito tempo!
 
 Por conta desse episódio e a demora na correção, devido falta de métrica, alguns clientes migraram de Banco!
 
+# Dicas de Luram Archanjo
+
+Felizmente o Spring Boot Actuator quando configurado o endpoint de métricas, já implementa as métricas do tipo RED, gostaria 
+de saber mais!? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_suporte/spring-actuator-metrics.md)
+
 # Informação de Suporte
 
 Gostaria de saber mais sobre Métricas do tipo RED? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/#xref_monitoring_golden-signals)
