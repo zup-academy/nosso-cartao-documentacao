@@ -37,6 +37,14 @@ Pronto!!!
 
 Agora você pode logar suas informações e diagnosticar possíveis erros mais rápido!
 
+Lembre-se sempre de procurar responder a estrategia dos 5W's
+                    
+- **WHO:** Quem está executando a operação.
+- **WHAT:** O que indica aquela operação.
+- **WHEN:** Quando a operação ocorreu.
+- **WHERE:** Onde a operação ocorreu.
+- **WHY:** Porque da linha do log
+
 # Dicas de Luram Archanjo
 
 Tenha uma equilíbrio na quantidade de logs da sua aplicação, pois, pouco log complica na depuração de problemas e logs 
