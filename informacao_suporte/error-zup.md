@@ -141,7 +141,7 @@ public ResponseEntity<ErroPadronizado> handle(ContaBloquedaException contaBloque
 }
 ```
 
-Demais né!? Mais temos um problema! Eu vou ter que ficar criando uma tratativa por exceção, isso é muito ruim!
+Demais né!? Mas temos um problema! Eu vou ter que ficar criando uma tratativa por exceção, isso é muito ruim!
 
 Visando isso, vamos criar uma exceção de API? Que tenha o status code desejado e a mensagem de erro?
 
