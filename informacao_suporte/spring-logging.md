@@ -45,6 +45,14 @@ Lembre-se sempre de procurar responder a estrategia dos 5W's
 - **WHERE:** Onde a operação ocorreu.
 - **WHY:** Porque da linha do log
 
+**Importante**
+
+Você sabia que foi aplicado um dos fatores do The Twelve Factor App?
+
+Você aplicou o fator XI. Logs, na qual diz que devemos tratar logs como fluxos de eventos!
+
+Quer saber mais? Acesse o [link!](https://12factor.net/pt_br/logs)
+
 # Dicas de Luram Archanjo
 
 Tenha uma equilíbrio na quantidade de logs da sua aplicação, pois, pouco log complica na depuração de problemas e logs 
@@ -87,3 +95,5 @@ E o mais importante! Sabemos que tem um furo de validação, pois não existe sa
 # Informação de Suporte
 
 Quer saber mais sobre logs? acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging)
+
+Quer saber mais sobre The Twelve-Factor App? Acesse o [link!](https://12factor.net/pt_br/)
