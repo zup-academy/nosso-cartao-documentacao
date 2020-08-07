@@ -30,6 +30,10 @@ fazer sua transferência, porém levou-se muito tempo!
 
 Por conta desse episódio e a demora na correção, devido falta de métrica, alguns clientes migraram de Banco!
 
+Super interessante, ne! Como a falta de métricas impacta diretamente no produto!
+
+Lembrando é apenas um exemplo de como as métricas podem ajudar a manter a qualidade do seu software \ produto!
+
 # Dicas de Luram Archanjo
 
 Felizmente o Spring Boot Actuator quando configurado o endpoint de métricas, já implementa as métricas do tipo RED, gostaria 
@@ -40,8 +44,3 @@ de saber mais!? [Aqui tem uma explicação do que entendemos que você deve cons
 Gostaria de saber mais sobre Métricas do tipo RED? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/#xref_monitoring_golden-signals)
 
 Está em dúvida sobre o que é Métrica? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_procedural/metric.md)
-
-
-https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-architecture/
-
-https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/#xref_monitoring_golden-signals
