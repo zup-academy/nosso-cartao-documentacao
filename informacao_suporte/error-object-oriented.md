@@ -67,9 +67,19 @@ public class ResultadoCriarProposta {
 
     private Throwable excecao;
 
-    private boolean sucesso;
+    public boolean temErro(){
+        return excecao != null;
+    }
 
-    // getters e setters omitidos
+    public Throwable getExcecao(){
+        Assert.isTrue(temErro(),"Não deveria chamar caso não tenha erro");
+        return excecao;
+    }
+
+    public Proposta getProposta(){
+        Assert.isTrue(!temErro(),"Não deveria chamar caso tenha erro");
+        return proposta;
+    }    
 }
 ```
 
@@ -81,7 +91,7 @@ Muito intuitivo né!?
 @PostMapping("/v1/api-test")
 public ResponseEntity<?> post(@Validated @RequestBody CriarPropostaRequest criarPropostaRequest) {
     ResultadoCriarProposta resultadoCriarProposta = propostaService.criar(criarPropostaRequest);
-    if (resultadoCriarProposta.isSucesso()) {
+    if (!resultadoCriarProposta.temErro()) {
         return ResponseEntity.status(HttpStatus.CREATED).body(resultadoCriarProposta.getProposta());
     } else {
         Collection<String> mensagens = new ArrayList<>();
@@ -96,6 +106,56 @@ public ResponseEntity<?> post(@Validated @RequestBody CriarPropostaRequest criar
 Muito intuitivo né!?
 
 Lembrando este código é apenas uma sugestão, lembre-se sempre de alinhar com sua equipe!
+
+# Deixando a classe Resultado genérica
+
+```java
+/*
+* E define o tipo de exception que vai ser trabalhada enquanto que S o tipo do objeto de sucesso.
+*/
+public class Resultado<E extends Exception,S> {
+
+    private S sucesso;
+
+    private E excecao;
+
+    public boolean temErro(){
+        return excecao != null;
+    }
+
+    public E getExcecao(){
+        Assert.isTrue(temErro(),"Não deveria chamar caso não tenha erro");
+        return excecao;
+    }
+
+    public S getProposta(){
+        Assert.isTrue(!temErro(),"Não deveria chamar caso tenha erro");
+        return sucesso;
+    }
+
+	public static <T> Resultado<Exception, T> sucesso(T objeto) {
+		Resultado<Exception, T> resultado = new Resultado<Exception,T>();
+		resultado.sucesso = objeto;
+		return resultado;
+	}
+
+	public static <E extends Exception,T> Resultado<E, T> erro(E exception) {
+		Resultado<E, T> resultado = new Resultado<E,T>();
+		resultado.erro = exception;
+		return resultado;
+	}
+}
+```
+
+Agora, com muita ajuda do uso dos generics do Java conseguimos criar uma classe que representa o resultado e que pode ser usada em qualquer lugar :). Um exemplo de uso:
+
+```java
+    Resultdo.sucesso(objeto);
+
+    Resultado.erro(new Exception(...));
+```
+
+Essa abordagem é inspirada numa abstração chamada de ```Either``` e vem da [linguagem Scala.](https://www.scala-lang.org/api/2.9.3/scala/Either.html)
 
 # Informação de Suporte
 

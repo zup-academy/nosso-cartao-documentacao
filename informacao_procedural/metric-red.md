@@ -44,7 +44,7 @@ de saber mais!? [Aqui tem uma explicação do que entendemos que você deve cons
 
 Para cálcular a quantidade que cada requisção leva http_server_requests_seconds_sum \ http_server_requests_seconds_count
 
-Para saber quais são sucesso ou erro as mesmas tem a label status code, conforme exemplo abaixo:
+Para saber quais são sucesso ou erro as mesmas tem a label `status`, conforme exemplo abaixo:
 
 ```
 http_server_requests_seconds_count{method="POST",outcome="SUCCESS",status="201",uri="/v1/propostas",} 20.0

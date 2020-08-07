@@ -122,7 +122,7 @@ pegando todos os campos que deram erro e formatando de acordo com o erro padrão
 
 Demais né!?
 
-Mais e os outros casos de uso, como por exemplo [422](../informacao_suporte/rest-422.md)!
+Mas e os outros casos de uso, como por exemplo [422](../informacao_suporte/rest-422.md)!
 
 Neste caso, caso tenha uma a exceção específica na qual não foi tratada e chegou na camada de controller, precisamos 
 tratar a mesma, como por exemplo a exceção `ContaBloquedaException`.
