@@ -67,17 +67,17 @@ public class ResultadoCriarProposta {
 
     private Throwable excecao;
 
-
     public boolean temErro(){
         return excecao != null;
     }
+
     public Throwable getExcecao(){
-        Asser.isTrue(temErro(),"Não deveria chamar caso não tenha erro");
+        Assert.isTrue(temErro(),"Não deveria chamar caso não tenha erro");
         return excecao;
     }
 
     public Proposta getProposta(){
-        Asser.isTrue(!temErro(),"Não deveria chamar caso tenha erro");
+        Assert.isTrue(!temErro(),"Não deveria chamar caso tenha erro");
         return proposta;
     }    
 }
@@ -119,17 +119,17 @@ public class Resultado<E extends Exception,S> {
 
     private E excecao;
 
-
     public boolean temErro(){
         return excecao != null;
     }
+
     public E getExcecao(){
-        Asser.isTrue(temErro(),"Não deveria chamar caso não tenha erro");
+        Assert.isTrue(temErro(),"Não deveria chamar caso não tenha erro");
         return excecao;
     }
 
     public S getProposta(){
-        Asser.isTrue(!temErro(),"Não deveria chamar caso tenha erro");
+        Assert.isTrue(!temErro(),"Não deveria chamar caso tenha erro");
         return sucesso;
     }
 
@@ -155,8 +155,7 @@ Agora, com muita ajuda do uso dos generics do Java conseguimos criar uma classe 
     Resultado.erro(new Exception(...));
 ```
 
-Essa abordaem é inspirada numa abstração chamada de ```Either``` e vem da [linguagem Scala.](https://www.scala-lang.org/api/2.9.3/scala/Either.html)
-
+Essa abordagem é inspirada numa abstração chamada de ```Either``` e vem da [linguagem Scala.](https://www.scala-lang.org/api/2.9.3/scala/Either.html)
 
 # Informação de Suporte
 
