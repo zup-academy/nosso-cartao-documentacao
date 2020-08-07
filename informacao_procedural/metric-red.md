@@ -30,7 +30,7 @@ fazer sua transferência, porém levou-se muito tempo!
 
 Por conta desse episódio e a demora na correção, devido falta de métrica, alguns clientes migraram de Banco!
 
-Super interessante, ne! Como a falta de métricas impacta diretamente no software \ produto!
+Super interessante, né! Como a falta de métricas impacta diretamente no software \ produto!
 
 Lembrando que é apenas um exemplo de como as métricas podem ajudar a manter a qualidade do seu software \ produto!
 
