@@ -29,7 +29,7 @@ não pode receber fluxo de trabalho.
 - É importante termos um trabalho de ajuste fino nessas configurações, pois elas impactam diretamente
 suas regras de _alta-disponibilidade_ e _auto-scaling_ 
 
-## Informações de Suporte
+# Informações de Suporte
 
 - Se você quer descobrir como o **kubernetes** utiliza seu readiness check para garantir que sua aplicação
 esteja apta receber fluxo de trabalho. Esse [link](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) vai resolver o seu problema.

@@ -23,7 +23,7 @@ conexões externas da nossas aplicações.
 ## Dicas Claudio
 - Incorpore esse padrão nos seus serviços, de maneira que todo serviço seja produzido já implementando esse padrão.
 
-## Informações de Suporte
+# Informações de Suporte
 
 - O **Spring Boot** oferece uma maneira eficiente de lidar com Health Check. [Aqui](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html) você pode descobrir como.
 

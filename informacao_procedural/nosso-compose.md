@@ -159,7 +159,7 @@ de encontrar o container do **prometheus** na rede. Um comportamento similar a h
 
 
 
-## Informações de suporte
+# Informações de suporte
 
 * Talvez você pode estar se perguntando, qual a função sobre o docker-compose. [Aqui você pode encontrar](https://docs.docker.com/compose/)
   * Se você está curioso, e que entender um pouco mais sobre a criação de um compose file. [Este link é uma ótima fonte para isso](https://docs.docker.com/compose/gettingstarted/)

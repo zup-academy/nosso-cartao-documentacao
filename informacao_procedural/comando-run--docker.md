@@ -19,7 +19,8 @@ seguimos esse padrão, dependendo do seu vendor de Registry esse padrão pode mu
 O ponto final no final do comando indica o contexto da build, por esse motivo utilizamos **.**, estamos na raíz
 
 
-## Informações de suporte
+# Informações de suporte
+
 * Talvez você possa querer instalar o docker na sua máquina. [Esse link pode te ajudar com isso!!!](https://docs.docker.com/get-docker/)
 * Ou ainda você queira saber todos as opções do comando docker image. Nesse caso recomendamos você
 se aprofundar na [documentação do comando](https://docs.docker.com/engine/reference/commandline/image/)

@@ -37,7 +37,7 @@ comuns são:
 - Logs de aplicação
 - Logs de APIs no API Manager 
 
-## Informações de Suporte
+# Informações de Suporte
 
 Tem alguma dúvida sobre o que é PII. Neste [link](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act) tem uma breve descrição do termo.
 
