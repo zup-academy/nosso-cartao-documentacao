@@ -24,15 +24,3 @@ Vamos ver um exemplo:
 Perceba que o canal de transmissão está protegido, o acesso a informação fica muito
 mais complexo para o atacante, isso exige muito mais esforço e minimiza consideravelmente
 as chances de termos informações expostas. 
-
-#Como encriptar dados em trânsito ???
-
-
-
-
-# Informações de Suporte
-
-
-
-
-

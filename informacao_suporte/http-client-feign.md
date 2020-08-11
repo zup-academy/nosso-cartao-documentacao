@@ -69,7 +69,7 @@ Se não deseja segmentar por faixa de status code, não tem problema, basta trat
 
 Pronto! Agora sabemos lidar com erro!
 
-Se quiser obter a resposta do erro, como por exemplo o body, existe um método para isto o [content](https://javadoc.io/static/io.github.openfeign/feign-core/10.7.0/feign/FeignException.html#content--);
+Se quiser obter a resposta do erro, como por exemplo o body, existe um método para isto o [content()](https://javadoc.io/static/io.github.openfeign/feign-core/10.7.0/feign/FeignException.html#content--);
 
 Pronto! Estamos mais preparados para lidar com os cenários da Zup!
 
