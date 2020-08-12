@@ -1,10 +1,10 @@
 # Jaeger - Baggage Item
 
 Sabemos que no OpenTracing existe o conceito de Span, que é um período que representa uma operação, como por exemplo, 
-uma requisição HTTP, na qual contém metadados extremamente importantes, como os **Baggage Item**, que tem como objetivo 
+uma requisição HTTP, na qual contém metadados extremamente importantes, como os **baggage item**, que tem como objetivo 
 carregar e propagar informações importantes do Span e dos próximos Spans.
 
-Caso deseje reportar uma **Baggage Item** específico, como por exemplo, email do usuário, precisaremos instrumentar no código!
+Caso deseje reportar uma **baggage item** específico, como por exemplo, email do usuário, precisaremos instrumentar no código!
 
 Vamos fazer isso?
 
@@ -31,7 +31,7 @@ public class PropostaController {
 Span activeSpan = tracer.activeSpan();
 ```
 
-3º Precisamos definir o ** Baggage Item** desejado, para isso o objetivo Span tem o método `setBaggageItem`, conforme código abaixo:
+3º Precisamos definir o ** baggage item** desejado, para isso o objetivo Span tem o método `setBaggageItem`, conforme código abaixo:
 
 ```java
 activeSpan.setBaggageItem("user.email", "luram.archanjo@zup.com.br");
@@ -44,19 +44,16 @@ nosso navegador favorito o endereço `http://localhost:16686/search`
 
 Agora precisamos iniciar nossa aplicação e fazer algumas operações, como por exemplo, criar uma proposta!
 
-Após fazer vários operações, entre no trace da operação que está o código e verifique se o **Baggage Item** consta, 
+Após fazer vários operações, entre no trace da operação que está o código e verifique se o **baggage item** consta, 
 conforme imagem abaixo:
 
-![alt text](../images/open-tracing-006.png "OpenTracing")
+![alt text](../images/open-tracing-008.png "OpenTracing")
 
-Demais né! Agora podemos utilizar várias tags para melhorar nosso processo de troubleshooting, como por exemplo, filtrar 
-por todas as operações que o `luram.archanjo@zup.com.br` fez, conforme imagem abaixo:
-
-![alt text](../images/open-tracing-007.png "OpenTracing")
+Demais né! Agora podemos utilizar várias **baggage item** para melhorar nosso processo de troubleshooting!
 
 # Dicas de Luram Archanjo
 
-Use com parcimônia os **Baggage Item**, pois é um código de infraestrutura (trace) em conjunto com o código de negócio, 
+Use com parcimônia o **baggage item**, pois é um código de infraestrutura (trace) em conjunto com o código de negócio, 
 portanto tente segmentar!
 
 # Informações de suporte
