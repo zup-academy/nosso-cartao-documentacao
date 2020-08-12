@@ -77,6 +77,7 @@ importantes, como:
 - Início da operação
 - Término da operação
 - Tags
+- Baggage
 - Logs
 
 ## Trace
