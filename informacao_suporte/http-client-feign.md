@@ -11,7 +11,7 @@ desses clientes.
 Para integrar o OpenFeign no sistema existe um projeto chamado Spring Cloud OpenFeign.
 Então vamos ver como podemos usá-lo.
 
-### Configurando a dependência do projeto
+## Configurando a dependência do projeto
 
 Nosso primeiro passo é incluir a dependência da biblioteca no nosso projeto
 
@@ -55,8 +55,25 @@ que essa operação chama. Com @RequestMapping conseguimos resolver esse problem
 
 Legal, nosso cliente web service estamos criando agora podemos chamar nosso serviço externo!!!
 
+## Lidando com erros
 
-## Informações de suporte
+Talvez esteja pensando e quando ocorrer erro na faixa do 4xx e 5xx, como lidar?
+
+Quando ocorre erro na faixa do 4xx ou 5xx o Feign lança uma exceção específica para cada família de status do HTTP, 
+como por exemplo:
+
+- [FeignClientException](https://javadoc.io/static/io.github.openfeign/feign-core/10.7.0/feign/FeignException.FeignClientException.html): Em caso de erro 4xx
+- [FeignServerException](https://javadoc.io/static/io.github.openfeign/feign-core/10.7.0/feign/FeignException.FeignServerException.html): Em caso de erro 5xx
+
+Se não deseja segmentar por faixa de status code, não tem problema, basta tratar a exceção [FeignException](https://javadoc.io/static/io.github.openfeign/feign-core/10.7.0/feign/FeignException.html).
+
+Pronto! Agora sabemos lidar com erro!
+
+Se quiser obter a resposta do erro, como por exemplo o body, existe um método para isto o [content()](https://javadoc.io/static/io.github.openfeign/feign-core/10.7.0/feign/FeignException.html#content--);
+
+Pronto! Estamos mais preparados para lidar com os cenários da Zup!
+
+# Informações de suporte
 
 - Se você tem alguma dúvida do que é interface java [esse link](https://www.caelum.com.br/apostila-java-orientacao-objetos/interfaces) pode te ajudar, isso é bem importante para
 conseguirmos entender o OpenFeign

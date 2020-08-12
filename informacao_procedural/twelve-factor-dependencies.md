@@ -17,7 +17,7 @@ de incluir essas dependências dentro do seu artefato, ou aplicação.
 
 Viu, como é simples!!!
 
-## Informações de suporte
+# Informações de suporte
 
 * Talvez você pode estar se perguntando o que é gradle. [Aqui você pode encontrar uma documentação detalhada](https://gradle.org/)
 

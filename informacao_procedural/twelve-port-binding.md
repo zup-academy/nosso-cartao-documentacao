@@ -16,7 +16,7 @@ nossas aplicações devem ser instaladas em um servidor de aplicação externo.
 Um exemplo dessa prática é o Spring Boot que automaticamente sobe um servidor web, Tomcat por exemplo, 
 e consegue mantê-lo em pé disponibilizando uma porta de acesso à nossas APIs.
 
-## Informações de suporte
+# Informações de suporte
 
 * Talvez você possa ser perguntar, o que é Tomcat. [Aqui você pode encontrar uma definição](http://tomcat.apache.org/)
 

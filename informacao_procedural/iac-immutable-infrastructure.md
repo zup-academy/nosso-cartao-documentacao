@@ -14,7 +14,7 @@ Quando precisamos alterar nosso elemento de infra-estrtura, devemos destrui-lo, 
 interessante que é a capacidade de replicar o ambiente quando quisermos. Muito massa isso né?? Uma simples prática
 que nos ajuda muito!!! 
 
-## Informações de suporte
+# Informações de suporte
 
 * Se em algum momento você pode ter pensado "Quero aprender mais sobre Infrastructure as a Code"
   * [Aqui você encontra uma explicação](https://www.hashicorp.com/resources/what-is-infrastructure-as-code/) um pouco mais histórica da necessidade de versionarmos nosso código fonte
