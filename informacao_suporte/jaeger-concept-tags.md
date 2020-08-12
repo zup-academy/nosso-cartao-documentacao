@@ -41,7 +41,7 @@ Span activeSpan = tracer.activeSpan();
 3º Precisamos definir as tags desejadas, para isso o objetivo Span tem o método `setTag`, conforme código abaixo:
 
 ```java
-activeSpan.setTag("user-email", "luram.archanjo@zup.com.br");
+activeSpan.setTag("user.email", "luram.archanjo@zup.com.br");
 ```
 
 Demais né! Vamos testar?
@@ -56,8 +56,10 @@ abaixo:
 
 ![alt text](../images/open-tracing-006.png "OpenTracing")
 
+Demais né! Agora podemos utilizar várias tags para melhorar nosso processo de troubleshooting, como por exemplo, filtrar 
+por todas as operações que o `luram.archanjo@zup.com.br` fez, conforme imagem abaixo:
 
-Demais né! Agora podemos utilizar várias tags para melhorar nosso processo de troubleshooting!
+![alt text](../images/open-tracing-007.png "OpenTracing")
 
 # Dicas de Luram Archanjo
 
