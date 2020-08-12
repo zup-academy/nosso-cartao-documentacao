@@ -65,4 +65,4 @@ Demais né! Como o mercado e a comunidade conseguiram mitigar a complexidade de 
 
 # Informações de suporte
 
-Gostaria de saber mais sobre a especificação? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://opentracing.io/docs/overview/what-is-tracing/)
+Gostaria de saber mais sobre a especificação? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://opentracing.io/specification/)
