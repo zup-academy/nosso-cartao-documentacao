@@ -40,3 +40,8 @@ No código acima seguramos uma transação enquanto outra requisição é feita.
 
 E ainda no código acima realmente precisamos de duas transações, uma para persistir inicialmente e outra para atualizar o objeto. O que você poderia fazer?
 
+## Informação de suporte
+
+* Tenta dar uma olhada na classe ```TransacionTemplate``` [na documentação do Spring](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/transaction/support/TransactionTemplate.html)
+* [É importante você entender também que se você tiver utilizado um Repository, o comportamento default é rodar uma transação por método.](https://domineospring.wordpress.com/2019/10/17/transacoes-nao-devem-ser-habilitadas-por-default/) Este é um texto opinionado escrito por Alberto tentando mostrar os perigos de você deixar transações habilitadas por default.
+
