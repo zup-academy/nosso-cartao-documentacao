@@ -63,6 +63,35 @@ operação precisou passar e quais são os tempos, etc.
 
 Demais né! Como o mercado e a comunidade conseguiram mitigar a complexidade de troubleshooting em sistemas distribuídos!
 
+# Terminologia
+
+Quando falamos sobre Opentracing e sua especificação temos algumas terminologias e que são bastantes úteis para nós 
+desenvolvedores.
+
+## Span
+
+Span é um período que representa uma operação, como por exemplo, uma requisição HTTP, na qual contém metadados extremamente 
+importantes, como:
+
+- Nome da operação
+- Início da operação
+- Término da operação
+- Tags
+- Logs
+
+## Trace
+
+Um trace é um conjunto de `span` no qual contém a ordem de execução, como por exemplo:
+
+```text
+––|–––––––|–––––––|–––––––|–––––––|–––––––|–––––––|–––––––|–> time
+
+ [Span A···················································]
+   [Span B··············································]
+      [Span D··········································]
+        [Span C········································]
+```
+
 # Informações de suporte
 
 Gostaria de saber mais sobre a especificação? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://opentracing.io/specification/)
