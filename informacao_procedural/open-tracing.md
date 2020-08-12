@@ -61,7 +61,7 @@ exemplo na imagem abaixo:
 Na imagem acima, conseguimos filtrar a operação de acordo com algum metadado e conseguimos visualizar os serviços que a 
 operação precisou passar e quais são os tempos, etc.
 
-Demais né! Como o mercado e a comunidade conseguiram mitigar a complexidade de troubleshooting!
+Demais né! Como o mercado e a comunidade conseguiram mitigar a complexidade de troubleshooting em sistemas distribuídos!
 
 # Informações de suporte
 
