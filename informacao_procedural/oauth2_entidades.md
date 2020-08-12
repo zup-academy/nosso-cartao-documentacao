@@ -15,10 +15,10 @@ e o authorization server, mas não se preocupe vamos cobrir todos os detalhes.
 
 
 ## Informações de suporte
-* Você pode estar se perguntando, qual o papel do Resource Server no fluxo?? [Este link pode de te ajudar](https://www.oauth.com/oauth2-servers/the-resource-server/)
+* Você pode estar se perguntando, qual o papel do **Resource Server** no fluxo?? [Este link pode de te ajudar](https://www.oauth.com/oauth2-servers/the-resource-server/)
   * Ou ainda você pode estar se perguntando será que o Spring tem alguma coisa relacionado a Resource Sever. [Este link vai ter dar uma visão
   do Resource Server no ecossistema do Spring](https://docs.spring.io/autorepo/docs/spring-security-oauth2-boot/2.0.0.RC2/reference/html/boot-features-security-oauth2-resource-server.html)
-* Em Algum momento pode ter surgido uma dúvida sobre o que é AuthorizationServer??
+* Em Algum momento pode ter surgido uma dúvida sobre o que é **Authorization Server**??
   * Você pode estar se perguntando, "Será que o Spring pensou em alguma solução para nos ajuda??". Sim, o Spring tem um projeto que nos ajuda
   a implementar um Authorization Server. [Aqui você pode encontrá-lo](https://github.com/spring-projects-experimental/spring-authorization-server). Mas, lembre-se é uma tarefa bastante 
   difícil e precisa de bastante conhecimento de segurança.   
@@ -35,4 +35,5 @@ e o authorization server, mas não se preocupe vamos cobrir todos os detalhes.
     * Se em algum momento você quiser consultar os metadados do nosso Authentication Server, [nesse link você pode encontrar](http://localhost:18080/auth/realms/nosso-cartao/.well-known/openid-configuration)
       * Se você quiser entender um pouco do well-know, você pode consultar na [RFC](https://tools.ietf.org/html/rfc8615)
 * Se por algum motivo você ficou com alguma dúvida sobre o papel do resource owner, não tem problema esse [link vai ter algumas informações](https://tools.ietf.org/html/draft-ietf-oauth-v2-16#section-1.1)
-  * Talvez não esteja 100% o papel do Resource Owner, [aqui tem uma material feito pela equipe do academy para te ajudar com essa dúvida](oauth2_resource_owner.md)      
+  * Talvez não esteja 100% o papel do Resource Owner, [aqui tem uma material feito pela equipe do academy para te ajudar com essa dúvida](oauth2_resource_owner.md)
+* Em algum momento você pode estar se perguntando, qual é a função do client no OAuth           
