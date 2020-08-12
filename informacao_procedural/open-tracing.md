@@ -1,4 +1,4 @@
-# Opentracing
+# OpenTracing
 
 Nos últimos anos os modelos de arquitetura distribuídos, como o Micosserviços, vem sendo amplamente adotadas pelas empresas 
 por prover vários benefícios para as mesmas, porém como tudo em tecnologia, temos vantagens e desvantagens!
@@ -6,7 +6,7 @@ por prover vários benefícios para as mesmas, porém como tudo em tecnologia, t
 Uma desvantagem bastante latente nesse estilo de arquitetura é o troubleshooting de problemas, quanto mais serviços, 
 maior será a complexidade de encontrar a causa raiz do problema, como por exemplo na imagem abaixo:
 
-![alt text](../images/open-tracing-001.png "Opentracing")
+![alt text](../images/open-tracing-001.png "OpenTracing")
 
 Na imagem acima uma chamada HTTP, pode se tornar várias chamadas internas, aumentando os pontos de falhas! Quando ocorrer 
 um erro, qual chamada interna falhou, como descobrir isso de forma efetiva?
@@ -24,7 +24,7 @@ como por exemplo:
 - Métricas
 - Logs
 
-Foi aonde surgiu a especificação do Opentracing para tratar o pilar de Trace, no qual consiste em passar determinados 
+Foi aonde surgiu a especificação do OpenTracing para tratar o pilar de Trace, no qual consiste em passar determinados 
 metadados, que são gerados no início de cada operação, com o intuito de serem propagados internamente 
 entre os serviços, podendo ser em qualquer protocolo que implementa a especificação, como por exemplo:
 
@@ -35,7 +35,7 @@ entre os serviços, podendo ser em qualquer protocolo que implementa a especific
 Com base nos metadados gerados conseguimos rastrear as chamadas internas que fazem parte da operação em si, como por 
 exemplo na imagem abaixo:
 
-![alt text](../images/open-tracing-002.png "Opentracing")
+![alt text](../images/open-tracing-002.png "OpenTracing")
 
 Na imagem acima, vemos que o `trace-id 000001` foi gerado no `Serviço A` e propagado em todas as chamadas internas que 
 a operação precisou fazer para atender a requisição do cliente.
@@ -56,7 +56,7 @@ provendo funcionalidades, como por exemplo:
 E com essas funcionalidades conseguimos visualizar quais serviços a operação passou e onde ocorreu o erro, como por 
 exemplo na imagem abaixo:
 
-![alt text](../images/open-tracing-003.png "Opentracing")
+![alt text](../images/open-tracing-003.png "OpenTracing")
 
 Na imagem acima, conseguimos filtrar a operação de acordo com algum metadado e conseguimos visualizar os serviços que a 
 operação precisou passar e quais são os tempos, etc.
@@ -65,7 +65,7 @@ Demais né! Como o mercado e a comunidade conseguiram mitigar a complexidade de 
 
 # Terminologia
 
-Quando falamos sobre Opentracing e sua especificação temos algumas terminologias e que são bastantes úteis para nós 
+Quando falamos sobre OpenTracing e sua especificação temos algumas terminologias e que são bastantes úteis para nós 
 desenvolvedores.
 
 ## Span
@@ -97,7 +97,7 @@ Um trace é um conjunto de `span` no qual contém a ordem de execução, como po
 
 Utilize o `Baggage` para propagar informações de contexto do negócio, assim você consegue filtrar por eles e melhorar sua 
 operação \ sustentação, como por exemplo, propague sempre o identificador do usuário, assim se o usuário X reclamar que 
-está com erro, basta na ferramente de Opentracing procurar por todas as operações com erro e com o identificador do 
+está com erro, basta na ferramente de OpenTracing procurar por todas as operações com erro e com o identificador do 
 usuário X.
 
 # Informações de suporte
