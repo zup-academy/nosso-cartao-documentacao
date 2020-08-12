@@ -76,9 +76,9 @@ importantes, como:
 - Nome da operação
 - Início da operação
 - Término da operação
-- Tags
-- Baggage
-- Logs
+- Tags do span \ operação em si, como por exemplo: Nome do serviço, ip, método HTTP, etc.
+- Baggages são pares de string de valor que se aplicam ao Span, no qual, se propagam em conjunto com o próprio rastreamento, como por exemplo: identificador do usuário.
+- Logs do span \ operação em si.
 
 ## Trace
 
