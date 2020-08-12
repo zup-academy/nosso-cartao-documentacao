@@ -1,7 +1,7 @@
 # Jaeger - Tags
 
 Sabemos que no OpenTracing existe o conceito de Span, que é um período que representa uma operação, como por exemplo, 
-uma requisição HTTP, na qual contém metadados extremamente importantes, como as **Tags**, que tem como objetivo carregar 
+uma requisição HTTP, na qual contém metadados extremamente importantes, como a **tag**, que tem como objetivo carregar 
 informações importantes do Span, como por exemplo:
 
 - component
@@ -11,7 +11,7 @@ informações importantes do Span, como por exemplo:
 
 Essas informações são importantes para o troubleshooting de problemas e graças ao Spring elas são reportadas automaticamente!
 
-Caso deseje reportar uma TAG específica, como por exemplo, email do usuário, precisaremos instrumentar no código!
+Caso deseje reportar uma **tag** específica, como por exemplo, email do usuário, precisaremos instrumentar no código!
 
 Vamos fazer isso?
 
@@ -38,7 +38,7 @@ public class PropostaController {
 Span activeSpan = tracer.activeSpan();
 ```
 
-3º Precisamos definir as tags desejadas, para isso o objetivo Span tem o método `setTag`, conforme código abaixo:
+3º Precisamos definir a **tag** desejada, para isso o objetivo Span tem o método `setTag`, conforme código abaixo:
 
 ```java
 activeSpan.setTag("user.email", "luram.archanjo@zup.com.br");
@@ -51,12 +51,12 @@ nosso navegador favorito o endereço `http://localhost:16686/search`
 
 Agora precisamos iniciar nossa aplicação e fazer algumas operações, como por exemplo, criar uma proposta!
 
-Após fazer vários operações, entre no trace da operação que está o código e verifique se a tag consta, conforme imagem 
+Após fazer vários operações, entre no trace da operação que está o código e verifique se a **tag** consta, conforme imagem 
 abaixo:
 
 ![alt text](../images/open-tracing-006.png "OpenTracing")
 
-Demais né! Agora podemos utilizar várias tags para melhorar nosso processo de troubleshooting, como por exemplo, filtrar 
+Demais né! Agora podemos utilizar várias **tags** para melhorar nosso processo de troubleshooting, como por exemplo, filtrar 
 por todas as operações que o `luram.archanjo@zup.com.br` fez, conforme imagem abaixo:
 
 ![alt text](../images/open-tracing-007.png "OpenTracing")

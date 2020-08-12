@@ -1,7 +1,7 @@
 # Jaeger - Baggage Item
 
 Sabemos que no OpenTracing existe o conceito de Span, que é um período que representa uma operação, como por exemplo, 
-uma requisição HTTP, na qual contém metadados extremamente importantes, como os **baggage item**, que tem como objetivo 
+uma requisição HTTP, na qual contém metadados extremamente importantes, como o **baggage item**, que tem como objetivo 
 carregar e propagar informações importantes do Span e dos próximos Spans.
 
 Caso deseje reportar uma **baggage item** específico, como por exemplo, email do usuário, precisaremos instrumentar no código!
@@ -31,7 +31,7 @@ public class PropostaController {
 Span activeSpan = tracer.activeSpan();
 ```
 
-3º Precisamos definir o ** baggage item** desejado, para isso o objetivo Span tem o método `setBaggageItem`, conforme código abaixo:
+3º Precisamos definir o **baggage item** desejado, para isso o objetivo Span tem o método `setBaggageItem`, conforme código abaixo:
 
 ```java
 activeSpan.setBaggageItem("user.email", "luram.archanjo@zup.com.br");
@@ -49,7 +49,7 @@ conforme imagem abaixo:
 
 ![alt text](../images/open-tracing-008.png "OpenTracing")
 
-Demais né! Agora podemos utilizar várias **baggage item** para melhorar nosso processo de troubleshooting!
+Demais né! Agora podemos utilizar vários **baggage itens** para melhorar nosso processo de troubleshooting!
 
 # Dicas de Luram Archanjo
 
