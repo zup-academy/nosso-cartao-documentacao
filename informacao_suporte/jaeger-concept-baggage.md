@@ -4,7 +4,7 @@ Sabemos que no OpenTracing existe o conceito de Span, que é um período que rep
 uma requisição HTTP, na qual contém metadados extremamente importantes, como o **baggage item**, que tem como objetivo 
 carregar e propagar informações importantes do Span e dos próximos Spans.
 
-Caso deseje reportar uma **baggage item** específico, como por exemplo, email do usuário, precisaremos instrumentar no código!
+Caso deseje reportar um **baggage item** específico, como por exemplo, email do usuário, precisaremos instrumentar no código!
 
 Vamos fazer isso?
 
