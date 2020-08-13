@@ -43,7 +43,7 @@ Parece confuso né!? Não se preocupe, irei te explicar melhor esse comportament
 Todo consumidor no Apache Kafka deve pertencer a um grupo, e o controle de histórico de processamento é por grupo e 
 partição.
 
-O modelo de escalabilida do consumidor está atrelado a quantida de consumidor x partições, como por exemplo, imagina que 
+O modelo de escalabilidade do consumidor está atrelado a quantidade de consumidor x partições, como por exemplo, imagina que 
 meu tópico foi configurado para ter 3 partições e tenho somente um consumidor!
 
 Esse consumidor irá processar o evento de todas as partições, conforme imagem abaixo:
@@ -64,6 +64,9 @@ Talvez esteja pensando e se tiver quatro consumidores do mesmo grupo? O quarto i
 conforme imagem abaixo:
 
 ![alt text](../images/kafka-008.png "Apache Kafka")
+
+Demais né! Agora podemos ter vários grupos que representam vários serviços, como por exemplo, um grupo de análise de fraude, 
+extrato, fatura, etc.
 
 # Dicas de Luram Archanjo
 
