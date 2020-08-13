@@ -38,7 +38,32 @@ trabalho!
 Pensando nisso o Apache Kafka tem o conceito de `consumer group`, no qual tem a responsabilidade de prover grupos de 
 consumidores e balancear a carga de trabalho de acordo com a quantidade de partições!
 
-Parece confuso né!? Não se preocupe irei te explicar melhor esse comportamento!
+Parece confuso né!? Não se preocupe, irei te explicar melhor esse comportamento!
+
+Todo consumidor no Apache Kafka deve pertencer a um grupo, e o controle de histórico de processamento é por grupo e 
+partição.
+
+O modelo de escalabilida do consumidor está atrelado a quantida de consumidor x partições, como por exemplo, imagina que 
+meu tópico foi configurado para ter 3 partições e tenho somente um consumidor!
+
+Esse consumidor irá processar o evento de todas as partições, conforme imagem abaixo:
+
+![alt text](../images/kafka-005.png "Apache Kafka")
+
+Agora, imagina com dois consumidores do mesmo grupo, ou seja, a carga será balanceada, agora um consumidor irá 
+processar de uma partição e o outro das outras duas partições, conforme imagem abaixo:
+
+![alt text](../images/kafka-006.png "Apache Kafka")
+
+Demais né! Agora imagina com três consumidores do mesmo grupo, ou seja, a carga será balanceada e será uma partição por
+consumidor, conforme imagem abaixo:
+
+![alt text](../images/kafka-007.png "Apache Kafka")
+
+Talvez esteja pensando e se tiver quatro consumidores do mesmo grupo? O quarto irá ficar sem atividade, ou seja, ocioso,
+conforme imagem abaixo:
+
+![alt text](../images/kafka-008.png "Apache Kafka")
 
 # Dicas de Luram Archanjo
 
