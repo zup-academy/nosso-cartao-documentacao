@@ -52,7 +52,8 @@ Demais né! Agora podemos utilizar vários **logs** para melhorar nosso processo
 
 # Dicas de Luram Archanjo
 
-O Spring por padrão já cadastra todos os logs no Jaeger, portanto, não vejo necessidade de instrumentar no código!
+O Spring por padrão já cadastra todos os logs no Jaeger, portanto, não vejo necessidade de instrumentar no código! Porém 
+todo conhecimento é válido!
 
 # Informações de suporte
 
