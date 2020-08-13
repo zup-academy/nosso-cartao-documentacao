@@ -51,7 +51,7 @@ nosso navegador favorito o endereço `http://localhost:16686/search`
 
 Agora precisamos iniciar nossa aplicação e fazer algumas operações, como por exemplo, criar uma proposta!
 
-Após fazer vários operações, entre no trace da operação que está o código e verifique se a **tag** consta, conforme imagem 
+Após fazer várias operações, entre no trace da operação que está o código e verifique se a **tag** consta, conforme imagem 
 abaixo:
 
 ![alt text](../images/open-tracing-006.png "OpenTracing")
