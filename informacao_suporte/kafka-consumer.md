@@ -11,7 +11,7 @@ como por exemplo, na imagem abaixo:
 
 ![alt text](../images/kafka-005.png "Apache Kafka")
 
-Na imagem acima, sabemos que o consumidor consumiu as mensagens:
+Na imagem acima, sabemos que o consumidor consumiu os eventos:
 
 - 0, 1 e 2 da partição 1
 - 0, 1, 2, 3 e 4 da partição 2
@@ -26,8 +26,19 @@ Kafka armazena os eventos de cada partição de acordo com o configurado 1 dia, 
 Para que isso seja possível o consumidor precisa configurar qual modelo ele quer fazer de coletar de eventos:
 
 - latest: Processa a partir do último processado.
-- earliest: Zera o offset e processa desde o inicio.
+- earliest: Zera o offset e processa desde o início.
 - none: Não processa nenhum evento e lança uma exceção em sua aplicação.
+
+Demais né! Imagina que seja necessário ter duas instâncias do consumidor, pois, uma única instância não suporta a quantidade 
+de eventos!
+
+O problema não será resolvido, pois, a outra instância irá receber os mesmos eventos e consequentemente a mesma carga de 
+trabalho!
+
+Pensando nisso o Apache Kafka tem o conceito de `consumer group`, no qual tem a responsabilidade de prover grupos de 
+consumidores e balancear a carga de trabalho de acordo com a quantidade de partições!
+
+Parece confuso né!? Não se preocupe irei te explicar melhor esse comportamento!
 
 # Dicas de Luram Archanjo
 
