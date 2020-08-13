@@ -33,7 +33,7 @@ da ferramenta, mas não é importante para esse momento.
 Neste momento atente-se à porta que está mapeada para [localhost:9090](http://localhost:9090/) então vamos nos conectar
 na aplicação!!!
 
-Poderemos ver que a tela do prometheus ś bastante _"pobrezinha"_, não vamos encontrar muitas opções, afinal esta é uma ferramenta
+Poderemos ver que a tela do prometheus é bastante _"pobrezinha"_, não vamos encontrar muitas opções, afinal esta é uma ferramenta
 para monitoramento.
 
 Você deve ser apresentado à seguinte tela
