@@ -7,8 +7,8 @@ O tópico é consistido por várias partições, de acordo com o configurado, co
 
 ![alt text](../images/kafka-002.png "Apache Kafka")
 
-A partição é uma maneira de prover redundância e escalabilidade, pois, cada partição pode estar em um broker diferente, 
-conforme imagem abaixo:
+A partição é uma maneira de prover redundância e escalabilidade, pois, cada partição pode estar em um broker (máquina) 
+diferente, conforme imagem abaixo:
 
 ![alt text](../images/kafka-001.png "Apache Kafka")
 
