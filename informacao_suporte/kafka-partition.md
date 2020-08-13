@@ -52,7 +52,7 @@ Quer saber mais sobre consumidores? [Aqui tem uma explicação do que entendemos
 
 # Dicas de Luram Archanjo
 
-Aproveite ao máximo para aprender sobre esse tema, pois, o mesmo é muito flexivo e permite atender vários casos de uso, 
+Aproveite ao máximo para aprender sobre esse tema, pois, o mesmo é muito flexível e permite atender vários casos de uso, 
 como por exemplo:
 
 - Eventos ordenados
