@@ -44,4 +44,4 @@ Demais né! Portanto, se deseja não perder mensagem utilize o modelo de reconhe
 
 # Informações de suporte
 
-Quer saber mais sobre Consumidor? Acesse o [link!](https://kafka.apache.org/)
+Quer saber mais sobre Produtor? Acesse o [link!](https://kafka.apache.org/documentation/#theproducer)

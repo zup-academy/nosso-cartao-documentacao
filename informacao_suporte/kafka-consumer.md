@@ -79,4 +79,4 @@ seu consumidor irá processar novamente os 10 eventos!
 
 # Informações de suporte
 
-Quer saber mais sobre Consumidor? Acesse o [link!](https://kafka.apache.org/)
+Quer saber mais sobre Consumidor? Acesse o [link!](https://kafka.apache.org/documentation/#theconsumer)
