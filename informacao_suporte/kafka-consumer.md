@@ -79,4 +79,8 @@ seu consumidor irá processar novamente os 10 eventos!
 
 # Informações de suporte
 
+Quer saber mais sobre o Apache Kafka? Acesse o [link!](https://kafka.apache.org)
+
+Quer saber mais sobre os modelos de entrega no Apache Kafka, acesse o [link!](https://kafka.apache.org/documentation/#semantics)
+
 Quer saber mais sobre Consumidor? Acesse o [link!](https://kafka.apache.org/documentation/#theconsumer)

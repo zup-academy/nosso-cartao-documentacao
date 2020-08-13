@@ -20,4 +20,10 @@ Quer saber mais sobre partição? [Aqui tem uma explicação do que entendemos q
 
 # Informações de suporte
 
+Quer saber mais sobre o Apache Kafka? Acesse o [link!](https://kafka.apache.org)
+
 Quer saber mais sobre Tópico? Acesse o [link!](https://kafka.apache.org/)
+
+Quer saber mais sobre Persistência? Acesse o [link!](https://kafka.apache.org/documentation/#persistence)
+
+Quer saber mais sobre Replicação? Acesse o [link!](https://kafka.apache.org/documentation/#replication)
