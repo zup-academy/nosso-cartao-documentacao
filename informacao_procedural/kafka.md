@@ -28,7 +28,25 @@ Demais né! Visando isso a comunidade criou o Apache Kafka no qual é uma plataf
 de código aberto, usada por milhares de empresas para pipeline de dados de alto desempenho, análise de streaming, 
 integração de dados e aplicativos de missão crítica.
 
-Demais né!
+O Apache Kafka tem algumas características bastante interessantes no qual o destaca, por exemplo:
+
+- Alta disponibilidade
+- Alta performance
+- Escalabilidade 
+- Modelo de entrega
+
+Quando falamos de modelo de entrega, existem dois tipos:
+
+- push model: os dados são enviados para os consumidores.
+- pull model: os dados são coletados pelos consumidores.
+
+O Apache Kafka optou pelo uso do pull model, pois, provê algumas vantagens bem interessantes, por exemplo:
+
+- Consumidores conseguem controlar a quantidade de eventos que buscam, reduzindo as operações na rede.
+- Consumidores conseguem controlar quais mensagens querem consumir, por exemplo, todas da última semana, ano, mês.
+- Apache Kafka não precisa controlar os envios de eventos.
+
+Demais né!?
 
 # Dicas de Luram Archanjo
 
