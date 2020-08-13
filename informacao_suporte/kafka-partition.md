@@ -28,7 +28,7 @@ posições dos mesmos!?
 Basta enviar os eventos de posição do GPS com o identificador do caminhão na chave, assim, temos **cronologicamente** todas 
 as posições, como por exemplo:
 
-**Caminhão 1**
+**Caminhão 001**
 
 1. São Paulo ~ 14:00
 2. Rio de Janeiro ~ 15:30
@@ -36,7 +36,7 @@ as posições, como por exemplo:
 
 Imagina se a gente não envia-se o identificador com chave? Ficaria algo aleatório, como por exemplo:
 
-**Caminhão 1**
+**Caminhão 001**
 
 1. Espírito Santos ~ 18:00
 2. São Paulo ~ 14:00
