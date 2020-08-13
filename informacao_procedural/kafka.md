@@ -3,7 +3,7 @@
 Antes de falarmos de Kafka precisamos contextualizar o que é `Event streaming`!
 
 Streaming de eventos é uma prática de capturar dados em tempo real de fontes de eventos como bancos de dados, sensores, 
-dispositivos móveis e serviços, armazenando-os de forma duradoura para serem manipulados, processador e reagir em tempo 
+dispositivos móveis e serviços, armazenando-os de forma duradoura para serem manipulados, processados em tempo 
 real e também retrospectivamente, se houver a necessidade; 
 
 Esse eventos podem ser direcionados para diferentes fontes, como por exemplo, sistema de análise, sistema de fraude, 
