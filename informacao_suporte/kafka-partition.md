@@ -30,15 +30,25 @@ as posições, como por exemplo:
 
 1. São Paulo ~ 14:00
 2. Rio de Janeiro ~ 15:30
-3. Espirito Santos ~ 18:00
+3. Espírito Santos ~ 18:00
 
-Imagina se a gente não envia-se o identificador com chave? Ficaria algo aleatorio, como por exemplo:
+Imagina se a gente não envia-se o identificador com chave? Ficaria algo aleatório, como por exemplo:
 
-1. Espirito Santos ~ 18:00
-2. Rio de Janeiro ~ 15:30
-3. São Paulo ~ 14:00
+1. Espírito Santos ~ 18:00
+2. São Paulo ~ 14:00
+3. Rio de Janeiro ~ 15:30
 
-Demais né! Uma simples funcionalidade com vários casos de uso!
+Para que isso seja possível, a partição trabalha de forma independente, conforme imagem abaixo:
+
+![alt text](../images/kafka-004.png "Apache Kafka")
+
+Como a partição trabalha de forma independente, a mensagem que está na posição 0 na partição 1 não é a mesma mensagem 
+na posição 0 na partição 2 e assim sucessivamente!
+
+Demais né! Com essa segmentação é possível escalar nossos consumidores e os mesmos pedirem para obter as mensagens da 
+posição 4 em diante, por exemplo!
+
+Quer saber mais sobre consumidores? [Aqui tem uma explicação do que entendemos que você deve considerar!!](../informacao_suporte/kafka-consumer.md)
 
 # Informações de suporte
 
