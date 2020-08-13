@@ -23,7 +23,7 @@ abaixo:
 ![alt text](../images/kafka-003.png "Apache Kafka")
 
 Na imagem acima, imagina que temos um sistema de rastreamento de caminhões e gostaríamos de saber **cronologicamente** as 
-posições do mesmo!?
+posições dos mesmos!?
 
 Basta enviar os eventos de posição do GPS com o identificador do caminhão na chave, assim, temos **cronologicamente** todas 
 as posições, como por exemplo:
