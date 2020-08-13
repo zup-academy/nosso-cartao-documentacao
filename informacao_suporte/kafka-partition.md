@@ -65,4 +65,4 @@ como por exemplo:
 
 # Informações de suporte
 
-Quer saber mais sobre Tópico? Acesse o [link!](https://kafka.apache.org/)
+Quer saber mais sobre Partição? Acesse o [link!](https://kafka.apache.org/)
