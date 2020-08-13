@@ -62,6 +62,38 @@ como por exemplo:
 - Spring Messaging - trace messages being sent through Messaging Channels
 - RabbitMQ
 
+Cada um desses módulos tem uma configuração automática, denominada AutoConfiguration, como por exemplo, no código abaixo:
+
+```java
+/**
+ * Loads the integration with OpenTracing Redis if it's included in the classpath.
+ *
+ * @author Daniel del Castillo
+ * @author Luram Archanjo
+ */
+@Configuration
+@AutoConfigureAfter({TracerRegisterAutoConfiguration.class, org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration.class})
+@ConditionalOnBean(RedisConnectionFactory.class)
+@ConditionalOnProperty(name = "opentracing.spring.cloud.redis.enabled", havingValue = "true", matchIfMissing = true)
+@EnableConfigurationProperties(RedisTracingProperties.class)
+public class RedisAutoConfiguration {
+
+  @Bean
+  public RedisAspect openTracingRedisAspect(Tracer tracer, RedisTracingProperties properties) {
+    return new RedisAspect(tracer, properties);
+  }
+
+}
+```
+
+No código acima se na sua aplicação tiver um objeto `RedisConnectionFactory` ele irá injetar no contexto de injeção de 
+dependência do Spring o `RedisAspect` que irá executar antes e após a cada operação dessa tecnologia, adicionando as 
+informações necessárias da mesma no `span` do OpenTracing!
+
+O sentimento de "mágica" do Spring se deve a condição, se existe ou não uma determinada classe, pacote, etc. Por este 
+motivo em sua grande maioria basta adicionar uma dependência no `pom.xml` que a "mágica" acontece! Na verdade alguma 
+classe contida na dependência, habilita certas configurações, funcionalidades, comportamentos, etc.
+
 Demais né! Vamos testar?
 
 Para testar precisamos verificar se o Jaeger foi iniciado, conforme está no docker-compose, para isto, vamos abrir em 
