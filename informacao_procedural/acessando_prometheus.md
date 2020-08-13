@@ -79,7 +79,44 @@ Também temos algumas informações sobre atributos do sistema também como endp
 
 ### Service Discovery
 
+Service Discovery é a maneira que o prometheus vai usar para descobrir seus serviços, no nosso ambiente de desenvolvimento informamos esses os serviços
+arbitrariamente, mas imagine quando nossos sistemas tiverem dezenas de instâncias ou talvez milhares, já pensou em cada nova instância tivermos
+que informar o prometheus, esta tarefa se tornaria invíavel. Para isto o prometheus é capaz de se conectar com implementações de Service Discovery
+mais usadas no mercado como kubernetes e Consul por exemplo. Essas implementações são capazes de fornecer informações das instâncias para o prometheus.
 
+Olha que massa hein!!!
+
+Vamos dar uma olhada na tela
+   
+![home service discovery](../images/prometheus_service_discovery.png "home service discovery")
+
+Olha que legal, o prometheus é capaz de agrupar nossos targets por "nomes" e ainda mais consegue contá-los isso é muito útil quando contamos com algumas 
+instâncias de um mesmo serviço!!! Também é possível saber como eles foram descobertos, note que ele consegue mostrar as labels descobertas e as
+labels do "alvo".
+
+### Fazendo uma consulta de Métrica
+
+Na home do prometheus escolha uma métrica qualquer e depois clique na tab **Graph**. 
+
+Veja no exemplo, escolhemos a métrica de coletas de log do logback por nível. Cada linha de log é um evento, essa métrica visa mostrar quantos deles
+utilizamos.
+
+Nome da métricas:
+
+**transacoes_logback_events_total**
+
+Veja abaixo
+
+![home metrics](../images/sample_prometheus.png "metrics sample")
+
+Olha que legal, parece que nossas métricas estão sendo armazenadas corretamente. Sucesso!!!
+
+Quer dizer mais ou menos sucesso, na verdade colocamos métricas mas parece que esse gráfico do prometheus tem algumas limitações.
+Não consigo criar agregações e "juntar" métricas, e é por isso que outra ferramenta aparece em cena. O **Grafana** é uma ferramenta feita
+para renderizar gráficos e adivinha ele tem uma fortissíma integração com o prometheus...
+
+Opaaa.....quer ver como isso funciona dê uma olhada no [grafana neste link]()
+ 
 
 # Informações de suporte
 
@@ -90,6 +127,9 @@ Também temos algumas informações sobre atributos do sistema também como endp
 * Você pode estar se perguntando "O que é um volume no docker??". [Esse link pode te ajudar em descobrir isso](https://docs.docker.com/storage/volumes/)
 * Se por algum motivo, você se questionou sobre o mapeamento de portas no docker [esse link pode te ajudar em entender isso em detalhes](https://docs.docker.com/config/containers/container-networking/)
 * Se por acaso você se perguntou "Mas pera ae se nomenclatura de métricas pode ser um problema, será que existe uma padrão para isso???. [Neste link você vai encontrar um pouco disso](https://prometheus.io/docs/practices/naming/)
-
-
+* Talvez você possa estar interessado em explorar mais as configurações do prometheus. A documentação é o melhor caminho pra isso, [aqui você pode encontrá-la](https://prometheus.io/docs/prometheus/latest/configuration/configuration/)
+* Se você nunca ouviu falar de Service Discovery, [esse link pode te ajudar com isso](https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/)
+  * Ou ainda se você ficou interessado quando ouviu kubernetes e Service Discovery, o Kubernetes suporta a implementação via Service. [Aqui tem alguns detalhes](https://kubernetes.io/docs/concepts/services-networking/service/#cloud-native-service-discovery)
+  * Mas se você tem dúvidas sobre o que é um Service no Kubernetes, [aqui você pode encontrar a resposta para isso](https://kubernetes.io/docs/concepts/services-networking/service/)
+  * Consul, eu pensei que era eletro-doméstico??? Será??? [Esse link pode te ajudar a descobrir isso](https://www.consul.io/use-cases/service-discovery-and-health-checking)
     
