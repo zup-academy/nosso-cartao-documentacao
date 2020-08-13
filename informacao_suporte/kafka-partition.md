@@ -17,7 +17,7 @@ Demais né!?
 Além dos pontos citados acima temos a possibilidade de segmentar os eventos de acordo com uma determinada chave!
 
 Quando enviamos um evento sem chave, o tópico seleciona aleatoriamente a partição que irá o evento, porém quando enviamos 
-com uma chave, todos os eventos com a mesma chave irá somente para aquela partição e de forma ordenada, conforme imagem 
+com uma chave, todos os eventos com a mesma chave irá somente para aquela partição e de forma **ordenada**, conforme imagem 
 abaixo:
 
 ![alt text](../images/kafka-003.png "Apache Kafka")
