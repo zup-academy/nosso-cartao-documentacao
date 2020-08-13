@@ -28,7 +28,7 @@ Demais né! Visando isso a comunidade criou o Apache Kafka no qual é uma plataf
 de código aberto, usada por milhares de empresas para pipeline de dados de alto desempenho, análise de streaming, 
 integração de dados e aplicativos de missão crítica.
 
-O Apache Kafka tem algumas características bastante interessantes no qual o destaca, por exemplo:
+O Apache Kafka tem algumas características interessantes, por exemplo:
 
 - Alta disponibilidade
 - Alta performance
