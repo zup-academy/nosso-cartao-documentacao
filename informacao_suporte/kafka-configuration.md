@@ -127,7 +127,7 @@ public ConcurrentKafkaListenerContainerFactory<String, TransactionMessage> kafka
 ```
 
 No código acima, a gente criou um `ConcurrentKafkaListenerContainerFactory`, no qual precisa ser cadastrado como ele irá 
-tratar os eventos recebidor, por isso, foi criado o método `transactionConsumerFactory()`!
+tratar os eventos recebidos, por isso, foi criado o método `transactionConsumerFactory()`!
 
 Demais né!? 
 
@@ -149,3 +149,24 @@ public class ListenerDeTransacao {
 
 }
 ```
+
+No código acima a gente definiu nosso listener para isso é preciso seguir algumas etapas:
+
+Primeiro a gente precisou configurar a anotação `KafkaListener` no qual é necessário configurar qual tópico ele irá 
+coletar os eventos, como por exemplo, `${spring.kafka.topic.transactions}`!
+
+O interessante que a gente utilizou o fator III. Configurações, na qual diz que você deve armazenar as configurações no 
+ambiente, do `The Twelve-Factor App`, quer saber mais? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_procedural/twelve-factor-config.md)
+
+Segundo a gente precisou adicionar qual evento a gente iria receber e para isso basta passar como parâmetro toda "mágica" 
+de como tratar o evento foi definido na classe `KafkaConfiguration`!
+
+Demais né!? Agora sabemos como consumir eventos no kafka!
+
+# Informações de suporte
+
+Quer saber mais sobre o Apache Kafka? Acesse o [link!](https://kafka.apache.org)
+
+Quer saber mais sobre os modelos de entrega no Apache Kafka, acesse o [link!](https://kafka.apache.org/documentation/#semantics)
+
+Quer saber mais sobre Consumidor? Acesse o [link!](https://kafka.apache.org/documentation/#theconsumer)
