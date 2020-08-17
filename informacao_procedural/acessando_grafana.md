@@ -46,9 +46,24 @@ Vamos ver a tela de login
 
 ![login grafana](../images/grafana_login.png " login grafana")
 
-Como falamos anteriormente o **Grafana** é uma ferramenta de Criação e Visualização de Gráficos, então ele não tem nenhum dado incluído na ferramenta
-precisamos ind
+Como falamos anteriormente o **Grafana** é uma ferramenta de _Criação e Visualização de Gráficos_, então ele não tem nenhum dado incluído na ferramenta
+logo, precisamos configurar nossa fonte de informação de dados e imagina qual seria nossa fonte de informação??? Nosso **prometheus**
 
+Mas antes, podemos explorar a home do grafana, importante notar que os menus do Grafana, na versão que estamos utilizando
+são localizados do lado superior esquerdo.
+
+Aqui você pode navegar nos seus dashboards, realizar configurações do grafana, configurar usuários
+entre outras opções.
+
+Vamos ver isso na figura abaixo!!!
+
+![menus grafana](../images/menus_grafana.png  "menus grafana")
+
+Pronto!!! Esse foi nosso primeiro acesso ao grafana, uma ferramentas bastante poderosa na criação e configuração 
+de gráficos.
+
+Explore a ferramenta, neste próximo passa vamos mostrar como podemos configurar nossa fonte
+de informação, se você navegou pela ferramenta.Vamos lá!!!
 
 # Informações de suporte
 
