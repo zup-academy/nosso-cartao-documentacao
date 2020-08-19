@@ -48,4 +48,8 @@ CPU.
 
 # Informações de suporte
 
-* Quer saber mais sobre Prometheus? Acesse o [link!](https://prometheus.io/)
+* Se você não tem idéia do que é o Grafana, [aqui você pode encontrar uma boa definição](https://grafana.com/) 
+* Se você tem alguma dúvida do que é o Grafana, [aqui você pode encontrar a documentação oficial](https://grafana.com/docs/grafana/latest/)
+* Ou ainda você pode estar se perguntando, tem alguma fonte que explica os itens básicos do **Grafana**, [esse link explora algumas das principais funcionalidades e como configurá-las](https://grafana.com/docs/grafana/latest/getting-started/getting-started/)
+* Você pode ter gostado de importar seu dashboard e pode estar se perguntando "Existe mais opções de dashboards pré construídos???". [Este link conta com uma coleção
+de dashboards que podem ser usados](https://grafana.com/grafana/dashboards)

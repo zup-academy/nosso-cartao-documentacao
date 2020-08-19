@@ -76,11 +76,16 @@ bem você deve ter recebido a seguinte mensagem "Data source is working", isso i
 
 **Grafana** e **Prometheus** conectados agora podemos criar nossos próprios gráfico _"bacanudos"_, vamos exploras algumas funcionalidades
 do grafana, agora você tem duas opções:
+
 * Criar um gráfico manualmente
-* Importar um pré-configurado que consegue ler configurações padrão de aplicações Spring Boot
+* Importar um pré-configurado que consegue ler configurações padrão de aplicações Spring Boot. [Aqui tem uma detalhamento completo
+de como você pode fazer isso](importando_graficos_grafana.md)
 
 
 
 # Informações de suporte
 
-* Quer saber mais sobre Prometheus? Acesse o [link!](https://prometheus.io/)
+* Se você não tem idéia do que é o Grafana, [aqui você pode encontrar uma boa definição](https://grafana.com/) 
+* Se você tem alguma dúvida do que é o Grafana, [aqui você pode encontrar a documentação oficial](https://grafana.com/docs/grafana/latest/)
+* Ou ainda você pode estar se perguntando, tem alguma fonte que explica os itens básicos do **Grafana**, [esse link explora algumas das principais funcionalidades e como configurá-las](https://grafana.com/docs/grafana/latest/getting-started/getting-started/)
+
