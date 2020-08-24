@@ -71,7 +71,7 @@ spec:
               path: /actuator/health
               port: 8888
               scheme: HTTP
-            initialDelaySeconds: 1
+            initialDelaySeconds: 60
           name: contas
           ports:
             - containerPort: 8888
@@ -82,7 +82,7 @@ spec:
               path: /actuator/health
               port: 8888
               scheme: HTTP
-            initialDelaySeconds: 1
+            initialDelaySeconds: 60
 ```
 
 Talvez o detalhe mais importante seja o nó **containers**, note que essa configuração é uma lista. Isso mesmo um _POD_ pode conter 
