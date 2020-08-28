@@ -11,6 +11,8 @@ Neste caso nosso **sistema B**, precisa de um **client_id** e um **client_secret
 o **client_secret** seja mantido sob segurança, ele atua como senha da sua aplicação. Sugerimos fortemente
 que esse client_secret seja armazenado encriptado ou em ferramentas como Vault, por exemplo.
 
+Isto é muito importante, proteja seu secret à qualquer custo!!
+
 ![oauth 2 basics](../images/oauth2-flows-client.png "fluxo básico oauth2")
 
 Note que no fluxo não encontramos o Resource Owner, porque ele não é envolvido neste processo,
