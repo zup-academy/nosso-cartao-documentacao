@@ -1,6 +1,4 @@
-# OAuth2 um padrão de mercado para segurança de APIs REST!!!
-
-## Contexto
+# OAuth2 um padrão de mercado para segurança de APIs REST!
 
 Não queremos que qualquer usuário acesse nossa aplicação, precisamos de algum mecanismo que nos
 ajude a proteger nossa aplicação.
@@ -29,11 +27,11 @@ e provedor de autenticação.
 Talvez você possa estar se perguntando, se envolve delegação então provavelmente tem mais de um sistema envolvido
 nesse mecanismo. Exatamente o fluxo OAuth2 é composto por 4 entidades principais [aqui você pode encontrar uma referência
 oficial](https://tools.ietf.org/html/rfc6749#section-1.1) 
+
  * Talvez alguns elementos do OAuth2 não tenha ficado perfeitamente claro, [aqui nós tentamos achar uma maneira mais
  simplificada de explicar as 4 entidades principais](../informacao_procedural/oauth2_entidades.md)
 
-
-## Explicacao Necessária
+## IAM (Identity and Access Management)
 
 Existe uma categoria de sistemas que lidam especificamente com gerenciamento e perfis de usuário. 
 Nessa categoria esses sistemas implementam de maneira bastante efetiva controles de segurança, 
@@ -45,17 +43,6 @@ Na nossa solução vamos usar a implementação do Keycloak, uma aplicação que
 os dados dos nossos usuários seguro além de prover uma maneira bem simples de integração com Spring Framework.
 O produto é open-source então podemos usá-lo sem nenhum problema de licenciamento. Aliás esse é um ponto
 de atenção sempre utilize software de acordo com a regulamentação da licensa
-
-## Necessidades
-
-Devemos "subir" nosso servidor de IAM e verificar se ele está operante e pronto para realizarmos
-nossas integrações que serão realizadas no próximos passos.
-
-
-## Resultado Esperado
-- Identificar o serviço declarado no docker-compose.yaml
-- Verificar a porta que o serviço esta exposto
-- Logar no nosso IAM, escolhemos o Keycloak para este fim
 
 ## Informações de suporte
  
