@@ -20,7 +20,7 @@ todo o estado está armazenado no banco de dados.
 # Informações de suporte
 
 * Talvez você pode estar se perguntando o que são Backing Services. [Neste link você pode encontrar uma definição sobre](https://12factor.net/pt_br/backing-services) 
-  * Ou ainda estar perguntando, tem outro jeito de eu tentar entender isso. O time do Academy [construiu um material para tentar explicar o que é Backing Services]() **FIXME CLAUDIO**
+  * Ou ainda estar perguntando, tem outro jeito de eu tentar entender isso. O time do Academy [construiu um material para tentar explicar o que é Backing Services](../informacao_procedural/twelve-factor-backing-services.md)
 
 * Se você quer entrar em mais detalhes e entender um padrão que ajuda a resolver esse problema, [você pode encontrar aqui uma descrição sobre Shared Nothing](https://en.wikipedia.org/wiki/Shared-nothing_architecture)
 
