@@ -81,7 +81,7 @@ Eba! Nosso jar foi gerado! Vamos gerar nossa imagem?
 
 Para isso, escrevemos um [material específico para você!](../informacao_procedural/comando-criacao-imagem-docker.md)
 
-# Informações de suporte
+## Informações de suporte
 
 * Talvez esteja se perguntando, porque criar um arquivo denominado Dockerfile? [Aqui tem uma explicação do que entendemos que você deve considerar!](iac-immutable-infrastructure.md)
 
