@@ -108,9 +108,13 @@ Para testar inicie sua aplicação conforme desejar ou utilizando o comando `mvn
 os logs estão sendo escritos no formato [JSON](https://www.json.org/json-en.html)!
 
 Um ponto importante! Além do log ser no formato [JSON](https://www.json.org/json-en.html), nossa aplicação precisa logar 
-no **SYSTEM OUT** do nosso sistema, pois, é o lugar que os coletores de logs ficam esperando os mesmos para serem processados!
+no **Stdout** do nosso sistema, pois, é o lugar que os coletores de logs ficam esperando os mesmos para serem processados!
 
-Demais né!?
+Demais né!? Você sabia que foi aplicado um dos fatores do The Twelve Factor App?
+
+Você aplicou o fator XI. Logs, na qual diz que devemos tratar logs como fluxos de eventos!
+
+Quer saber mais? Acesse o [link!](../informacao_procedural/twelve-factor-logs.md)
 
 # Informação de Suporte
 

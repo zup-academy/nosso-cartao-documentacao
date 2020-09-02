@@ -51,7 +51,7 @@ Você sabia que foi aplicado um dos fatores do The Twelve Factor App?
 
 Você aplicou o fator XI. Logs, na qual diz que devemos tratar logs como fluxos de eventos!
 
-Quer saber mais? Acesse o [link!](https://12factor.net/pt_br/logs)
+Quer saber mais? Acesse o [link!](../informacao_procedural/twelve-factor-logs.md)
 
 # Dicas de Luram Archanjo
 
