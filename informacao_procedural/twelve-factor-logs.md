@@ -23,8 +23,12 @@ Ficou confuso, não se preocupe! Essa imagem pode te ajudar a visualizar melhor!
 
 ![load grafana](../images/twelve-factor-app-logs.png "Agregador de logs")
 
-Demais né!
+Demais né! Como o fato de logar no **stdout** e utilizar um agregador de log pode ajudar muito em troubleshooting!
 
 # Informações de suporte
 
-* Talvez você queira o link da documentação oficial!? [Aqui você pode encontrá-lo!](https://12factor.net/pt_br/logs) 
+* Talvez você queira o link da documentação oficial!? [Aqui você pode encontrá-lo!](https://12factor.net/pt_br/logs)
+
+Quer saber mais sobre logs? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging)
+
+Quer saber mais sobre coletores\agregador de logs? Acesse o [link!](https://opensource.com/article/18/9/open-source-log-aggregation-tools)
