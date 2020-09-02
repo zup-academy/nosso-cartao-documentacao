@@ -63,7 +63,7 @@ Agora que está tudo configurado (Propriedades e Dependency Management), precisa
 </dependency>
 ```
 
-Você deve estar pensando, está tudo configurado? Infelizmente, falta apenas uma configuração!
+Você deve estar pensando, está tudo configurado? Infelizmente falta apenas uma configuração!
 
 Agora que está tudo configurado, precisamos adicionar o seguinte arquivo `logback-spring.xml` na pasta `/src/main/resources/`
 
@@ -106,7 +106,7 @@ os logs estão sendo escritos no formato [JSON](https://www.json.org/json-en.htm
 Um ponto importante! Além do log ser no formato [JSON](https://www.json.org/json-en.html), nossa aplicação precisa logar 
 no **SYSTEM OUT** do nosso sistema, pois, é o lugar que os coletores de logs ficam esperando os mesmos para serem processados!
 
-Demais ne!?
+Demais né!?
 
 # Informação de Suporte
 
