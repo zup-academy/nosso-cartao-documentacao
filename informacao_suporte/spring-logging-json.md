@@ -108,7 +108,9 @@ Para testar inicie sua aplicação conforme desejar ou utilizando o comando `mvn
 os logs estão sendo escritos no formato [JSON](https://www.json.org/json-en.html)!
 
 Um ponto importante! Além do log ser no formato [JSON](https://www.json.org/json-en.html), nossa aplicação precisa logar 
-no **Stdout** do nosso sistema, pois, é o lugar que os coletores de logs ficam esperando os mesmos para serem processados!
+no **Stdout** do nosso sistema, pois, é o lugar que os coletores de logs ficam esperando os mesmos para serem processados 
+e não precisamos que nossa aplicação tenha a responsabilidade de escrever em um determinado arquivo e gerir o roteamento 
+dos logs!
 
 Demais né!? Você sabia que foi aplicado um dos fatores do The Twelve Factor App?
 
