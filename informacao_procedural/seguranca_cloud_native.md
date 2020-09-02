@@ -31,10 +31,7 @@ Tem alguma técnica que eu possa aplicar para reduzir ainda mais os riscos?? Sim
 Existe uma prática recomendada para você minimizar a área de ataques. [Saiba como aumentar
 seu nível de segurança aqui!!!](minimo_privilegios.md)
 
+# Dicas de Cláudio
 
-# Informação de Suporte
-
-
-## Dicas Claudio
 - Sempre consulte a equipe de segurança nos momentos de dúvidas, essa equipe é destacada
 para garantir que todos nossos sistemas sejam seguros e sigam a regra de compliance da Zup.

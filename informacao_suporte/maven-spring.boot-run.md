@@ -35,7 +35,7 @@ Pronto!!! Agora você pode esperar sua aplicação subir...
 
 * Quais são as opções de comando que eu posso executar com o plugin do Spring Boot? [Aqui estão elas!](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/html/#goals)
 
-# Dicas Claudio
+# Dicas de Cláudio
 
 * Essa não é a melhor maneira de rodar suas aplicações em ambiente produtivo, tenha em mente que essa maneira é 
 recomendada somente durante o ciclo de desenvolvimento!
