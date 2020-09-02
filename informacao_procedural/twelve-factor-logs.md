@@ -14,7 +14,16 @@ No 12 Factor Apps nunca devemos nos preocupar com o roteamento ou armazenagem do
 deve tentar escrever ou gerir arquivos de logs. No lugar, cada aplicação em execução escreve seu próprio fluxo de evento, 
 sem buffer, para o **stdout**.
 
+Logando no **stdout**, cada fluxo de logs de cada aplicação serão capturados pelo ambiente de execução e direcionados 
+para um ou mais destinos finais para visualização e arquivamento de longo prazo. Estes destinos de arquivamento não são 
+visíveis ou configuráveis pelo aplicação, e ao invés disso, são completamente geridos pelo ambiente de execução. Agregadores 
+de logs open source (Logstash, Fluentd, Fluent bit) estão disponíveis para este propósito.
 
+Ficou confuso, não se preocupe! Essa imagem pode te ajudar a visualizar melhor!
+
+![load grafana](../images/twelve-factor-app-logs.png "Agregador de logs")
+
+Demais né!
 
 # Informações de suporte
 
