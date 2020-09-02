@@ -171,7 +171,7 @@ Você aplicou o fator III. Configurações, na qual diz que você deve armazenar
 
 Quer saber mais?  Acesse o [link!](https://12factor.net/pt_br/config)
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Se você deixar a lógica no agendamento e o deploy for feito em várias instâncias? Como evitar a concorrência?
 

@@ -48,7 +48,7 @@ O Apache Kafka optou pelo uso do pull model, pois, provê algumas vantagens bem 
 
 Demais né!?
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Apache Kafka é muito utilizado pela **Zup** e outras empresas, portanto, aproveita para se aprofundar nesse assunto, como 
 por exemplo?

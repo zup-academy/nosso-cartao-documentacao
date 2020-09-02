@@ -67,7 +67,7 @@ existem várias formas de processar em `segundo plano', como por exemplo:
 
 Demais né!
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Geralmente em sistemas legados é utilizado muito o `polling` que é uma técnica de ficar em tempos em 
 tempos executando uma operação, como por exemplo:

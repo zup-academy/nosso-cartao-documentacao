@@ -39,7 +39,7 @@ System.out.println(mensagemDecodificada);
 
 Pronto! Já sabemos utilizar Base64, demais né!
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Não utilize Base64 como uma camada de segurança, pois é utilizado apenas para transferir dados com caracteres especiais, 
 como por exemplo, uma chave RSA, etc.

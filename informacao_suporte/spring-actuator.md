@@ -38,14 +38,14 @@ Eba! Está tudo OK!
 
 Sim, mas antes de continuar com sua tarefa, aconselhamos dar uma lida no tópico abaixo, sobre segurança!
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas, como por exemplo:
 
 - Adicionar autenticação
 - Adicionar autorização
 
-# Dicas de Cláudio
+## Dicas de Claudio Eduardo Oliveira
 
 Não negligencie as informações que você está expondo sobre a sua infraestrutura.
 

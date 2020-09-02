@@ -112,7 +112,7 @@ abaixo:
 
 Demais né!?
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Explore a ferramenta ao máximo, assim você conseguirá no futuro utilizar a mesma da melhorar maneira, como por exemplo:
 

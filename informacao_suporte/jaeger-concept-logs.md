@@ -50,7 +50,7 @@ conforme imagem abaixo:
 
 Demais né! Agora podemos utilizar vários **logs** para melhorar nosso processo de troubleshooting!
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 O Spring por padrão já cadastra todos os logs no Jaeger, portanto, não vejo necessidade de instrumentar no código! Porém 
 todo conhecimento é válido!

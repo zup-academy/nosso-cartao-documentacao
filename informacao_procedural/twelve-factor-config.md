@@ -48,7 +48,7 @@ cartoes:
 
 É possível notar que utilizamos **:** separando a varíavel de ambiente do valor default.  
 
-# Dicas de Cláudio
+## Dicas de Claudio Eduardo Oliveira
 
 Utilize valores default somente em contexto de desenvolvimento, essa prática não é recomendada
 para ambientes produtivos.

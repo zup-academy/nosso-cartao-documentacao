@@ -23,7 +23,7 @@ sistemas.
 Essa categoria é chamada de IAM _Identity Access Management_, eles nos provêem uma maneira
 bastante simplificada para manter esses controles de usuário.
 
-# Dicas de Cláudio
+## Dicas de Claudio Eduardo Oliveira
 
 - Sempre utilize um IAM para manter o controle de seus usuários, esse tipo de solução garante uma estabilidade
 e alto nível de segurança para nossas aplicações.

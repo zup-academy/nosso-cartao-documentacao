@@ -20,7 +20,7 @@ Processamentos em lote também podem implementar este conceito expondo operaçõ
 de comando, dessa forma a plataforma, cujo serviço está instalado é capaz de identificar se realmente
 o serviço está apto a começar o trabalho.
 
-# Dicas de Cláudio
+## Dicas de Claudio Eduardo Oliveira
 
 - Tente minimizar o tempo de preparação da sua aplicação sempre que possível, esse tempo pode impactar
 sua regra de _auto-scaling_ e _alta-disponibilidade_ da sua aplicação, pois durante essa fase sua aplicação

@@ -34,7 +34,7 @@ Super interessante, né! Como a falta de métricas impacta diretamente no softwa
 
 Lembrando que é apenas um exemplo de como as métricas podem ajudar a manter a qualidade do seu software \ produto!
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Felizmente o Spring Boot Actuator quando configurado o endpoint de métricas, já implementa as métricas do tipo RED, gostaria 
 de saber mais!? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_suporte/spring-actuator-metrics.md)

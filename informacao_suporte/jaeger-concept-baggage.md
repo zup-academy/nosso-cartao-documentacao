@@ -60,7 +60,7 @@ activeSpan.setBaggageItem("user.email", userEmail);
 
 Demais né! Agora podemos utilizar vários **baggage itens** para melhorar nosso processo de troubleshooting!
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Use com parcimônia o **baggage item**, pois é um código de infraestrutura (trace) em conjunto com o código de negócio, 
 portanto tente segmentar!

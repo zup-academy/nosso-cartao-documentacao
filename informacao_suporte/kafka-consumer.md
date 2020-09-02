@@ -68,7 +68,7 @@ conforme imagem abaixo:
 Demais né! Agora podemos ter vários grupos que representam vários serviços, como por exemplo, um grupo de análise de fraude, 
 extrato, fatura, etc.
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Sempre quando utilizamos Apache Kafka temos que pensar em idempotência nos nossos consumidores, pois, pode ser que um dia 
 seja utilizado a funcionalidade de processar todos os eventos! Portanto, tenha cuidado com o modelo de commit 

@@ -53,7 +53,7 @@ Você aplicou o fator XI. Logs, na qual diz que devemos tratar logs como fluxos 
 
 Quer saber mais? Acesse o [link!](../informacao_procedural/twelve-factor-logs.md)
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Tenha uma equilíbrio na quantidade de logs da sua aplicação, pois, pouco log complica na depuração de problemas e logs 
 demais também!

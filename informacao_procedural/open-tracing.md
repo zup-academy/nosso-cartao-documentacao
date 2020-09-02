@@ -93,7 +93,7 @@ Um trace é um conjunto de `span` no qual contém a ordem de execução, como po
         [Span D···········································]
 ```
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Utilize o `Baggage` para propagar informações de contexto do negócio, assim você consegue filtrar por eles e melhorar sua 
 operação \ sustentação, como por exemplo, propague sempre o identificador do usuário, assim se o usuário X reclamar que 
