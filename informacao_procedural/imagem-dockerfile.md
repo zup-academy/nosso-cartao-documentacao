@@ -13,7 +13,6 @@ Vamos dar uma olhada nesse arquivo
 FROM openjdk:11
 
 ...continua
-
 ```
 A palavra **FROM** indica que nossa imagem utiliza como base a imagem do openjdk
 todos dockerfiles devem ter essa instrução.
@@ -80,7 +79,7 @@ mvn clean package
 
 Eba! Nosso jar foi gerado! Vamos gerar nossa imagem?
 
-Para isso, escrevemos um [material específico para você!](comando-criacao-imagem-docker.md)
+Para isso, escrevemos um [material específico para você!](../informacao_procedural/comando-criacao-imagem-docker.md)
 
 # Informações de suporte
 
