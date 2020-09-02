@@ -37,13 +37,13 @@ Pronto!!!
 
 Agora você pode logar suas informações e diagnosticar possíveis erros mais rápido!
 
-Lembre-se sempre de procurar responder a estrategia dos 5W's
+Lembre-se sempre de procurar responder a estratégia dos 5 W's
                     
 - **WHO:** Quem está executando a operação.
 - **WHAT:** O que indica aquela operação.
 - **WHEN:** Quando a operação ocorreu.
 - **WHERE:** Onde a operação ocorreu.
-- **WHY:** Porque da linha do log
+- **WHY:** Porquê da linha do log
 
 **Importante**
 
@@ -91,6 +91,9 @@ public void criarProposta(Proposta proposta) {
 Ficou bem mais fácil de identificar, qual proposta, documento, salário e quando a mesma foi criada!
 
 E o mais importante! Sabemos que tem um furo de validação, pois não existe salário negativo!
+
+Eba! Está tudo funcionando! Você sabia, se logar utilizando o formato JSON o log pode ser indexado e melhora muito o 
+troubleshooting de problemas? Quer saber mais? Acesse o [link!](../informacao_suporte/spring-logging-json.md)
 
 # Informação de Suporte
 
