@@ -56,11 +56,15 @@ Gostaria de saber mais sobre Dependency Management no Maven? [Aqui tem uma expli
 Agora que está tudo configurado (Propriedades e Dependency Management), precisamos adicionar a seguinte dependência:
 
 ```xml
-<dependency>
-  <groupId>net.logstash.logback</groupId>
-  <artifactId>logstash-logback-encoder</artifactId>
-  <version>6.4</version>
-</dependency>
+<dependencies>
+
+    <dependency>
+      <groupId>net.logstash.logback</groupId>
+      <artifactId>logstash-logback-encoder</artifactId>
+      <version>6.4</version>
+    </dependency>
+
+</dependencies>
 ```
 
 Você deve estar pensando, está tudo configurado? Infelizmente falta apenas uma configuração!
