@@ -55,6 +55,6 @@ Demais né! Agora podemos utilizar vários **logs** para melhorar nosso processo
 O Spring por padrão já cadastra todos os logs no Jaeger, portanto, não vejo necessidade de instrumentar no código! Porém 
 todo conhecimento é válido!
 
-# Informações de suporte
+## Informações de suporte
 
 Gostaria de saber mais sobre a Jaeger? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://www.jaegertracing.io/docs/1.18/#about)

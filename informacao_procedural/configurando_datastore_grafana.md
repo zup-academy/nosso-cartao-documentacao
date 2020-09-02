@@ -83,6 +83,6 @@ funcionalidades do grafana, agora você tem duas opções:
 * Importar um pré-configurado que consegue ler configurações padrão de aplicações Spring Boot. [Aqui tem uma detalhamento completo
 de como você pode fazer isso!](importando_graficos_grafana.md)
 
-# Informações de suporte
+## Informações de suporte
 
 * Se você não tem idéia do que é o Grafana! Não se preocupe! [Aqui você pode encontrar uma boa definição!](https://grafana.com/) 

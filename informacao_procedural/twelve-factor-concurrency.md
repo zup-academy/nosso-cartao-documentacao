@@ -17,7 +17,7 @@ Um exemplo, podemos colocar duas instâncias para atender mais requisições.
 Perceba que a prática VI Executar a aplicação como mínimo de estado possível
 é muito importante aqui, pois ele impacta diretamente este pilar.
 
-# Informações de suporte
+## Informações de suporte
 
 * Talvez você queira o link da documentação oficial, [aqui você pode encontrá-lo](https://12factor.net/pt_br/concurrency) 
 

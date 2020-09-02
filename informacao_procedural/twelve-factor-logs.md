@@ -25,7 +25,7 @@ Ficou confuso, não se preocupe! Essa imagem pode te ajudar a visualizar melhor!
 
 Demais né! Como o fato de logar no **stdout** e utilizar um agregador de log pode ajudar muito em troubleshooting!
 
-# Informações de suporte
+## Informações de suporte
 
 * Talvez você queira o link da documentação oficial!? [Aqui você pode encontrá-lo!](https://12factor.net/pt_br/logs)
 

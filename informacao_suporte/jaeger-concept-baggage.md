@@ -65,6 +65,6 @@ Demais né! Agora podemos utilizar vários **baggage itens** para melhorar nosso
 Use com parcimônia o **baggage item**, pois é um código de infraestrutura (trace) em conjunto com o código de negócio, 
 portanto tente segmentar!
 
-# Informações de suporte
+## Informações de suporte
 
 Gostaria de saber mais sobre a Jaeger? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://www.jaegertracing.io/docs/1.18/#about)

@@ -57,6 +57,6 @@ por exemplo?
 - Quais são seus casos de uso? Dê uma olhada no [link!](https://kafka.apache.org/uses)
 - Como ele foi desenhado, quais são suas motivações? Dê uma olhada no [link!](https://kafka.apache.org/documentation/#design)
 
-# Informações de suporte
+## Informações de suporte
 
 Quer saber mais sobre Apache Kafka? Acesse o [link!](https://kafka.apache.org/)

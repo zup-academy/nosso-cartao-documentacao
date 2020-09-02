@@ -17,7 +17,7 @@ Por exemplo, tudo bem se armazenarmos nossa lista de propostas em um banco de da
 perceba que nossa aplicação ainda se mantém _stateless_ porque o estado não esta nela,
 todo o estado está armazenado no banco de dados.
 
-# Informações de suporte
+## Informações de suporte
 
 * Talvez você pode estar se perguntando o que são Backing Services. [Neste link você pode encontrar uma definição sobre](https://12factor.net/pt_br/backing-services) 
   * Ou ainda estar perguntando, tem outro jeito de eu tentar entender isso. O time do Academy [construiu um material para tentar explicar o que é Backing Services](../informacao_procedural/twelve-factor-backing-services.md)

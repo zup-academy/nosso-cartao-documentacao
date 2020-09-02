@@ -48,7 +48,7 @@ Por fim, declaramos que nossa aplicação expõe nossos serviços na porta _8080
 
 Esta técnica reduz consideravelmente o tamanho da sua imagem, é atualmente é o modelo mais adequado para adotarmos. 
    
-# Informações de suporte
+## Informações de suporte
 
 * Talvez você possa querer instalar o docker na sua máquina. [Esse link pode te ajudar com isso!!!](https://docs.docker.com/get-docker/)
 

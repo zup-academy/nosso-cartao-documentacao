@@ -77,7 +77,7 @@ periódico ([Auto commit](https://kafka.apache.org/documentation/#enable.auto.co
 Se seu consumidor processou 10 eventos e por algum motivo caiu e não foi executado o commit periódico, ao subir novamente 
 seu consumidor irá processar novamente os 10 eventos!
 
-# Informações de suporte
+## Informações de suporte
 
 Quer saber mais sobre o Apache Kafka? Acesse o [link!](https://kafka.apache.org)
 

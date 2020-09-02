@@ -14,7 +14,7 @@ Uma vez que o passo de autenticação foi realizado precisamos passar por um pro
 este processo é capaz de validar os privilégios do usuário. Neste passo já sabemos qual o usuário logado, 
 precisamos determinar o que ele pode fazer.
 
-# Informações de suporte
+## Informações de suporte
 
 * Quer saber mais sobre Autenticação? Acesse o [link!](https://auth0.com/docs/authorization/authentication-and-authorization)
 

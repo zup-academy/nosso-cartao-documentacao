@@ -100,7 +100,7 @@ operação \ sustentação, como por exemplo, propague sempre o identificador do
 está com erro, basta na ferramente de OpenTracing procurar por todas as operações com erro e com o identificador do 
 usuário X.
 
-# Informações de suporte
+## Informações de suporte
 
 Gostaria de saber mais sobre a especificação? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://opentracing.io/specification/)
 

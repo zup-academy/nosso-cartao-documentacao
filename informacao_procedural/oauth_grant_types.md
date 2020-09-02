@@ -8,9 +8,7 @@ Então entender o funcionamento é bastante importante para não criarmos proble
 de performance, o padrão implica algumas requisições e se você utilizar o modelo errado algumas requisições
 poderiam simplesmente não acontecer.
 
+## Informações de suporte
 
-
-
-# Informações de suporte
 * Você pode estar pensando, tem alguma documentação oficial que eu possa consultar. [Este link tem a definição de
 Resource Owner de acordo com a RFC](https://tools.ietf.org/html/rfc6749#section-1)

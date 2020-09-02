@@ -17,7 +17,7 @@ padrão pode mudar ligeiramente.
 
 O ponto final no final do comando indica o contexto da build, por esse motivo utilizamos **.**, estamos na raíz do diretório.
 
-# Informações de suporte
+## Informações de suporte
 
 * Talvez você possa querer instalar o Docker na sua máquina. [Esse link pode te ajudar com isso!!!](https://docs.docker.com/get-docker/)
 

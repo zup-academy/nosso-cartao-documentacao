@@ -55,7 +55,7 @@ Impacta demais no negócio, portanto, leva-se sempre em consideração os seguin
 
 Quer saber mais sobre os modelos de entrega no Apache Kafka, acesse o [link!](https://kafka.apache.org/documentation/#semantics)
 
-# Informações de suporte
+## Informações de suporte
 
 Quer saber mais sobre o Apache Kafka? Acesse o [link!](https://kafka.apache.org)
 

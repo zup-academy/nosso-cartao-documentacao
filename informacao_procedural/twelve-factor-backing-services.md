@@ -12,7 +12,7 @@ está instalado.
 
 Cada Backing Service pode ser chamado de um recurso, por exemplo um Recurso de Mensageria RabbitMQ
 
-# Informações de suporte
+## Informações de suporte
 
 * Se você ainda está com alguma dúvida sobre o que é Backing Service, [esse link pode te ajudar](https://12factor.net/backing-services)
 

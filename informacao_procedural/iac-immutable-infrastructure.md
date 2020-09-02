@@ -15,7 +15,7 @@ Quando precisamos alterar nosso elemento de infraestrutura, devemos destruí-lo,
 interessante que é a capacidade de replicar o ambiente quando quisermos. Muito massa isso né? Uma simples prática
 que nos ajuda muito!
 
-# Informações de suporte
+## Informações de suporte
 
 * Se em algum momento você pode ter pensado "Quero aprender mais sobre Infrastructure as a Code"
   

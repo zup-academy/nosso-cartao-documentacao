@@ -67,6 +67,6 @@ Aprenda sobre as melhores práticas de métricas! [Aqui você encontra como faze
 
 Aprenda sobre alertas, pode te ajudar muito quando estiver com alguma aplicação em Produção! [Aqui você encontra como fazer isso!](https://prometheus.io/docs/alerting/latest/overview/)
 
-# Informações de suporte
+## Informações de suporte
 
 Quer saber mais sobre Prometheus? Acesse o [link!](https://prometheus.io/)

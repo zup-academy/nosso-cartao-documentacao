@@ -63,7 +63,7 @@ como por exemplo:
 - Eventos não ordenados
 - Recuperar eventos retrospectivamente
 
-# Informações de suporte
+## Informações de suporte
 
 Quer saber mais sobre o Apache Kafka? Acesse o [link!](https://kafka.apache.org)
 

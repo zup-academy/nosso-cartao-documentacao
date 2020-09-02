@@ -45,6 +45,6 @@ Você deve ver a seguinte página...
 
 Pronto!!! Você conseguiu realizar sua primeira iteração com Keycloak.. Parabéns...
 
-# Informações de suporte
+## Informações de suporte
 
 * Talvez você pode estar se perguntando, qual a função sobre o docker-compose. [Aqui você pode encontrar](https://docs.docker.com/compose/)
