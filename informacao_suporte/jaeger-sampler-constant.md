@@ -19,11 +19,11 @@ opentracing.jaeger.const-sampler.decision=${JAEGER_SAMPLER:true}
 opentracing.jaeger.const-sampler.decision=${JAEGER_SAMPLER:false}
 ```
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Cuidado com esse tipo de abordagem, pois, quando ligado pode causar uma perda significativa de performance, dependendo 
 da quantidade de operações.
 
-# Informações de suporte
+## Informações de suporte
 
 Gostaria de saber mais sobre a Jaeger? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://www.jaegertracing.io/docs/1.18/#about)

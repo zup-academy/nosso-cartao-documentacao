@@ -12,7 +12,7 @@ Utilizamos métricas para troubleshooting e também para tomada de decisões, co
 
 Agora que sabemos a importância de métricas, vamos aplicá-las?
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Todo software tem que ter uma observabilidade, principalmente quando falamos de sistemas distribuídos, pois pode crescer 
 muito o mesmo, ter 100, 200 ou até mais aplicações sendo executadas gerando inúmeros cenários e inúmeros pontos de falha!

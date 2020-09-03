@@ -20,11 +20,14 @@ Logo nesse fluxo só precisamos de **client_id** na parte da aplicação cliente
 * **6** - A aplicação cliente troca o código de autorização por um token de acesso
 * **7** - O Authorization Server responde com o novo token de acesso
  
-# Informações de Suporte  
+## Informações de Suporte  
+
 * Em algum momento você pode ter pensado em entender os detalhes da requisição de um token
  usando _auth_code_. [Aqui você pode encontrar esse conteúdo](https://oauth.net/2/grant-types/authorization-code/)
+
 * Ou talvez você possa ter ficado com alguma dúvida específica sobre o fluxo. Neste caso recomendamos que [você consulte a RFC](https://tools.ietf.org/html/rfc6749#section-1.3.1), nela você pode 
 encontrar todos os detalhes  
+
 * Talvez você possa estar pensando, tem alguma maneira de eu colocar ainda mais segurança nesse fluxo. [Esse link
 ensina como](https://auth0.com/docs/flows/call-your-api-using-the-authorization-code-flow) 
  

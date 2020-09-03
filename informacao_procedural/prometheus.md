@@ -58,7 +58,7 @@ dias, meses, etc. Utilize o modelo de pull model e remova a complexidade da sua 
 
 Quer saber mais sobre Push Model e quando utilizar? O Prometheus tem uma [página](https://prometheus.io/docs/practices/pushing/) sobre isso!
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Prometheus é muito utilizado no mercado e **recomendado pela Zup**, portanto, tente se aprofundar ao 
 máximo sobre o tema em sua área de atuação!
@@ -67,6 +67,6 @@ Aprenda sobre as melhores práticas de métricas! [Aqui você encontra como faze
 
 Aprenda sobre alertas, pode te ajudar muito quando estiver com alguma aplicação em Produção! [Aqui você encontra como fazer isso!](https://prometheus.io/docs/alerting/latest/overview/)
 
-# Informações de suporte
+## Informações de suporte
 
 Quer saber mais sobre Prometheus? Acesse o [link!](https://prometheus.io/)

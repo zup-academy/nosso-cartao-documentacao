@@ -42,7 +42,7 @@ ele quer, como por exemplo:
 
 Demais né! Portanto, se deseja não perder mensagem utilize o modelo de reconhecimento do tipo `all`.
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 É de extrema importância saber os modelos de reconhecimento de eventos, pois, isso impacta diretamente no negócio, como 
 por exemplo, imagina que é um evento de transação bancária e por algum motivo foi perdido esse evento?
@@ -55,7 +55,7 @@ Impacta demais no negócio, portanto, leva-se sempre em consideração os seguin
 
 Quer saber mais sobre os modelos de entrega no Apache Kafka, acesse o [link!](https://kafka.apache.org/documentation/#semantics)
 
-# Informações de suporte
+## Informações de suporte
 
 Quer saber mais sobre o Apache Kafka? Acesse o [link!](https://kafka.apache.org)
 

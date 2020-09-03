@@ -28,11 +28,10 @@ Simples assim, você deverá ser redirecionado para a tela de configurações do
 Verifique se seu novo Realm está com a opção **Enabled** marcado e os Endpoints esteja selecionado
 a opção **OpenID Endpoint Configuration**
 
-
-
-
-# Informações de suporte
+## Informações de suporte
 
 * Talvez você tenha alguma dúvida relacionada o como realizar o login no keycloak, [esse link pode te ajudar a logar no keycloak](login-keycloak.md)
+
 * Se você esta se perguntando, existem mais opções que eu possa configurar o no meu Realm, [esse link contém uma série de detalhamentos dessas configurações](https://www.keycloak.org/docs/latest/server_admin/#admin-console)
+
 * Ou ainda você tenha alguma dúvida sobre como criar o Realm, [esse link da documentação oficial pode te ajudar](https://www.keycloak.org/docs/latest/server_admin/#_create-realm) 

@@ -117,7 +117,7 @@ para renderizar gráficos e adivinha ele tem uma fortíssima integração com o 
 
 Opaaa.....quer ver como isso funciona dê uma olhada no [grafana neste link](../informacao_procedural/acessando_grafana.md)
 
-# Informações de suporte
+## Informações de suporte
 
 * Quer saber mais sobre Prometheus? Acesse o [link!](https://prometheus.io/)
 

@@ -68,7 +68,7 @@ conforme imagem abaixo:
 Demais né! Agora podemos ter vários grupos que representam vários serviços, como por exemplo, um grupo de análise de fraude, 
 extrato, fatura, etc.
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Sempre quando utilizamos Apache Kafka temos que pensar em idempotência nos nossos consumidores, pois, pode ser que um dia 
 seja utilizado a funcionalidade de processar todos os eventos! Portanto, tenha cuidado com o modelo de commit 
@@ -77,7 +77,7 @@ periódico ([Auto commit](https://kafka.apache.org/documentation/#enable.auto.co
 Se seu consumidor processou 10 eventos e por algum motivo caiu e não foi executado o commit periódico, ao subir novamente 
 seu consumidor irá processar novamente os 10 eventos!
 
-# Informações de suporte
+## Informações de suporte
 
 Quer saber mais sobre o Apache Kafka? Acesse o [link!](https://kafka.apache.org)
 

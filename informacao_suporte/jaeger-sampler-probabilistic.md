@@ -22,10 +22,10 @@ opentracing.jaeger.probabilistic-sampler.sampling-rate=${JAEGER_SAMPLER:0.5}
 opentracing.jaeger.probabilistic-sampler.sampling-rate=${JAEGER_SAMPLER:0.1}
 ```
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Essa é a abordagem que mais uso, pois, provê inúmeras possibilidades \ flexibilidade.
 
-# Informações de suporte
+## Informações de suporte
 
 Gostaria de saber mais sobre a Jaeger? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://www.jaegertracing.io/docs/1.18/#about)

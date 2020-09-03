@@ -54,7 +54,7 @@ posição 4 em diante, por exemplo!
 
 Quer saber mais sobre consumidores? [Aqui tem uma explicação do que entendemos que você deve considerar!!](../informacao_suporte/kafka-consumer.md)
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Aproveite ao máximo para aprender sobre esse tema, pois, o mesmo é muito flexível e permite atender vários casos de uso, 
 como por exemplo:
@@ -63,7 +63,7 @@ como por exemplo:
 - Eventos não ordenados
 - Recuperar eventos retrospectivamente
 
-# Informações de suporte
+## Informações de suporte
 
 Quer saber mais sobre o Apache Kafka? Acesse o [link!](https://kafka.apache.org)
 

@@ -66,6 +66,6 @@ de gráficos.
 Explore a ferramenta, neste próximo passa vamos mostrar como podemos configurar nossa fonte
 de informação, se você navegou pela ferramenta.Vamos lá!
 
-# Informações de suporte
+## Informações de suporte
 
 * Quer saber mais sobre Prometheus? Acesse o [link!](https://prometheus.io/)

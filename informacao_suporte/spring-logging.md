@@ -37,13 +37,13 @@ Pronto!!!
 
 Agora você pode logar suas informações e diagnosticar possíveis erros mais rápido!
 
-Lembre-se sempre de procurar responder a estrategia dos 5W's
+Lembre-se sempre de procurar responder a estratégia dos 5 W's
                     
 - **WHO:** Quem está executando a operação.
 - **WHAT:** O que indica aquela operação.
 - **WHEN:** Quando a operação ocorreu.
 - **WHERE:** Onde a operação ocorreu.
-- **WHY:** Porque da linha do log
+- **WHY:** Porquê da linha do log
 
 **Importante**
 
@@ -51,9 +51,9 @@ Você sabia que foi aplicado um dos fatores do The Twelve Factor App?
 
 Você aplicou o fator XI. Logs, na qual diz que devemos tratar logs como fluxos de eventos!
 
-Quer saber mais? Acesse o [link!](https://12factor.net/pt_br/logs)
+Quer saber mais? Acesse o [link!](../informacao_procedural/twelve-factor-logs.md)
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Tenha uma equilíbrio na quantidade de logs da sua aplicação, pois, pouco log complica na depuração de problemas e logs 
 demais também!
@@ -91,6 +91,9 @@ public void criarProposta(Proposta proposta) {
 Ficou bem mais fácil de identificar, qual proposta, documento, salário e quando a mesma foi criada!
 
 E o mais importante! Sabemos que tem um furo de validação, pois não existe salário negativo!
+
+Eba! Está tudo funcionando! Você sabia, se logar utilizando o formato JSON o log pode ser indexado e melhora muito o 
+troubleshooting de problemas? Quer saber mais? Acesse o [link!](../informacao_suporte/spring-logging-json.md)
 
 # Informação de Suporte
 

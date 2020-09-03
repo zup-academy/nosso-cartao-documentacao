@@ -93,14 +93,14 @@ Um trace é um conjunto de `span` no qual contém a ordem de execução, como po
         [Span D···········································]
 ```
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Utilize o `Baggage` para propagar informações de contexto do negócio, assim você consegue filtrar por eles e melhorar sua 
 operação \ sustentação, como por exemplo, propague sempre o identificador do usuário, assim se o usuário X reclamar que 
 está com erro, basta na ferramente de OpenTracing procurar por todas as operações com erro e com o identificador do 
 usuário X.
 
-# Informações de suporte
+## Informações de suporte
 
 Gostaria de saber mais sobre a especificação? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://opentracing.io/specification/)
 

@@ -46,10 +46,13 @@ Logo abaixo da métrica de **Uptime** temos a utilização de **CPU** pelo nosso
 que rapidamente conseguimos perceber que ele está operando sem nenhuma pressão, devido ao baixo consumo de 
 CPU.
 
-# Informações de suporte
+## Informações de suporte
 
 * Se você não tem idéia do que é o Grafana, [aqui você pode encontrar uma boa definição](https://grafana.com/) 
+
 * Se você tem alguma dúvida do que é o Grafana, [aqui você pode encontrar a documentação oficial](https://grafana.com/docs/grafana/latest/)
+
 * Ou ainda você pode estar se perguntando, tem alguma fonte que explica os itens básicos do **Grafana**, [esse link explora algumas das principais funcionalidades e como configurá-las](https://grafana.com/docs/grafana/latest/getting-started/getting-started/)
+
 * Você pode ter gostado de importar seu dashboard e pode estar se perguntando "Existe mais opções de dashboards pré construídos???". [Este link conta com uma coleção
 de dashboards que podem ser usados](https://grafana.com/grafana/dashboards)

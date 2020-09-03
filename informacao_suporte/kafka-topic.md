@@ -18,7 +18,7 @@ em vários brokers do Kafka via `Replication Factor`, conforme imagem abaixo:
 
 Quer saber mais sobre partição? [Aqui tem uma explicação do que entendemos que você deve considerar!!](../informacao_suporte/kafka-partition.md)
 
-# Informações de suporte
+## Informações de suporte
 
 Quer saber mais sobre o Apache Kafka? Acesse o [link!](https://kafka.apache.org)
 

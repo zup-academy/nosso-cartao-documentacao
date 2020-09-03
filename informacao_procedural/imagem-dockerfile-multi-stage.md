@@ -48,19 +48,20 @@ Por fim, declaramos que nossa aplicação expõe nossos serviços na porta _8080
 
 Esta técnica reduz consideravelmente o tamanho da sua imagem, é atualmente é o modelo mais adequado para adotarmos. 
    
-# Informações de suporte
+## Informações de suporte
 
 * Talvez você possa querer instalar o docker na sua máquina. [Esse link pode te ajudar com isso!!!](https://docs.docker.com/get-docker/)
+
 * Se em algum momento você pensou em entender em mais detalhes o padrão multi-stage. [Esse link vai te ajudar muito.](https://docs.docker.com/develop/develop-images/multistage-build/) 
+  
   * Aqui você pode encontrar dicas de utilização para criação de [multi-stage builds](https://www.docker.com/blog/advanced-dockerfiles-faster-builds-and-smaller-images-using-buildkit-and-multistage-builds/)
+
 * Se você ficou em dúvida em como podemos utilizar o comando FROM, [esse link tem algumas informações que podem
   te ajudar a compreender melhor os detalhes](https://docs.docker.com/engine/reference/builder/#from)
+
 * Se você acha que precisa de mais detalhamentos sobre o comando ARG, [esse link é a referência pra isso!!](https://docs.docker.com/engine/reference/builder/#arg)  
+
 * Talvez você pode estar se questionando em quais informações o COPY é capaz de copiar. [A documentação pode ser um caminho para sanar sua dúvida](https://docs.docker.com/engine/reference/builder/#copy)
+
 * Em algum momento você pode ter dúvidas sobre a real necessidade do ENTRYPOINT. [Aqui você pode ficar por
   dentro do comando](https://docs.docker.com/engine/reference/builder/#entrypoint)
-
-
-
-
-

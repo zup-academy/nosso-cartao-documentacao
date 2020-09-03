@@ -88,14 +88,14 @@ management.metrics.tags.ambiente=${AMBIENTE:desenvolvimento}
 
 Demais né! Lembre-se de ler abaixo sobre segurança é extremamente importante!
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas, como por exemplo:
 
 - Adicionar autenticação
 - Adicionar autorização
 
-# Dicas de Cláudio
+## Dicas de Claudio Eduardo Oliveira
 
 Não negligencie as informações que você está expondo sobre a sua infraestrutura.
 

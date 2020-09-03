@@ -61,11 +61,11 @@ por todas as operações que o `luram.archanjo@zup.com.br` fez, conforme imagem 
 
 ![alt text](../images/open-tracing-007.png "OpenTracing")
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Use com parcimônia as tags, pois é um código de infraestrutura (trace) em conjunto com o código de negócio, portanto 
 tente segmentar!
 
-# Informações de suporte
+## Informações de suporte
 
 Gostaria de saber mais sobre a Jaeger? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://www.jaegertracing.io/docs/1.18/#about)

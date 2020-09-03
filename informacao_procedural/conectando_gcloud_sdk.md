@@ -55,7 +55,7 @@ Muito bem, você está conectado!
 Pode ser que no momento da execução da sua tarefa o cluster tenha sido alterado ou está inoperante por conta
 de custos, pergunte no nosso canal, caso você tenha algum problema de conexão com o mesmo.
 
-# Informações de suporte
+## Informações de suporte
 
 * Talvez você possa estar se perguntando, onde posso achar mais informações sobre o gcloud-sdk. [Este link conta com algumas informações úteis!](https://cloud.google.com/sdk)
   

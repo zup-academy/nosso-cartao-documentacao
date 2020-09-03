@@ -73,7 +73,7 @@ Se quiser obter a resposta do erro, como por exemplo o body, existe um método p
 
 Pronto! Estamos mais preparados para lidar com os cenários da Zup!
 
-# Informações de suporte
+## Informações de suporte
 
 - Se você tem alguma dúvida do que é interface java [esse link](https://www.caelum.com.br/apostila-java-orientacao-objetos/interfaces) pode te ajudar, isso é bem importante para
 conseguirmos entender o OpenFeign

@@ -134,7 +134,7 @@ abaixo:
 
 Demais né!?
 
-# Dicas de Luram Archanjo
+## Dicas de Luram Archanjo
 
 Explore a ferramenta ao máximo, assim você conseguirá no futuro utilizar a mesma da melhorar maneira, como por exemplo:
 
@@ -142,6 +142,6 @@ Explore a ferramenta ao máximo, assim você conseguirá no futuro utilizar a me
 - Analisar os spans, como tempo, latência de redes, tags, logs, etc.
 - Analisar as integrações.
 
-# Informações de suporte
+## Informações de suporte
 
 Gostaria de saber mais sobre a Jaeger? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://www.jaegertracing.io/docs/1.18/#about)

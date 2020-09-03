@@ -26,7 +26,6 @@ services:
     image: 'postgres:alpine'
     volumes:
       - postgres-volume:/var/lib/postgresql/data
-    restart: 'always'
     ports:
       - 5432:5432
     environment:
@@ -65,7 +64,6 @@ services:
 
   analise:
     image: 'zupacademy/analise-financeira'
-    restart: 'always'
     ports:
       - 9999:9999
     environment:
@@ -75,7 +73,6 @@ services:
 
   contas:
     image: 'zupacademy/contas'
-    restart: 'always'
     ports:
       - 8888:8888
     environment:
@@ -84,7 +81,6 @@ services:
 
   transacoes:
     image: 'zupacademy/transacoes'
-    restart: 'always'
     ports:
       - 7777:7777
     depends_on:
@@ -96,7 +92,6 @@ services:
 
   jaeger:
     image: jaegertracing/all-in-one
-    restart: always
     ports:
       - 5775:5775/udp
       - 6831:6831/udp
@@ -130,6 +125,13 @@ services:
       - 3000:3000
     depends_on:
       - prometheus
+
+  vault:
+    image: vault:1.5.3
+    ports:
+      - 8200:8200
+    environment:
+      VAULT_DEV_ROOT_TOKEN_ID: ee413645-dbe8-4848-afc6-6bb2768ada75
 
 volumes:
   grafana-volume:

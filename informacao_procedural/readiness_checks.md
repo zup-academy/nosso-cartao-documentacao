@@ -20,7 +20,7 @@ Processamentos em lote também podem implementar este conceito expondo operaçõ
 de comando, dessa forma a plataforma, cujo serviço está instalado é capaz de identificar se realmente
 o serviço está apto a começar o trabalho.
 
-## Dicas Claudio
+## Dicas de Claudio Eduardo Oliveira
 
 - Tente minimizar o tempo de preparação da sua aplicação sempre que possível, esse tempo pode impactar
 sua regra de _auto-scaling_ e _alta-disponibilidade_ da sua aplicação, pois durante essa fase sua aplicação
@@ -29,7 +29,7 @@ não pode receber fluxo de trabalho.
 - É importante termos um trabalho de ajuste fino nessas configurações, pois elas impactam diretamente
 suas regras de _alta-disponibilidade_ e _auto-scaling_ 
 
-# Informações de Suporte
+## Informações de Suporte
 
 - Se você quer descobrir como o **kubernetes** utiliza seu readiness check para garantir que sua aplicação
 esteja apta receber fluxo de trabalho. Esse [link](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) vai resolver o seu problema.
