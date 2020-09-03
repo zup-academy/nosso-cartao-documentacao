@@ -90,6 +90,28 @@ No código acima se na sua aplicação tiver um objeto `RedisConnectionFactory` 
 dependência do Spring o `RedisAspect` que irá executar antes e após a cada operação dessa tecnologia, adicionando as 
 informações necessárias da mesma no `span` do OpenTracing!
 
+Agora podemos olhar o mesmo comportamento no código do Feign, que é uma biblioteca muito famosa
+para realização de integrações com outros serviços, principalmente via HTTP. 
+
+```java
+@Configuration
+@ConditionalOnClass(Client.class)
+@ConditionalOnBean(Tracer.class)
+@AutoConfigureAfter(TracerAutoConfiguration.class)
+@AutoConfigureBefore(name = "org.springframework.cloud.openfeign.FeignAutoConfiguration")
+@ConditionalOnProperty(name = "opentracing.spring.cloud.feign.enabled", havingValue = "true", matchIfMissing = true)
+public class FeignTracingAutoConfiguration {
+   ...
+
+  @Bean
+  public TracingAspect tracingAspect() {
+    return new TracingAspect();
+  }
+}
+```
+
+Perceba que tem o uso da annotation ```ConditionalOnProperty``` para verificar se a implementação de open tracing está habilitada para o Feign. Caso não exista nenhuma configuração explícita, o trace é habilitado por default por conta do argumento ```matchIfMissing = true``` presente na annotation.
+
 O sentimento de "mágica" do Spring se deve a condição, se existe ou não uma determinada classe, pacote, etc. Por este 
 motivo em sua grande maioria basta adicionar uma dependência no `pom.xml` que a "mágica" acontece! Na verdade alguma 
 classe contida na dependência, habilita certas configurações, funcionalidades, comportamentos, etc.
