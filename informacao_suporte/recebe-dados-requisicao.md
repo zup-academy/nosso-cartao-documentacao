@@ -63,4 +63,4 @@ Criar classes específicas para receber os dados, ainda deixa nosso código mais
 
 ## Meu código ficou mais complexo
 
-Ficou, é verdade. Na parte introdutória sobre design de código você viu uma ideia de design que estamos trabalhando dentro da Zup Academy. Dada a nossa ideia, esse código está mais complexo sim. Só que o tradeoff está claro, você aumenta a complexidade para diminuir a fragilidade da api e de quebra ainda ganha mais segurança. De vez em quando isso vai acontecer :). 
+Ficou, é verdade. Na parte introdutória sobre design de código você viu uma ideia de design que estamos trabalhando dentro da Zup Academy. Dada a nossa ideia, esse código está mais complexo sim. Só que o tradeoff está claro, você aumenta a complexidade para diminuir a fragilidade da api e de quebra ainda ganha mais segurança. E perceba que respeitamos o limite de complexidade estabelecido no nosso projeto. 
