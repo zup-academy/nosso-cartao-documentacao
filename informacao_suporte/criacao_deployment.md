@@ -101,9 +101,14 @@ necessário realizar alguma ação.
 E ae pronto para fazer seu primeiro arquivo de configuração de deployment!!!!
 
 # Informação de Suporte
+
 * Você pode estar se perguntando "Ainda não tenho certeza o que é um POD", [este link pode te ajudar a compreender 
     um pouco mais sobre isso](https://kubernetes.io/docs/concepts/workloads/pods/)
+
 * Talvez você possa estar em dúvida sobre algum item relacionado ao Liveness Probe e Readiness Probe. [Esse link tem algumas dicas bem legais sobre isso](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
+
 * Ou ainda você queira se aprofundar em como o Liveness Probe e Readiness Probe influencia no ciclo de vida de um POD. [Esse link indica algumas situações que você deve considerá-los](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#when-should-you-use-a-liveness-probe)
+
 * Se por algum motivo você ainda está com dúvidas sobre a configuração de limites de recursos computacionais, [esse link pode te ajudar à entender melhor](https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-resource-requests-and-limits)
+
 * Se você tem alguma duvida sobre o Spring Boot Actuator, [esse link pode ajuda-lo](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html)

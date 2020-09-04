@@ -48,13 +48,19 @@ precisamos utilizar no nosso POD.
 Simples!!! Agora você sabe como associar **Secret** + **Pod**!!!
 
 # Informação de Suporte
+
 * Quer saber como criar um ConfigMap no kubernetes esse link pode te ajudar
+
 * Pode ser a primeira vez que você tenha ouvido a palavra base64. [Esse link pode te ajudar a compreender
  um pouco melhor o que é isso](https://developer.mozilla.org/en-US/docs/Glossary/Base64)
+
 * Em algum momento você pode estar se perguntando "Só consigo criar **Secret** via yamls???". [Nesse link você pode descobrir um
     pouco mais como criar secrets usando a ferramenta **kubectl**](https://kubernetes.io/docs/concepts/configuration/secret/#creating-your-own-secrets)
+  
   * Talvez seja a primeira vez que você viu a palavra **kubectl**, não tem problema [esse link vai resolver boa parte da suas dúvidas](https://kubernetes.io/docs/reference/kubectl/overview/)        
+
 * Se você pensou "Então eu posso usar **Secret** e associar minha varíavel de ambiente no meu POD???". Aqui você pode aprender como
     "consumir" o seu **Secret** em um POD.
+
 * Mas se você tem um outro problema "Como posso consumir um **Secret** que esta armazenado um um arquivo???". [Aqui você encontra como
     consumir um **Secret** usando montagem de volume](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod)        

@@ -61,9 +61,12 @@ senhas ou informações sigilosas.
 
 * Talvez você possa estar interessado no princípio da configuração de aplicações definido
 pelo 12 Factor Apps. [Neste link você pode encontrar um detalhamento sobre o item](https://12factor.net/config)
+
 * Se você tem alguma dúvida sobre o que é um ConfigMap, [este link da documentação do kubernetes pode te ajudar com isso](https://kubernetes.io/docs/concepts/configuration/configmap/)
+
 * Ou ainda você pode ter ficado em dúvida em como criar um deployment, [neste link tem o passo a passo de como fazer isso](criacao_deployment.md)
+
 * Talvez você queira entrar em mais detalhes de como podemos associar ConfigMap e PODs, [este link pode te ajudar com isso](https://kubernetes.io/docs/concepts/configuration/configmap/#configmaps-and-pods)
+
 * Talvez você possa estar se perguntando "Então quando eu atualizo meu ConfigMap, o POD automaticamente faz o reload da varíavel??". 
   Na verdade esse não é um comportamento padrão, mas [esse link pode te ajudar a chegar nesse comportamento](https://kubernetes.io/docs/concepts/configuration/configmap/#mounted-configmaps-are-updated-automatically)
-  
