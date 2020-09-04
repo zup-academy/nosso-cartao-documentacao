@@ -27,6 +27,8 @@ public interface CarroRepository extends CrudRepository<Carro, String> {
 
 Eba, temos nosso repositório criado e configurado!
 
+Você sabia que existem outros tipos de repositórios? Quer saber mais? Acesse o [link!](../informacao_suporte/spring-data-repository-types.md)
+
 # Informação de Suporte
 
 Quer saber mais sobre a anotação @Repository, acesse o [link!](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.namespace)
