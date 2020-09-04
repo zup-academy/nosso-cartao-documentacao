@@ -65,6 +65,10 @@ public class Example {
 }
 ```
 
+Eba, temos nosso repositório criado e configurado!
+
+Você sabia que existem outros tipos de repositórios? Quer saber mais? Acesse o [link!](../informacao_suporte/spring-data-repository-types.md)
+
 # Informação de Suporte
 
 Quer saber mais sobre os métodos dessa interface, acesse o [link!](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)
