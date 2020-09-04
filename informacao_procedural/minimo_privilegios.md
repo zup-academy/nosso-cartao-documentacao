@@ -18,6 +18,6 @@ o que é isso. Em inglês o termo usado pra isso é **Attack Surface**. Ah... um
 
 - O termo em inglês para essa prática é chamado de Principle of Least Privilege (POLP). [Aqui tem uma descrição detalhada sobre o tema](https://digitalguardian.com/blog/what-principle-least-privilege-polp-best-practice-information-security-and-compliance)
 
-- Se você usar **kubernetes** [aqui vai uma dica](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/#2-enable-rbac-with-least-privilege-disable-abac-and-monitor-logs) de como você pode aplicar o POLP. Uma frase bastante impactante é
+- Se você usar **Kubernetes** [aqui vai uma dica](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/#2-enable-rbac-with-least-privilege-disable-abac-and-monitor-logs) de como você pode aplicar o POLP. Uma frase bastante impactante é
 >"Incorrect or excessively permissive RBAC policies are a security threat in case of a compromised pod. Maintaining least privilege, and continuously reviewing and improving RBAC rules, should be considered part of the **"technical debt hygiene"** that teams build into their development lifecycle".
 

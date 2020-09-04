@@ -14,7 +14,8 @@ não seja possível identificar o dado. O termo adequado para dados que permitam
 PII _Personal Identifiable Information_
 
 ## Mas quais são os dados que eu devo tomar cuidado ao logá-los ???
-A regra geral é sempre que tiver dúvida pergunte ao time de segurança da ZUP *(link aqui)*. 
+
+A regra geral é sempre que tiver dúvida pergunte ao time de segurança da ZUP *(link aqui)* FIXME. 
 Em geral documentos pessoais, número de cartões de credito, senhas, informações pertinentes a saúde e informações que dizem aos dados pessoais devem ser 
 ofuscadas no log da nossa aplicação ou qualquer outra camada que haja escrita do dado. 
 
