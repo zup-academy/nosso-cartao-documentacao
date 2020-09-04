@@ -1,6 +1,6 @@
-# Comandos mais utilizados no gerenciamento de kubernetes!!!
+# Comandos mais utilizados no Kubernetes!
 
-## Buscar primitivas do kubernetes
+## Buscar primitivas do Kubernetes
 
 ##### Buscar todos namespaces
 ```shell script
@@ -66,9 +66,6 @@ kubectl get deployments <deployment_name> -n <namespace> -o yaml
 kubectl get deployments <deployment_name> -n <namespace> -o json
 ```
 
-
-
-
-
-
 # Informação de Suporte
+
+Gostaria de saber mais sobre os comandos do kubectl? Acesse o [link!](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
