@@ -5,7 +5,7 @@ para rodar um container, um detalhe bem importante é que a imagem é estática,
 do conteúdo.
 
 Depois que escolhermos a imagem desejada, estamos aptos a criar containers à partir dela. Para isso podemos
-usar o comando **docker run**, na prática esse comando vai rodar um container usando premissas de containeirização
+usar o comando **docker run**, na prática esse comando vai rodar um container usando premissas de conteinerização
 com seu próprio filesystem, sua rede e processo separado do host.  
 
 Então já que temos nossa imagem é hora de rodar nosso container!!!
@@ -27,11 +27,12 @@ por isso é prefixado pelo usuário, que no nosso caso é **zupacademy**.
 E nosso último argumento é o nome do nosso container, normalmente utilizamos para facilitar o gerenciamento dos containers
 na nossa máquina...
 
-
 ## Informações de suporte
-* Talvez você possa estar intessado em saber mais detalhes sobre "rodar em segundo plano", 
-[esse link pode te ajudar](https://docs.docker.com/engine/reference/run/#detached-vs-foreground)
-* Se por algum motivo você queira explorar mais sobre sobre networking do docker, [este link pode te ajudar!!](https://docs.docker.com/network/)
-  * Ou talvez você possa estar se pergutando sobre quais opções eu tenho para expor portas, [esse link da documentação pode te ajudar com isso](https://docs.docker.com/engine/reference/run/#expose-incoming-ports)
-* Se você está com dúvida sobre o parâmetro **name**, [esse link pode te ajudar entender algumas coisas relacionadas a identificação do container](https://docs.docker.com/engine/reference/run/#name---name)  
-Se você estiver afim de se aprofundar no comando docker container run, [aqui você encontra a documentação completa](https://docs.docker.com/engine/reference/run/)
+
+* Talvez você possa estar interessado em saber mais detalhes sobre "rodar em segundo plano", correto? [Esse link pode te ajudar!](https://docs.docker.com/engine/reference/run/#detached-vs-foreground)
+
+* Se por algum motivo você queira explorar mais sobre sobre networking do docker, [este link pode te ajudar!](https://docs.docker.com/network/)
+  
+* Talvez você possa estar se perguntando sobre quais opções eu tenho para expor as portas? [Esse link pode te ajudar!](https://docs.docker.com/engine/reference/run/#expose-incoming-ports)
+
+* Gostaria de saber mais sobre o comando run do Docker? [Aqui você encontra a documentação completa!](https://docs.docker.com/engine/reference/run/)
