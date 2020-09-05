@@ -41,6 +41,7 @@
 * [PEGUE CADA UMA DAS CLASSES QUE VOCÊ CRIOU E REALIZE A CONTAGEM DA CARGA INTRÍNSECA](../informacao-suporte-design/treino-contagem-carga-intrinseca.md). Esse é o viés de design que estamos trabalhando. Precisamos nos habituar a fazer isso para que se torne algo automático na nossa vida.
 
 * [COMO ALBERTO FARIA ESSE CÓDIGO?](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/commit/3670e63786b0029cc7fb596c57d285e002717490)
+ * Alberto deixou a solução de nome único para a outra funcionalidade :). 
 
 ## sensações
 
