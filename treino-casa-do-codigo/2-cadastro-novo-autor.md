@@ -49,7 +49,7 @@
 
 * Como mapear classes para serem entendidas por implementação da JPA? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-data-entity.md)
 
-* Como declarar meu repositório da proposta utilizando Spring Data JPA? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-data-repository.md)
+* Como declarar meu repositório utilizando Spring Data JPA? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-data-repository.md)
 
 
 * Utilize um insomnia ou qualquer outra forma para verificar o endpoint
@@ -60,7 +60,9 @@
 
 ## informações extras de suporte
 * Para receber os dados da request como json, temos a annotation ```@RequestBody```
+
 * Usamos a annotation ```@Valid``` para pedir que os dados da request sejam validados
+
 * Está pensando em como fazer as validações dos dados do seu objeto? Olha que interessante, já existe um especificação no mundo Java que pensou só nisso. Ela é chamada Bean Validation. Inclusive o Spring já tem integração fina com ela. [Confere essa dica aqui](../informacao_suporte/bean-validation.md)
 
 * [COMO CRIAR UM @RESTCONTROLLERADVICE PARA CUSTOMIZAR O JSON DE SAÍDA COM ERROS DE VALIDAÇÃO](../informacao_suporte/error-spring.md)
