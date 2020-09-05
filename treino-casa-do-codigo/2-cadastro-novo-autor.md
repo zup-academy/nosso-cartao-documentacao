@@ -27,7 +27,7 @@
 
 * Será que você fez um código parecido com esse exemplo [aqui](../informacao_suporte/opcoes-planejamento-cadastro.md)?
 
-* Se a resposta para o ponto 1 foi sim, recomendo de novo esse material aqui sobre [arquitetura X design](../informacao-suporte-design/arquitetura-x-design.md). Também acho que vai ser legal você olhar a [MINHA IMPLEMENTAÇÃO LOGO DE CARA](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/commit/eb6f3fec10d2801a076127cf74b2ec81cf54aeb2), apenas para ter uma ideia de design que estou propondo. Esse commit já mostra também uma validação, além de configurações automáticas do Spring Initializer, mas dá uma boa ideia.
+* Se a resposta para o ponto 1 foi sim, recomendo de novo esse material aqui sobre [arquitetura X design](../informacao-suporte-design/arquitetura-x-design.md). Também acho que vai ser legal você olhar a [MINHA IMPLEMENTAÇÃO LOGO DE CARA](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/commit/eb6f3fec10d2801a076127cf74b2ec81cf54aeb2), apenas para ter uma ideia de design que estamos propondo. Esse commit já mostra também uma validação, além de configurações automáticas do Spring Initializer, mas dá uma boa ideia.
 
 * [CONTROLLERS 100% COESOS](../informacao-suporte-design/controllers-100-coesos.md) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos.
 
@@ -42,8 +42,30 @@
 * Nome e email são informações obrigatórias. Como você lidou com isso? [INFORMAÇÃO NATURAL E OBRIGATÓRIA ENTRA PELO CONSTRUTOR](../informacao-suporte-design/construtor-para-informacao-natural.md)
 
 * Deixamos pistas que facilitem o uso do código onde não conseguimos resolver com compilação. Muitas vezes recebemos String, ints que possuem significados. Um email por exemplo. Se você não pode garantir a validação do formato em compilação, [QUE TAL DEIXAR UMA DICA PARA A OUTRA PESSOA?](../informacao-suporte-design/deixe-pistas-para-as-pessoas.md)
+
+* Precisamos salvar nosso autor na base de dados, para isto o Spring tem o projeto Spring Data JPA, quer saber mais? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-data.md)
+
+* E como eu configuro o Spring Data JPA? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-data-configuration.md)
+
+* Como mapear classes para serem entendidas por implementação da JPA? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-data-entity.md)
+
+* Como declarar meu repositório da proposta utilizando Spring Data JPA? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-data-repository.md)
+
+
 * Utilize um insomnia ou qualquer outra forma para verificar o endpoint
+
 * [PEGUE CADA UMA DAS CLASSES QUE VOCÊ CRIOU E REALIZE A CONTAGEM DA CARGA INTRÍNSECA](../informacao-suporte-design/treino-contagem-carga-intrinseca.md). Esse é o viés de design que estamos trabalhando. Precisamos nos habituar a fazer isso para que se torne algo automático na nossa vida.
+
 * [COMO ALBERTO FARIA ESSE CÓDIGO?](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/commit/eb6f3fec10d2801a076127cf74b2ec81cf54aeb2)
 
+## informações extras de suporte
+* Para receber os dados da request como json, temos a annotation ```@RequestBody```
+* Usamos a annotation ```@Valid``` para pedir que os dados da request sejam validados
+* Está pensando em como fazer as validações dos dados do seu objeto? Olha que interessante, já existe um especificação no mundo Java que pensou só nisso. Ela é chamada Bean Validation. Inclusive o Spring já tem integração fina com ela. [Confere essa dica aqui](../informacao_suporte/bean-validation.md)
+
+* [COMO CRIAR UM @RESTCONTROLLERADVICE PARA CUSTOMIZAR O JSON DE SAÍDA COM ERROS DE VALIDAÇÃO](../informacao_suporte/error-spring.md)
+
+* [Exemplo de um ```RestControllerAdvice``` para você utilizar.](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/blob/master/src/main/java/com/deveficiente/casadocodigov2/compartilhado/ValidationErrorHandler.java) 
+
+* [COMO EXTERNALIZAR AS MENSAGENS DE ERRO NO ARQUIVO DE CONFIGURAÇÃO](../informacao_suporte/externaliza-mensagens-properties.md)
 
