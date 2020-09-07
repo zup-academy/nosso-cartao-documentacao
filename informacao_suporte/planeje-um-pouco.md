@@ -25,6 +25,8 @@ Outro exemplo:
 5. Salvar tal objeto.
 6. Retornar o status combinado.
 
+Por sinal a recomendação é que você comece pelo código mais próximo da borda mais externa, como mostrado no segundo exemplo. Pensando numa aplicação web, quando você começa o código pelo controller, você sempre vai ter a chance de executar o seu código o mais rápido possível. E quanto mais vezes você executa um código durante a implementação, provavelmente maior a chance dele sair como deveria no final. 
+
 ## E quando eu já souber o que fazer?
 
 Já sabe? Manda bala e vai no código :). Planejar é uma ferramenta para aumentar suas chances de acertar de primeira. Se você já sabe o que fazer, já vai par o jogo.

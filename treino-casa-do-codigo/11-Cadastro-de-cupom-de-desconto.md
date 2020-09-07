@@ -20,3 +20,13 @@ Todo cupom tem:
 
 * Em caso de sucesso retorne status 200
 * Em caso de falha retorne status 400
+
+## sobre a utilização do material de suporte aqui
+
+Mais um cadastro para você treinar​ as práticas que temos feito. Tente fazer sozinho(a).​
+
+## informações de suporte
+
+* [COMO ALBERTO FARIA ESSE CÓDIGO?](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/commit/a21504b1bb4886f3790839e3de58a84b8add7391)
+
+

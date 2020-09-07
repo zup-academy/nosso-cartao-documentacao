@@ -32,3 +32,14 @@ São dois endpoints diferentes.
 
 * Em caso de sucesso retorne 200
 * Em caso de falha de validação retorne 400
+
+## sobre a utilização do material de suporte aqui
+
+Aqui você tem mais uma oportunidade de treinar uma operação similar a que você já encontrou. Essa é uma coisa que acontece regularmente na nossa vida trabalhando. Muitas vezes nos pegamos implementando códigos que já são mais usuais para a gente e achamos fácil. Achar fácil, ao contrário do que pode parecer é bom :). Quando está fácil, a chance é que você já tenha internalizado aquele conhecimento. E aí você pode se desafiar! Acha que é fácil? O quão rápido mantendo a qualidade você consegue fazer?
+
+## informações de suporte
+
+* Coloque um cronômetro, estime o tempo para fazer e desafie-se. 
+* [COMO ALBERTO FARIA ESSE CÓDIGO?](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/commit/10837e178fbf0a55a75e68fa078683fbeeeae5c6)
+
+
