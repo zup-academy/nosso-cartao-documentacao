@@ -1,4 +1,4 @@
-# Como trabalhar com variáveis de ambiente do Kubernetes?
+# Como trabalhar com variáveis de ambiente no Kubernetes?
 
 Quando falamos de aplicações cloud-native applications sempre devemos ter em mente o manifesto
 do 12 Factor Apps!
