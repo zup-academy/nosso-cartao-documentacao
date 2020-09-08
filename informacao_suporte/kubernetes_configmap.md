@@ -48,7 +48,7 @@ $ kubectl apply -f <NOME DO SEU ARQUIVO>.yaml
 
 Eba! Você criou seu primeiro ConfigMap no Kubernetes!
 
->  Talvez esteja se pergutando existe alguma lista de comandos mais utilizados? [Aqui você encontra essa lista!](../informacao_suporte/kubectl_cheatsheet.md)
+>  Talvez esteja se pergutando existe alguma lista de comandos mais utilizados? [Aqui você encontra essa lista!](kubernetes_kubectl.md)
 
 ## Associando ConfigMap ao [PODs](https://kubernetes.io/docs/concepts/workloads/pods/)
 
