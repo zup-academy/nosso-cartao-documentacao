@@ -36,7 +36,19 @@ Note que temos um nó **data**, qualquer entrada desse nó pode se tornar uma va
 que for utilizá-la. Dessa maneira se tivermos um sistema que utilize a variável de ambiente **SERVER_PORT** ela será 
 preenchida com o valor **8888**.
 
-Demais né!?
+Demais né!? Vamos criá-lo?
+
+Para criar o ConfigMap no Kubernetes, precisamos executar o seguinte comando:
+
+> Está em dúvida de como se conectar no cluster Kubernetes? Não se preocupe! [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_procedural/conectando_gcloud_sdk.md)
+
+```shell script
+$ kubectl create -f <NOME DO SEU ARQUIVO>.yaml
+```
+
+Eba! Você criou seu primeiro ConfigMap no Kubernetes!
+
+>  Talvez esteja se pergutando existe alguma lista de comandos mais utilizados? [Aqui você encontra essa lista!](../informacao_suporte/kubectl_cheatsheet.md)
 
 ## Associando ConfigMap ao [PODs](https://kubernetes.io/docs/concepts/workloads/pods/)
 
