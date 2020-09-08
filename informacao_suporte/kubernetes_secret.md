@@ -1,14 +1,23 @@
-# Guardando nossos segredos!!! Como criar um secret no kubernetes!!!
+# Como trabalhar com variáveis de ambiente sensíveis no Kubernetes?
 
-Quando desenvolvemos aplicações é comum que elas precisem de algum tipo de configuração para
-funcionar, como por exemplo endereço do banco de dados. Usamos ConfigMap do kubernetes para
-armazenar as configurações da nossa aplicação separada do código fonte.
+Quando falamos de aplicações cloud-native applications sempre devemos ter em mente o manifesto
+do 12 Factor Apps!
 
-Mas, e quando precisamos de valores que não podem ser armazenados de maneira "aberta", sem nenhum
-tipo de criptografia??
+Esse manifesto nos ajuda a construir aplicações portáveis entre provedores de nuvem dentre
+outras características importantes.
 
-**ConfigMaps** não são indicados para esse. Precisamos utilizar uma primitiva chamada **Secrets** do Kubernetes.
-Essa primitiva permite que consigamos armazenar informações sensíveis como senhas, tokens e chaves SSH.
+Um dos pilares é o da configuração, que diz que a configuração da aplicação deve ser provida pelo ambiente.
+
+> Quer saber mais sobre configuração no 12 Factor Apps? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_procedural/twelve-factor-config.md)
+
+O Kubernetes provê uma série de primitivas, elementos que estão presentes em todas instalações do Kubernetes,
+que nos ajudam a lidar com problemas de deployments de aplicações.
+
+Uma delas é o **ConfigMap**, que nos ajuda a manipular informações relacionadas a configuração da aplicação de maneira 
+separada, seguindo o pilar do 12 Factor Apps, porém, quando precisamos armazenar informações sensíveis e de forma segura, 
+precisamos utilizar uma outra primitiva denominada **Secrets**.
+
+Essa primitiva permite que consigamos armazenar informações sensíveis como senhas, tokens, chaves SSH, etc.
 
 Vamos ver como podemos declarar um arquivo de configuração de um **Secret**
 
@@ -16,51 +25,67 @@ Vamos ver como podemos declarar um arquivo de configuração de um **Secret**
 apiVersion: v1
 kind: Secret
 metadata:
-  name: proposta
+  name: my-secret
 type: Opaque
 data:
   username: YWRtaW4=
   password: YWRtaW5AMjYtMjAwLTAtQEA=
 ```
 
-Note que os valores estão descritos em _Base64_, não é permitido passar os valores "em claro" na criação do elemento
+Você pode salvar um arquivo com qualquer nome com extensão **.yaml** e então ele está apto à ser declarado no Kubernetes!
 
-Então agora que declaramos nosso **Secret** vamos utilizar ele em um elemento **Deployment**
+Demais né!?
+
+Note que temos um nó **data**, qualquer entrada desse nó pode se tornar uma variável de ambiente a ser injetada no [Pod](https://kubernetes.io/docs/concepts/workloads/pods/) 
+que for utilizá-la. Dessa maneira se tivermos um sistema que utilize a variável de ambiente **username** ela será 
+preenchida com o valor aberto em **Base64**.
+
+Demais né!? Vamos criá-la?
+
+Para criar a Secret no Kubernetes, precisamos executar o seguinte comando:
+
+```shell script
+$ kubectl apply -f <NOME DO SEU ARQUIVO>.yaml
+```
+
+> Está em dúvida de como se conectar no cluster Kubernetes? Não se preocupe! [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_procedural/conectando_gcloud_sdk.md)
+
+Eba! Você criou sua primeira Secret no Kubernetes!
+
+>  Talvez esteja se perguntando existe alguma lista de comandos mais utilizados? [Aqui você encontra essa lista!](kubernetes_kubectl.md)
+
+## Associando Secret ao [PODs](https://kubernetes.io/docs/concepts/workloads/pods/)
+
+Uma vez que declaramos nossas variáveis de ambiente no **Secret**, podemos utilizá-la em nossos PODs, onde efetivamente
+rodam nossas aplicações. Para fazer isso devemos adicionar a seguinte configuração no arquivo de configuração de deployments,
+conforme exemplo abaixo:
 
 ```yaml
-    ## restante omitido
-    spec:
-      containers:
-        - image: zupacademy/proposta
-          imagePullPolicy: Always
-          env:
-            - name: USERNAME
-              valueFrom:
-                secretKeyRef:
-                  name: proposta
-                  key: username
-    ## restante omitido
+## restante omitido
+spec:
+  containers:
+    - image: zupacademy/proposta
+      imagePullPolicy: Always
+      env:
+        - name: USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: my-secret
+              key: username
+## restante omitido
 ``` 
 
-Note que associamos o **Secret** através da tag **name** apontamos o nome do **Secret** e depois selecionamos o valor que
-precisamos utilizar no nosso POD.
+A associação acontece pela configuração do nó **valueFrom** perceba que referenciamos o **Secret** pelo atributo
+**secretKeyRef**.
 
-Simples!!! Agora você sabe como associar **Secret** + **Pod**!!!
+Demais né!?
 
 # Informação de Suporte
 
-* Quer saber como criar um ConfigMap no kubernetes esse link pode te ajudar
+* Talvez esteja se perguntando o que é Base64, não se preocupe,  [aqui tem uma explicação do que entendemos que você deve considerar](https://pt.wikipedia.org/wiki/Base64)
 
-* Pode ser a primeira vez que você tenha ouvido a palavra base64. [Esse link pode te ajudar a compreender
- um pouco melhor o que é isso](https://developer.mozilla.org/en-US/docs/Glossary/Base64)
+* Gostaria de saber mais sobre Secret? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://kubernetes.io/docs/concepts/configuration/secret/)
 
-* Em algum momento você pode estar se perguntando "Só consigo criar **Secret** via yamls???". [Nesse link você pode descobrir um
-    pouco mais como criar secrets usando a ferramenta **kubectl**](https://kubernetes.io/docs/concepts/configuration/secret/#creating-your-own-secrets)
-  
-  * Talvez seja a primeira vez que você viu a palavra **kubectl**, não tem problema [esse link vai resolver boa parte da suas dúvidas](https://kubernetes.io/docs/reference/kubectl/overview/)        
+* Gostaria de saber mais detalhes sobre Secret e Pod? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-environment-variables)
 
-* Se você pensou "Então eu posso usar **Secret** e associar minha varíavel de ambiente no meu POD???". Aqui você pode aprender como
-    "consumir" o seu **Secret** em um POD.
-
-* Mas se você tem um outro problema "Como posso consumir um **Secret** que esta armazenado um um arquivo???". [Aqui você encontra como
-    consumir um **Secret** usando montagem de volume](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod)        
+* Talvez esteja se perguntando, como eu criou um deployment no Kubernetes? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_suporte/kubernetes_deployment.md) 

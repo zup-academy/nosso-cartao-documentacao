@@ -22,7 +22,7 @@ Então vamos entender como podemos declarar um ConfigMap
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: contas-config
+  name: my-config
 data:
   LOG_LEVEL: "INFO"
   SERVER_PORT: "8888"
@@ -48,11 +48,11 @@ $ kubectl apply -f <NOME DO SEU ARQUIVO>.yaml
 
 Eba! Você criou seu primeiro ConfigMap no Kubernetes!
 
->  Talvez esteja se pergutando existe alguma lista de comandos mais utilizados? [Aqui você encontra essa lista!](kubernetes_kubectl.md)
+>  Talvez esteja se perguntando existe alguma lista de comandos mais utilizados? [Aqui você encontra essa lista!](kubernetes_kubectl.md)
 
 ## Associando ConfigMap ao [PODs](https://kubernetes.io/docs/concepts/workloads/pods/)
 
-Uma vez que declaramos nossas varíaveis de ambiente no **ConfigMap**, podemos utilizá-la em nossos PODs, onde efetivamente
+Uma vez que declaramos nossas variáveis de ambiente no **ConfigMap**, podemos utilizá-la em nossos PODs, onde efetivamente
 rodam nossas aplicações. Para fazer isso devemos adicionar a seguinte configuração no arquivo de configuração de deployments,
 conforme exemplo abaixo:
 
@@ -64,7 +64,7 @@ spec:
       imagePullPolicy: Always
       envFrom:
         - configMapRef:
-            name: contas-config
+            name: my-config
 ## restante omitido
 ``` 
 
