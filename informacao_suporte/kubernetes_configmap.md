@@ -81,9 +81,6 @@ Gostaria de para armazenar senhas ou informações sigilosas no Kubernetes? [Aqu
 
 * Gostaria de saber mais sobre ConfigMap? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://kubernetes.io/docs/concepts/configuration/configmap/)
 
-* Ou ainda você pode ter ficado em dúvida em como criar um deployment, [neste link tem o passo a passo de como fazer isso](kubernetes_deployment.md)
+* Gostaria de saber mais detalhes sobre ConfigMap e Pod? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://kubernetes.io/docs/concepts/configuration/configmap/#configmaps-and-pods)
 
-* Talvez você queira entrar em mais detalhes de como podemos associar ConfigMap e PODs, [este link pode te ajudar com isso](https://kubernetes.io/docs/concepts/configuration/configmap/#configmaps-and-pods)
-
-* Talvez você possa estar se perguntando "Então quando eu atualizo meu ConfigMap, o POD automaticamente faz o reload da varíavel??". 
-  Na verdade esse não é um comportamento padrão, mas [esse link pode te ajudar a chegar nesse comportamento](https://kubernetes.io/docs/concepts/configuration/configmap/#mounted-configmaps-are-updated-automatically)
+* Talvez esteja se perguntando, como eu criou um deployment no Kubernetes? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_suporte/kubernetes_deployment.md)
