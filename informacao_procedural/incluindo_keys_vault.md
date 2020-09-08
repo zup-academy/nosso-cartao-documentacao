@@ -36,10 +36,13 @@ que tal dar uma olhada nas "policies" do vault. [Esse link dá uma boa explicaç
 Tente aplicar uma política para que somente sua aplicação possa acessar determinada secret!!! Depois é claro
 nos conte o resultado!!!
 
-
 ## Informações de suporte
+
 * Você pode estar se perguntando, "o que é vault??", [este link tem algumas informações importantes](https://www.vaultproject.io/)
+
 * Talvez você gostou da idéia de guardar dados criptografados dentro de um cofre, [esse link explica
 com alguns detalhes de implementação o ciclo de vida de uma secret](https://www.vaultproject.io/docs/secrets)
+
 * Caso você tenha dificuldade em se conectar com o vault, [esse link pode te ajudar no processo de login](https://www.vaultproject.io/docs/commands/login)
+
 * Talvez você esteja com dificuldade em habilitar a secret engine, [este link pode te ajudar](https://www.vaultproject.io/docs/commands/secrets/enable)
