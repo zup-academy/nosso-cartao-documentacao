@@ -1,4 +1,4 @@
-# Como trabalhar com variáveis de ambiente sensíveis no Kubernetes?
+# Guardando nossos segredos! Como criar um secret no Kubernetes!
 
 Quando falamos de aplicações cloud-native applications sempre devemos ter em mente o manifesto
 do 12 Factor Apps!
@@ -45,7 +45,7 @@ Demais né!? Vamos criá-la?
 Para criar a Secret no Kubernetes, precisamos executar o seguinte comando:
 
 ```shell script
-$ kubectl apply -f <NOME DO SEU ARQUIVO>.yaml
+$ kubectl apply -f <NOME DO SEU ARQUIVO>.yaml -n <NAMESPACE>
 ```
 
 > Está em dúvida de como se conectar no cluster Kubernetes? Não se preocupe! [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_procedural/conectando_gcloud_sdk.md)

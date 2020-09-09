@@ -132,6 +132,8 @@ services:
       - 8200:8200
     environment:
       VAULT_DEV_ROOT_TOKEN_ID: ee413645-dbe8-4848-afc6-6bb2768ada75
+      VAULT_TOKEN: ee413645-dbe8-4848-afc6-6bb2768ada75
+      VAULT_ADDR: http://127.0.0.1:8200
 
 volumes:
   grafana-volume:

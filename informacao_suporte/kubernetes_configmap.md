@@ -41,7 +41,7 @@ Demais né!? Vamos criá-lo?
 Para criar o ConfigMap no Kubernetes, precisamos executar o seguinte comando:
 
 ```shell script
-$ kubectl apply -f <NOME DO SEU ARQUIVO>.yaml
+$ kubectl apply -f <NOME DO SEU ARQUIVO>.yaml -n <NAMESPACE>
 ```
 
 > Está em dúvida de como se conectar no cluster Kubernetes? Não se preocupe! [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_procedural/conectando_gcloud_sdk.md)
