@@ -1,10 +1,10 @@
-# Então vamos por nossa aplicação para RODAR, como realizar o deployment da nossa aplicação!!!
+# Então vamos por nossa aplicação para RODAR, como realizar o deployment da nossa aplicação!
 
 Quando vamos rodar nossa aplicação precisamos garantir alguns controles, como por
 exemplo número de réplicas ativas, estratégias de rollback quando há uma falha na nova
 versão, suportar regras de auto-scaling quando há pico de carga dentre outros.
 
-O kubernetes provê uma forma mais centralizada de nos ajudar com isso através do elemento
+O Kubernetes provê uma forma mais centralizada de nos ajudar com isso através do elemento
 Deployment, que na prática significa controlar um grupo de PODs com características similares.
 
 Por exemplo quando temos uma aplicação de **fatura**, todos os PODs dessa mesma aplicação possuem
@@ -15,6 +15,7 @@ para todos que possuem essa mesma característica.
 Neste ponto o elemento **Deployment** nos ajuda, controlar um grupo de PODs que possuem as mesmas características.
 
 Quando pensamos em manter nossas aplicações rodando certamente alguns atributos já nos vem à cabeça:
+
 * Número de réplicas
 * Nome da imagem que nossa aplicação é empacotada 
 * Talvez histórico de revisões 
@@ -23,7 +24,7 @@ Perceba que esses detalhes são relacionados a nossa aplicação, que de certa f
 
 Também precisamos informar no nosso **Deployment** algumas informações relacionadas a infraestrutura necessária para rodar
 nossa aplicação bem como detalhes para que nossa infraestrutura seja informada que nossa aplicação está funcionando 
-corretamente
+corretamente.
 
 * **Liveness Probe** e **Readiness Probe** são informações que devemos informar para que o Kubernetes entenda a situação atual da nossa aplicação 
 * **Recursos** necessários para rodar nossa aplicação como por exemplo 512 MB de RAM e 1 CPU. Esta informação o kubernetes irá
@@ -31,7 +32,7 @@ utilizar para acondicionar melhor nosso POD, considerando limites computacionais
 
 Esses itens são **MUITO** importantes para o correto funcionamento da nossa aplicação no cluster.
 
-Então agora que sabemos a necessidade de se criar um deployment vamos para um exemplo prático!!!
+Então agora que sabemos a necessidade de se criar um deployment vamos para um exemplo prático!
 
 ```yaml
 apiVersion: apps/v1
@@ -115,8 +116,7 @@ Eba! Você criou seu primeiro Deployment no Kubernetes!
 
 # Informação de Suporte
 
-* Você pode estar se perguntando "Ainda não tenho certeza o que é um POD", [este link pode te ajudar a compreender 
-    um pouco mais sobre isso](https://kubernetes.io/docs/concepts/workloads/pods/)
+* Você pode estar se perguntando "Ainda não tenho certeza o que é um POD", [este link pode te ajudar a compreender um pouco mais sobre isso](https://kubernetes.io/docs/concepts/workloads/pods/)
 
 * Talvez você possa estar em dúvida sobre algum item relacionado ao Liveness Probe e Readiness Probe. [Esse link tem algumas dicas bem legais sobre isso](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
 
