@@ -20,7 +20,7 @@ isso via o seguinte comando:
 vault secrets enable -path=secret/ kv
 ```
 
-Feito isso estamos apto à guardar nossos "segredos" lá, então vamos fazer isso:
+Feito isso estamos aptos a guardar nossos "segredos" lá, então vamos fazer isso:
 
 ```shell script
 vault kv put secret/spring-vault-sidecar APP_DATA=spring ENV_VAR_DATA=hello
