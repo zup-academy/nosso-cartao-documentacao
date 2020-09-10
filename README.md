@@ -16,12 +16,12 @@ técnicos te espera, tais como:
 
 Gostou das tecnologias? Foi apenas uma amostra tem muito mais pela frente!
 
-Nesse treinamento você será responsavél por criar um sistema de cartões, porém no escopo de provisonamento do cartão, 
+Nesse treinamento você será responsável por criar um sistema de cartões, porém no escopo de provisionamento do cartão, 
 fatura e extrato, não seremos responsáveis por gerenciar as transações, pois, as mesmas são gerenciadas através de um 
 sistema de rede de captura e o nosso sistema somente será notificado via Apache Kafka!
 
 Para que seja possível desenvolver as funcionalidades citadas a acima, precisaremos criar três Microsserviços, sim a 
-gente irá trabalhar com arquitetura distrubuída (Microsserviços), que irão em algum momento se integrar com o sistema 
+gente irá trabalhar com arquitetura distribuída (Microsserviços), que irão em algum momento se integrar com o sistema 
 legado(sistema de rede de captura), conforme imagem abaixo:
 
 ![alt text](/images/big-picture.png "Big Picture")
@@ -39,7 +39,7 @@ O desenvolvimento das funcionalidades devem seguir uma ordem, que deve ser:
 > **Você deve seguir a sequência do treinamento, na qual foi pensando com muito carinho, para que você aproveitar ao 
 >máximo e aprender gradativamente cada técnica, tecnologia e conceito!**
 
-Cada funcionalidade está seguimentada em pastas:
+Cada funcionalidade está segmentada em pastas:
 
 - [Proposta](https://github.com/claudiooliveirazup/documentacao-cartao-branco/tree/master/proposta)
 - [Transação](https://github.com/claudiooliveirazup/documentacao-cartao-branco/tree/master/transacao)
