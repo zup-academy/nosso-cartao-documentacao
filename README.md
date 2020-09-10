@@ -77,6 +77,8 @@ assim fica fácil a gente rastrear sua codificação e poder te ajudar em dúvid
 - [Template Transação]()
 - [Template Fatura]()
 
-## TO-DO
+Eba está tudo ok! Muito obrigado por estar nesse treinamento! 
 
-Link do template Java para fazer Fork
+Estamos a disposição para te ajudar sempre! 
+
+## Bom treinamento!
