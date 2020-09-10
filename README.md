@@ -73,9 +73,9 @@ Eba está tudo configurado! Vamos codificar?
 Um último pedido! Para cada serviço (Proposta, Transação e Fatura) a gente criou um template e pedimos que façam um fork,
 assim fica fácil a gente rastrear sua codificação e poder te ajudar em dúvidas, etc!
 
-- [Template Proposta]()
-- [Template Transação]()
-- [Template Fatura]()
+- [Template Proposta](https://github.com/luramarchanjozup/bootcamp-template-proposta)
+- [Template Transação](https://github.com/luramarchanjozup/bootcamp-template-transacao)
+- [Template Fatura](https://github.com/luramarchanjozup/bootcamp-template-fatura)
 
 Eba está tudo ok! Muito obrigado por estar nesse treinamento! 
 
