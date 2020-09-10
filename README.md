@@ -72,12 +72,5 @@ Eba está tudo configurado! Vamos codificar?
 
 ## TO-DO
 
-Imagem da arquitetura do legado
-Link do github do docker-compose
 Link do template Java para fazer Fork
 Link do template Kotlin para fazer Fork
-
-Restrições:
-
-- Não criar uma transação
-- Transações são geradas através de uma rede de captura e nosso sistema somente será notificado via Apache Kafka
