@@ -43,7 +43,7 @@ para possíveis ataques.
 
 Então vamos configurar nosso **Prometheus**!
 
-Como podemos observar na tela abaixo colocamos o endereço **http://prometheus:9090** na configuração, mas porque este endereço?
+Como podemos observar na tela abaixo colocamos o endereço **http://localhost:9090** na configuração, mas porque este endereço?
 
 ![config prometheus](../images/endereco_prometheus.png " config prometheus")
 

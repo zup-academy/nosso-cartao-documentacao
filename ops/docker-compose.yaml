@@ -109,8 +109,9 @@ services:
     volumes:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml
       - prometheus-volume:/etc/prometheus/
-    ports:
-      - 9090:9090
+    network_mode: host
+    expose:
+      - 9090
     depends_on:
       - analise
       - contas
@@ -121,8 +122,9 @@ services:
     volumes:
       - grafana-volume:/var/lib/grafana
       - ./grafana/:/etc/grafana/provisioning/
-    ports:
-      - 3000:3000
+    network_mode: host
+    expose:
+      - 3000
     depends_on:
       - prometheus
 
