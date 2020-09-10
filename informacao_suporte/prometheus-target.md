@@ -13,15 +13,15 @@ do Prometheus para isso execute o comando abaixo:
 $ echo "Syntax"
 $ docker-compose -f <DOCKER-COMPOSE-FILE>.yaml stop <NOME-DO-SERVIÇO>
 
-$ echo "Examplo"
+$ echo "Exemplo"
 $ docker-compose -f nosso_cartao.yaml stop prometheus
 ```
 
 Agora que nosso container do Prometheus está parado, precisamos criar e configurar o arquivo `prometheus.yml` na pasta 
 raiz onde se encontra o arquivo do nosso docker-compose, como por exemplo o `nosso_cartao.yaml`!
 
-Caso já exista o arquivo `prometheus.yml`, utilize o mesmo e adicone o `job_name` no ramo `scrape_configs` conforme 
-examplo abaixo:
+Caso já exista o arquivo `prometheus.yml`, utilize o mesmo e adicione o `job_name` no ramo `scrape_configs` conforme 
+exemplo abaixo:
 
 ```yaml
 # Restante omitido
@@ -56,7 +56,7 @@ Para testar precisamos somente iniciar o container novamente, conforme exemplo a
 $ echo "Syntax"
 $ docker-compose -f <DOCKER-COMPOSE-FILE>.yaml start <NOME-DO-SERVIÇO>
 
-$ echo "Examplo"
+$ echo "Exemplo"
 $ docker-compose -f nosso_cartao.yaml start prometheus
 ```
 
