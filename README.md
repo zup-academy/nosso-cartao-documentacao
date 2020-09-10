@@ -41,11 +41,9 @@ O desenvolvimento das funcionalidades devem seguir uma ordem, que deve ser:
 
 Cada funcionalidade está seguimentada em pastas:
 
-```text
-/proposta
-/transacao
-/fatura
-```
+- [Proposta](https://github.com/claudiooliveirazup/documentacao-cartao-branco/tree/master/proposta)
+- [Transação](https://github.com/claudiooliveirazup/documentacao-cartao-branco/tree/master/transacao)
+- [Fatura](https://github.com/claudiooliveirazup/documentacao-cartao-branco/tree/master/fatura)
 
 Cada pasta tem seus desafios ordenados, novamente você deve seguir a sequência, como por exemplo:
 
