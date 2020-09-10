@@ -58,9 +58,6 @@ Demais né! Está ansioso(a) para codificar?
 
 Antes de codificar precisamos configurar nosso ambiente de desenvolvimento!
 
-Durante o desenvolvimento do projeto algumas ferramentas serão necessárias
-para a conclusão das atividades.
-
 Esse é o momento para fazer isso! Vamos lá?
 
 Configure e verifique as instalações das seguintes ferramentas:
