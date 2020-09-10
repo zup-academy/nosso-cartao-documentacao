@@ -47,32 +47,6 @@ Como podemos observar na tela abaixo colocamos o endereço **http://localhost:90
 
 ![config prometheus](../images/endereco_prometheus.png " config prometheus")
 
-Lembre que estamos usando nosso `docker-compose` como base das informações e serviços
-declarados no mesmo yaml de docker-compose podem ser chamados por hostname, olha que massa!
-
-Docker facilitando nossa vida...
-
-Vamos ver o trecho do nosso [docker compose](../ops/docker-compose.yaml) que nos mostra essa configuração
- 
-```yaml
-    ##
-    ## restante omitido
-    ##
-   prometheus:
-     image: prom/prometheus
-     volumes:
-       - ./prometheus.yml:/etc/prometheus/prometheus.yml
-       - prometheus-volume:/etc/prometheus/
-     ports:
-       - 9090:9090
-    ##
-    ## restante omitido
-    ##
-```
-
-Perceba que o nome do serviço automaticamente faz com que ele torne uma entrada de hostname na nossa rede interna
-do docker-compose.yaml. Simples!
-
 Depois de inserir as informações podemos testar nossas configurações, então clique em **Save & Test**. Se tudo ocorreu
 bem você deve ter recebido a seguinte mensagem "Datasource is working", isso indica sucesso!
 
