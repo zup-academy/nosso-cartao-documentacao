@@ -70,7 +70,13 @@ Configure e verifique as instalações das seguintes ferramentas:
 
 Eba está tudo configurado! Vamos codificar?
 
+Um último pedido! Para cada serviço (Proposta, Transação e Fatura) a gente criou um template e pedimos que façam um fork,
+assim fica fácil a gente rastrear sua codificação e poder te ajudar em dúvidas, etc!
+
+- [Template Proposta]()
+- [Template Transação]()
+- [Template Fatura]()
+
 ## TO-DO
 
 Link do template Java para fazer Fork
-Link do template Kotlin para fazer Fork
