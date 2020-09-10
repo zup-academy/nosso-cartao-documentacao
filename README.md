@@ -17,12 +17,12 @@ técnicos te espera, tais como:
 Gostou das tecnologias? Foi apenas uma amostra tem muito mais pela frente!
 
 Nesse treinamento você será responsavél por criar um sistema de cartões, porém no escopo de provisonamento do cartão, 
-fatura e extrato, não seremos responsáveis por gerenciar as transações, pois, as mesmas são gerenciadas através de uma 
-rede de captura e o nosso sistema somente será notificado via Apache Kafka!
+fatura e extrato, não seremos responsáveis por gerenciar as transações, pois, as mesmas são gerenciadas através de um 
+sistema de rede de captura e o nosso sistema somente será notificado via Apache Kafka!
 
 Para que seja possível desenvolver as funcionalidades citadas a acima, precisaremos criar três Microsserviços, sim a 
 gente irá trabalhar com arquitetura distrubuída (Microsserviços), que irão em algum momento se integrar com o sistema 
-legado, conforme imagem abaixo:
+legado(sistema de rede de captura), conforme imagem abaixo:
 
 ![alt text](/images/big-picture.png "Big Picture")
 
@@ -30,9 +30,11 @@ Está ansioso(a) para começar? Vamos lá!?
 
 O desenvolvimento das funcionalidades devem seguir uma ordem, que deve ser:
 
-1º Desenvolvimento das funcionalidades da Proposta
-2º Desenvolvimento das funcionalidades da Transação
-3ª Desenvolvimento das funcionalidades da Fatura
+**1º** Desenvolvimento das funcionalidades da Proposta
+
+**2º** Desenvolvimento das funcionalidades da Transação
+
+**3ª** Desenvolvimento das funcionalidades da Fatura
 
 > **Você deve seguir a sequência do treinamento, na qual foi pensando com muito carinho, para que você aproveitar ao 
 >máximo e aprender gradativamente cada técnica, tecnologia e conceito!**
