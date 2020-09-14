@@ -107,7 +107,6 @@ services:
   prometheus:
     image: prom/prometheus
     volumes:
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml
       - prometheus-volume:/etc/prometheus/
     network_mode: host
     expose:
@@ -121,7 +120,6 @@ services:
     image: grafana/grafana
     volumes:
       - grafana-volume:/var/lib/grafana
-      - ./grafana/:/etc/grafana/provisioning/
     network_mode: host
     expose:
       - 3000
