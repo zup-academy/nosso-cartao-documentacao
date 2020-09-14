@@ -52,6 +52,8 @@ Agora que o arquivo `prometheus.yml` foi criado e configurado, precisamos mapear
 na seção do Prometheus, conforme exemplo abaixo:
 
 ```yaml
+# Restante omitido
+
 prometheus:
     image: prom/prometheus
     volumes:
@@ -60,6 +62,8 @@ prometheus:
     network_mode: host
     expose:
       - 9090
+
+# Restante omitido
 ```
 
 Eba está tudo configurado! Vamos testar?
