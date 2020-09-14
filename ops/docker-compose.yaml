@@ -111,10 +111,6 @@ services:
     network_mode: host
     expose:
       - 9090
-    depends_on:
-      - analise
-      - contas
-      - transacoes
 
   grafana:
     image: grafana/grafana
