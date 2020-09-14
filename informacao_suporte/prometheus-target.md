@@ -48,6 +48,24 @@ scrape_configs:
       - targets: ['localhost:8080']
 ```
 
+Agora que o arquivo `prometheus.yml` foi criado e configurado, precisamos mapear o mesmo no nosso [docker-compose](../ops/docker-compose.yaml), 
+na seção do Prometheus, conforme exemplo abaixo:
+
+```yaml
+# Restante omitido
+
+prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-volume:/etc/prometheus/
+    network_mode: host
+    expose:
+      - 9090
+
+# Restante omitido
+```
+
 Eba está tudo configurado! Vamos testar?
 
 Para testar precisamos somente iniciar o container novamente, conforme exemplo abaixo:
