@@ -62,7 +62,7 @@ Esse é o momento para fazer isso! Vamos lá?
 
 Configure e verifique as instalações das seguintes ferramentas:
 
-* [Docker](https://docs.docker.com/get-docker/)
+* [Docker 1.13 ou superior](https://docs.docker.com/get-docker/)
 * [Docker Compose](https://docs.docker.com/compose/install/)
 * [Java 11 ou superior](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 * [Maven 3.6 ou superior](https://maven.apache.org/install.html)
