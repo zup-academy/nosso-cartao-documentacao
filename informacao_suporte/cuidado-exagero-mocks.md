@@ -24,6 +24,7 @@ public ResponseEntity<?> cria(@RequestBody @Valid ClasseRequest request,UriCompo
 @Test
 @DisplayName("uma descrição linda escrita em lingua portuguesa")
 void teste1() {
+
 	// Mocks
 	EntityManager manager = Mockito.mock(EntityManager.class);
 	AlgumRepository algumRepository = Mockito.mock(AlgumRepository.class);
@@ -39,6 +40,7 @@ void teste1() {
 	Assertions.assertThrows(ResponseStatusException.class, () -> {
 		classeDeFluxo.cria(request, builder);			
 	});
+	
 }
 ```
 
@@ -48,6 +50,7 @@ No trecho de código exibido utilizamos o mockito, mas colocamos um valor real n
 @Test
 @DisplayName("uma descrição linda escrita em lingua portuguesa")
 void teste1() {
+
 	// Mocks
 	EntityManager manager = Mockito.mock(EntityManager.class);
 	AlgumRepository algumRepository = Mockito.mock(AlgumRepository.class);
@@ -63,6 +66,7 @@ void teste1() {
 	Assertions.assertThrows(ResponseStatusException.class, () -> {
 		classeDeFluxo.cria(request, builder);			
 	});
+	
 }
 ```
 
