@@ -24,6 +24,7 @@ public ResponseEntity<?> cria(@RequestBody @Valid ClasseRequest request,UriCompo
 @Test
 @DisplayName("uma descrição linda escrita em lingua portuguesa")
 void teste1() {
+	// Mocks
 	EntityManager manager = Mockito.mock(EntityManager.class);
 	AlgumRepository algumRepository = Mockito.mock(AlgumRepository.class);
 	ClasseDeFluxo classeDeFluxo = new ClasseDeFluxo(manager, algumRepository);
@@ -47,6 +48,7 @@ No trecho de código exibido utilizamos o mockito, mas colocamos um valor real n
 @Test
 @DisplayName("uma descrição linda escrita em lingua portuguesa")
 void teste1() {
+	// Mocks
 	EntityManager manager = Mockito.mock(EntityManager.class);
 	AlgumRepository algumRepository = Mockito.mock(AlgumRepository.class);
 	ClasseDeFluxo classeDeFluxo = new ClasseDeFluxo(manager, algumRepository);
@@ -64,6 +66,6 @@ void teste1() {
 }
 ```
 
-O método ```anyString``` do Mockito é o que chamamos de **matcher**. Você ensina o Mockito que ele só precisa verificar que uma ```String``` foi passada para o método ```findByAtributo```, pouco importa qual. Ou seja, se outro valor for passado ali como argumento em vez da informação do objeto da classe ```ClasseRequest``` o código pode continuar funcionando.
+O método ```anyString``` do Mockito é o que chamamos de **matcher**. Você ensina o Mockito que ele só precisa verificar que uma ```String``` foi passada para o método ```findByAtributo```, pouco importa qual. Ou seja, se outro valor for passado ali como argumento em vez da informação do objeto da classe ```ClasseRequest``` o código pode continuar funcionando, isto muito **ruim** e chamado teste falso positivo.
 
 Voltamos a afirmar: Utilize os mocks com parcimônia! Minimize as imitações e só faça uso do que realmente é necessário.
