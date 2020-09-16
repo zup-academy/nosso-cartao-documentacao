@@ -7,60 +7,61 @@ Cada vez que você usa um recurso de imitação provido pelo Mockito o que você
 Utilize os mocks sempre pensando em minimizar a sua utilização, por mais contraditório que isso pareça. Olhe o seguinte exemplo composto por um trecho de código real e um teste automatizado.
 
 ```java
-	public ResponseEntity<?> cria(
-			@RequestBody @Valid ClasseRequest request,UriComponentsBuilder builder) {
-		if(algumRepository.findByAtributo(request.getInformacao()).isPresent()) {
-			throw new ResponseStatusException(HttpStatus.UNPROCESSABLE_ENTITY);
-		}
-
-		AlgumObjeto objeto = request.toModel();
-		manager.persist(objeto);
-		
-		URI enderecoConsulta = builder.path("/propostas/{id}").build(novaProposta.getId());
-		return ResponseEntity.created(enderecoConsulta).build();
+public ResponseEntity<?> cria(@RequestBody @Valid ClasseRequest request,UriComponentsBuilder builder) {
+	if(algumRepository.findByAtributo(request.getInformacao()).isPresent()) {
+		throw new ResponseStatusException(HttpStatus.UNPROCESSABLE_ENTITY);
 	}
+
+	AlgumObjeto objeto = request.toModel();
+	manager.persist(objeto);
+
+	URI enderecoConsulta = builder.path("/propostas/{id}").build(novaProposta.getId());
+	return ResponseEntity.created(enderecoConsulta).build();
+}
 ```
 
 ```java
-	@Test
-	@DisplayName("uma descrição linda escrita em lingua portuguesa")
-	void teste1() {
-		EntityManager manager = Mockito.mock(EntityManager.class);
-        AlgumRepository algumRepository = Mockito.mock(AlgumRepository.class);
-		ClasseDeFluxo classeDeFluxo = new ClasseDeFluxo(manager, algumRepository);
-        //define a informação que vai ser buscada no fluxo do código
-		ClasseRequest request = new ClasseRequest("123456789");
-		UriComponentsBuilder builder = UriComponentsBuilder.newInstance();
-		
-        //imitacao
-        Mockito.when(algumRepository.findByAtributo("123456789")).thenReturn(Optional.of("valor"));
+@Test
+@DisplayName("uma descrição linda escrita em lingua portuguesa")
+void teste1() {
+	EntityManager manager = Mockito.mock(EntityManager.class);
+	AlgumRepository algumRepository = Mockito.mock(AlgumRepository.class);
+	ClasseDeFluxo classeDeFluxo = new ClasseDeFluxo(manager, algumRepository);
+	
+	//define a informação que vai ser buscada no fluxo do código
+	ClasseRequest request = new ClasseRequest("123456789");
+	UriComponentsBuilder builder = UriComponentsBuilder.newInstance();
 
-		Assertions.assertThrows(ResponseStatusException.class, () -> {
-			classeDeFluxo.cria(request, builder);			
-		});
-	}
+	//imitacao
+	Mockito.when(algumRepository.findByAtributo("123456789")).thenReturn(Optional.of("valor"));
+
+	Assertions.assertThrows(ResponseStatusException.class, () -> {
+		classeDeFluxo.cria(request, builder);			
+	});
+}
 ```
 
 No trecho de código exibido utilizamos o mockito, mas colocamos um valor real na definição da expectativa de funcionamento do comportamento. Este mesmo teste poderia ter sido escrito assim:
 
 ```java
-	@Test
-	@DisplayName("uma descrição linda escrita em lingua portuguesa")
-	void teste1() {
-		EntityManager manager = Mockito.mock(EntityManager.class);
-        AlgumRepository algumRepository = Mockito.mock(AlgumRepository.class);
-		ClasseDeFluxo classeDeFluxo = new ClasseDeFluxo(manager, algumRepository);
-        //define a informação que vai ser buscada no fluxo do código
-		ClasseRequest request = new ClasseRequest("123456789");
-		UriComponentsBuilder builder = UriComponentsBuilder.newInstance();
-		
-        //imitacao
-        Mockito.when(algumRepository.findByAtributo(Mockito.anyString())).thenReturn(Optional.of("valor"));
+@Test
+@DisplayName("uma descrição linda escrita em lingua portuguesa")
+void teste1() {
+	EntityManager manager = Mockito.mock(EntityManager.class);
+	AlgumRepository algumRepository = Mockito.mock(AlgumRepository.class);
+	ClasseDeFluxo classeDeFluxo = new ClasseDeFluxo(manager, algumRepository);
+	
+	//define a informação que vai ser buscada no fluxo do código
+	ClasseRequest request = new ClasseRequest("123456789");
+	UriComponentsBuilder builder = UriComponentsBuilder.newInstance();
 
-		Assertions.assertThrows(ResponseStatusException.class, () -> {
-			classeDeFluxo.cria(request, builder);			
-		});
-	}
+	//imitacao
+	Mockito.when(algumRepository.findByAtributo(Mockito.anyString())).thenReturn(Optional.of("valor"));
+
+	Assertions.assertThrows(ResponseStatusException.class, () -> {
+		classeDeFluxo.cria(request, builder);			
+	});
+}
 ```
 
 O método ```anyString``` do Mockito é o que chamamos de **matcher**. Você ensina o Mockito que ele só precisa verificar que uma ```String``` foi passada para o método ```findByAtributo```, pouco importa qual. Ou seja, se outro valor for passado ali como argumento em vez da informação do objeto da classe ```ClasseRequest``` o código pode continuar funcionando.
