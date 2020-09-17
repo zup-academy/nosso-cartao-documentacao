@@ -35,20 +35,29 @@ nossas integrações que serão realizadas no próximos passos.
  
 * Pode ser que seja sua primeira vez que você tenha se deparado com o termo _IAM_, 
 não tem problema, [aqui você pode encontrar uma descrição sobre isso](https://www.gartner.com/en/information-technology/glossary/identity-and-access-management-iam)
+  
   * Talvez você esta se perguntando existe uma outra fonte que pode me ajudar com isso?? Sim, este conteúdo foi produzido
   por uma companhia que criou uma implementação de IAM. [Aqui você pode encontrá-lo](https://www.okta.com/identity-101/federated-identity-vs-sso/)
+  
   * Ou talvez você possa ter ouvido o termo SSO. [Aqui você pode encontrar a diferença entre esses dois termos](https://searchsecurity.techtarget.com/definition/federated-identity-management) 
     * Se você nunca ouviu o termo SSO e gostaria de se aprofundar um pouco. [Esse link pode te ajudar](https://www.cloudflare.com/learning/access-management/what-is-sso/)
+
 * Em algum momento, você deve estar preocupado sobre licenças, não tem problema!! [Aqui voce encontra um link com tipos de licenças e suas descrições](https://opensource.org/licenses)        
+
 * Se você esta se perguntando "O que é o keycloak???". [Esse link da documentação oficial pode te ajudar](https://www.keycloak.org/)
+  
   * O Keycloak também faz parte do portfólio de projetos da CNCF, uma espécie de catálogo que nos ajuda escolher
    ferramentas que nos ajudam a trabalhar com aplicaçãoes Cloud-native. [Aqui você pode encontrar o detalhamento](https://landscape.cncf.io/selected=keycloak)
+   
     * Você pode estar se perguntando, não sei o que é a CNCF. [Esse link pode tirar sua dúvida!!!](https://www.cncf.io/)  
+  
   * Mas você pode estar se pergutando, se o projeto é open-source cade o github dele. [Aqui está o link](https://github.com/keycloak/keycloak)   
+  
   * Se você já tem conhecimento sobre o que é IAM e tá afim de começar a utilizá-lo, [esse link pode te ajudar](https://www.keycloak.org/docs/latest/getting_started/index.html)  
+    
     * Nós do Academy já deixamos uma instância preparada para você, se você usou nosso docker-compose.yaml. 
     [Esse link vai te ajudar a logar na plataforma](../informacao_procedural/login-keycloak.md) 
+      
       * [Aqui você encontra o nosso docker-compose.yaml](../informacao_procedural/nosso-compose.md) como uma série de serviços necessários para nossa solução!
+    
     * Talvez você pode estar se perguntando o que é docker-compose. [Este link pode ter ajudar a entender melhor a ferramenta](https://docs.docker.com/compose/) 
-    * Ou ainda se você tiver alguma dúvida de como é o nosso docker-compose. [Aqui você pode encontrar isso]() 
-
