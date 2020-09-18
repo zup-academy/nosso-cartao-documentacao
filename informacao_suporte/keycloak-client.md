@@ -35,10 +35,10 @@ Depois disso você deve certificar-se que você esteja no seu Realm previamente 
 No canto superior esquerdo você pode ver o Realm selecionado, na figura abaixo estamos no Nosso-cartao, no menu **Configure** 
 seleciona a opção **Clients** e então clique no botão **Create**. Como na figura abaixo:
 
-![image](../images/keycloak-client-001.jpg "Image")
+![image](../images/keycloak/keycloak-client-001.jpg "Image")
 
 Depois você será redirecionado para uma página onde você deverá preencher informações do cliente, como na figura abaixo
 
-![image](../images/keycloak-client-002.jpg "Image")
+![image](../images/keycloak/keycloak-client-002.jpg "Image")
 
 Eba! Você criou seu primeiro cliente! Demais né!?
