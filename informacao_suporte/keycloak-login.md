@@ -42,7 +42,6 @@ Você deve ver a seguinte página...
  
 ![keycloak](../images/keycloak/logged.png "login de administração keycloak")
 
-
 Pronto!!! Você conseguiu realizar sua primeira iteração com Keycloak.. Parabéns...
 
 ## Informações de suporte

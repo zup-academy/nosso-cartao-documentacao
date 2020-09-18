@@ -65,6 +65,18 @@ abaixo:
 Eba! Está tudo configurado! Para testar gera uma novo token e verifica se o escopo criado está contido no mesmo, conforme 
 exemplo abaixo:
 
+**Requisiçao**
+
+```shell script
+$ curl --location --request POST 'http://localhost:18080/auth/realms/nosso-cartao/protocol/openid-connect/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'grant_type=client_credentials' \
+--data-urlencode 'client_id=nosso-cartao-client' \
+--data-urlencode 'client_secret=1610ed88-3a65-45ab-950a-c856f9ee17d2'
+```
+
+**Token**
+
 ```json
 {
     "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJMV2Zic1hycUJINHBTM2JVTWN4TzRaRnpxYjBFRnBrdjZ5RXhUY2NMb1pnIn0.eyJleHAiOjE2MDA0NDAyMjcsImlhdCI6MTYwMDQzOTkyNywianRpIjoiZjAzZGM4YmQtZmI4Zi00NDQ5LWIyZGQtZWYwZThmODhmNWQ1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDoxODA4MC9hdXRoL3JlYWxtcy9ub3Nzby1jYXJ0YW8iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiNTFmNGQzY2YtZGU4Yi00NDllLWFmZWUtNDdiNTQ1MzU0NmU1IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibm9zc28tY2FydGFvLWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIzNWE5ZDUwOS0xMzkzLTQyY2ItYjc2Ny05ZmFmYmU1NmU3NjYiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im1ldS1wcmltZWlyby1lc2NvcG8gcHJvZmlsZSBlbWFpbCIsImNsaWVudElkIjoibm9zc28tY2FydGFvLWNsaWVudCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiY2xpZW50SG9zdCI6IjE3Mi4xNy4wLjEiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtbm9zc28tY2FydGFvLWNsaWVudCIsImNsaWVudEFkZHJlc3MiOiIxNzIuMTcuMC4xIn0.Gkqumkq5N_mH1L40695yzPk0b9Zbu-GdjUh5LtZudtAb6LSgPjLNTU5thQYgGdq6PvEfWaSpCDi75ewbkb5SlNLOMlXa4NlrSjBjLMBowStugKDm7UaYLUcf4Cjf-I5_Vx5AmsSQuhT2LfaefUe6x0RKJPEruGQdeZGXqW7F0i-gbhXSYxB5MKFeX_6rZBfmE9Ch3j4TlkCvze7EITc-Q-roLaDtFI654SHvOLv7bpf07kec0REzsMs7oAwpJ3i4VzPhsXKK52EQUpwdBrrd0p4pk9JeM1l0lIc13c1N64-y7BlgKqkynWWJMEPC8nOqNNDLUbP5EaQWq4d4kw9hng",
@@ -79,3 +91,7 @@ exemplo abaixo:
 ```
 
 Demais né!?
+
+## Informações de suporte
+
+* Talvez você pode estar se perguntando, qual a função sobre o docker-compose. [Aqui você pode encontrar](https://docs.docker.com/compose/)
