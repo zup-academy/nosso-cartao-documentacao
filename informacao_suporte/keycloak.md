@@ -56,7 +56,7 @@ não tem problema, [aqui você pode encontrar uma descrição sobre isso](https:
   * Se você já tem conhecimento sobre o que é IAM e tá afim de começar a utilizá-lo, [esse link pode te ajudar](https://www.keycloak.org/docs/latest/getting_started/index.html)  
     
     * Nós do Academy já deixamos uma instância preparada para você, se você usou nosso docker-compose.yaml. 
-    [Esse link vai te ajudar a logar na plataforma](../informacao_procedural/login-keycloak.md) 
+    [Esse link vai te ajudar a logar na plataforma](keycloak-login.md) 
       
       * [Aqui você encontra o nosso docker-compose.yaml](../informacao_procedural/nosso-compose.md) como uma série de serviços necessários para nossa solução!
     

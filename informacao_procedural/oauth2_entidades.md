@@ -39,7 +39,7 @@ e o authorization server, mas não se preocupe vamos cobrir todos os detalhes.
     
     * Talvez você possa estar se perguntando. Mas pera ae o que é um Realm?? [Nesta seção da documentação você pode encontrar a descrição](https://www.keycloak.org/docs/latest/server_admin/#core-concepts-and-terms)
       
-      * Ou ainda você pode estar se perguntando como criar um Realm, [neste link você pode encontrar um passo-a-passo de como fazer isso](realm_keycloak.md)     
+      * Ou ainda você pode estar se perguntando como criar um Realm, [neste link você pode encontrar um passo-a-passo de como fazer isso](../informacao_suporte/keycloak-realm.md)     
     
     * Se em algum momento você quiser consultar os metadados do nosso Authentication Server, [nesse link você pode encontrar](http://localhost:18080/auth/realms/nosso-cartao/.well-known/openid-configuration)
       

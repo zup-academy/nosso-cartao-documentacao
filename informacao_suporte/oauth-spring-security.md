@@ -55,7 +55,7 @@ realizar essa configuração no Spring Security](oauth-spring-security-auth.md)
 com isso, [este link vai te ajudar com isso](https://www.keycloak.org/docs/latest/server_admin/#core-concepts-and-terms)
 
   * Ainda pode estar se perguntando "Como eu posso criar um realm no keycloak?". [Este link tem um passo-a-passo
-  de como fazer isso!!](../informacao_procedural/realm_keycloak.md)
+  de como fazer isso!!](keycloak-realm.md)
   
 * Caso você nunca tenha ouvido a palavra JWT, não tem problema [aqui tem uma boa introdução sobre o tema!](https://jwt.io/introduction/)  
 

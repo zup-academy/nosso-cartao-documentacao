@@ -30,7 +30,7 @@ a opção **OpenID Endpoint Configuration**
 
 ## Informações de suporte
 
-* Talvez você tenha alguma dúvida relacionada o como realizar o login no keycloak, [esse link pode te ajudar a logar no keycloak](login-keycloak.md)
+* Talvez você tenha alguma dúvida relacionada o como realizar o login no keycloak, [esse link pode te ajudar a logar no keycloak](keycloak-login.md)
 
 * Se você esta se perguntando, existem mais opções que eu possa configurar o no meu Realm, [esse link contém uma série de detalhamentos dessas configurações](https://www.keycloak.org/docs/latest/server_admin/#admin-console)
 
