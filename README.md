@@ -66,7 +66,7 @@ Então, antes de começar a escrever qualquer código no bootcamp, é necessári
 
 ## Sobre técnicas de design de código para facilitar a implementação do design proposto
 
-Na [pasta](informacao-suporte-design/) existem diversos textos com sugestões potencialmente interessantes para você usar enquanto estiver codando. 
+Nesta [pasta](informacao-suporte-design/) existem diversos textos com sugestões potencialmente interessantes para você usar enquanto estiver codando. 
 
 Fica o convite para você ler tudo antes de começar os códigos, apenas para ter uma ideia do que você terá a chance de usar enquanto estiver construindo os projetos. Caso queira deixar para ler sob demanda, tudo bem também. 
 
