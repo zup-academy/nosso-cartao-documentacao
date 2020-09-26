@@ -12,6 +12,6 @@ Todas essas preocupações são muito importantes, mas insuficientes. Falta um p
 
 **Precisamos de uma arquitetura para nosso design :)**. Os livros e práticas que foram escritos até hoje não foram suficientes. E olha que já tivemos centenas, talvez milhares, de livros publicados sobre divisão de responsabilidades e organização de um código. 
 
-É necessároi buscar um linha mestra relativa ao design e que possa ser aplicável para a maioria dos sistemas que você for implementar. Como maximizar a chance que sistemas pequenos, médios e grandes sejam divididos de modo que a maioria das pessoas possa entender? Como tentar garantir essa régua mesmo quando você estiver na maior pressão da sua vida? 
+É necessário buscar um linha mestra relativa ao design e que possa ser aplicável para a maioria dos sistemas que você for implementar. Como maximizar a chance que sistemas pequenos, médios e grandes sejam divididos de modo que a maioria das pessoas possa entender? Como tentar garantir essa régua mesmo quando você estiver na maior pressão da sua vida? 
 
 Vamos buscar por um design de código que seja sustentável no médio e longo prazo e também escalável quando pensamos em tamanhos de equipe.
