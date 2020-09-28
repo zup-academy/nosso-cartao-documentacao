@@ -1,6 +1,6 @@
 ## Entenda o que precisa ser feito
 
-Antes de começar a implementar alguma coisa é muito importante que você saiba exatamente o que precisa fazer. Começar a implementar sem entender o contexto, restrições, necessidades, pessoas que podem tirar dúvidas etc é uma combinação que tem tudo para te atrasar. Tem certeza que entendeu o que precisa fazer?
+Antes de começar a implementar alguma coisa é muito importante que você saiba exatamente o que precisa fazer. Começar a implementar sem entender o contexto, restrições, necessidades, pessoas que podem tirar dúvidas e etc é uma combinação que tem tudo para te atrasar. Tem certeza que entendeu o que precisa fazer?
 
 ## Planejar é bom e seu tempo gosta
 
@@ -29,4 +29,4 @@ Por sinal a recomendação é que você comece pelo código mais próximo da bor
 
 ## E quando eu já souber o que fazer?
 
-Já sabe? Manda bala e vai no código :). Planejar é uma ferramenta para aumentar suas chances de acertar de primeira. Se você já sabe o que fazer, já vai par o jogo.
+Já sabe? Manda bala e vai no código :). Planejar é uma ferramenta para aumentar suas chances de acertar de primeira. Se você já sabe o que fazer, já vai para o jogo.
