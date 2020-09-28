@@ -126,7 +126,7 @@ Só que ainda temos uma abstração nossa para representar os dados da requisiç
     }
 ```
 
-Agora temos mais uma indireção e a complexidade só aumenta :). Você pode até se pergunar, mas por qual motivo não recebemos o usuário direto ali? Lembre que **não ligamos parâmetros de entrada de dados com o objetos de domínio** pelos motivos já explicados no tópico referente a este pilar. 
+Agora temos mais uma indireção e a complexidade só aumenta :). Você pode até se perguntar, mas por qual motivo não recebemos o usuário direto ali? Lembre que **não ligamos parâmetros de entrada de dados com o objetos de domínio** pelos motivos já explicados no tópico referente a este pilar. 
 
 Especificamente neste caso não ganhmos nada em troca, apenas a indireção a mais. Ou seja, o código ficou apenas mais complexo na esperança que isso possa ser positivo para o sistema como um todo. 
 
