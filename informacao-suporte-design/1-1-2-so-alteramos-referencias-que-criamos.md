@@ -85,7 +85,7 @@ O gargalo da imutabilidade pura para a maioria dos sistemas, é que em algum pon
 
         Pagamento novoPagamento = request.toPagamento(idPedido, valor,
         manager);
-		Pagamento novoPagamentoSalvo = executaTransacao.commi(novoPagamento);
+		Pagamento novoPagamentoSalvo = executaTransacao.commit(novoPagamento);
 
         return novoPagamentoSalvo;
 		}
@@ -115,7 +115,7 @@ Aqui temos um ponto do código, diferente do ponto da entrada de dados, alterand
 
         Pagamento novoPagamento = request.toPagamento(idPedido, valor,
         manager);
-		Pagamento novoPagamentoSalvo = executaTransacao.commi(novoPagamento);
+		Pagamento novoPagamentoSalvo = executaTransacao.commit(novoPagamento);
 
         return new Persisted(novoPagamentoSalvo);
 		}
@@ -127,7 +127,7 @@ Agora o ponto do sistema que invoca este método sabe que vai receber um objeto 
 
 ## Explicite a dificuldade
 
-Nem sempre fácil manter tudo organizado e está tudo bem. O seu código precisa ser honesto em relação as dificulddes e deixar isso claro para a próxima pessoa. Lembre que ainda estamos na era que seres humanos mantém o código e, enquanto isso durar, precisamos construir sistemas que executem em máquinas e sejam possíveis de entender por pessoas. 
+Nem sempre fácil manter tudo organizado e está tudo bem. O seu código precisa ser honesto em relação as dificuldades e deixar isso claro para a próxima pessoa. Lembre que ainda estamos na era que seres humanos mantém o código e, enquanto isso durar, precisamos construir sistemas que executem em máquinas e sejam possíveis de entender por pessoas. 
 
 
 
