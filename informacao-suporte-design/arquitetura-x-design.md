@@ -14,4 +14,4 @@ Precisamos de uma arquitetura para nosso design :). Os livros e práticas que fo
 
 Esse é um ponto importante que vamos trabalhar durante os desafios. Ter uma linha mestra relativo ao design e que possa ser aplicável para a maioria dos sistemas que você for implementar. Como maximizar a chance que sistemas pequenos, médios e grandes sejam divididos de modo que a maioria das pessoas possa entender? Como tentar garantir essa régua mesmo quando você estiver na maior pressão da sua vida?
 
-ps: Alberto já gravou um vídeo sobre isso também(HTTPS://YOUTU.BE/ZDRAZXFLRNE​)
+ps: Alberto já gravou um vídeo sobre isso [também](https://youtu.be/ZdrAZXFlRNE)
