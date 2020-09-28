@@ -156,6 +156,12 @@ legado(sistema de rede de captura), conforme imagem abaixo:
 
 ![alt text](/images/big-picture.png "Big Picture")
 
+O sistema legado conforme imagem acima é composto por três sistemas:
+
+- [Analise](http://localhost:7777/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/): Sistema responsável por efetuar as análises financeiras.
+- [Contas](http://localhost:8888/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/): Sistema responsável por efetuar operações no cartão como: bloquear, aviso viagem, parcelamento, etc.
+- [Transações](http://localhost:9999/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/): Sistema responsável por efetuar e propagar as transações do cartão.
+
 Está ansioso(a) para começar? Vamos lá!?
 
 O desenvolvimento das funcionalidades devem seguir uma ordem, que deve ser:
