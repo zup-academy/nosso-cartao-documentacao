@@ -23,7 +23,7 @@ A base teórica expande seus horizontes e te faz enxergar o mundo através de no
 
 ### O papel do treino
 
-Entretanto a teoria sozinha não é suficiente para que você de fato consiga aplicar tais ideias quando os cenários aparecerem, você precisa ficar prepardo(a) para enxergar as possíveis soluções na hora da necessidade. Para maximizar a chance disso acontecer, é necessário muito treino. 
+Entretanto a teoria sozinha não é suficiente para que você de fato consiga aplicar tais ideias quando os cenários aparecerem, você precisa ficar preparado(a) para enxergar as possíveis soluções na hora da necessidade. Para maximizar a chance disso acontecer, é necessário muito treino. 
 
 Existem alguns aspectos muito importantes para que você tenha um treino de qualiddade.
 
@@ -74,7 +74,7 @@ Fica o convite para você ler tudo antes de começar os códigos, apenas para te
 
 Após cada texto lido ou funcionalidade implementada, sugerimos que você pare, respire e reflita sobre algumas coisas:
 
-* O que eu realmente aprendi aque?
+* O que eu realmente aprendi aqui?
 * Quais foram as dificuldades que tive?
 * O que eu preciso reforçar?
 
