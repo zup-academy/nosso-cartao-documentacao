@@ -40,7 +40,7 @@ ou `application.yaml` e adiciona as seguintes properties:
 spring.datasource.platform=postgres
 spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
 spring.datasource.username=postgres
-spring.datasourcepassword=postgres
+spring.datasource.password=postgres
 spring.jpa.hibernate.ddl-auto=update
 ```
 
