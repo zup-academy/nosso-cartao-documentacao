@@ -1,6 +1,6 @@
 # Protegemos as bordas do sistemas como se não houvesse amanhã. Principalmente a mais externa
 
-Todo dado que entra em algum método do nosso sitema é potencialmente inválido. Por que você vai executar o código sem garantir que os parâmetros de entrada estão validos? Quando falamos da borda mais externa então, o cuidado é redobrado. Não controlamos nada do lado do cliente e não assumimos que nada está válido.
+Todo dado que entra em algum método do nosso sistema é potencialmente inválido. Por que você vai executar o código sem garantir que os parâmetros de entrada estão válidos? Quando falamos da borda mais externa então, o cuidado é redobrado. Não controlamos nada do lado do cliente e não assumimos que nada está válido.
 
 ```java
 	@PostMapping(value = "/propostas")
