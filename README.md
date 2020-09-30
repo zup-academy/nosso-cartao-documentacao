@@ -25,7 +25,7 @@ A base teórica expande seus horizontes e te faz enxergar o mundo através de no
 
 Entretanto a teoria sozinha não é suficiente para que você de fato consiga aplicar tais ideias quando os cenários aparecerem, você precisa ficar preparado(a) para enxergar as possíveis soluções na hora da necessidade. Para maximizar a chance disso acontecer, é necessário muito treino. 
 
-Existem alguns aspectos muito importantes para que você tenha um treino de qualiddade.
+Existem alguns aspectos importantes para que você tenha um treino de qualiddade.
 
 * Variabilidade -> Precisamos tentar aplicar aquela teoria em cenários diferentes;
 * Repetição -> A repetição faz com que você busque as possíveis de soluções de maneira mais fluida;
