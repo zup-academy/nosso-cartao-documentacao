@@ -18,10 +18,13 @@ Aqui existe um conjunto de vídeos que Alberto gravou que podem ser interessante
 
 O blog Experiências de Aprendizado, mantido por Jeferson, também é uma excelente fonte para quem busca ter um aprendizado mais interessante. Muito pautado na ciência, ali você vai encontrar informação muito fundamentada. Então é necessário que você leia alguns textos que estão lá. 
 
-* Você já sabe aprender - http://experienciasdeaprendizado.com.br/blog/2020/02/28/voce-ja-sabe-aprender/#more-34
-* Sua memória é mais do que um repositório de informações - http://experienciasdeaprendizado.com.br/blog/2020/03/06/sua-memoria-e-mais-do-que-um-repositorio-de-informacoes/#more-90
-* Como estudar com estratégias eficazes - http://experienciasdeaprendizado.com.br/blog/2020/03/14/como-estudar-com-estrategias-eficazes/#more-144
-* Teoria da carga cognitiva e nossos limites de entendimento - http://experienciasdeaprendizado.com.br/blog/2020/04/05/teoria-da-carga-cognitiva/#more-218
+* [Você já sabe aprender](http://experienciasdeaprendizado.com.br/blog/2020/02/28/voce-ja-sabe-aprender/#more-34)
+
+* [Sua memória é mais do que um repositório de informações](http://experienciasdeaprendizado.com.br/blog/2020/03/06/sua-memoria-e-mais-do-que-um-repositorio-de-informacoes/#more-90)
+
+* [Como estudar com estratégias eficazes](http://experienciasdeaprendizado.com.br/blog/2020/03/14/como-estudar-com-estrategias-eficazes/#more-144)
+
+* [Teoria da carga cognitiva e nossos limites de entendimento](http://experienciasdeaprendizado.com.br/blog/2020/04/05/teoria-da-carga-cognitiva/#more-218)
 
 ## Este passo é aqui é essencial para o aproveitamento do seu treinamento
 
