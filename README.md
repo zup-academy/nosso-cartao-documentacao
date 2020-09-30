@@ -52,7 +52,7 @@ O estudo e o treino te preparam, a vida real te testa. Os três são importantes
 
 Antes de entrarmos de cabeça no código e tudo mais, é importante que você prepare sua mente, alinhe suas expectativas internas e também tenha conhecimento de algumas formas mais eficientes de ser a sua melhor versão como estudante. 
 
-Para isso é **obrigatório** que você consuma todo material que está descrito [aqui](leitura-obrigatoria-preparo-desafios/0-0-1-preparo-aprendizado.md) 
+Para isso é **obrigatório** que você consuma todo material que está descrito [aqui!](leitura-obrigatoria-preparo-desafios/0-0-1-preparo-aprendizado.md) 
 
 ## Sobre a qualidade do código que você vai produzir
 
