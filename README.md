@@ -60,7 +60,7 @@ O ecossistemas de tecnologias para desenvolver os sistemas mudam de tempos em te
 
 Claro que o primeiro objetivo de qualquer software é funcionar como o esperado, mas logo depois disso vem a necessidade daquele mesmo código ser entendido por outras pessoas, já que provavelmente muitas mãos diferentes vão passar por ali. 
 
-Queremos maximizar sua chance de escrever de excelente qualidade em qualquer situação e, por conta disso, essa necessidade vai acompanhar você em todos os desafios do bootcamp. 
+Queremos maximizar sua chance de escrever códigos de alta qualidade em qualquer situação e, por conta disso, essa necessidade vai acompanhar você em todos os desafios do bootcamp. 
 
 Então, antes de começar a escrever qualquer código no bootcamp, é necessário que você leia, na ordem apresentada, todos os textos que estão presentes nesta pasta [aqui](leitura-obrigatoria-design-codigo/). **As ideias contidas neste material formam a linha mestra do design do código que deve ser produzido durante o bootcamp.** 
 
