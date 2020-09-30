@@ -1,7 +1,7 @@
 # Introdução
 
 Bem vindo(a) ao Bootcamp, no qual foi feito com muito carinho para você aprender e evoluir de forma exponencial 
-(#aprendizadoAcimaDoPlano), pois afinal somos Zuppers (#ZupperAjudaZupper)!
+**#aprendizadoAcimaDoPlano**, pois afinal somos Zuppers **#ZupperAjudaZupper**!
 
 O programa foi criado para que você consiga realmente treinar as habilidades que são necessárias para já chegar nos times de desenvolvimento da ZUP se sentindo super capaz. 
 
