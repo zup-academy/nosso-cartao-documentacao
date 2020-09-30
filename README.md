@@ -28,7 +28,7 @@ Entretanto a teoria sozinha não é suficiente para que você de fato consiga ap
 Existem alguns aspectos importantes para que você tenha um treino de qualiddade.
 
 * Variabilidade -> Precisamos tentar aplicar aquela teoria em cenários diferentes;
-* Repetição -> A repetição faz com que você busque as possíveis de soluções de maneira mais fluida;
+* Repetição -> A repetição faz com que você busque as possíveis soluções de maneira mais fluida;
 * Suporte -> Durante o treino você muitas vezes pode precisar de orientação e o nosso material foi preparado com isso na mente.
 * Aproximação da realidade que será encontrada: O treino precisa te dar a chance de experimentar a realidade em ambientes simulados. 
 
