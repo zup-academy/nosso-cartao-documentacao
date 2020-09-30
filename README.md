@@ -36,7 +36,7 @@ O treino serve para você **masterizar** uma ou mais habilidades. Essa masteriza
 
 ### O papel da vida real na excelência
 
-Enfim chegamos na vida tal da vida real. Por mais que ela também seja uma fonte de preparo, o principal papel da vida real é você mostrar para si mesmo e para quem está de fora que você é capaz de entregar performance. 
+Enfim chegamos na tal da vida real. Por mais que ela também seja uma fonte de preparo, o principal papel da vida real é você mostrar para si mesmo e para quem está de fora que você é capaz de entregar performance. 
 
 A teoria e o treino te preparam para que, na hora da necessidade, você consiga aumentar suas chances de fazer o necessário em altíssimo nível. 
 
