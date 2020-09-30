@@ -1,4 +1,4 @@
-# Como ser um bom/boa estudante
+# Como ser um(a) bom/boa estudante
 
 Para que um estudo ou treino tenha mais chances de render como esperado, é importante que você se prepare e saiba um poucos das dificuldades que vai encontrar. 
 
