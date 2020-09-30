@@ -20,7 +20,7 @@ Vamos receber também o parâmetro relativo ao carrinho de compras na requisiç�
 }
 ```
 
-Reforçando aqui a explicação. A nossa aplicação da casa do código é divida em dois projetos. Temos a aplicação cliente e a aplicação que roda no backend. Neste cenário, toda lógica de construção do carrinho de compras ficou na aplicação cliente e, por conta disso, ela precisa enviar essa informação para o endpoint na mesma requisição que pegamos os dados da pessoa que estiver comprando. 
+Reforçando aqui a explicação. A nossa aplicação da casa do código é dividida em dois projetos. Temos a aplicação cliente e a aplicação que roda no backend. Neste cenário, toda lógica de construção do carrinho de compras ficou na aplicação cliente e, por conta disso, ela precisa enviar essa informação para o endpoint na mesma requisição que pegamos os dados da pessoa que estiver comprando. 
 
 
 ### restrição
