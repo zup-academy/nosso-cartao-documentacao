@@ -1,6 +1,6 @@
 # Como ser um(a) bom/boa estudante
 
-Para que um estudo ou treino tenha mais chances de render como esperado, é importante que você se prepare e saiba um poucos das dificuldades que vai encontrar. 
+Para que um estudo ou treino tenha mais chances de render como esperado, é importante que você se prepare e saiba um pouco das dificuldades que vai encontrar. 
 
 Aqui existe um conjunto de vídeos que Alberto gravou que podem ser interessantes para este seu momento de imersão em busca de melhoria pessoal. 
 
