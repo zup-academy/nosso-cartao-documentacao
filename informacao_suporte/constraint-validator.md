@@ -35,7 +35,7 @@ public class MeuValidador {
 3º Precisamos implementar a interface [ConstraintValidator](https://docs.oracle.com/javaee/7/api/javax/validation/ConstraintValidator.html) do Bean Validation, conforme código abaixo:
 
 ```java
-public class MeuValidador implements ConstraintValidator<MeuValidador, String> {
+public class MeuValidador implements ConstraintValidator<MinhaAnotacao, String> {
     // Código omitido
 }
 ```
@@ -46,7 +46,7 @@ esperando, como por exemplo: String, Integer, Double, etc.
 Agora que está tudo configurado, vamos implementar o método `isValid` e dar inteligência ao nosso validador?
 
 ```java
-public class MeuValidador implements ConstraintValidator<MeuValidador, String> {
+public class MeuValidador implements ConstraintValidator<MinhaAnotacao, String> {
    
     @Override
     public boolean isValid(String valor, ConstraintValidatorContext context) {
