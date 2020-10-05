@@ -130,7 +130,7 @@ O desafio do mercado livre realmenve vai exigir mais de você. Os cadastros são
 
 É beeem importante que aqui durante esta implementação você vá olhando para si e tentando verificar o quão capaz está se sentindo de implementar de api's web com as tecnologias que estão sendo trabalhadas. 
 
-Pronto(a) para começar? Então acesse [aqui](treino-ecommerce/) siga na sequência apresentada.
+Pronto(a) para começar? Então acesse [aqui](treino-mercado-livre/) siga na sequência apresentada.
 
 ### Implementar uma api que suporte o funcionamento de um cartão de crédito
 
