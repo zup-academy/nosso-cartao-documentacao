@@ -82,6 +82,10 @@ Especialmente para cada texto que vai ser lido, sugerimos que você faça um res
 
 Aproveite que você está numa turma de bootcamp com outras pessoas e também tente contar para elas o que entendeu de cada coisa. 
 
+Para reforçar ainda mais aqui, o resultado final de toda sua interpretação sobre as teorias sendo apresentadas, é o código que você vai produzir. Então, para cada funcionalidade implementada, compare sua solução com a de Alberto, e escreva uma reflexão sobre o motivo do seu código ter saído diferente. O que tem no seu que deveria ter no dele? O que tem no dele que poderia ter tido no seu? 
+
+Para que seus entendimentos sejam acessíveis por todo mundo no bootcamp, lembre de fazer um fork deste [repositório](https://github.com/luramarchanjozup/bootcamp-01-entendimentos) e ir enviando os merge request para o principal. Como template, coloque sempre seu nome na frente de cada arquivo. Ex: alberto_reflexao_cadastro_autor.md. 
+
 ## Agora vamos para os desafios
 
 ### Implementar uma api que suporte o funcionamento da casa do código
