@@ -8,7 +8,7 @@ A ideia aqui é simples, não deveria existir classes, métodos, atributos, par�
 
 Tanto pelas IDE's, quanto por bibliotecas, temos possibilidades muito interessantes de geração de código. E que fique claro: Você deve utilizar. O que você deveria evitar é simplesmente gerar porque deus quis e não refletir sobre aquilo. 
 
-Para mitigar código que não é utilizado por ninguém, você pode abraçar de vez a ideia de começar todo fluxo de código pelo ponto de entrada do dado. Fazendo isso, você maximiza a chance de só escrever o que foi necessário naquele fluxo. 
+Para mitigar código que não é utilizado por ninguém, você pode abraçar de vez [a ideia de começar todo fluxo de código pelo ponto de entrada do dado](https://github.com/claudiooliveirazup/documentacao-cartao-branco/blob/master/informacao-suporte-design/0-0-3-execute-codigo-mais-rapido-possivel.md). Fazendo isso, você maximiza a chance de só escrever o que foi necessário naquele fluxo. 
 
 ## E quando fluxos forem modificados?
 
