@@ -2,22 +2,22 @@
 
 Sempre que você acabar um fluxo de código, verifique a carga intrínseca de cada uma das classes e mantenha o limite estabelecido para nosso treinamento. Vou deixar aqui um lembrete para você :). 
 
-* Classes com atributos de dependência devem ter no máximo 7 pontos de carga intrínseca. Aqui entram principalmente as classes anotadas com @Controller e com @Service. 
-* Classes com atributo de estado devem ter no máximo 9 pontos de carga intrínseca. Aqui em geral vão entrar classes anotadas com @Entity, também classes que representam os dados de uma requisição, classes possivelmente anotadas com @Embeddable. 
+* **Classes com atributos de dependência** devem ter no **máximo 7 pontos** de carga intrínseca. Aqui entram principalmente as classes anotadas com `@Controller` e com `@Service`. 
+* **Classes com atributo de estado** devem ter no **máximo 9 pontos** de carga intrínseca. Aqui em geral vão entrar classes de modelo e classes anotadas com `@Entity`, também classes que representam os dados de uma requisição, classes possivelmente anotadas com `@Embeddable`. 
 
 A métrica derivada do CDD que estamos trabalhando é a seguinte:
 
 * Acoplamento com classes específicas do sistema contam um 1 ponto. É o que chamamos de **acoplamento contextual**. Lembrando que o acoplamento só conta ponto uma vez. Se a mesma classe é referenciada mais de uma vez, continua contando só um ponto.
 * Toda branch de código conta um ponto
-    * if   
-    * else
-    * loops(for,while,do while)
-    * switch
-    * case
-    * try
-    * catch
-    * ? do operador ternário
-    * : do operador ternário
+    * `if`
+    * `else`
+    * loops (`for`, `while`, `do while`)
+    * `switch`
+    * `case`
+    * `try`
+    * `catch`
+    * `?` do operador ternário
+    * `:` do operador ternário
 * Toda passagem de função como argumento utilizando a sintaxe do Java 8 conta ponto. 
 
 ## Exemplo de ponto para acoplamento contextual
@@ -53,11 +53,11 @@ public class AutoresController {
 
 As seguinte classes contaram pontos de acoplamento contextual:
 
-* ProibeEmailDuplicadoAutorValidator
-* NovoAutorRequest
-* Autor
+* `ProibeEmailDuplicadoAutorValidator`
+* `NovoAutorRequest`
+* `Autor`
 
-E por que ```EntityManager``` não contou ponto? Porque é uma interface que vem da JPA, ou seja algo externo que deveríamos saber no projeto. Claro que se JPA não for ok para você, isso vai dificultar seu entendimento. Por outro lado fica claro um ponto de melhoria que você deve correr atrás. 
+E por que `EntityManager` não contou ponto? Porque é uma interface que vem da JPA, ou seja algo externo que deveríamos saber no projeto. Claro que se JPA não for ok para você, isso vai dificultar seu entendimento. Por outro lado fica claro um ponto de melhoria que você deve correr atrás. 
 
 ## Exemplo para contagem de ponto de branch
 
