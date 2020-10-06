@@ -8,7 +8,8 @@ Aqui estamos falando do caminho que o seu código precisa percorrer para que det
 
 ```java
     public class CadastraUsuarioController {
-        public void cadastra(Map<String,String> request){
+    
+        public void cadastra(Map<String,String> request) {
             String nome = request.get("nome");
             String idadeEmTexto = request.get("idade");
             String email = request.get("email");
@@ -39,17 +40,18 @@ Aqui estamos falando do caminho que o seu código precisa percorrer para que det
 
 O código usa construções básicas da linguagem, sem nenhuma abstração específica do próprio sistema. Teoricamente, neste código acima, caso a pessoa tenha familiaridade com a linguagem, não tem nada de novo. Por que não fazemos assim?
 
-* Mesmo usando só coisa padrão, este código pode ficar com tanto if, try etc que pode dificultar a compreensão;
+* Mesmo usando só coisa padrão, este código pode ficar com tantos `if`, `try` etc que pode dificultar a compreensão;
 * Parte deste código é extremamente repetitivo entre funcionalidades, então queremos poupar tempo e usar algo pronto;
 * A figura do usuário é importante para vários pontos da aplicação, então queremos constuir um tipo nosso para representá-lo e fazer referência em outros lugares;
-* Por mais que o ```Map``` seja uma construção padrão da linguagem, a não ser que você tenha poderes mágicos,você não consegue saber as informações que ele tem lá dentro;
+* Por mais que o `Map` seja uma construção padrão da linguagem, a não ser que você tenha poderes mágicos, você não consegue saber as informações que ele tem lá dentro;
 
 ## Começamos a jornada das indireções
 
 ```java
     public class CadastraUsuarioController {
-        public void cadastra(NovoUsuarioRequest request){            
-            if(!request.taValido()){
+    
+        public void cadastra(NovoUsuarioRequest request) {            
+            if (!request.taValido()) {
                 //retorna tudo que foi falha de validacao
             }
             
@@ -58,7 +60,7 @@ O código usa construções básicas da linguagem, sem nenhuma abstração espec
                 insert.setString(1,request.getNome());
                 insert.setString(2,request.getIdade());
                 insert.setString(3,request.getEmail());
-            } catch(SQLException exception){
+            } catch(SQLException exception) {
                 //retorna erro 500 informando uma falha
             }
         }
@@ -71,13 +73,13 @@ O código usa construções básicas da linguagem, sem nenhuma abstração espec
 
         //métodos necessários
 
-        public boolean taValido(){
+        public boolean taValido() {
             //verificacao aqui
         }
     }
 ```
 
-Adicionamos a classe ```NovoUsuarioRequest``` para que o framework em questão consiga já fazer a conversão dos parâmetros que vieram na requisição para um tipo específico da aplicação. 
+Adicionamos a classe `NovoUsuarioRequest` para que o framework em questão consiga já fazer a conversão dos parâmetros que vieram na requisição para um tipo específico da aplicação. 
 
 Acabamos de colocar nossa primeira indireção e aumentamos a complexidade do sistema como um todo. A contrapartida é que diminuimos a complexidade deste ponto específico do código. Lembrando que aqui estamos sempre guiados(as) pela complexidade do ponto de vista cognitivo, sugerido pelo CDD. 
 
@@ -87,8 +89,9 @@ Só que ainda temos uma abstração nossa para representar os dados da requisiç
 
 ```java
     public class CadastraUsuarioController {
-        public void cadastra(NovoUsuarioRequest request){            
-            if(!request.taValido()){
+    
+        public void cadastra(NovoUsuarioRequest request) {            
+            if (!request.taValido()) {
                 //retorna tudo que foi falha de validacao
             }
             
@@ -98,7 +101,7 @@ Só que ainda temos uma abstração nossa para representar os dados da requisiç
                 insert.setString(1,novoUsuario.getNome());
                 insert.setString(2,novoUsuario.getIdade());
                 insert.setString(3,novoUsuario.getEmail());
-            } catch(SQLException exception){
+            } catch(SQLException exception) {
                 //retorna erro 500 informando uma falha
             }
         }
@@ -111,8 +114,12 @@ Só que ainda temos uma abstração nossa para representar os dados da requisiç
 
         //métodos necessários
 
-        public boolean taValido(){
+        public boolean taValido() {
             //verificacao aqui
+        }
+        
+        public Usuario paraUsuario() {
+            //cria instância de Usuario a partir dos dados da request
         }
     }
 
@@ -126,7 +133,7 @@ Só que ainda temos uma abstração nossa para representar os dados da requisiç
     }
 ```
 
-Agora temos mais uma indireção e a complexidade só aumenta :). Você pode até se perguntar, mas por qual motivo não recebemos o usuário direto ali? Lembre que **não ligamos parâmetros de entrada de dados com o objetos de domínio** pelos motivos já explicados no tópico referente a este pilar. 
+Agora temos mais uma indireção e a complexidade só aumenta :). Você pode até se perguntar, mas por qual motivo não recebemos o usuário direto ali? Lembre que [**não ligamos parâmetros de entrada de dados com o objetos de domínio**](https://github.com/claudiooliveirazup/documentacao-cartao-branco/blob/master/informacao-suporte-design/0-0-5-isolamos-parametros-do-dominio.md) pelos motivos já explicados no tópico referente a este pilar. 
 
 Especificamente neste caso não ganhmos nada em troca, apenas a indireção a mais. Ou seja, o código ficou apenas mais complexo na esperança que isso possa ser positivo para o sistema como um todo. 
 
@@ -134,8 +141,9 @@ Especificamente neste caso não ganhmos nada em troca, apenas a indireção a ma
 
 ```java
     public class CadastraUsuarioController {
-        public void cadastra(NovoUsuarioRequest request){            
-            if(!request.taValido()){
+    
+        public void cadastra(NovoUsuarioRequest request) {            
+            if (!request.taValido()) {
                 //retorna tudo que foi falha de validacao
             }
 
@@ -151,8 +159,12 @@ Especificamente neste caso não ganhmos nada em troca, apenas a indireção a ma
 
         //métodos necessários
 
-        public boolean taValido(){
+        public boolean taValido() {
             //verificacao aqui
+        }
+        
+        public Usuario paraUsuario() {
+            //cria instância de Usuario a partir dos dados da request
         }
     }
 
@@ -174,15 +186,15 @@ Perceba que no final você tem um código com menos linhas. Ele é necessariamen
 
 No nosso exemplo final você tem algumas necessidades de entendimento:
 
-* A classe ```NovoUsuarioRequest```;
-* A classe ```Usuario```;
-* A possível classe ```ORM```;
+* A classe `NovoUsuarioRequest`;
+* A classe `Usuario`;
+* A possível classe `ORM`;
 
 Nada disso é padrão da linguagem. Duas são específicas do seu sistema e outra possivelmente é de um framework que pode ser utilizado em muitas aplicações diferentes. Ou seja, você precisa de outros entendimentos para que aquele pedaço de código fique realmente mais fácil. 
 
 ## Analisando o código pela métrica derivada do CDD 
 
-Dada a métrica atual sugerida pelo CDD, entendemos que aquele código fica sim mais fácil. Justamente porque você deveria saber a priori sobre o ORM escolhido e, quando você faz a troca dos ```ifs``` e ```trys``` que estavam lá pelas indireções, o saldo fica positivo. Tudo vai depender da sua métrica de complexidade e do limite que você definiu. 
+Dada a métrica atual sugerida pelo CDD, entendemos que aquele código fica sim mais fácil. Justamente porque você deveria saber a priori sobre o ORM escolhido e, quando você faz a troca dos `ifs` e `trys` que estavam lá pelas indireções, o saldo fica positivo. Tudo vai depender da sua métrica de complexidade e do limite que você definiu. 
 
 Só para deixar claro, você pode ter um código enxuto e com várias construções que sejam penalizadas pela métrica atual do CDD. Lembre que agora você tem um jeito sistemático de analisar complexidade e completamente factível por qualquer pessoa, use!
 
@@ -192,8 +204,9 @@ A resposta para isso é não :). Não temos um limite de indireções, o que voc
 
 ```java
     public class CadastraUsuarioController {
-        public void cadastra(NovoUsuarioRequest request){            
-            if(!request.taValido()){
+    
+        public void cadastra(NovoUsuarioRequest request) {            
+            if (!request.taValido()) {
                 //retorna tudo que foi falha de validacao
             }
 
@@ -203,7 +216,7 @@ A resposta para isso é não :). Não temos um limite de indireções, o que voc
     }
 
     public class ServiceNovoUsuario {
-        public void cria(Usuario novoUsuario){
+        public void cria(Usuario novoUsuario)c{
             orm.persist(novoUsuario);
         }
     }
@@ -215,8 +228,12 @@ A resposta para isso é não :). Não temos um limite de indireções, o que voc
 
         //métodos necessários
 
-        public boolean taValido(){
+        public boolean taValido()c{
             //verificacao aqui
+        }
+        
+        public Usuario paraUsuario() {
+            //cria instância de Usuario a partir dos dados da request
         }
     }
 
