@@ -3,12 +3,13 @@
 Todo dado que entra em algum método do nosso sistema é potencialmente inválido. Por que você vai executar o código sem garantir que os parâmetros de entrada estão válidos? Quando falamos da borda mais externa então, o cuidado é redobrado. Não controlamos nada do lado do cliente e não assumimos que nada está válido.
 
 ```java
+    public class NovaPropostaController {
+    
 	@PostMapping(value = "/propostas")
 	@Transactional
-	public ResponseEntity<?> cria(
-			@RequestBody @Valid NovaPropostaRequest request) {
-                //codigo que vai rodar em função dos parâmetros recebidos
-            }
+	public ResponseEntity<?> cria(@RequestBody @Valid NovaPropostaRequest request) {
+                // codigo que vai rodar em função dos parâmetros recebidos
+	}
     }
 
     public class NovaPropostaRequest {
