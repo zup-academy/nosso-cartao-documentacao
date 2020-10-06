@@ -1,6 +1,6 @@
 # Execute o seu código o mais rápido possível
 
-A prioridade básica de um software é funcionar e já falamos sobre isso no pilar "A prioridade máxima é funcionar de acordo com o caso de uso. Beleza e formosura não dão pão nem fartura". E como você pode abraçar essa ideia de fato enquanto desenvole?
+A prioridade básica de um software é funcionar e já falamos sobre isso no pilar [A prioridade máxima é funcionar de acordo com o caso de uso. Beleza e formosura não dão pão nem fartura](https://github.com/claudiooliveirazup/documentacao-cartao-branco/blob/master/informacao-suporte-design/0-0-2-a-prioridade-maxima-e-funcionar.md). E como você pode abraçar essa ideia de fato enquanto desenvole?
 
 ## Comece pela entrada de dados do caso de uso
 
@@ -14,7 +14,7 @@ A sugestão é que você comece seu código por aí. Dessa forma você vai ter a
 
 ## Exemplo de fluxo começando pela entrada de dados
 
-Suponha que você está implementando uma api que recebe dados via HTTP para suportar o funcionamento de criação de propostas para cartões crédito. Um fluxo de implementação que começa pela entrada de dados seria o seguinte:
+Suponha que você está implementando uma API que recebe dados via HTTP para suportar o funcionamento de criação de propostas para cartões crédito. Um fluxo de implementação que começa pela entrada de dados seria o seguinte:
 
 * Já vai no Insomnia, Postman, curl ou qualquer cliente e mapeia a requisição que você quer;
     * Aqui, de maneira até ingênua, já podemos executar! Mesmo sabendo que vai dar 404;
