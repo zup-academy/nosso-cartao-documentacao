@@ -6,7 +6,7 @@ Todo framework web moderno permite que você receba os dados de uma requisição
 
 ```java
 @PostMapping
-public void novaProposta(Proposta proposta){
+public void novaProposta(Proposta proposta) {
 
 }
 ```
@@ -14,7 +14,7 @@ Essa classe proposta poderia um construtor com argumentos com os mesmos nomes do
 
 ```java
 public class Proposta{
-    public Proposta(String email, String nome, String documento){
+    public Proposta(String email, String nome, String documento) {
         ...
     }
 }
@@ -28,9 +28,9 @@ No exemplo recebemos o documento(cpf/cnpj) como um argumento do construtor. Dess
 
 ```json
 {
-    "email":"email...".,
-    "nome":"nome",
-    "documento","..."
+    "email": "alberto@zup...",
+    "nome": "Alberto Souza",
+    "documento": "00000000001",
 }
 ```
 Agora imagine que você mudou o fluxo do recebimento do documento. Em vez de receber no construtor da Proposta você vai receber num segundo momento. Como movimento natural, você vai lá e tira aquele argumento do construtor. Neste exato momento você quebrou o cliente que consome qualquer endpoint que recebe uma proposta, pouco importa qual seja. 
@@ -63,4 +63,4 @@ Criar classes específicas para receber os dados, ainda deixa nosso código mais
 
 ## Meu código ficou mais complexo
 
-Ficou, é verdade. Dada a nossa ideia, esse código está mais complexo sim. Só que o tradeoff está claro, você aumenta a complexidade para diminuir a fragilidade da api e de quebra ainda ganha mais segurança. Claro que precisamos sempre ficar de olho no limite de complexidade inspirado no CDD e decidido pelo projeto.
+Ficou, é verdade. Dada a nossa ideia, esse código está mais complexo sim. Só que o tradeoff está claro, você aumenta a complexidade para diminuir a fragilidade da API e de quebra ainda ganha mais segurança. Claro que precisamos sempre ficar de olho no limite de complexidade inspirado no CDD e decidido pelo projeto.
