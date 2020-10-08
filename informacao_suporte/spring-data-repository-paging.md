@@ -1,6 +1,6 @@
 # Como paginar ou limitar consultas utilizando Spring Data?
 
-Para paginar ou limiar as consultas do banco de dados a comunidade do Spring criou a interface [PagingAndSortingRepository](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html).
+Para paginar ou limitar as consultas do banco de dados a comunidade do Spring criou a interface [PagingAndSortingRepository](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html).
 
 **PagingAndSortingRepository**
 
