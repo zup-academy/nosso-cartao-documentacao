@@ -14,7 +14,7 @@
 
 ## resultado esperado
 * Um novo autor criado no banco de dados
-* Em caso de sucesso status 200
+* Em caso de sucesso status 201
 * Em caso de falha de validação status 400
 
 ## informações de suporte
