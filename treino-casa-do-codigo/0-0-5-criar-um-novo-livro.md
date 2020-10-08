@@ -29,7 +29,7 @@
 * O id do autor precisa existir no banco de dados
 
 ## resultado esperado
-* Em caso de sucesso retorne 200
+* Em caso de sucesso retorne 201
 * Em caso de falha de validação retorne 400
 
 ## informações de suporte
