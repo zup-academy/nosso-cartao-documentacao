@@ -10,7 +10,7 @@
 * O nome não pode ser duplicado
 
 ## resultado esperado
-* Em caso de sucesso retorne 200
+* Em caso de sucesso retorne 201
 * Em caso de falha de validação retorne 400
 
 ## informações de suporte
