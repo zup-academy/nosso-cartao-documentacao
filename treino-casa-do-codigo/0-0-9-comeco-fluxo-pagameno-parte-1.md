@@ -33,7 +33,7 @@ Os seguintes campos precisam ser preenchidos:
 
 ### resultado esperado
 
-* Aqui ainda estamos no meio do processo. Então no final desta etapa você precisa ter um endpoint criado recebendo os dados da pessoa que está comprando e com os dados validados. Retorne 200 em caso de sucesso.
+* Aqui ainda estamos no meio do processo. Então no final desta etapa você precisa ter um endpoint criado recebendo os dados da pessoa que está comprando e com os dados validados. Retorne 201 em caso de sucesso.
 * Em caso de falha de validação retorne status 400
 
 ## sobre a utilização do material de suporte aqui
