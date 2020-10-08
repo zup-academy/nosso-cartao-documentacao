@@ -30,7 +30,7 @@ São dois endpoints diferentes.
 
 ## resultado esperado
 
-* Em caso de sucesso retorne 200
+* Em caso de sucesso retorne 201
 * Em caso de falha de validação retorne 400
 
 ## sobre a utilização do material de suporte aqui
