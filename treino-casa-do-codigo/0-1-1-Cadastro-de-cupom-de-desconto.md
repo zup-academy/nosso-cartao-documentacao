@@ -18,7 +18,7 @@ Todo cupom tem:
 
 ## resultado esperado
 
-* Em caso de sucesso retorne status 200
+* Em caso de sucesso retorne status 201
 * Em caso de falha retorne status 400
 
 ## sobre a utilização do material de suporte aqui
