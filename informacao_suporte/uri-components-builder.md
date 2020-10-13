@@ -25,7 +25,7 @@ Veja um exemplo prático de como fazer isso:
 @PostMapping
 public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid NovaProposta novaProposta, UriComponentsBuilder uriComponentsBuilder) {
   // Código omitido
-  return ResponseEntity.created(uriComponentsBuilder.buildAndExpand("/propostas/{id}",nova.getId()).toUri()).body(nova);
+  return ResponseEntity.created(uriComponentsBuilder.path("/propostas").buildAndExpand("/{id}",nova.getId()).toUri()).body(nova);
 }
 ``` 
 
