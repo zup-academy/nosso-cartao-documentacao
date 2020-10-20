@@ -54,7 +54,7 @@ Este começo de fechamento de compra envolve muitos passos. Decidimos começar p
 
 * Dado que você separou os dados que chegam da request do objeto de domínio, como vai fazer para converter dessa entrada para o domínio? [SUGIRO OLHAR UM POUCO SOBRE NOSSA IDEIA DE FORM VALUE OBJECTS](../informacao_suporte/conversao-para-dominio.md).
 
-* Muitos dos problemas de uma aplicação vem do fato dela trabalhar com objetos em estado inválido. O ponto mais crítico em relação a isso é justamente quando os dados vêm de outra fonte, por exemplo um cliente externo. É por isso que temos o seguinte pilar: quanto mais externa é a borda mais proteção nós temos. Confira uma explicação sobre ele AQUI e depois [AQUI](../informacao_suporte/protegemos-as-bordas.md)
+* Muitos dos problemas de uma aplicação vem do fato dela trabalhar com objetos em estado inválido. O ponto mais crítico em relação a isso é justamente quando os dados vêm de outra fonte, por exemplo um cliente externo. É por isso que temos o seguinte pilar: quanto mais externa é a borda mais proteção nós temos. Confira uma explicação sobre ele [AQUI](../informacao_suporte/protegemos-as-bordas.md)
 
 * [FAVORECEMOS A COESÃO ATRAVÉS DO ENCAPSULAMENTO.](https://medium.com/@albertosouza_47783/encapsulamento-sob-uma-perspectiva-l%C3%B3gica-3d04016e3f14) Como você planeja validar se o documento é válido?
 
