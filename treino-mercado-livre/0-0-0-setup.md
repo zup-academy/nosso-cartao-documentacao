@@ -1,4 +1,4 @@
-# Setup do Projeto - Casa do código
+# Setup do Projeto - Mercado Livre
 
 ## Objetivo
 
@@ -6,7 +6,7 @@ Sabemos que está ansioso(a) para começar a codificar, porém antes precisamos 
 
 ## Descrição
 
-Nessa tarefa precisamos criar um projeto para atender as funcionalidades da **Casa do código**, para tal, temos alguns pré requisitos de linguagem de programação e tecnologia, pois precisamos que esse projeto seja evoluído e mantido por anos, portanto é extremamente importante a escolha das mesmas.
+Nessa tarefa precisamos criar um projeto para atender as funcionalidades da **Mercado Livre**, para tal, temos alguns pré requisitos de linguagem de programação e tecnologia, pois precisamos que esse projeto seja evoluído e mantido por anos, portanto é extremamente importante a escolha das mesmas.
 
 Nosso mais experiente membro do time, sugeriu os seguintes itens:
 
