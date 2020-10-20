@@ -17,6 +17,7 @@ Linguagem de programação
 Tecnologia
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring Cloud Feign](https://spring.io/projects/spring-cloud-openfeign)
 
 Gerenciador de dependência
 
