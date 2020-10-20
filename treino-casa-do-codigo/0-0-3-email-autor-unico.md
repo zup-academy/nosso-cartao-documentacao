@@ -6,7 +6,7 @@
 
 ## resultado esperado
 
-* Em caso de email duplicado devemos retornar 400 informando a falha. 
+* Em caso de email duplicado devemos retornar 422 informando a falha. 
 
 ## informações de suporte
 
