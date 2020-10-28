@@ -128,7 +128,7 @@ public class Resultado<E extends Exception,S> {
         return excecao;
     }
 
-    public S getProposta(){
+    public S getSucesso(){
         Assert.isTrue(!temErro(),"Não deveria chamar caso tenha erro");
         return sucesso;
     }
