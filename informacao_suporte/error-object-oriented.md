@@ -115,23 +115,23 @@ Lembrando este código é apenas uma sugestão, lembre-se sempre de alinhar com 
 */
 public class Resultado<E extends Exception,S> {
 
-    private S sucesso;
+	private S sucesso;
 
-    private E excecao;
+	private E excecao;
 
-    public boolean temErro(){
-        return excecao != null;
-    }
+	public boolean temErro(){
+	return excecao != null;
+	}
 
-    public E getExcecao(){
-        Assert.isTrue(temErro(),"Não deveria chamar caso não tenha erro");
-        return excecao;
-    }
+	public E getExcecao(){
+	Assert.isTrue(temErro(),"Não deveria chamar caso não tenha erro");
+	return excecao;
+	}
 
-    public S getSucesso(){
-        Assert.isTrue(!temErro(),"Não deveria chamar caso tenha erro");
-        return sucesso;
-    }
+	public S getSucesso(){
+	Assert.isTrue(!temErro(),"Não deveria chamar caso tenha erro");
+	return sucesso;
+	}
 
 	public static <T> Resultado<Exception, T> sucesso(T objeto) {
 		Resultado<Exception, T> resultado = new Resultado<Exception,T>();
