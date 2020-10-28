@@ -139,9 +139,9 @@ public class Resultado<E extends Exception,S> {
 		return resultado;
 	}
 
-	public static <E extends Exception,T> Resultado<E, T> erro(E exception) {
+	public static <E extends Exception,T> Resultado<E, T> erro(E excecao) {
 		Resultado<E, T> resultado = new Resultado<E,T>();
-		resultado.erro = exception;
+		resultado.excecao = excecao;
 		return resultado;
 	}
 }
