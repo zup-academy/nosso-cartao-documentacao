@@ -57,7 +57,7 @@ Depois você será redirecionado para a página de modificação do seu cliente,
 duas opções **Default Client Scopes** que são os escopos padrões que a aplicação irá ter e **Optional Client Scopes** que 
 são os escopos opcionais que sua aplicação poderá prover!
 
-Encontre e selecione o escopo criado na seção **Default Client Scopes** e clieque em **Add selected**, conforme imagem 
+Encontre e selecione o escopo criado na seção **Default Client Scopes** e clique em **Add selected**, conforme imagem 
 abaixo:
 
 ![image](../images/keycloak/keycloak-scope-003.jpg "Image")
