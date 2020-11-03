@@ -53,11 +53,11 @@ Agora que você criou seu primeiro **cliente**, podemos definir qual será o seu
 
 Para definir qual será o **tipo de cocnessão** da sua aplicação, precisamos alterar ela conforme imagem abaixo:
 
-![image](../images/keycloak/keycloak-client-003 .jpg "Image")
+![image](../images/keycloak/keycloak-client-003.jpg "Image")
 
 Após abrir a sua aplicação para editá-la, terá três opções de **tipo de concessão**, conforme imagem abaixo:
 
-![image](../images/keycloak/keycloak-client-004 .jpg "Image")
+![image](../images/keycloak/keycloak-client-004.jpg "Image")
 
 - Para a **concessão** [Authorization Code](https://oauth.net/2/grant-types/authorization-code/) selecione a opção **Standard Flow Enabled**
 
