@@ -51,7 +51,7 @@ Agora que você criou seu primeiro **cliente**, podemos definir qual será o seu
 
 > Gostaria de saber mais sobre os **tipos de concessões** do **oAuth2**, acesse o [link!](https://oauth.net/2/grant-types/)
 
-Para definir qual será o **tipo de cocnessão** da sua aplicação, precisamos alterar ela conforme imagem abaixo:
+Para definir qual será o **tipo de concessão** da sua aplicação, precisamos alterar ela conforme imagem abaixo:
 
 ![image](../images/keycloak/keycloak-client-003.jpg "Image")
 
