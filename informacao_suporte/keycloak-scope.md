@@ -60,7 +60,7 @@ são os escopos opcionais que sua aplicação poderá prover!
 Encontre e selecione o escopo criado na seção **Default Client Scopes** e clique em **Add selected**, conforme imagem 
 abaixo:
 
-![image](../images/keycloak/keycloak-scope-003.jpg "Image")
+![image](../images/keycloak/keycloak-scope-004.jpg "Image")
 
 Eba! Está tudo configurado! Para testar gera uma novo token e verifica se o escopo criado está contido no mesmo, conforme 
 exemplo abaixo:
