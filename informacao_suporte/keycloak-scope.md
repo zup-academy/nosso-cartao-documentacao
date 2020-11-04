@@ -95,7 +95,7 @@ Demais né!? Agora que você gerou o token é preciso fornecer o mesmo nas APIs 
 Para passar o token nas APIs que requerem autenticação é preciso enviar o **Header** denominado **Authorization** com o 
 o valor do **access_token** com o prefixo **Bearer**!
 
-Ficou confuso? Não tem segue exemplo!
+Ficou confuso? Não tem problema, segue exemplo!
 
 ```shell script
 curl --location --request POST 'http://localhost:8080/v1/proposals' \
