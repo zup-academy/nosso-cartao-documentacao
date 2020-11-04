@@ -68,11 +68,14 @@ exemplo abaixo:
 **Requisiçao**
 
 ```shell script
-$ curl --location --request POST 'http://localhost:18080/auth/realms/nosso-cartao/protocol/openid-connect/token' \
+curl --location --request POST 'http://localhost:18080/auth/realms/nosso-cartao/protocol/openid-connect/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
---data-urlencode 'grant_type=client_credentials' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'username=luramarchanjo' \
+--data-urlencode 'password=3`!!z[MVGxuJB2>Y' \
 --data-urlencode 'client_id=nosso-cartao-client' \
---data-urlencode 'client_secret=1610ed88-3a65-45ab-950a-c856f9ee17d2'
+--data-urlencode 'client_secret=1610ed88-3a65-45ab-950a-c856f9ee17d2' \
+--data-urlencode 'scope=proposal:read proposal:write'
 ```
 
 **Token**
