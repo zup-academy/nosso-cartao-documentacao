@@ -28,10 +28,12 @@ Nosso primeiro passo é incluir a dependência da biblioteca no nosso projeto
     </dependencies>
 </dependencyManagement>
 
-<dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-openfeign</artifactId>
-</dependency>
+<dependencies>
+ <dependency>
+     <groupId>org.springframework.cloud</groupId>
+     <artifactId>spring-cloud-starter-openfeign</artifactId>
+ </dependency>
+</dependencies>
 ```
 Note que a dependência é do projeto "guarda-chuva" [Spring Cloud](https://spring.io/projects/spring-cloud)
 
