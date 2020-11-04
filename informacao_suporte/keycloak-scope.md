@@ -90,7 +90,29 @@ $ curl --location --request POST 'http://localhost:18080/auth/realms/nosso-carta
 }
 ```
 
-Demais né!?
+Demais né!? Agora que você gerou o token é preciso fornecer o mesmo nas APIs que requerem autenticação!
+
+Para passar o token nas APIs que requerem autenticação é preciso enviar o **Header** denominado **Authorization** com o 
+o valor do **access_token** com o prefixo **Bearer**!
+
+Ficou confuso? Não tem segue exemplo!
+
+```shell script
+curl --location --request POST 'http://localhost:8080/v1/proposals' \
+--header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpWmlVcUJPSC1qU1hKNkJOODVldWxISWdWeDJKeWVRUmJncXY4eDlYYzRvIn0.eyJleHAiOjE2MDQ0MzI4NTcsImlhdCI6MTYwNDQzMjU1NywianRpIjoiYzBkM2JlOTUtNmViZC00NTQzLTk1OWMtYjA0Mjg0MjU0ZDAxIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDoxODA4MC9hdXRoL3JlYWxtcy9ub3Nzby1jYXJ0YW8iLCJzdWIiOiJlY2U0ZDZjZi0yNGMxLTRiMmQtYjQ5MS03ODVmOGZhMzY4NzUiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJub3Nzby1jYXJ0YW8tY2xpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6IjZlMmI5YjI0LWM0ZDQtNGU5YS04YzMyLWRkNzk2ZGE0N2Q0MyIsImFjciI6IjEiLCJzY29wZSI6InRyYW5zYWN0aW9uOnJlYWQgaW52b2ljZTp3cml0ZSBpbnZvaWNlOnJlYWQgdHJhbnNhY3Rpb246d3JpdGUgcHJvZmlsZSBwcm9wb3NhbDp3cml0ZSBwcm9wb3NhbDpyZWFkIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoiTHVyYW0gQXJjaGFuam8iLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsdXJhbWFyY2hhbmpvIiwiZ2l2ZW5fbmFtZSI6Ikx1cmFtIiwiZmFtaWx5X25hbWUiOiJBcmNoYW5qbyIsImVtYWlsIjoibHVyYW0uYXJjaGFuam9AenVwLmNvbS5iciJ9.MRGQ86OJVDiLJBq1h6qeS4M68SNV7zH0mIMaBk1Ip9MjlfAaHS5S-DSAcjy4Rp-0E-Ea8lAkOA0O_ldx0ScxiSWyxf80LSjNmCWrNWhI4PYbdxAg_WwMusXlLJtdlT4aeWXdmcaIQivz-8qKacTPhLqzu_M8FPPEYmUpt2WmI2nqdGkwWxzpKhEa7D2Sid_qFIDjgTy1OTj0_6TMpOnpNzmWOsBfKJpDPdxebi-cN2ZrkPVO7gLeLhG0rIGCJSzr3PoZfI9X7hi39WpYKsuIQOx8U7NuIknn0FOvn3OwaUdkC4t5nV3bswS70GocSX86P2Eun2DxMOBmpC-BW5Fgkg' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "name" : "Veronica Mueller",
+    "document" : "27268257708",
+    "email": "luram.archanjo@zup.com.br",
+    "salary" : 840.15,
+    "address" : {
+        "state" : "São Paulo",
+        "city" : "Schambergerchester",
+        "street" : "McDermott Field, 202"
+    }
+}'
+```
 
 ## Informações de suporte
 
