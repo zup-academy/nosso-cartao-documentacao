@@ -17,12 +17,6 @@ Vamos começar?
       <artifactId>opentracing-spring-jaeger-web-starter</artifactId>
       <version>3.1.2</version>
     </dependency>
-    
-    <dependency>
-      <groupId>io.opentracing.contrib</groupId>
-      <artifactId>opentracing-spring-cloud-starter</artifactId>
-      <version>0.5.6</version>
-    </dependency>
 </dependencies>
 ```
 
