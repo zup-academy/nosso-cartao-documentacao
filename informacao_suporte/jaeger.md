@@ -12,7 +12,7 @@ Vamos começar?
 
 ```xml
 <dependencies>
-	<dependency>
+    <dependency>
       <groupId>io.opentracing.contrib</groupId>
       <artifactId>opentracing-spring-jaeger-web-starter</artifactId>
       <version>3.1.2</version>
