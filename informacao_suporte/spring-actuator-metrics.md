@@ -27,6 +27,7 @@ propriedade no arquivo `application.properties`, conforme exemplo abaixo:
 
 ```properties
 management.endpoints.web.exposure.include=info,health,prometheus
+management.endpoints.prometheus.enabled=true
 ```
 
 Eba, está tudo configurado! Vamos testar?
