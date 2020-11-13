@@ -38,10 +38,7 @@ opentracing.jaeger.probabilistic-sampler.sampling-rate=${JAEGER_SAMPLER:1}
 
 >**Importante**
 
->Se a sua aplicação estiver travada no log "Triggering deferred initialization of Spring Data repositories…", por favor, desabilite a configuração de opentracing para jdbc adicionando a seguinte propriedade:
-```propertie
-opentracing.spring.cloud.jdbc.enabled=false
-```
+>Se a sua aplicação estiver travada no log "Triggering deferred initialization of Spring Data repositories…", por favor, desabilite a configuração de OpenTracing para JDBC adicionando a seguinte propriedade: **opentracing.spring.cloud.jdbc.enabled=false**
 
 Está tudo configurado, agora o spring faz sua mágica, pois ele tem inúmeras configurações automáticas para vários módulos, 
 como por exemplo:
