@@ -36,7 +36,7 @@ opentracing.jaeger.http-sender.url=${JAEGER_ENDPOINT:http://localhost:14268/api/
 opentracing.jaeger.probabilistic-sampler.sampling-rate=${JAEGER_SAMPLER:1}
 ```
 
-**Importante**
+>>**Importante**
 
 Se a sua aplicação estiver parando no log "Triggering deferred initialization of Spring Data repositories…", por favor, desabilite a configuração de opentracing para jdbc adicionando a seguinte propriedade:
 
