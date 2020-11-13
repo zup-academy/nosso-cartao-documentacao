@@ -13,10 +13,10 @@ Vamos começar?
 ```xml
 <dependencies>
     <dependency>
-      <groupId>io.opentracing.contrib</groupId>
-      <artifactId>opentracing-spring-jaeger-web-starter</artifactId>
-      <version>3.1.2</version>
-    </dependency>
+			<groupId>io.opentracing.contrib</groupId>
+			<artifactId>opentracing-spring-jaeger-cloud-starter</artifactId>
+			<version>3.2.2</version>
+		</dependency>
 </dependencies>
 ```
 
@@ -34,6 +34,14 @@ opentracing.jaeger.http-sender.url=${JAEGER_ENDPOINT:http://localhost:14268/api/
 
 # Jaeger - Tipo de amostragem (probabilístico) e sua configuração (1 = 100%)
 opentracing.jaeger.probabilistic-sampler.sampling-rate=${JAEGER_SAMPLER:1}
+```
+
+**Importante**
+
+Se a sua aplicação estiver parando no log "Triggering deferred initialization of Spring Data repositories…", por favor, desabilite a configuração de opentracing para jdbc adicionando a seguinte propriedade:
+
+```propertie
+opentracing.spring.cloud.jdbc.enabled=false
 ```
 
 Está tudo configurado, agora o spring faz sua mágica, pois ele tem inúmeras configurações automáticas para vários módulos, 
