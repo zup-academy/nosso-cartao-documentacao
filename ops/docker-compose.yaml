@@ -70,6 +70,7 @@ services:
       SERVER_PORT: 9999
       LOG_LEVEL: INFO
       URL_SISTEMA_CARTAO: http://contas:8888/api/cartoes
+      JAEGER_ENDPOINT: http://jaeger:14268/api/traces
 
   contas:
     image: 'zupacademy/contas'
@@ -78,6 +79,7 @@ services:
     environment:
       SERVER_PORT: 8888
       LOG_LEVEL: INFO
+      JAEGER_ENDPOINT: http://jaeger:14268/api/traces
 
   transacoes:
     image: 'zupacademy/transacoes'
@@ -89,6 +91,7 @@ services:
       SERVER_PORT: 7777
       LOG_LEVEL: INFO
       KAFKA_HOST: "kafka:29092"
+      JAEGER_ENDPOINT: http://jaeger:14268/api/traces
 
   jaeger:
     image: jaegertracing/all-in-one
@@ -107,18 +110,18 @@ services:
   prometheus:
     image: prom/prometheus
     volumes:
-      - prometheus-volume:/etc/prometheus/
-    network_mode: host
-    expose:
-      - 9090
+     - prometheus-volume:/etc/prometheus/
+    network_mode: bridge
+    ports:
+      - "9090:9090"
 
   grafana:
     image: grafana/grafana
     volumes:
       - grafana-volume:/var/lib/grafana
-    network_mode: host
-    expose:
-      - 3000
+    network_mode: bridge
+    ports:
+      - "3000:3000"
     depends_on:
       - prometheus
 
