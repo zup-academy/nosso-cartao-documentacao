@@ -25,6 +25,14 @@ O nosso bootcamp é um centro de capacitação de devs de alta performance. Temo
 
 Sua dúvida pode ser a dúvida de alguém. Quando você tira no privado, perdemos a chance de compartilhar aquela geração de conhecimento com todo mundo que está participando. Então, pedimos para que você sempre tire dúvidas no canal público. 
 
+## Você tem colegas de trabalho no bootcamp
+
+Lembre-se: todo mundo que está no bootcamp já está contratado(a). Não existe competição por vaga. Nossa sugestão é que você utilize isso a seu favor. 
+
+Ajude a criar um senso de comunidade onde todo mundo está buscando evoluir e você, como parte integrante deste grupo, também quer que alcançar seu objetivo. 
+
+Por mais que as atividades sejam individuais, na frequência que você e os(as) colegas de bootcamp entenderem que é melhor, todo mundo pode se encontrar(virtualmente) para discutir os tópicos e trocar ideias. 
+
 ## Como aproveitar a fase de aprendizado
 
 Na fase de aprendizado você vai ter acesso a muita teoria. Por texto ou por vídeo e tudo curado pela equipe da Zup Edu. 
@@ -49,6 +57,16 @@ Para cada funcionalidade será incluído vídeos/textos com dicas consideradas i
 O aprendizado é pessoal e você não precisa se comparar com ninguém. Use o seu tempo e aproveite para potencializar seu desenvolvimento. Não existe pressa ​para acabar nenhuma funcionalidade, o foco não é a entrega e sim seu desenvolvimento. Temos uma sugestão de cronograma, mas é para te guiar e não para te pressionar.
 
 Para fechar, para quae todas as funcionalidades existe um vídeo com uma implementação considerada de referência. **Você deve sempre comparar sua solução com a do exemplo**. No contexto do bootcamp, a solução de exemplo é considerar a próxima da correta. Isso quer dizer que a sua não pode ser diferente? De forma alguma, a sua pode até ser melhor! De toda forma solicitamos que você compare para verificar. 
+
+## Sobre restrições na fase do treino
+
+Você vai perceber que para cada projeto que será implementado na fase de treino, vai existir um conjunto de restrições em relação ao código que vai ser produzido. 
+
+Colocamos as restrições para que você tenha um mecanismo mais apurado para se auto avaliar e também para te direcionarmos em relação ao tipo de código que esperamos que seja criado por você. 
+
+Essas restrições levam a opinião do time da Zup Edu em relação a qualidade de código e práticas. É necessário que você respeite cada restrição que foi explicada. 
+
+Caso tenha dificuldade em implementar o código que respeite as restrições, se junte com seus colegas de bootcamp e tentem pensar em maneiras juntos(as).
 
 
 
