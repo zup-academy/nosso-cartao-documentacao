@@ -1,38 +1,23 @@
-# Email do autor precisa ser único
+### **necessidades**
 
-## necessidades
+*   O email do autor precisa ser único no sistema
 
-* O email do autor precisa ser único no sistema
+### **resultado esperado**
 
-## resultado esperado
+*   Erro de validação no caso de email duplicado
 
-* Em caso de email duplicado devemos retornar 422 informando a falha. 
+### **informações de suporte geral**
 
-## informações de suporte
+1.  [Todo framework mvc minimamente maduro possui um mecanismo pronto de realizar validação customizada. Spring, NestJS e ASP.NET Core MVC têm.](https://drive.google.com/file/d/1wc5ChsPeGFjqypb9QI7tGRMl9dn0WkkL/view?usp=sharing)
 
-* [TODO FRAMEWORK MVC MINIMAMENTE MADURO POSSUI UM MECANISMO PRONTO DE REALIZAR VALIDAÇÃO CUSTOMIZADA. SPRING, NESTJS E ASP.NET CORE MVC TÊM](../informacao-suporte-design/validacao-precisa-ser-suportada-fw.md).
+2.  [Como Alberto faria esse código?](https://drive.google.com/file/d/1zceQ8BTLA1D5gSJBrsq58fev66--Svsj/view?usp=sharing)
 
-* Aqui provavelmente você terá um if em algum lugar para verificar a existência de um outro autor. Todo código que tem uma branch de código(if,else) tem mais chance de executar de maneira equivocada. Tente criar um teste automatizado para aumentar ainda mais a confiabilidade do seu código. [CRIAMOS TESTES AUTOMATIZADOS PARA QUE ELE NOS AJUDE A REVELAR E CONSERTAR BUGS NA APLICAÇÃO](https://sttp.site/chapters/getting-started/why-software-testing.html) 
+### informações de suporte para Spring + JPA
 
-* O material linkado acima é para o livro aberto de Mauricio Aniche. Caso você queira um vídeo em português, [confere aqui](https://youtu.be/2HxTm5th96s). 
+1.  Para receber os dados da request como json, temos a annotation @RequestBody
+2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
+3.  Para realizar as validações padrões existe a Bean Validation
+4.  [Como criar um @RestControllerAdvice para customizar o json de saída com erros de validação](https://drive.google.com/file/d/18q7IUF1EmeGrPFAab1CHIXP3COf5KNHd/view?usp=sharing)
+5.  [Como externalizar as mensagens de erro no arquivo de configuração.](https://drive.google.com/file/d/1FfYMfcbAODr3RKBFqtj8aj_Ztvjbkfhy/view?usp=sharing)
 
-* Utilize um insomnia ou qualquer outra forma para verificar o endpoint
-
-* [PEGUE CADA UMA DAS CLASSES QUE VOCÊ CRIOU E REALIZE A CONTAGEM DA CARGA INTRÍNSECA](../informacao-suporte-design/treino-contagem-carga-intrinseca.md). Esse é o viés de design que estamos trabalhando. Precisamos nos habituar a fazer isso para que se torne algo automático na nossa vida.
-
-* [COMO ALBERTO FARIA ESSE CÓDIGO?](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/blob/eb6f3fec10d2801a076127cf74b2ec81cf54aeb2/src/main/java/com/deveficiente/casadocodigov2/novoautor/ProibeEmailDuplicadoAutorValidator.java) e [também aqui](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/blob/eb6f3fec10d2801a076127cf74b2ec81cf54aeb2/src/main/java/com/deveficiente/casadocodigov2/novoautor/AutoresController.java) 
-
-## informações extras de suporte
-* Para receber os dados da request como json, temos a annotation ```@RequestBody```
-
-* Usamos a annotation ```@Valid``` para pedir que os dados da request sejam validados
-
-* Está pensando em como fazer as validações dos dados do seu objeto? Olha que interessante, já existe um especificação no mundo Java que pensou só nisso. Ela é chamada Bean Validation. Inclusive o Spring já tem integração fina com ela. [Confere essa dica aqui](../informacao_suporte/bean-validation.md)
-
-* [COMO CRIAR UM @RESTCONTROLLERADVICE PARA CUSTOMIZAR O JSON DE SAÍDA COM ERROS DE VALIDAÇÃO](../informacao_suporte/error-spring.md)
-
-* [Exemplo de um ```RestControllerAdvice``` para você utilizar.](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/blob/master/src/main/java/com/deveficiente/casadocodigov2/compartilhado/ValidationErrorHandler.java) 
-
-* [COMO EXTERNALIZAR AS MENSAGENS DE ERRO NO ARQUIVO DE CONFIGURAÇÃO](../informacao_suporte/externaliza-mensagens-properties.md)
-
-
+</div>

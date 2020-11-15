@@ -1,20 +1,20 @@
 # Detalhes da compra
 
-## necessidades
-Agora é preciso retornar todos os dados necessários para que a pessoa visualize os dados da compra dela. Para confirmar que tudo está certinho. 
+## **necessidades**
 
-Caso tenha cupom aplicado, além do valor original da compra é necessário mostrar o valor final com o cupom aplicado. 
+Agora é preciso retornar todos os dados necessários para que a pessoa visualize os dados da compra dela. Para confirmar que tudo está certinho.
 
-## resultado esperado
+Caso tenha cupom aplicado, além do valor original da compra é necessário mostrar o valor final com o cupom aplicado.
 
-* status 200 e json de detalhes de uma compra
+O endpoint recebe apenas o id gerado pela compra.
 
-## informações de suporte
+## **resultado esperado**
 
-* [CONTROLLERS 100% COESOS](../informacao-suporte-design/controllers-100-coesos.md) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos.
+*   status 200 e json de detalhes de uma compra
+*   Sempre teremos dois campos no json de saída: existeCupom e valorCupom. Caso não tenha cupom, os valores dos campos devem ser false e null respectivamente. 
 
-* Como foi que você fez para receber os dados da requisição? Será que aproveitou a facilidade do framework e recebeu a sua entidade(objeto que faz parte do domínio) direto no método mapeado para um endereço? [DÁ UMA OLHADA NESSE PILAR AQUI](../informacao_suporte/recebe-dados-requisicao.md).
+## **informações de suporte para a feature**
 
-* Utilize um insomnia ou qualquer outra forma para verificar o endpoint
-
-* [PEGUE CADA UMA DAS CLASSES QUE VOCÊ CRIOU E REALIZE A CONTAGEM DA CARGA INTRÍNSECA](../informacao-suporte-design/treino-contagem-carga-intrinseca.md). Esse é o viés de design que estamos trabalhando. Precisamos nos habituar a fazer isso para que se torne algo automático na nossa vida.
+1.  Controllers 100% coesos
+2.  Separamos as bordas externas do sistema do seu núcleo. Não ligamos parâmetros de requisição externa com objetos de domínio diretamente, assim como não serializamos objetos de domínio para respostas de API.
+3.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint

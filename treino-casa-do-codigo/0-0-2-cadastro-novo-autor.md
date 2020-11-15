@@ -1,73 +1,40 @@
 # Cadastro novo autor
 
-## necessidades
+### **necessidades**
 
-* É necessário cadastrar um novo autor no sistema. Todo autor tem um nome, email e uma descrição. Também queremos saber o instante exato que ele foi registrado.
+*   É necessário cadastrar um novo autor no sistema. Todo autor tem um nome, email e uma descrição. Também queremos saber o instante exato que ele foi registrado.
 
-## restrições
+### **restrições**
 
-* O instante não pode ser nulo
-* O email é obrigatório
-* O email tem que ter formato válido
-* O nome é obrigatório
-* A descrição é obrigatória e não pode passar de 400 caracteres
+*   O instante não pode ser nulo
+*   O email é obrigatório
+*   O email tem que ter formato válido
+*   O nome é obrigatório
+*   A descrição é obrigatória e não pode passar de 400 caracteres
 
-## resultado esperado
-* Um novo autor criado no banco de dados
-* Em caso de sucesso status 201
-* Em caso de falha de validação status 400
+### **resultado esperado**
 
-## informações de suporte
+*   Um novo autor criado e status 200 retornado
 
-* A prioridade máxima é funcionar de acordo com o caso de uso. Beleza e formosura não dão pão nem fartura. Isso não quer dizer que você deve fazer código com pressoa. Se ainda não está claro o que vai fazer, planeje um pouco. [Aqui tem um exemplo de planejamento](../informacao_suporte/planeje-um-pouco.md)
+### **informações de suporte geral**
 
-* Quando falamos de API existem vários métodos HTTP, qual se aplica ao cenário de criação de autor? [Aqui você encontra como fazer isso !!!](../informacao_suporte/rest-methods.md)
+1.  Será que você fez um código parecido com esse exemplo [aqui](https://drive.google.com/file/d/1TZ57A-QRAmlhyyuqBPW2sTCMr3gtdyP5/view?usp=sharing) ?
+2.  Se a resposta para o ponto 1 foi sim, recomendo de novo esse material aqui sobre [arquitetura x design](https://drive.google.com/file/d/1zyoz7tx4iqQI_A6QKRsDG3JvA1f3p1IM/view?usp=sharing). Também acho que vai ser legal você olhar a [minha implementação logo de cara](https://drive.google.com/file/d/1inm4z8yHDh3bnkcbezEshkrb2ILSFq2T/view?usp=sharing), apenas para ter uma ideia de design que estou propondo.
+3.  [Controllers 100% coesos](https://drive.google.com/file/d/10f3lT3lB2CEXdyss7ZjeSVzmDkzEU57d/view?usp=sharing) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos.
+4.  Como foi que você fez para receber os dados da requisição? Será que aproveitou a facilidade do framework e recebeu a sua entidade(objeto que faz parte do domínio) direto no método mapeado para um endereço? [Dá uma olhada nesse pilar aqui.](https://drive.google.com/file/d/1SMwN_Dd9MdWI047o5dGJuBdPygbc6giX/view?usp=sharing)
+5.  Dado que você separou os dados que chegam da request do objeto de domínio, como vai fazer para converter dessa entrada para o domínio? [Sugiro olhar um pouco sobre nossa ideia de Form Value Objects](https://drive.google.com/file/d/18Mu6IG0CzuDtTjoPsFJWscOxG2LZvv6O/view?usp=sharing).
+6.  Muitos dos problemas de uma aplicação vem do fato dela trabalhar com objetos em estado inválido. O ponto mais crítico em relação a isso é justamente quando os dados vêm de outra fonte, por exemplo um cliente externo. É por isso que temos o seguinte pilar: quanto mais externa é a borda mais proteção nós temos. Confira uma explicação sobre ele [aqui](https://drive.google.com/file/d/1P_860b6FL8mIj9X8yyQyW4B2YNL2kW5V/view?usp=sharing) e depois [aqui](https://drive.google.com/file/d/1BgjdHCbrPP8ZuTRLi5tn2a7iPepr1sCR/view?usp=sharing)
+7.  [Todo framework mvc minimamente maduro possui um mecanismo pronto de realizar validação customizada. Spring, NestJS e ASP.NET Core MVC têm.](https://drive.google.com/file/d/1wc5ChsPeGFjqypb9QI7tGRMl9dn0WkkL/view?usp=sharing)
+8.  Nome,email e descrição são informações obrigatórias. Como você lidou com isso? [Informação natural e obrigatória entra pelo construtor](https://drive.google.com/file/d/1988eYtK-AqS6FVET1zO04HzjM6egHoKM/view?usp=sharing)
+9.  Deixamos pistas que facilitem o uso do código onde não conseguimos resolver com compilação. Muitas vezes recebemos String, ints que possuem significados. Um email por exemplo. Se você não pode garantir a validação do formato em compilação, [que tal deixar uma dica para a outra pessoa](https://drive.google.com/file/d/1TMENbD2V_87FmEGzwjTb4zqUnucsDnKM/view?usp=sharing)?
+10.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
+12.  [Como Alberto faria esse código](https://drive.google.com/file/d/1inm4z8yHDh3bnkcbezEshkrb2ILSFq2T/view?usp=sharing)?
 
-  * Ainda está com dúvida sobre qual método HTTP utilizar, não se preocupe! [Aqui você encontra como fazer isso !!!](../informacao_suporte/rest-post.md)
+### **informações de suporte sobre o Spring e JPA**
 
-* Será que você fez um código parecido com esse exemplo [aqui](../informacao_suporte/opcoes-planejamento-cadastro.md)?
-
-* Se a resposta para o ponto 1 foi sim, recomendo de novo esse material aqui sobre [arquitetura X design](../informacao-suporte-design/arquitetura-x-design.md). Também acho que vai ser legal você olhar a [MINHA IMPLEMENTAÇÃO LOGO DE CARA](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/commit/eb6f3fec10d2801a076127cf74b2ec81cf54aeb2), apenas para ter uma ideia de design que estamos propondo. Esse commit já mostra também uma validação, além de configurações automáticas do Spring Initializer, mas dá uma boa ideia.
-
-* [CONTROLLERS 100% COESOS](../informacao-suporte-design/controllers-100-coesos.md) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos.
-
-* Como foi que você fez para receber os dados da requisição? Será que aproveitou a facilidade do framework e recebeu a sua entidade(objeto que faz parte do domínio) direto no método mapeado para um endereço? [DÁ UMA OLHADA NESSE PILAR AQUI](../informacao_suporte/recebe-dados-requisicao.md).
-
-* Dado que você separou os dados que chegam da request do objeto de domínio, como vai fazer para converter dessa entrada para o domínio? [SUGIRO OLHAR UM POUCO SOBRE NOSSA IDEIA DE FORM VALUE OBJECTS](../informacao_suporte/conversao-para-dominio.md).
-
-* Muitos dos problemas de uma aplicação vem do fato dela trabalhar com objetos em estado inválido. O ponto mais crítico em relação a isso é justamente quando os dados vêm de outra fonte, por exemplo um cliente externo. É por isso que temos o seguinte pilar: quanto mais externa é a borda mais proteção nós temos. Confira uma explicação sobre ele AQUI e depois [AQUI](../informacao_suporte/protegemos-as-bordas.md)
-
-* [TODO FRAMEWORK MVC MINIMAMENTE MADURO POSSUI UM MECANISMO PRONTO DE REALIZAR VALIDAÇÃO CUSTOMIZADA. SPRING, NESTJS E ASP.NET CORE MVC TÊM](../informacao-suporte-design/validacao-precisa-ser-suportada-fw.md).
-
-* Nome e email são informações obrigatórias. Como você lidou com isso? [INFORMAÇÃO NATURAL E OBRIGATÓRIA ENTRA PELO CONSTRUTOR](../informacao-suporte-design/construtor-para-informacao-natural.md)
-
-* Deixamos pistas que facilitem o uso do código onde não conseguimos resolver com compilação. Muitas vezes recebemos String, ints que possuem significados. Um email por exemplo. Se você não pode garantir a validação do formato em compilação, [QUE TAL DEIXAR UMA DICA PARA A OUTRA PESSOA?](../informacao-suporte-design/deixe-pistas-para-as-pessoas.md)
-
-* Precisamos salvar nosso autor na base de dados, para isto o Spring tem o projeto Spring Data JPA, quer saber mais? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-data.md)
-
-* E como eu configuro o Spring Data JPA? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-data-configuration.md)
-
-* Como mapear classes para serem entendidas por implementação da JPA? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-data-entity.md)
-
-* Como declarar meu repositório utilizando Spring Data JPA? [Aqui você encontra como fazer isso !!!](../informacao_suporte/spring-data-repository.md)
-
-
-* Utilize um insomnia ou qualquer outra forma para verificar o endpoint
-
-* [PEGUE CADA UMA DAS CLASSES QUE VOCÊ CRIOU E REALIZE A CONTAGEM DA CARGA INTRÍNSECA](../informacao-suporte-design/treino-contagem-carga-intrinseca.md). Esse é o viés de design que estamos trabalhando. Precisamos nos habituar a fazer isso para que se torne algo automático na nossa vida.
-
-* [COMO ALBERTO FARIA ESSE CÓDIGO?](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/commit/eb6f3fec10d2801a076127cf74b2ec81cf54aeb2)
-
-## informações extras de suporte
-* Para receber os dados da request como json, temos a annotation ```@RequestBody```
-
-* Usamos a annotation ```@Valid``` para pedir que os dados da request sejam validados
-
-* Está pensando em como fazer as validações dos dados do seu objeto? Olha que interessante, já existe um especificação no mundo Java que pensou só nisso. Ela é chamada Bean Validation. Inclusive o Spring já tem integração fina com ela. [Confere essa dica aqui](../informacao_suporte/bean-validation.md)
-
-* [COMO CRIAR UM @RESTCONTROLLERADVICE PARA CUSTOMIZAR O JSON DE SAÍDA COM ERROS DE VALIDAÇÃO](../informacao_suporte/error-spring.md)
-
-* [Exemplo de um ```RestControllerAdvice``` para você utilizar.](https://github.com/asouza/jornada-deveficiente-casa-do-codigo/blob/master/src/main/java/com/deveficiente/casadocodigov2/compartilhado/ValidationErrorHandler.java) 
-
-* [COMO EXTERNALIZAR AS MENSAGENS DE ERRO NO ARQUIVO DE CONFIGURAÇÃO](../informacao_suporte/externaliza-mensagens-properties.md)
+1.  Para receber os dados da request como json, temos a annotation @RequestBody
+2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
+3.  Para realizar as validações padrões existe a Bean Validation
+4.  [Como criar um @RestControllerAdvice para customizar o json de saída com erros de validação](https://drive.google.com/file/d/18q7IUF1EmeGrPFAab1CHIXP3COf5KNHd/view?usp=sharing)
+5.  [Como externalizar as mensagens de erro no arquivo de configuração.](https://drive.google.com/file/d/1FfYMfcbAODr3RKBFqtj8aj_Ztvjbkfhy/view?usp=sharing)
 
