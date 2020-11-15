@@ -1,7 +1,7 @@
 # Introdução
 
 Bem vindo(a) ao Bootcamp, no qual foi feito com muito carinho para você aprender e evoluir de forma exponencial 
-**#aprendizadoAcimaDoPlano**, pois afinal somos Zuppers **#ZupperAjudaZupper**!
+**#somosNerds**, pois afinal somos Zuppers **#ZupperAjudaZupper**!
 
 O programa foi criado para que você consiga realmente treinar as habilidades que são necessárias para já chegar nos times de desenvolvimento da ZUP se sentindo super capaz. 
 
@@ -23,7 +23,7 @@ A base teórica expande seus horizontes e te faz enxergar o mundo através de no
 
 ### O papel do treino
 
-Entretanto a teoria sozinha não é suficiente para que você de fato consiga aplicar tais ideias quando os cenários aparecerem, você precisa ficar preparado(a) para enxergar as possíveis soluções na hora da necessidade. Para maximizar a chance disso acontecer, é necessário muito treino. 
+Entretanto a teoria sozinha não é suficiente para que você de fato consiga aplicar tais ideias quando os cenários aparecerem, você precisa ficar preparado(a) para enxergar as possíveis soluções e ser capaz de aplicá-las  na hora da necessidade. Para maximizar a chance disso acontecer, é necessário muito treino. 
 
 Existem alguns aspectos importantes para que você tenha um treino de qualiddade.
 
@@ -36,11 +36,11 @@ O treino serve para você **masterizar** uma ou mais habilidades. Essa masteriza
 
 ### O papel da vida real na excelência
 
-Enfim chegamos na tal da vida real. Por mais que ela também seja uma fonte de preparo, o principal papel da vida real é você mostrar para si mesmo e para quem está de fora que você é capaz de entregar performance. 
+Enfim chegamos na tal da vida real. Por mais que ela também seja uma fonte de preparo, o principal papel da vida real é você performar. Você mostra para si mesmo que é capaz e entrega o máximo de valor em cima da sua atividade.
 
 A teoria e o treino te preparam para que, na hora da necessidade, você consiga aumentar suas chances de fazer o necessário em altíssimo nível. 
 
-E aí, quando essa performance é entregue, o sentimento é muito bom. Ficamos muitas vezes tão felizes que queremos ter aquela sensação muitas vezes. Querer ter essa sensação repetidas vezes, é o que te da a motivação para continuar tentando :). 
+E aí, quando essa performance é entregue, o sentimento é muito bom. Ficamos muitas vezes tão felizes que queremos ter aquela sensação muitas vezes. Querer ter essa sensação repetidas vezes, é o que te faz querer melhorar cada vez mais. Inclusive essa energia de continuar se movendo, é que o chamamos de motivação.
 
 Também é importante que você seja crítico(a) em relação a sua performance e tente sempre analisar quais foram os gaps que podem ser fechados num próximo ciclo de estudo e treino.
 
@@ -48,11 +48,15 @@ Também é importante que você seja crítico(a) em relação a sua performance 
 
 O estudo e o treino te preparam, a vida real te testa. Os três são importantes e você deve buscar maximizar o preparo para que o teste seja cada vez mais fácil.
 
+## Um reforço de como você consumir o que preparamos no bootcamp
+
+[Aqui](fique-preparado(a)-desafios/readme.md) você encontra as informações de como consumir tudo que criamos. Por favor, leia!
+
 ## Comece ficando preparado(a) para ser um(a) melhor estudante
 
 Antes de entrarmos de cabeça no código e tudo mais, é importante que você prepare sua mente, alinhe suas expectativas internas e também tenha conhecimento de algumas formas mais eficientes de ser a sua melhor versão como estudante. 
 
-Para isso é **obrigatório** que você consuma todo material que está descrito [aqui!](leitura-obrigatoria-preparo-desafios/0-0-1-preparo-aprendizado.md) 
+Para isso é **obrigatório** que você consuma todo material que está descrito [aqui!](seja-um(a)-melhor-estudante/readme.md) 
 
 ## Sobre a qualidade do código que você vai produzir
 
@@ -62,13 +66,7 @@ Claro que o primeiro objetivo de qualquer software é funcionar como o esperado,
 
 Queremos maximizar sua chance de escrever códigos de alta qualidade em qualquer situação e, por conta disso, essa necessidade vai acompanhar você em todos os desafios do bootcamp. 
 
-Então, antes de começar a escrever qualquer código no bootcamp, é necessário que você leia, na ordem apresentada, todos os textos que estão presentes nesta pasta [aqui](leitura-obrigatoria-design-codigo/). **As ideias contidas neste material formam a linha mestra do design do código que deve ser produzido durante o bootcamp.** 
-
-## Sobre técnicas de design de código para facilitar a implementação do design proposto
-
-Nesta [pasta](informacao-suporte-design/) existem diversos textos com sugestões potencialmente interessantes para você usar enquanto estiver codando. 
-
-Fica o convite para você ler tudo antes de começar os códigos, apenas para ter uma ideia do que você terá a chance de usar enquanto estiver construindo os projetos. Caso queira deixar para ler sob demanda, tudo bem também. 
+Então, antes de começar a escrever qualquer código no bootcamp, é **obrigatório** que você leia e veja, na ordem apresentada, todos os textos e vídeo que estão presentes nesta pasta [aqui](informacao-suporte-design/). **As ideias contidas neste material formam a linha mestra do design do código que deve ser produzido durante o bootcamp.**
 
 ## Aumente os momentos de reflexão
 
@@ -82,9 +80,7 @@ Especialmente para cada texto que vai ser lido, sugerimos que você faça um res
 
 Aproveite que você está numa turma de bootcamp com outras pessoas e também tente contar para elas o que entendeu de cada coisa. 
 
-Para reforçar ainda mais aqui, o resultado final de toda sua interpretação sobre as teorias sendo apresentadas, é o código que você vai produzir. Então, para cada funcionalidade implementada, compare sua solução com a de Alberto, e escreva uma reflexão sobre o motivo do seu código ter saído diferente. O que tem no seu que deveria ter no dele? O que tem no dele que poderia ter tido no seu? 
-
-Para que seus entendimentos sejam acessíveis por todo mundo no bootcamp, lembre de fazer um fork deste [repositório](https://github.com/luramarchanjozup/bootcamp-01-entendimentos) e ir enviando os merge request para o principal. Como template, coloque sempre seu nome na frente de cada arquivo. Ex: alberto_reflexao_cadastro_autor.md. 
+Para reforçar ainda mais aqui, o resultado final de toda sua interpretação sobre as teorias sendo apresentadas, é o código que você vai produzir. Então, para cada funcionalidade implementada, compare sua solução com a indicada no material de suporte e escreva uma reflexão sobre o motivo do seu código ter saído diferente. O que tem no seu que deveria ter no outro? O que tem no outro que poderia ter tido no seu? 
 
 ## Agora vamos para os desafios
 
@@ -99,7 +95,7 @@ Falando em tecnologia, você trabalhará com as seguintes:
 * Spring MVC
 * Spring Data
 * Hibernate
-* Algum banco de dados da sua escolha. Sugerimos ficar no padrão: mysql ou postgresql
+* Sugerimos ficar no padrão: mysql ou postgresql
 * SQL
 
 Claro que o design do seu código te acompanhará o tempo todo!
