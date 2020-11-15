@@ -1,5 +1,7 @@
 # Arquitetura x Design
 
+Você pode conferir este vídeo [aqui](https://drive.google.com/file/d/1zyoz7tx4iqQI_A6QKRsDG3JvA1f3p1IM/view?usp=sharing)
+
 ​Muito se fala sobre arquitetura x design de código. Não parece interessante levar horas falando sobre isso, então podemos resumir da seguinte forma: arquitetura é transversal para todo o sistema e para múltiplos sistemas diferentes enquanto que o design de código, até hoje, sempre foi específico. 
 
 Durante muito tempo focamos muito na arquitetura, nos seus mais variados níveis:
