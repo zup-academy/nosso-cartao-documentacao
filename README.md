@@ -48,7 +48,7 @@ Também é importante que você seja crítico(a) em relação a sua performance 
 
 O estudo e o treino te preparam, a vida real te testa. Os três são importantes e você deve buscar maximizar o preparo para que o teste seja cada vez mais fácil.
 
-## Um reforço de como você consumir o que preparamos no bootcamp
+## Um reforço de como você pode consumir o que preparamos no bootcamp
 
 [Aqui](fique-preparado(a)-desafios/readme.md) você encontra as informações de como consumir tudo que criamos. Por favor, leia!
 
