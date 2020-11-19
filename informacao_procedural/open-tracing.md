@@ -1,6 +1,6 @@
 # OpenTracing
 
-Nos últimos anos os modelos de arquitetura distribuídos, como o Micosserviços, vem sendo amplamente adotadas pelas empresas 
+Nos últimos anos os modelos de arquitetura distribuídos, como o Microsserviços, vem sendo amplamente adotadas pelas empresas 
 por prover vários benefícios para as mesmas, porém como tudo em tecnologia, temos vantagens e desvantagens!
 
 Uma desvantagem bastante latente nesse estilo de arquitetura é o troubleshooting de problemas, quanto mais serviços, 
