@@ -28,7 +28,7 @@ no `application.properties`:
 
 ```properties
 # Formato da chave (String) recebida!
-spring.kafka.consumer.key-deserializer=org.apache.kafka.common.serialization.StringSerializer
+spring.kafka.consumer.key-deserializer=org.apache.kafka.common.serialization.StringDeserializer
 
 # Formato da mensagem \ evento (JSON) recebida(o)!
 spring.kafka.consumer.value-deserializer=org.springframework.kafka.support.serializer.JsonDeserializer
