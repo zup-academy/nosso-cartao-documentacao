@@ -21,7 +21,7 @@
 
 | Status  | Descrição  |
 |---|---|
-| **400**  | Indica que a URI solicitada mudou. Nesses casos a nova URI é especificada na resposta.  |
+| **400**  | Indica que que o servidor não pode tratar a requisição por causa de erros do cliente (erro sintático, tamanho dos dados, formato etc).  |
 | **401**  | O Servidor não reconheceu suas credenciais para o recurso solicitada.  |
 | **403**  | Credencial não tem os privilégios suficientes para acessar o recurso solicitado.  |
 | **404**  | URI informada não existe.  |
