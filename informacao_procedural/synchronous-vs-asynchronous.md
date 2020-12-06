@@ -1,6 +1,6 @@
 # Qual diferença entre síncrono e assíncrono?
 
-No desenvolvimento de software é bastante comum a gente ouvir os termos síncrono e assíncrono, mais qual é a diferença 
+No desenvolvimento de software é bastante comum a gente ouvir os termos síncrono e assíncrono, mas qual é a diferença 
 entre eles?
 
 Quando falamos de síncrono, estamos falando de um fluxo onde esperamos o término do mesmo, como por exemplo:
