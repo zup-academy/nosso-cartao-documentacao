@@ -44,7 +44,7 @@ Sugerimos fortemente que você assista os videos em 2x. Lembre que a ideia é qu
 8. [Spring Boot 2](https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento);
 9. [Spring Boot 3](https://www.alura.com.br/curso-online-spring-data-jpa);
 10. [Spring Data Jpa](https://www.alura.com.br/curso-online-spring-data-jpa);
-11. [SOLID](https://www.alura.com.br/ curso-online-orientacao-a-objetos-avancada-e-principios-solid);
+11. [SOLID](https://www.alura.com.br/curso-online-orientacao-a-objetos-avancada-e-principios-solid);
 12. [Introdução a testes automatizados](https://www.alura.com.br/curso-online-tdd);
 13. [Testes de integração](https://www.alura.com.br/curso-online-teste-de-integracao);
 
