@@ -28,6 +28,11 @@ Simples assim, você deverá ser redirecionado para a tela de configurações do
 Verifique se seu novo Realm está com a opção **Enabled** marcado e os Endpoints esteja selecionado
 a opção **OpenID Endpoint Configuration**
 
+## Lições aprendidas
+
+Se você está utilizando **Windows** e estiver com problema de gerar token, por favor, tente criar um **realm** sem a 
+utilização do **hyphen**. 
+
 ## Informações de suporte
 
 * Talvez você tenha alguma dúvida relacionada o como realizar o login no keycloak, [esse link pode te ajudar a logar no keycloak](keycloak-login.md)
