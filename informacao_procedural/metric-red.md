@@ -9,7 +9,7 @@ E quando falamos de arquitetura distribuída, como por exemplo Microsserviços, 
 qual tem o objetivo de responder três perguntas e deve ser implementada em todos os serviços!
 
 - **R**ate: Quantidade de solicitações, por segundo, que seus serviços estão processando.
-- **E**rros: Quantidade de solicitações com falha por segundo.
+- **E**rrors: Quantidade de solicitações com falha por segundo.
 - **D**uration: Quantidade de tempo que cada solicitação leva.
 
 Ter essas métricas é extremamente importante e **recomendada** pela **Zup**, pois ajuda muito em troubleshooting de 
