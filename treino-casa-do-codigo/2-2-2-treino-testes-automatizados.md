@@ -1,6 +1,6 @@
 # Treino de testes automatizados
 
-<div class="ql-editor" data-gramm="false" contenteditable="true">
+**Antes de continuar essa atividade, é necessário que você pare e consuma mais um conteúdo teórico**. Criamos um material adicional para que você possa entrar ainda mais de cabeça no mundo dos testes automatizados. Você deve assistir todos os vídeos que estão [aqui](../testes-automatizados-reveladores-de-bugs). É um material denso, mas que vai te dar muita teoria interessante sobre como escrever testes automatizados de maneira sistemática e que realmente aumente a confiabilidade de execuçao do seu sistema.
 
 Dada a sugestão de escrever os testes depois de implementar as funcionalidades, também foi sugerido uma adaptação da técnica de cobertura MC/DC para decidir quais pontos do código seriam testados. A ideia é pegar apenas os pontos do código onde temos condicionais e/ou branches.
 
