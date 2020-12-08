@@ -9,7 +9,7 @@ Para que você se sinta e realmente seja capaz de construir API's, durante o boo
 * Design de código orientado a objetos com a linguagem Java;
 * Testes automatizados de unidade para aumentar a confiabilidade de execução do software;
 * JUnit para facilitar a escrita de testes automatizados;
-* Mockito para ajudar na simulação de invocação de a sistemas externos;
+* Mockito para ajudar na simulação de invocação a sistemas externos;
 * SQL básico para realizar as operações de leitura e escrita necessárias;
 * Spring Boot para facilitar a utilização de tecnologias do ecossistemas Spring;
 * Spring MVC para facilitar na criação da camada web da aplicação;
