@@ -51,6 +51,13 @@ Sugerimos fortemente que você assista os videos em 2x. Lembre que a ideia é qu
 Agora que você passou por uma fase intensa de aprendizado, chegou a hora de treinar muito. Você vai construir dois projetos do zero. Nessa fase é importante que você vá se analisando e prestando muita atenção em relação ao nível de facilidade de cada funcionalidade construída. **Tem que ir ficando mais fácil**. Se não estiver ficando fácil, fique alerta, talvez você precise de ajuda. 
 
 14. [Implementar o desafio de construção de uma API que simule a editora Casa do Código](./treino-casa-do-codigo);
+
+O desafio de implementação da Casa do Código foi muito importante para que você treinasse sua habilidade em desenvolver API's web. O próximo desafio exige habilidades bem similares, o que é bom. Lembre que a repetição em cenários variados eleva seu nível. Só que agora, além de ser um desafio mais complexo, também vai exigir de você a criação de testes automatizados. 
+
+Para te deixar ainda mais preparado(a), [primeiro consuma um material teórico que preparamos especialmente sobre testes.](/testes-automatizados-reveladores-de-bugs). 
+
+Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento de confiabilidade de execução do código, mergulhe no desafio de criar uma API que simula parte do Mercado Livre.
+
 15. [Implementar o desafio de construção de uma API que simule parte do funcionamento do mercado livre](./treino-mercado-livre);
 
 Neste ponto da jornada, você deve estar se sentindo mais confiante e mais capaz de construir API's com as tecnologias e práticas até aqui trabalhadas. Vamos para o desafio final. Que é construir uma API que simule o funcionamento do credicard zero, um produto do Itaú. 
