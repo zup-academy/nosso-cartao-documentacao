@@ -1,6 +1,6 @@
 # Cronograma e plano de estudos e treinos
 
-O nosso bootcamp tem duração de até dez semanas. Preparamos toda uma sequência de estudos e treinos que visão te deixar preparado(a) para construir API's utilizando Java como linguagem e Spring e Hibernate como frameworks principais fazendo com que você possa focar no que mais importa, que é entregar valor para o cliente final usando tecnologia como meio. 
+O nosso bootcamp tem duração de até dez semanas. Preparamos toda uma sequência de estudos e treinos que visam te deixar preparado(a) para construir API's utilizando Java como linguagem e Spring e Hibernate como frameworks principais fazendo com que você possa focar no que mais importa, que é entregar valor para o cliente final usando tecnologia como meio. 
 
 ## O que vamos estudar e treinar?
 
