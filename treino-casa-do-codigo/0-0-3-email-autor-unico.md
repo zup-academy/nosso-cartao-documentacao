@@ -11,6 +11,7 @@
 1.  [Todo framework mvc minimamente maduro possui um mecanismo pronto de realizar validação customizada. Spring, NestJS e ASP.NET Core MVC têm.](https://drive.google.com/file/d/1wc5ChsPeGFjqypb9QI7tGRMl9dn0WkkL/view?usp=sharing)
 
 2.  [Como Alberto faria esse código?](https://drive.google.com/file/d/1zceQ8BTLA1D5gSJBrsq58fev66--Svsj/view?usp=sharing)
+3. [Como ficaram os testes?](https://drive.google.com/file/d/1E1LcNi9lEGWKRsX9QtSRj6V4_wP4m-wc/view?usp=sharing)
 
 ### informações de suporte para Spring + JPA
 

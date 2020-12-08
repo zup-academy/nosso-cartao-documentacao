@@ -55,10 +55,9 @@ Passou pela primeira parte do fechamento da compra? Agora é ainda mais desafiad
 
 1.  Lembre que uma das coisas mais importante do pilar "a prioridade é funcionar" é que você deve maximizar a execução do seu código. Planeje o que você quer fazer e implemente passo a passo. Faça uma pequena parte e execute. 
 2.  Quais restrições você pode colocar na compra para garantir que ela nunca tenha tentativas de pagamentos num estado inválido associado a ela? 
-3.  Você tem um desafio grande de divisão de responsabilidade aqui. São muitas coisas que precisam ser feitas. Como que você vai usar nossa estratégia de design de código para manter esse código entendível?
+3.  Você tem um desafio grande de divisão de responsabilidade aqui. São muitas coisas que precisam ser feitas. Como que você vai usar uma estratégia de design de código para manter esse código entendível?
 4.  Como você vai associar tentativas de pagamento que vem de gateways diferentes?
-5.  Será que você if para gerar as tentativas de pagamento de gateways diferentes?
+5.  Será que você usou if para gerar as tentativas de pagamento de gateways diferentes?
 6.  O que merece ser testado? Já falamos um pouco sobre isso e os prós e contras. Eu continuo entendendo que a prioridade são fluxos de código que possuem branches(ifs, eles, loops etc). [Falo mais aqui](https://drive.google.com/file/d/1SAvODkuAVuvM5Bm4cNp2W0Aes59GI-Eq/view?usp=sharing). 
-7.  Testando parte do código que eu implementei para essa feature
-8.  [Pegue cada uma das classes que você criou e realize a contagem da carga intrínseca](https://drive.google.com/file/d/1MwuEjVO9evwVsYK5t5hB0q22uHj7CwSQ/view?usp=sharing). Esse é o viés de design que estamos trabalhando. Precisamos nos habituar a fazer isso para que se torne algo automático na nossa vida.
 9.  Como Alberto faria esse código? [Parte 1](https://drive.google.com/file/d/1XZ69LRI_Bxog3SAK00k38V22nHUm3m4J/view?usp=sharing), [parte 2](https://drive.google.com/file/d/1eApB5JyNp9Xg_Awwqk8gaYploePmlQ7V/view?usp=sharing), [parte 3](https://drive.google.com/file/d/160xJTOi6_jTb_UjgQZmnhIhF_jV5JAjo/view?usp=sharing)
+10. Como Alberto testaria esse código? [PARTE 1](https://drive.google.com/file/d/18M1WW5OkEpcThtK-1753SpOelNed5n-2/view?usp=sharing), [PARTE 2](https://drive.google.com/file/d/1Jo2DkyD2DytOGF1J4ImeFDdcB_Jmwl_e/view?usp=sharing). 

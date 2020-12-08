@@ -32,7 +32,6 @@ Como você faria para que em dev a imagem virasse um link fictício e em produç
 5.  As imagens não são obrigatórias, mas quando o produto tem imagem associada é necessária que tenha pelo menos uma. Como você pode fazer para garantir que o produto, depois de ter imagens associadas, vai estar em um estado válido? Lembre da checagem de restrições. Você pode fazer uma verificação de estado do produto pós lógica de associação de imagens.
 6.  Como você pode indicar que o produto precisa estar associado a no mínimo uma imagem? [que tal deixar uma dica para a outra pessoa](https://drive.google.com/file/d/1TMENbD2V_87FmEGzwjTb4zqUnucsDnKM/view?usp=sharing)?
 7.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
-8.  [Pegue cada uma das classes que você criou e realize a contagem da carga intrínseca](https://drive.google.com/file/d/1MwuEjVO9evwVsYK5t5hB0q22uHj7CwSQ/view?usp=sharing). Esse é o viés de design que estamos trabalhando. Precisamos nos habituar a fazer isso para que se torne algo automático na nossa vida.
 9.  Caso você já esteja utilizando um projeto de segurança. O framework da sua escolha, integrado com algum outro projeto de segurança, deve permitir que você tenha acesso ao objeto que representa o usuário logado dentro do método do seu controller. 
 10.  Como Alberto faria esse código [parte1](https://drive.google.com/file/d/10X1RqlzWr6SvV0c60AyqKIc2FhLo4XNv/view?usp=sharing) e [parte 2(ownership)](https://drive.google.com/file/d/1XpX4SlTdEoTse_yc0u9dTPFyRU6zryyB/view?usp=sharing)
 

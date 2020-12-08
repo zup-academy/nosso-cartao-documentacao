@@ -14,6 +14,7 @@
 2.  Aqui provavelmente você terá um if em algum lugar para verificar a existência de um outro autor. Todo código que tem uma branch de código(if,else) tem mais chance de executar de maneira equivocada. Tente criar um teste automatizado para aumentar ainda mais a confiabilidade do seu código. [Criamos testes automatizados para que ele nos ajude a revelar e consertar bugs na aplicação.​](https://drive.google.com/file/d/1SAvODkuAVuvM5Bm4cNp2W0Aes59GI-Eq/view?usp=sharing)[
 3.  Como Alberto fez esse código? [Query direto na classe de validação /o\.](https://drive.google.com/file/d/1HLkB8Q1L6wLRk4RQwbXDnbv2GSUJ8c0V/view?usp=sharing)
 4.  Como Alberto fez esse código [usando um Repository na classe de validação.](https://drive.google.com/file/d/1R3Ot8Mxi5qwq5ga5vQbw4wsP945JPMKg/view?usp=sharing)
+5. [Como ficaram os testes?](https://drive.google.com/file/d/1E1LcNi9lEGWKRsX9QtSRj6V4_wP4m-wc/view?usp=sharing)
 
 ### informações de suporte para a combinação Java/Kotlin + Spring
 

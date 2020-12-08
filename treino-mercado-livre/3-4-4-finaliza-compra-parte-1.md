@@ -49,8 +49,9 @@ Aqui é para ser muito recompensador! Você já se esforçou demais, fez muita f
 5.  Como você vai verificar o estoque? Vai ter um método de consulta e outro que altera o objeto? E se entre a consulta e o abate algum outro pedido de compra no sistema? 
 6.  Será que você fez um if para decidir qual endereço vai ser retornado para o redirect? Será que precisamos desse if?
 7.  O que merece ser testado? Já falamos um pouco sobre isso e os prós e contras. Eu continuo entendendo que a prioridade são fluxos de código que possuem branches(ifs, eles, loops etc). [Falo mais aqui](https://drive.google.com/file/d/1SAvODkuAVuvM5Bm4cNp2W0Aes59GI-Eq/view?usp=sharing).
-8.  [Pegue cada uma das classes que você criou e realize a contagem da carga intrínseca](https://drive.google.com/file/d/1MwuEjVO9evwVsYK5t5hB0q22uHj7CwSQ/view?usp=sharing). Esse é o viés de design que estamos trabalhando. Precisamos nos habituar a fazer isso para que se torne algo automático na nossa vida.
 9.  [Como Alberto faria esse código](https://drive.google.com/file/d/1JdfiNZPPSY00FTFKh3rzAzxPYTdf6z4x/view?usp=sharing) Lembrando que aqui é a parte inicial. Ainda falta a volta :). 
+10. Como Alberto faria os testes? Você encontra em duas partes: [PARTE 1](https://drive.google.com/file/d/1PQN0ccPyFF8QCNlXsR89ZaAVJ5_Kh8YH/view?usp=sharing) e [PARTE 2](https://drive.google.com/file/d/1VH6fRJZ2HAHnhIXexsWcKYtXceEybHSM/view?usp=sharing). 
+
 
 ### informações de suporte para a combinação Java/Kotlin + Spring​
 

@@ -38,9 +38,10 @@ Aqui a gente vai permitir o cadastro de um produto por usuário logado.
 6.  Ainda na parte das informações obrigatórias tem aquela boa armadilha. Produto tem características, mas cada característica é de um produto. Como que você vai criar um sem o outro? Esse é um desafio muito bom. Resolvemos algo parecido no desafio da Casa do código. Só que tome cuidado, aqui precisa de menos engenharia :). 
 7.  Deixamos pistas que facilitem o uso do código onde não conseguimos resolver com compilação. Muitas vezes recebemos String, ints que possuem significados. Um email por exemplo. Se você não pode garantir a validação do formato em compilação, [que tal deixar uma dica para a outra pessoa](https://drive.google.com/file/d/1TMENbD2V_87FmEGzwjTb4zqUnucsDnKM/view?usp=sharing)?
 8.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
-9.  [Pegue cada uma das classes que você criou e realize a contagem da carga intrínseca](https://drive.google.com/file/d/1MwuEjVO9evwVsYK5t5hB0q22uHj7CwSQ/view?usp=sharing). Esse é o viés de design que estamos trabalhando. Precisamos nos habituar a fazer isso para que se torne algo automático na nossa vida.
 10.  Caso você já esteja utilizando um projeto de segurança. O framework da sua escolha, integrado com algum outro projeto de segurança, deve permitir que você tenha acesso ao objeto que representa o usuário logado dentro do método do seu controller. 
 11.  Como Alberto faria esse código [parte 1​](https://drive.google.com/file/d/1ivcB_pHIfAaEzpct8D6sp5mBTDL2zNLf/view?usp=sharing) e [parte 2](https://drive.google.com/file/d/1pV3i5TpGPUNoLBbf9HkcUF60x5vPKZV0/view?usp=sharing) e [parte 3​](https://drive.google.com/file/d/1kZ-HJKYdfN_49j8X-MYMLH0xJnixwJpr/view?usp=sharing)
+12. Como Alberto testaria o código dele? Confira em três partes: [PARTE 1](https://drive.google.com/file/d/10Ufz_v8SmbdKie7Yxn7EW-dOgWCpqB-n/view?usp=sharing), [PARTE 2](https://drive.google.com/file/d/1Wr1yRfymAnaYTPzUQdVgG5K5pMEL8LY8/view?usp=sharing) e [PARTE 3](https://drive.google.com/file/d/1Wr1yRfymAnaYTPzUQdVgG5K5pMEL8LY8/view?usp=sharing) :). 
+
 
 ### informações de suporte para a combinação Java/Kotlin + Spring​
 

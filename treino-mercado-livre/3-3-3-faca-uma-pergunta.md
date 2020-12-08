@@ -32,7 +32,6 @@ Um usuário logado pode fazer uma pergunta sobre o produto
 6.  Na hora de enviar o email, você precisa construir as informações a partir da pergunta. Pode ser natural querer colocar esse código dentro da classe **_Pergunta _**​​e faz até muito sentido. [Deixei uma opinião aqui sobre isso](https://drive.google.com/file/d/1hFVUZrwNdqV0W4EY0zYDIm3vUSgJGf4S/view?usp=sharing).
 7.  Será que você pensou em listeners para resolver o envio do email? Eu sugiro que regras de negócio devem ser declaradas de maneira explícita na nossa aplicação. 
 8.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
-9.  [Pegue cada uma das classes que você criou e realize a contagem da carga intrínseca](https://drive.google.com/file/d/1MwuEjVO9evwVsYK5t5hB0q22uHj7CwSQ/view?usp=sharing). Esse é o viés de design que estamos trabalhando. Precisamos nos habituar a fazer isso para que se torne algo automático na nossa vida.
 10.  Caso você já esteja utilizando um projeto de segurança. O framework da sua escolha, integrado com algum outro projeto de segurança, deve permitir que você tenha acesso ao objeto que representa o usuário logado dentro do método do seu controller. 
 11.  [Como Alberto faria esse código](https://drive.google.com/file/d/1UTzoTKUog3E-jdShb6SicVLPGv6fBhng/view?usp=sharing) e como [Alberto faria para enviar o email.](https://drive.google.com/file/d/1XJAZqp0x3LrK2qHLTWR30TstaBrv27-R/view?usp=sharing) 
 
