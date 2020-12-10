@@ -6,7 +6,7 @@ Confira um vídeo explicativo [aqui](https://www.youtube.com/watch?v=s2nfIu8Zqx8
 
 ## Controle as informações que você consome
 
-Você pode assistir este vídeo [aqui](https://drive.google.com/file/d/1WFCnCL95Q-WTr7qUPl1N52AQnfTRMyby/view?usp=sharing). 
+Você pode assistir este vídeo [aqui](https://www.youtube.com/watch?v=TUoeV_x15Ho&feature=youtu.be). 
 
 Aqui explicamos sobre uma limitação que nós provavelmente temos quando falamos de consumo de informações num determinado intervalo de tempo. Tende a ser contra produtivo você abrir várias frentes de leitura ao mesmo tempo pelo simples fato que a região do nosso cérebro chamada de memória de trabalho tem uma capacidade ultra limitada de processamento. 
 
