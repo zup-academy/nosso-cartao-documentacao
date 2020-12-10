@@ -37,7 +37,7 @@ da plataforma Alura. Você deve ter acesso para conseguir fazê-los.
 Caso a linguagem Java e o paradigma de progamaração orientado a objetos for uma novidade para você, precisamos que você faça os cursos listados abaixo. Nossa sugestão é que você veja em 1.5x no ajuste de velocidade do player. 
 
 3. [Introdução ao mundo Java](https://www.alura.com.br/curso-online-java-primeiros-passos);
-4. [Introdução a Orientação a Objetos][https://www.alura.com.br/curso-online-java-introducao-orientacao-objetos];
+4. [Introdução a Orientação a Objetos](https://www.alura.com.br/curso-online-java-introducao-orientacao-objetos);
 5. [Introdução a polimorfismo](https://www.alura.com.br/curso-online-java-heranca-interfaces-polimorfismo);
 
 Sugerimos fortemente que você assista os videos em 2x. Lembre que a ideia é que você tenha contato e que tenha um primeiro aprendizado sobre isso tudo. Só que a real proficiência vai vir na hora do treino em cima dessas tecnologias.
