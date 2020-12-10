@@ -2,7 +2,7 @@
 
 O material aqui tem dicas baseado em vivência e também é pautado na teoria da carga cognitiva, que é uma tese amplamente aceita na psicologia da cognição e que guia a construção de diversos materiais de ensino mundo a fora. 
 
-Confira um vídeo explicativo [aqui](https://drive.google.com/file/d/1VRoSEcQ3nGBeQ1O2XbOm8XZG2oDuDQ16/view?usp=sharing) 
+Confira um vídeo explicativo [aqui](https://www.youtube.com/watch?v=s2nfIu8Zqx8&feature=youtu.be) 
 
 ## Controle as informações que você consome
 
