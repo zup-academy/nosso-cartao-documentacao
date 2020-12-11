@@ -41,7 +41,7 @@ Como você faria para que em dev a imagem virasse um link fictício e em produç
 2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
 3.  Para realizar as validações padrões existe a Bean Validation
 4.  [Como criar um @RestControllerAdvice para customizar o json de saída com erros de validação](https://youtu.be/LlX6zoGwQQA)
-5.  [Como externalizar as mensagens de erro no arquivo de configuração.](mailto:Como%20criar%20um%20@RestControllerAdvice%20para%20customizar%20o%20json%20de%20sa%C3%ADda%20com%20erros%20de%20valida%C3%A7%C3%A3o)
+5.  [Como externalizar as mensagens de erro no arquivo de configuração.](https://youtu.be/Fsl5E-BGHuU)
 6.  Use e abuse das annotations da bean validation para indicar as restrições dos parâmetros. 
 7.  Brinque um pouco com a classe **_Assert_**​ ​do Spring para fazer checagens de parâmetro também. As ideias de Design By Contract ajudam demais a aumentar a confiabilidade da aplicação.
 8.  Para configurar o Spring Security olhe [aqui](https://youtu.be/xI0YVCbanzU)
