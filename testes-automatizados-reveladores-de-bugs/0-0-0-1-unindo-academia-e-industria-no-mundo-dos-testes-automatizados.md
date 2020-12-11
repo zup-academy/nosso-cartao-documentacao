@@ -1,6 +1,6 @@
 # Unindo academia e indústria no mundo dos testes automatizados
 
-[Neste vídeo](https://drive.google.com/file/d/1MDbi7rI1KmnJmvrwC5hYlt03ANMbYFSA/view?usp=sharing) começamos nossa jornada pelo módulo de testes. É apresentada uma visão que tenta unir academia e indústria. 
+[Neste vídeo](https://youtu.be/diadedzjq4A) começamos nossa jornada pelo módulo de testes. É apresentada uma visão que tenta unir academia e indústria. 
 
 Por mais que a prática de testes seja estabelecida dentro das empresas, ainda temos muito espaço para melhorar quando falamos da qualidade do que é escrito. 
 
