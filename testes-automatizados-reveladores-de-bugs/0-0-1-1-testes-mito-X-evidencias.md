@@ -1,6 +1,6 @@
 # Testes: Mitos x Realidade
 
-[Neste vídeo](https://drive.google.com/file/d/1DIAoci4IZMTaDQJ_ks84qrPPs3z1cdnu/view?usp=sharing) potencialmente polêmico aterrisamos em relação a como vamos abordar os testes aqui. 
+[Neste vídeo](https://youtu.be/xcRTknKwN94) potencialmente polêmico aterrisamos em relação a como vamos abordar os testes aqui. 
 
 Vamos nos inspirar demais no que foi pesquisado e seguir por uma linha que tende a ser mais segura quando falamos de criar testes que revelem bugs. 
 
