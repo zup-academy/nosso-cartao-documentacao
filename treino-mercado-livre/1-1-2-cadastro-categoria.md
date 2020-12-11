@@ -34,4 +34,4 @@ No mercado livre você pode criar hierarquias de categorias livres. Ex: Tecnolog
 2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
 3.  Para realizar as validações padrões existe a Bean Validation
 4.  [Como criar um @RestControllerAdvice para customizar o json de saída com erros de validação](https://youtu.be/LlX6zoGwQQA)
-5.  [Como externalizar as mensagens de erro no arquivo de configuração.]()
+5.  [Como externalizar as mensagens de erro no arquivo de configuração.](https://youtu.be/Fsl5E-BGHuU)
