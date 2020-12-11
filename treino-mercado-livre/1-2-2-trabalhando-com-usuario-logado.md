@@ -2,7 +2,7 @@
 
 ## Problema
 
-Você precisa configurar um mecanismo de autenticação via token, provavelmente com o Spring Security, para permitir o login. Caso queira, é só olhar nesse link [aqui](https://drive.google.com/file/d/1314vY4OpQqTPAnb5fPaMCaWEYdZqpP78/view?usp=sharing). Aí tem todo código de segurança necessário para autenticar no Spring Security via token jwt. Fique a vontade para entendê-lo e aplicar no projeto.
+Você precisa configurar um mecanismo de autenticação via token, provavelmente com o Spring Security, para permitir o login. Caso queira, é só olhar nesse link [aqui](https://youtu.be/xI0YVCbanzU). Aí tem todo código de segurança necessário para autenticar no Spring Security via token jwt. Fique a vontade para entendê-lo e aplicar no projeto.
 
 Caso você esteja utilizando NestJS, ASP.NET Code MVC ou outro framework, é só decidir por qual tecnologia de segurança você vai querer. 
 
