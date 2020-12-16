@@ -1,6 +1,6 @@
 # Você precisa ser bom com as tecnologias de testes
 
-[Neste vídeo](https://drive.google.com/file/d/1i_sAlzOrrPW6orUL4_GztX0_NJSw6UQN/view?usp=sharing) é reforçado a necessidade de você dominar as ferramentas necessárias para automatizar os testes. Não importa a linguagem, você vai ter alguma tecnologia que executa os testes automaticamente, que possibilita a criação de mocks e asserts. 
+[Neste vídeo](https://youtu.be/dIry9rTEvyU) é reforçado a necessidade de você dominar as ferramentas necessárias para automatizar os testes. Não importa a linguagem, você vai ter alguma tecnologia que executa os testes automaticamente, que possibilita a criação de mocks e asserts. 
 
 Você treinar escrever muito teste para que as técnicas e ferramentas fiquem dominadas. Dessa forma você vai estar deixando mais fácil fazer o teste valer a pena. 
 

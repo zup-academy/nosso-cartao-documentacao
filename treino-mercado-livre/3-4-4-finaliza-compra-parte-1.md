@@ -48,9 +48,9 @@ Aqui é para ser muito recompensador! Você já se esforçou demais, fez muita f
 4.  Como você vai representar o gateway?
 5.  Como você vai verificar o estoque? Vai ter um método de consulta e outro que altera o objeto? E se entre a consulta e o abate algum outro pedido de compra no sistema? 
 6.  Será que você fez um if para decidir qual endereço vai ser retornado para o redirect? Será que precisamos desse if?
-7.  O que merece ser testado? Já falamos um pouco sobre isso e os prós e contras. Eu continuo entendendo que a prioridade são fluxos de código que possuem branches(ifs, eles, loops etc). [Falo mais aqui](https://drive.google.com/file/d/1SAvODkuAVuvM5Bm4cNp2W0Aes59GI-Eq/view?usp=sharing).
-9.  [Como Alberto faria esse código](https://drive.google.com/file/d/1JdfiNZPPSY00FTFKh3rzAzxPYTdf6z4x/view?usp=sharing) Lembrando que aqui é a parte inicial. Ainda falta a volta :). 
-10. Como Alberto faria os testes? Você encontra em duas partes: [PARTE 1](https://drive.google.com/file/d/1PQN0ccPyFF8QCNlXsR89ZaAVJ5_Kh8YH/view?usp=sharing) e [PARTE 2](https://drive.google.com/file/d/1VH6fRJZ2HAHnhIXexsWcKYtXceEybHSM/view?usp=sharing). 
+7.  O que merece ser testado? Já falamos um pouco sobre isso e os prós e contras. Eu continuo entendendo que a prioridade são fluxos de código que possuem branches(ifs, eles, loops etc). [Falo mais aqui](https://youtu.be/5kbcCsd_4Vw).
+9.  [Como Alberto faria esse código](https://youtu.be/nofdSqGH4NI) Lembrando que aqui é a parte inicial. Ainda falta a volta :). 
+10. Como Alberto faria os testes? Você encontra em duas partes: [PARTE 1](https://youtu.be/DRTmiroJJV0) e [PARTE 2](https://youtu.be/0cAr-zRqFbU). 
 
 
 ### informações de suporte para a combinação Java/Kotlin + Spring​
@@ -58,9 +58,9 @@ Aqui é para ser muito recompensador! Você já se esforçou demais, fez muita f
 1.  Para receber os dados da request como json, temos a annotation @RequestBody
 2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
 3.  Para realizar as validações padrões existe a Bean Validation
-4.  [Como criar um @RestControllerAdvice para customizar o json de saída com erros de validação](https://drive.google.com/file/d/18q7IUF1EmeGrPFAab1CHIXP3COf5KNHd/view?usp=sharing)
-5.  [Como externalizar as mensagens de erro no arquivo de configuração.](mailto:Como%20criar%20um%20@RestControllerAdvice%20para%20customizar%20o%20json%20de%20sa%C3%ADda%20com%20erros%20de%20valida%C3%A7%C3%A3o)
+4.  [Como criar um @RestControllerAdvice para customizar o json de saída com erros de validação](https://youtu.be/LlX6zoGwQQA)
+5.  [Como externalizar as mensagens de erro no arquivo de configuração.](https://youtu.be/Fsl5E-BGHuU)
 6.  Use e abuse das annotations da bean validation para indicar as restrições dos parâmetros. 
 7.  Brinque um pouco com a classe **_Assert_**​ ​do Spring para fazer checagens de parâmetro também. As ideias de Design By Contract ajudam demais a aumentar a confiabilidade da aplicação.
-8.  Para configurar o Spring Security olhe [aqui](https://drive.google.com/file/d/1314vY4OpQqTPAnb5fPaMCaWEYdZqpP78/view?usp=sharing)
+8.  Para configurar o Spring Security olhe [aqui](https://youtu.be/xI0YVCbanzU)
 9.  Lembrando que, para receber a referência para o usuário logado no método do controller, você pode usar a annotation _@AuthenticationPrincipal_​.

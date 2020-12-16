@@ -21,4 +21,4 @@ Não temos todas as informações, mas já temos bastante coisa. Faça, do jeito
 ### Informações de suporte geral
 
 1.  A prioridade é funcionar. Execute o seu código o mais rápido possível. Perceba que aqui você tem várias informações que devem ser retornadas. Se você escolher fazer tudo antes de executar a primeira requisição, vai demorar bastante de ver seu código executando. O que pode dificultar achar os erros na primeira execução.
-2.  Como Alberto faria [parte 1](https://drive.google.com/file/d/14JiRDjcbBO-VCZZsAvzOscMKySXbXCYv/view?usp=sharing), [parte 2](https://drive.google.com/file/d/1_BjXnzFnxUOaDYZeB34buyqpWwkp_cII/view?usp=sharing)(calculando média), [parte 3(refatora contagem opinioes)](https://drive.google.com/file/d/1bFvq611l7hAcO5keshopzpvByP2IKRHw/view?usp=sharing)
+2.  Como Alberto faria [parte 1](https://youtu.be/RgU8ympV4zo), [parte 2](https://youtu.be/38paqLDtZOU) (calculando média), [parte 3](https://youtu.be/OhIFeeK6cXk) (refatora contagem opinioes).
