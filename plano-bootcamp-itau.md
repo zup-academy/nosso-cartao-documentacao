@@ -1,6 +1,6 @@
 # Cronograma e plano de estudos e treinos
 
-O nosso bootcamp tem duração de até dez semanas. Preparamos toda uma sequência de estudos e treinos que visam te deixar preparado(a) para construir API's utilizando Java como linguagem e Spring e Hibernate como frameworks principais fazendo com que você possa focar no que mais importa, que é entregar valor para o cliente final usando tecnologia como meio. 
+O nosso bootcamp tem duração de até 16 semanas. Preparamos toda uma sequência de estudos e treinos que visam te deixar preparado(a) para construir API's utilizando Java como linguagem e Spring e Hibernate como frameworks principais fazendo com que você possa focar no que mais importa, que é entregar valor para o cliente final usando tecnologia como meio. 
 
 ## O que vamos estudar e treinar?
 
@@ -23,13 +23,13 @@ Para que você se sinta e realmente seja capaz de construir API's, durante o boo
 * Open Tracing para conseguir seguir o fluxo de uma requisição em um sistema distribuído;
 * Docker e Kubernetes para auxiliar no processo de criação de ambientes simulando a produção e deploy;
 
-## Sua sequência de atividades considerando todas as dez semanas
+## Sua sequência de atividades considerando todas as 16 semanas
 
 Primeiro começamos entendendo a estrutura do bootcamp e como ficar melhor
 preparado(a) para consumir tudo que preparamos. Essa aqui é uma fase curta, porém fundamental. **Esta é a fase um do nosso bootcamp.**
 
 * [Consumir o material sobre como ficar preparado(a) para o bootcamp](fique-preparado(a)-desafios/readme.md). Lá você vai entender direitinho como preparamos a jornada para você. 
-* [Consumir o material sobre como ser um(a) melhor estudante](seja-um(a)-melhor-estudante/readme.md). Aqui você vai ter alguns vídeos que vão te ajudar a ser um(a) melhor estudante durante as dez semanas.
+* [Consumir o material sobre como ser um(a) melhor estudante](seja-um(a)-melhor-estudante/readme.md). Aqui você vai ter alguns vídeos que vão te ajudar a ser um(a) melhor estudante durante as 16 semanas.
 
 Agora você vai fazer uma imersão de teoria sobre desenvolvimento web utilizando o paradigma de programação orientado a objetos com Java, Spring e Hibernate. Aqui é uma fase com muita teoria e alguns exercícios de fixação. Não se preocupe se sentir a cabeça ficar pesada, é uma sensação normal. Toda essa fase de teoria está centrada em cursos prontos da plataforma Alura. Você deve ter acesso para conseguir fazê-los. **Esta é a fase dois do nosso bootcamp**. 
 
