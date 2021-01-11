@@ -69,20 +69,20 @@ Neste ponto da jornada, você deve estar se sentindo mais confiante e mais capaz
 Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de criação de propostas.
 
 * [Introdução a Docker](https://www.alura.com.br/curso-online-docker-e-docker-compose);
-* [Healthcheck](informacao_procedural/healthcheck.md);
-* [Readiness checks](informacao_procedural/readiness_checks.md);
-* [Spring Actuator](informacao_suporte/spring-actuator.md);
-* [Spring Health check](informacao_suporte/spring-health-check.md);
+* [Healthcheck](../informacao_procedural/healthcheck.md);
+* [Readiness checks](../informacao_procedural/readiness_checks.md);
+* [Spring Actuator](../informacao_suporte/spring-actuator.md);
+* [Spring Health check](../informacao_suporte/spring-health-check.md);
 * [Seguraça em ambientes cloud native](informacao_procedural/seguranca_cloud_native.md);
-* [Introudção a Oauth](informacao_suporte/oauth*md);
-* [Introdução a Keycloak](informacao_suporte/keycloak.md);
-* [Sobre métricas](informacao_procedural/metric.md);
-* [Métricas tipo RED](informacao_procedural/metric-red.md);
-* [Métricas tipo USE](informacao_procedural/metric-use.md);
-* [Introdução ao Prometheus](informacao_procedural/prometheus.md);
-* [Spring Actuator e métricas](informacao_suporte/spring-actuator-metrics.md)
-* [Introdução a Open tracing](informacao_procedural/open-tracing.md);
-* [Jaeger como implementaçãod de Open tracing](informacao_suporte/jaeger.md);
+* [Introudção a Oauth](../informacao_suporte/oauth*md);
+* [Introdução a Keycloak](../informacao_suporte/keycloak.md);
+* [Sobre métricas](../informacao_procedural/metric.md);
+* [Métricas tipo RED](../informacao_procedural/metric-red.md);
+* [Métricas tipo USE](../informacao_procedural/metric-use.md);
+* [Introdução ao Prometheus](../informacao_procedural/prometheus.md);
+* [Spring Actuator e métricas](../informacao_suporte/spring-actuator-metrics.md)
+* [Introdução a Open tracing](../informacao_procedural/open-tracing.md);
+* [Jaeger como implementaçãod de Open tracing](../informacao_suporte/jaeger.md);
 
 Agora que você fez mais imersão teórica, vamos treinar! Nele você vai utilizar tudo que você estudou e até um pouco mais!
 
