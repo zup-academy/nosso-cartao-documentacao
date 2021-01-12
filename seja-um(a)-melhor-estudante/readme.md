@@ -2,11 +2,11 @@
 
 O material aqui tem dicas baseado em vivência e também é pautado na teoria da carga cognitiva, que é uma tese amplamente aceita na psicologia da cognição e que guia a construção de diversos materiais de ensino mundo a fora. 
 
-Confira um vídeo explicativo [aqui](https://www.youtube.com/watch?v=s2nfIu8Zqx8&feature=youtu.be) 
+Confira um vídeo explicativo [aqui](https://youtu.be/OVxHWz1R7oo) 
 
 ## Controle as informações que você consome
 
-Você pode assistir este vídeo [aqui](https://www.youtube.com/watch?v=TUoeV_x15Ho&feature=youtu.be). 
+Você pode assistir este vídeo [aqui](https://youtu.be/9l3mSjFZSVM). 
 
 Aqui explicamos sobre uma limitação que nós provavelmente temos quando falamos de consumo de informações num determinado intervalo de tempo. Tende a ser contra produtivo você abrir várias frentes de leitura ao mesmo tempo pelo simples fato que a região do nosso cérebro chamada de memória de trabalho tem uma capacidade ultra limitada de processamento. 
 
@@ -18,7 +18,7 @@ PS: claro que esse é um campo que está em constante estudo, nossa cabeça real
 
 ## Maximize a recuperação de conteúdo
 
-O vídeo relacionado a este conteúdo pode ser visto [aqui](https://www.youtube.com/watch?v=0DABUj-v0LQ&feature=youtu.be) 
+O vídeo relacionado a este conteúdo pode ser visto [aqui](https://youtu.be/lx9bYlHepzU) 
 
 Uma vez que você consumiu alguma informação é importante experimentar o máximo de formas de recuperação sobre ela para maximizar a chance de você ter realmente entendido. Agora fica a pergunta: o que é realmente ter entendido?
 
@@ -41,7 +41,7 @@ E quais as são as formas de recuperar uma informação?
 
 ## Defina bons objetivos de aprendizado
 
-Para ver o vídeo deste conteúdo clique [aqui](https://www.youtube.com/watch?v=r88cxCvePiM&feature=youtu.be)
+Para ver o vídeo deste conteúdo clique [aqui](https://youtu.be/n-HvwyJKyII)
 
 Definir um objetivo de aprendizado é algo que parece simples, mas não é tão fácil de fazer. Quando pensamos em aprender algo, muitas vezes acabamos com um objetivo amplo demais e quem não fala para a gente se estamos nos aproximando daquilo que queremos. Alguns exemplos:
 
@@ -90,7 +90,7 @@ Quando você visualiza onde quer chegar, fica muito mais fácil de traçar o cam
 
 ## O poder dos esquemas na nossa mente
 
-Para ver o vídeo deste conteúdo clique [aqui](https://www.youtube.com/watch?v=uka9SR3NV7M&feature=youtu.be)
+Para ver o vídeo deste conteúdo clique [aqui](https://youtu.be/f8E7K0qOLEk)
 
 Já falamos sobre a memória de trabalho e sobre a importância de recuperar aquela informação de maneira variada. Também falamos que em determinado momento um número de x informações começa a ser analisado por nós como se fosse uma coisa só. Esse processo de transformar N itens em apenas um item é conhecido como geração de esquemas. 
 
@@ -100,7 +100,7 @@ Você precisa estudar e treinar de modo a potencializar a geração de esquemas 
 
 ## Aprenda uma coisa por vez
 
-O vídeo deste conteúdo pode ser visto [aqui](https://www.youtube.com/watch?v=2jWIergfdh0&feature=youtu.be).
+O vídeo deste conteúdo pode ser visto [aqui](https://youtu.be/N1hhffjCu_Q).
 
 Aqui é mais um lembrete sobre a necessidade de você controlar a informação de entrada. A internet está cheia de blog, ebook e vídeo de um monte gente falando de um monte de coisa. 
 
