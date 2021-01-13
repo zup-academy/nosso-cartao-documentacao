@@ -43,11 +43,11 @@ Este começo de fechamento de compra envolve muitos passos. Decidimos começar p
 
 ### **informações de suporte para a feature**
 
-1.  [A prioridade do código é funcionar](https://youtu.be/Pmazwb9-49k). Se você tentar implementar tudo necessário para criar a versão inicial da compra, vai demorar muito para ver seu código rodando a primeira vez. Lembre que quanto mais você demora de rodar, maior é a chance de ter mais de um problema na primeira execução. [Olhe também este outro vídeo sobre a importância de priorizar o funcionamento do código](https://youtu.be/vsHzQ3vQt8c)
-2.  [Controllers 100% coesos](https://youtu.be/i3Au8Slv3x4) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos.
-3.  Como foi que você fez para receber os dados da requisição? Será que aproveitou a facilidade do framework e recebeu a sua entidade(objeto que faz parte do domínio) direto no método mapeado para um endereço? [Dá uma olhada nesse pilar aqui.](https://youtu.be/_CvFy3ypsYc)
-4.  Dado que você separou os dados que chegam da request do objeto de domínio, como vai fazer para converter dessa entrada para o domínio? [Sugiro olhar um pouco sobre nossa ideia de Form Value Objects](https://youtu.be/2Oc56btUWQA). Esse aqui é um formulário bem mais complexo, pois provavelmente vai possuir muito mais dependências. Vai ser um belo desafio.
+1.  [A prioridade do código é funcionar](https://youtu.be/K1U1vzlPaVU). Se você tentar implementar tudo necessário para criar a versão inicial da compra, vai demorar muito para ver seu código rodando a primeira vez. Lembre que quanto mais você demora de rodar, maior é a chance de ter mais de um problema na primeira execução. [Olhe também este outro vídeo sobre a importância de priorizar o funcionamento do código](https://youtu.be/-WUFmUeeFro)
+2.  [Controllers 100% coesos](https://youtu.be/NNKG2TFctfo) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos.
+3.  Como foi que você fez para receber os dados da requisição? Será que aproveitou a facilidade do framework e recebeu a sua entidade(objeto que faz parte do domínio) direto no método mapeado para um endereço? [Dá uma olhada nesse pilar aqui.](https://youtu.be/AzyHKZwNg1A)
+4.  Dado que você separou os dados que chegam da request do objeto de domínio, como vai fazer para converter dessa entrada para o domínio? [Sugiro olhar um pouco sobre nossa ideia de Form Value Objects](https://youtu.be/kzjSxBDQXp8). Esse aqui é um formulário bem mais complexo, pois provavelmente vai possuir muito mais dependências. Vai ser um belo desafio.
 5.  Muitos dos problemas de uma aplicação vem do fato dela trabalhar com objetos em estado inválido. O ponto mais crítico em relação a isso é justamente quando os dados vêm de outra fonte, por exemplo um cliente externo. É por isso que temos o seguinte pilar: quanto mais externa é a borda mais proteção nós temos. Confira uma explicação sobre ele [aqui](https://youtu.be/pu9zErRwk7k) e depois [aqui](https://youtu.be/odzqRwdgVUw)
-6.  [Favorecemos a coesão através do encapsulamento](https://youtu.be/fVKC_EPvGWo). Como você planeja validar se o documento é válido?
+6.  [Favorecemos a coesão através do encapsulamento](https://youtu.be/HGcQlsynTuM). Como você planeja validar se o documento é válido?
 7.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
-9.  [Como Alberto faria esse código?](https://youtu.be/C4vWAM6tTqw)
+9.  [Como Alberto faria esse código?](https://youtu.be/Oba10gpoyKQ)
