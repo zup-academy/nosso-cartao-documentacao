@@ -58,6 +58,6 @@ Passou pela primeira parte do fechamento da compra? Agora é ainda mais desafiad
 3.  Você tem um desafio grande de divisão de responsabilidade aqui. São muitas coisas que precisam ser feitas. Como que você vai usar uma estratégia de design de código para manter esse código entendível?
 4.  Como você vai associar tentativas de pagamento que vem de gateways diferentes?
 5.  Será que você usou if para gerar as tentativas de pagamento de gateways diferentes?
-6.  O que merece ser testado? Já falamos um pouco sobre isso e os prós e contras. Eu continuo entendendo que a prioridade são fluxos de código que possuem branches(ifs, eles, loops etc). [Falo mais aqui](https://youtu.be/5kbcCsd_4Vw). 
-9.  Como Alberto faria esse código? [Parte 1](https://youtu.be/0DlNzfcZZwI), [parte 2](https://youtu.be/DFlvRTrFLg8), [parte 3](https://youtu.be/Ih4FQWOYIeg)
-10. Como Alberto testaria esse código? [PARTE 1](https://youtu.be/0m21pkaEdQY), [PARTE 2](https://youtu.be/0m21pkaEdQY). 
+6.  O que merece ser testado? Já falamos um pouco sobre isso e os prós e contras. Eu continuo entendendo que a prioridade são fluxos de código que possuem branches(ifs, eles, loops etc). [Falo mais aqui](https://youtu.be/vCnhwbkX3EA). 
+9.  Como Alberto faria esse código? [Parte 1](https://youtu.be/b5vUoPygtv4), [parte 2](https://youtu.be/_QYVYx2ENDQ), [parte 3](https://youtu.be/AAugW3C54Cs)
+10. Como Alberto testaria esse código? [PARTE 1](https://youtu.be/zFRUxyz7FCA), [PARTE 2](https://youtu.be/F67IG4B8oC4). 
