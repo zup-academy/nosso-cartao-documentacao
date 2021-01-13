@@ -1,6 +1,6 @@
 # Sugestão de como realizar testes dentro da Jornada
 
-[Neste vídeo](https://youtu.be/R5qhgEqrhFw) falamos sobre a sugestão de approach para criarmos os testes automatizados dentro da jornada. 
+[Neste vídeo](https://youtu.be/LdNlb9v5Q2Y) falamos sobre a sugestão de approach para criarmos os testes automatizados dentro da jornada. 
 
 Vamos combinar fortemente boundary testing, structural testing através de uma visão diferente do MC/DC e também vamos olhar muito para self testing. 
 
