@@ -163,7 +163,9 @@ Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a te
 * [O que é Micronaut ?](https://www.youtube.com/watch?v=FdxStVYU8xM&feature=youtu.be)
 * [Setup de um projeto utilizando Micronaut](https://www.youtube.com/watch?v=vojSldrKV8Y&feature=youtu.be)
 * [Configuração do IntelliJ para o Micronaut](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be)
-
+* [Recebendo dados via JSON: explicação sobre código pronto](https://www.youtube.com/watch?v=PWBEwECz4y4&feature=youtu.be)
+* [Recebendo dados via JSON: explicação enquanto constrói o código ][https://www.youtube.com/watch?v=6MuZfE7BYPg&feature=youtu.be]
+* [Validando os dados de entrada de uma requisição: explicação enquanto constrói o código](https://www.youtube.com/watch?v=lyBlLDoW6xE&feature=youtu.be)
 
 ## Cronograma para executar todas as atividades
 
