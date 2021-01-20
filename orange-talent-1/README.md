@@ -66,7 +66,9 @@ Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento 
 
 Neste ponto da jornada, você deve estar se sentindo mais confiante e mais capaz de construir API's com as tecnologias e práticas até aqui trabalhadas. Vamos para o desafio final. Que é construir uma API que simule o funcionamento do credicard zero, um produto do Itaú. **Esta é a fase quatro do nosso bootcamp.**
 
-Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de criação de propostas.
+Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de criação de propostas. Aqui ainda não temos material gravado em vídeo, então por enquanto vai ser necessário ler os nossos textos :). 
+
+Importante lembrar que não é esperado que você acabe essa fase da leitura já conseguindo aplicar tais conceitos facilmente. A ideia é ter o primeiro contato e deixar a semente plantada na sua cabeça para que, no momento da prática, tudo seja mais facilmente acessível. 
 
 * [Introdução a Docker](https://www.alura.com.br/curso-online-docker-e-docker-compose);
 * [Healthcheck](../informacao_procedural/healthcheck.md);
@@ -84,7 +86,7 @@ Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de 
 * [Introdução a Open tracing](../informacao_procedural/open-tracing.md);
 * [Jaeger como implementaçãod de Open tracing](../informacao_suporte/jaeger.md);
 
-Agora que você fez mais imersão teórica, vamos treinar! Nele você vai utilizar tudo que você estudou e até um pouco mais!
+Agora que você fez mais imersão teórica, vamos treinar! Neste treino você vai utilizar tudo que você estudou e até um pouco mais!
 
 * [Implemente o microservice relativo a criação de propostas](../proposta/)
 
@@ -97,9 +99,9 @@ Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno
 * [Serviço de transação](../transacao/);
 
 Nesse momento do nosso bootcamp, você já deve estar se sentindo mais 
-apto(a) a criar API's REST que possam ser deployadas em ambientes Cloud Native. Agora vamos para a fase final, onde vamos nos desafiar a transferir todo esse conhecimento para uma nova stack de tecnologias, a Orange Stack!  Antes de mais nada, deixe a gente te contar um pouco sobre essa nova stack. 
+apto(a) a criar API's REST que possam ser deployadas em ambientes Cloud Native. Agora vamos para a fase final, onde vamos nos desafiar a transferir todo esse conhecimento para uma nova stack de tecnologias, a Orange Foundation!  Antes de mais nada, deixe a gente te contar um pouco sobre essa nova stack. 
 
-A Zup + Itaú decidiram apostar em uma nova para facilitar que você possa focar ainda mais nas funcionalidades e potencializar negócios. A Orange Stack vai atuar em diversas vertentes do desenvolvimento, tais como:
+A Zup + Itaú decidiram apostar em um novo conjunto de tecnologias que são ainda mais aderentes a este mundo onde tudo executa no cloud. A Orange Foundation vai atuar em diversas vertentes do desenvolvimento, tais como:
 
 * Backend;
 * Frontend;
@@ -111,6 +113,7 @@ Aqui no nosso programa, vamos focar nas tecnologias associadas com a vertente de
 * Kotlin;
 * Micronaut;
 * GRPC;
+* Kafka;
 * JUnit;
 * Pitest;
 * Prometheus;
@@ -140,6 +143,27 @@ Algumas delas, como JUnit, Prometheus e Jaeger já trabalhamos. Vamos continuar 
 Está pronto(a)? Vamos para a **fase cinco do nosso programa**. 
 
 ESTAMOS NESSE MOMENTO CONSTRUINDO O MATERIAL DA FASE 5 PARA QUE VOCÊ POSSA SE DESAFIAR AINDA MAIS, AGUARDE POR ATUALIZAÇÕES AQUI :). 
+
+Só que não é porque estamos construindo, que não podemos já ir liberando as partes que estão prontos, Release early, Release often :). 
+
+Para começar, precisamos cair de cabeça no Kotlin, que é a linguagem base para a stack de backend da Orange Foundation. A teoria e atividades iniciais para a linguagem podem ser consumidas na Alura. 
+
+Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem Java, tente fazer transferência de conhecimento. O que mudou foi a linguagem, mas vários dos conceitos permanecem os mesmos.
+
+* [Kotlin: primeiros passos e Orientação a Objetos](https://www.alura.com.br/curso-online-kotlin-orientacao-objetos)
+* [Kotlin: herança, polimorfismo e Interface](https://www.alura.com.br/curso-online-kotlin-heranca-polimorfismo-interface)
+* [Kotlin: recursos da linguagem com pacotes e composição](https://www.alura.com.br/curso-online-kotlin-recursos-da-linguagem-com-pacotes-e-composicao)
+* [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety)
+* [Kotlin: Desenvolva com coleções, arrays e listas](https://www.alura.com.br/curso-online-kotlin-introducao-collections-arrays-listas)
+* [Kotlin Collections: Set e Map](https://www.alura.com.br/curso-online-kotlin-collections-set-map)
+* [Kotlin: recursos do paradigma funcional](https://www.alura.com.br/curso-online-kotlin-recursos-do-paradigma-funcional)
+
+Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :). 
+
+* [O que é Micronaut ?](https://www.youtube.com/watch?v=FdxStVYU8xM&feature=youtu.be)
+* [Setup de um projeto utilizando Micronaut](https://www.youtube.com/watch?v=vojSldrKV8Y&feature=youtu.be)
+* [Configuração do IntelliJ para o Micronaut](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be)
+
 
 ## Cronograma para executar todas as atividades
 
