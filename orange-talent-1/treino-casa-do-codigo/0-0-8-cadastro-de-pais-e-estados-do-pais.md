@@ -26,5 +26,5 @@ Aqui você tem mais uma oportunidade de treinar uma operação similar a que voc
 
 ## **informações de suporte geral**
 
-1.  [Coloque um cronômetro, estime o tempo para fazer e se desafie.](https://youtu.be/K4ffPg2kuNE)
-2.  [Como Alberto faria esse código?](https://youtu.be/iXnHwt5Y4ME)
+1.  [Coloque um cronômetro, estime o tempo para fazer e se desafie.](https://youtu.be/rEit6ssZYBw)
+2.  [Como Alberto faria esse código?](https://youtu.be/rEit6ssZYBw)

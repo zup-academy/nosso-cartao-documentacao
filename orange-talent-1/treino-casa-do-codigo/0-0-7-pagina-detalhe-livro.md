@@ -22,11 +22,11 @@ Esta é uma feature que reutiliza as habilidades trabalhadas até aqui. Tente im
 
 ### **informações de suporte para a feature**
 
-1. Uma pergunta que você pode se fazer aqui é: crio uma classe nova aqui ou apenas adiciono um método em um controller existente. Lembre de conferir a ideia de [Controllers 100% coesos](https://youtu.be/i3Au8Slv3x4) .
-2.  É normal uma mesma classe possuir mais de uma forma de exibição de seus dados no sistema. [Como lidar com isso?](https://youtu.be/_eqvZNVdQ4Q)
+1. Uma pergunta que você pode se fazer aqui é: crio uma classe nova aqui ou apenas adiciono um método em um controller existente. Lembre de conferir a ideia de [Controllers 100% coesos](https://youtu.be/NNKG2TFctfo) .
+2.  É normal uma mesma classe possuir mais de uma forma de exibição de seus dados no sistema. [Como lidar com isso?](https://youtu.be/iyM12hm0Jig)
 3.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
-4.  [Como Alberto faria esse código?](https://youtu.be/FSeAFLhWe80)
+4.  [Como Alberto faria esse código?](https://youtu.be/U9taG94p9uc)
 
 ### informações de suporte para a combinação Java/Kotlin + Spring
 
-1.  [Aqui](https://youtu.be/pmN9ZkckYmM) tem algumas formas de você gerar um status code
+1.  [Aqui](https://youtu.be/CWe1yokaPf4) tem algumas formas de você gerar um status code
