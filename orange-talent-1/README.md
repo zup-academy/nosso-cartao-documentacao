@@ -165,7 +165,15 @@ Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a te
 * [Configuração do IntelliJ para o Micronaut](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be)
 * [Recebendo dados via JSON: explicação sobre código pronto](https://www.youtube.com/watch?v=PWBEwECz4y4&feature=youtu.be)
 * [Recebendo dados via JSON: explicação enquanto constrói o código ](https://www.youtube.com/watch?v=6MuZfE7BYPg&feature=youtu.be)
+* [Validando os dados de entrada de uma requisição: explicação em cima do código pronto](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be)
 * [Validando os dados de entrada de uma requisição: explicação enquanto constrói o código](https://www.youtube.com/watch?v=lyBlLDoW6xE&feature=youtu.be)
+* [Conversão de um objeto de entrada para um objeto de domínio: explicação sobre o código pronto](https://www.youtube.com/watch?v=Hoi3-Plm0uo&feature=youtu.be)
+* [Conversão de um objeto de entrada para um objeto de domínio: explicação enquanto constrói o código](https://www.youtube.com/watch?v=j-NkQfiDMt0&feature=youtu.be)
+* [Gravando os dados com Micronaut Data: explicação em cima do código pronto](https://www.youtube.com/watch?v=pWu2mqaKFEc&feature=youtu.be)
+* [Gravando os dados com Micronaut Data: explicação enquanto constrói o código](https://www.youtube.com/watch?v=ypPIgASiyiU&feature=youtu.be)
+* [Fluxo completo para salvar um objeto no banco de dados](https://www.youtube.com/watch?v=cACkiymv-2Q&feature=youtu.be)
+
+
 
 ## Cronograma para executar todas as atividades
 
