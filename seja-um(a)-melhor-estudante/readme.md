@@ -110,7 +110,9 @@ Dê um passo de cada vez e as chances são que você vai se dar bem no médio pr
 
 Para ser especialista, você precisa dominar uma coisa por vez. Porque para dominar você vai ter que colocar esforço, experimentar, variar os exemplos e saber muito da teoria. Isso leva tempo. Qual tempo? Não tem resposta certa e se alguém te disser que tem, desconfie :). Então não se apresse, defina bons objetivos, reflita regularmente sobre onde está e continue andando para frente. 
 
+## Questionário: Como ser um(a) bom/boa estudante
 
+Agora vamos refletir sobre o conteúdo aprendido acima. [Clique aqui e responda o questionário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJURTBETFhZNExXUFoxNTdONzFOWVZPN0ZMVC4u) 
 
 
 
