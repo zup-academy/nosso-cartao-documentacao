@@ -115,9 +115,22 @@ Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar 
 O desafio de implementação da Casa do Código foi muito importante para que você treinasse sua habilidade em desenvolver API's web. O próximo desafio exige habilidades bem similares, o que é bom. Lembre que a repetição em cenários variados eleva seu nível. Só que agora, além de ser um desafio mais complexo, também vai exigir de você a criação de testes automatizados. 
 
 Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
+
+| Introdução a testes automatizados |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQldSQVdaVExMRlY4NlpTT0RNTU5MVDJRSi4u) |
+| [Introdução a testes automatizados](https://www.alura.com.br/curso-online-tdd) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQldSQVdaVExMRlY4NlpTT0RNTU5MVDJRSi4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQkNKSUdPSFpYNlNGU1VKUFBHN0VUUDdVUi4u) |
+
+| Testes de integração |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQkU2NkxPUlo0RVBQNjZFTkYxNjZZQUI0MS4u) |
+| [Testes de integração](https://www.alura.com.br/curso-online-teste-de-integracao) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQkU2NkxPUlo0RVBQNjZFTkYxNjZZQUI0MS4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUN1FCWkFPVUhDM1BPUlkxSFpWS040TzhQNy4u) |
  
- * [Introdução a testes automatizados](https://www.alura.com.br/curso-online-tdd);
- * [Testes de integração](https://www.alura.com.br/curso-online-teste-de-integracao);
+
  * [Conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs). 
 
 Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento de confiabilidade de execução do código, mergulhe no desafio de criar uma API que simula parte do Mercado Livre.
@@ -130,7 +143,12 @@ Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de 
 
 Importante lembrar que não é esperado que você acabe essa fase da leitura já conseguindo aplicar tais conceitos facilmente. A ideia é ter o primeiro contato e deixar a semente plantada na sua cabeça para que, no momento da prática, tudo seja mais facilmente acessível. 
 
-* [Introdução a Docker](https://www.alura.com.br/curso-online-docker-e-docker-compose);
+| Introdução a Docker |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMTFVQkQ2MDhBR0FUMjlUMksxQjVSS0xORi4u) |
+| [Introdução a Docker](https://www.alura.com.br/curso-online-docker-e-docker-compose) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMTFVQkQ2MDhBR0FUMjlUMksxQjVSS0xORi4u) |
+
 * [Healthcheck](../informacao_procedural/healthcheck.md);
 * [Readiness checks](../informacao_procedural/readiness_checks.md);
 * [Spring Actuator](../informacao_suporte/spring-actuator.md);
@@ -152,7 +170,13 @@ Agora que você fez mais imersão teórica, vamos treinar! Neste treino você va
 
 Com o microservice de propostas implementado, chegou a hora de implementar um novo serviço, o que cuida das transações do cartã de crédito. Como é de praxe, antes de começar, vamos primeiro estudar a teoria necessária. 
 
-* [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos);
+| Introdução a Apache Kafka |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTZUVlFQMVlRQ05WWllWM0czTFZBMFYzTi4u) |
+| [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTZUVlFQMVlRQ05WWllWM0czTFZBMFYzTi4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQzBWTElMN1lHMUpSNlAyRDZLMkVKVlhMSi4u) |
+
 
 Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparado(a) para utilizar essa forma de integração.
 
