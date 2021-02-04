@@ -158,7 +158,9 @@ Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem J
 * [Kotlin Collections: Set e Map](https://www.alura.com.br/curso-online-kotlin-collections-set-map)
 * [Kotlin: recursos do paradigma funcional](https://www.alura.com.br/curso-online-kotlin-recursos-do-paradigma-funcional)
 
-Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :). 
+Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :).
+
+Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação prática em dois vídeos semelhantes. O primeiro vídeo apresenta o assunto em cima de um exemplo já pronto, enquanto que o segundo apresenta o mesmo assunto construindo o exemplo junto. Nossa intenção é facilitar seu entendimento, fornecendo duas explicacões sobre o mesmo assunto em formatos diferentes. 
 
 * [O que é Micronaut ?](https://www.youtube.com/watch?v=FdxStVYU8xM&feature=youtu.be)
 * [Setup de um projeto utilizando Micronaut](https://www.youtube.com/watch?v=vojSldrKV8Y&feature=youtu.be)
@@ -182,6 +184,11 @@ Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a te
 * [Recebendo dados via DELETE: explicação enquanto constrói o código](https://youtu.be/BZ2xuQqvdHE)
 * [Demarcação de transação: explicação sobre o código pronto](https://youtu.be/DS5g3ZNZHRc)
 * [Demarcação de transação: explicação enquanto constrói o código](https://youtu.be/M8x090WpXL8)
+* [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)
+* [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc)
+* [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)
+* [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg)
+
 
 
 
