@@ -176,6 +176,12 @@ Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a te
 * [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8)
 * [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)
 * [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/8jwk3vLq-aY)
+* [Recebendo dados via PUT: explicação sobre o código pronto](https://youtu.be/awdppj2o7J0)
+* [Recebendo dados via PUT: explicação enquanto constrói o código](https://youtu.be/Jvl5RcrqJRc)
+* [Recebendo dados via DELETE: explicação sobre o código pronto](https://youtu.be/plojIuEWIPM)
+* [Recebendo dados via DELETE: explicação enquanto constrói o código](https://youtu.be/BZ2xuQqvdHE)
+* [Demarcação de transação: explicação sobre o código pronto](https://youtu.be/DS5g3ZNZHRc)
+* [Demarcação de transação: explicação enquanto constrói o código](https://youtu.be/M8x090WpXL8)
 
 
 
