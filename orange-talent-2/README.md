@@ -148,6 +148,7 @@ Importante lembrar que não é esperado que você acabe essa fase da leitura já
 | [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMTFVQkQ2MDhBR0FUMjlUMksxQjVSS0xORi4u) |
 | [Introdução a Docker](https://www.alura.com.br/curso-online-docker-e-docker-compose) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMTFVQkQ2MDhBR0FUMjlUMksxQjVSS0xORi4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUM0NBSENaRTZMN0pVQ1lXV0RMSVNLNU0wUS4u) |
 
 * [Healthcheck](../informacao_procedural/healthcheck.md);
 * [Readiness checks](../informacao_procedural/readiness_checks.md);
