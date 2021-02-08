@@ -38,15 +38,76 @@ Agora você vai fazer uma imersão de teoria sobre desenvolvimento web utilizand
 
 Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. Lembre que a ideia é que você tenha contato e que tenha um primeiro conhecimento sobre isso tudo. Depois vai chegar a parte do treino em cima dessas teorias e aí esperamos que você fique ainda mais capaz de utilizar as teorias de maneira mais fluida.  
 
-* [Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java);
-* [HTTP: Entendendo a web por baixo dos panos](https://www.alura.com.br/curso-online-http-fundamentos);
-* [SQL até Consultas SQL: Avançando no SQL com MySQL](https://www.alura.com.br/formacao-oracle-mysql). São os dois primeiros cursos;
-* [JPA e Hibernate](https://www.alura.com.br/curso-online-jpa-hibernate-persistencia-objetos);
-* [Spring Boot 1](https://www.alura.com.br/curso-online-spring-boot-api-rest);
-* [Spring Boot 2](https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento);
-* [Spring Boot 3](https://www.alura.com.br/curso-online-spring-boot-profiles-testes-deploy);
-* [Spring Data Jpa](https://www.alura.com.br/curso-online-spring-data-jpa);
-* [SOLID](https://www.alura.com.br/curso-online-orientacao-a-objetos-avancada-e-principios-solid);
+
+| Java Servlet: Fundamentos da programação Web Java |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQlY0S1ExSlVVR1BEUTJDTUI0VDZSTFVYOS4u) |
+| [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQlY0S1ExSlVVR1BEUTJDTUI0VDZSTFVYOS4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNkhMUzZIU1dKUk0wWEk2NFA0NDlSWjIyWi4u) |
+
+| HTTP: Entendendo a web por baixo dos panos |
+| --- | 
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUM1hIWkhFTkpOMkQ5M1NTUUZaUDM4TkZVRS4u) |
+| [Curso - HTTP: Entendendo a web por baixo dos panos](https://www.alura.com.br/curso-online-http-fundamentos) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUM1hIWkhFTkpOMkQ5M1NTUUZaUDM4TkZVRS4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUN01JN1k0UldHQTVJTVRTWUZaSlgwUEUyVC4u) |
+
+| Introdução ao SQL com MySQL: Manipule e consulte dados |
+| --- |
+| [Clique aqui para responder o questionário no ínicio do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMFVPWkIzQUVMSkxQUEIwWlE4QTNGQUJOQi4u) |
+| [Curso - Introdução ao SQL com MySQL: Manipule e consulte dados](https://www.alura.com.br/formacao-oracle-mysql) 1° curso |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMFVPWkIzQUVMSkxQUEIwWlE4QTNGQUJOQi4u) | 
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQVJaNzdMRUlYNFFBQ1ZDWUU5R0FNRUs1VS4u) |
+
+| Consultas SQL: Avançando no SQL com MySQL |
+| --- |
+| [Clique aqui para responder o questionário no ínicio do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTBMUExIUVMxRE9KVTFHRkE2QjFISUQ2NC4u) |
+| [Curso - Consultas SQL: Avançando no SQL com MySQL](https://www.alura.com.br/formacao-oracle-mysql) 2° curso |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTBMUExIUVMxRE9KVTFHRkE2QjFISUQ2NC4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUNFQzdPQlFHWUI4RUlZSDFNRURQWVlFTC4u) |
+
+| JPA e Hibernate | 
+| --- | 
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMzBWRzROVEo2RVo5QjlURlhWUkdHWkRPSy4u) |
+| [Curso - JPA e Hibernate](https://www.alura.com.br/curso-online-jpa-hibernate-persistencia-objetos) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMzBWRzROVEo2RVo5QjlURlhWUkdHWkRPSy4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJURUxBS0kyTFpaRjBaWENXR0JTSVBYU0xaTi4u) |
+
+| Spring Boot 1 |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQ01PVUtFTExXR09aUVVGMTlQOFVaN0wxNi4u) |
+| [Curso - Spring Boot 1](https://www.alura.com.br/curso-online-spring-boot-api-rest) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQ01PVUtFTExXR09aUVVGMTlQOFVaN0wxNi4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQVNMUTZPRTlEQUg4Q1FMMzAzTU43SU4wQy4u) |
+
+| Spring Boot 2 |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUN0tST0ZHNEZUMFgyVTBGSjg2MFhIUVVGUy4u) |
+| [Curso - Spring Boot 2](https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUN0tST0ZHNEZUMFgyVTBGSjg2MFhIUVVGUy4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMk1KMDNKTUpPUTFDWkdWWkY1S1dFVVAzVi4u) |
+
+| Spring Boot 3 |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQjRFUFM3QktWTk44TEtLNllRR05FVk9XUC4u) |
+| [Curso - Spring Boot 3](https://www.alura.com.br/curso-online-spring-boot-profiles-testes-deploy) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQjRFUFM3QktWTk44TEtLNllRR05FVk9XUC4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUME4wWkM4Wk1TUURQNUZIREpIQUxDTElJTy4u) |
+
+| Spring Data JPA |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMjZQUzNWSlpZWTM5N1laSzNKSlRFTktZRi4u) |
+| [Curso - Spring Data Jpa](https://www.alura.com.br/curso-online-spring-data-jpa) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMjZQUzNWSlpZWTM5N1laSzNKSlRFTktZRi4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUODJLOTJQTlkyT1pDVjFaV042NkkxMk9IRC4u) |
+
+| SOLID |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQVcySTdOWUxIUlZMOEtVMTJOUlk0WUtHSi4u) |
+| [Curso - SOLID](https://www.alura.com.br/curso-online-orientacao-a-objetos-avancada-e-principios-solid) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQVcySTdOWUxIUlZMOEtVMTJOUlk0WUtHSi4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTBaSDZSMk01SFNPVTcxWFhXVk85RU5FNy4u) |
 
 Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. Você vai construir dois projetos do zero. Nessa fase é importante que você vá se analisando e prestando muita atenção em relação ao nível de facilidade de cada funcionalidade construída. **Tem que ir ficando mais fácil**. Se não estiver ficando fácil, fique alerta, talvez você precise de ajuda. **Agora você entra na fase três do nosso bootcamp.**
 
@@ -55,9 +116,21 @@ Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar 
 O desafio de implementação da Casa do Código foi muito importante para que você treinasse sua habilidade em desenvolver API's web. O próximo desafio exige habilidades bem similares, o que é bom. Lembre que a repetição em cenários variados eleva seu nível. Só que agora, além de ser um desafio mais complexo, também vai exigir de você a criação de testes automatizados. 
 
 Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
+
+| Introdução a testes automatizados |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQldSQVdaVExMRlY4NlpTT0RNTU5MVDJRSi4u) |
+| [Introdução a testes automatizados](https://www.alura.com.br/curso-online-tdd) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQldSQVdaVExMRlY4NlpTT0RNTU5MVDJRSi4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQkNKSUdPSFpYNlNGU1VKUFBHN0VUUDdVUi4u) |
+
+| Testes de integração |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQkU2NkxPUlo0RVBQNjZFTkYxNjZZQUI0MS4u) |
+| [Testes de integração](https://www.alura.com.br/curso-online-teste-de-integracao) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQkU2NkxPUlo0RVBQNjZFTkYxNjZZQUI0MS4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUN1FCWkFPVUhDM1BPUlkxSFpWS040TzhQNy4u) |
  
- * [Introdução a testes automatizados](https://www.alura.com.br/curso-online-tdd);
- * [Testes de integração](https://www.alura.com.br/curso-online-teste-de-integracao);
  * [Conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs). 
 
 Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento de confiabilidade de execução do código, mergulhe no desafio de criar uma API que simula parte do Mercado Livre.
@@ -70,7 +143,14 @@ Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de 
 
 Importante lembrar que não é esperado que você acabe essa fase da leitura já conseguindo aplicar tais conceitos facilmente. A ideia é ter o primeiro contato e deixar a semente plantada na sua cabeça para que, no momento da prática, tudo seja mais facilmente acessível. 
 
-* [Introdução a Docker](https://www.alura.com.br/curso-online-docker-e-docker-compose);
+
+| Introdução a Docker |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMTFVQkQ2MDhBR0FUMjlUMksxQjVSS0xORi4u) |
+| [Introdução a Docker](https://www.alura.com.br/curso-online-docker-e-docker-compose) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMTFVQkQ2MDhBR0FUMjlUMksxQjVSS0xORi4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUM0NBSENaRTZMN0pVQ1lXV0RMSVNLNU0wUS4u) |
+
 * [Healthcheck](../informacao_procedural/healthcheck.md);
 * [Readiness checks](../informacao_procedural/readiness_checks.md);
 * [Spring Actuator](../informacao_suporte/spring-actuator.md);
