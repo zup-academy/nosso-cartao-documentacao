@@ -172,7 +172,13 @@ Agora que você fez mais imersão teórica, vamos treinar! Neste treino você va
 
 Com o microservice de propostas implementado, chegou a hora de implementar um novo serviço, o que cuida das transações do cartã de crédito. Como é de praxe, antes de começar, vamos primeiro estudar a teoria necessária. 
 
-* [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos);
+| Introdução a Apache Kafka |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTZUVlFQMVlRQ05WWllWM0czTFZBMFYzTi4u) |
+| [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTZUVlFQMVlRQ05WWllWM0czTFZBMFYzTi4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQzBWTElMN1lHMUpSNlAyRDZLMkVKVlhMSi4u) |
+
 
 Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparado(a) para utilizar essa forma de integração.
 
