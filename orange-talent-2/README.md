@@ -104,7 +104,7 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | SOLID |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQVcySTdOWUxIUlZMOEtVMTJOUlk0WUtHSi4u) |
-| [Curso - SOLID](https://cursos.alura.com.br/corp/solid-15294-p116882) |
+| [Curso - SOLID](https://cursos.alura.com.br/course/orientacao-a-objetos-avancada-e-principios-solid) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQVcySTdOWUxIUlZMOEtVMTJOUlk0WUtHSi4u) |
 | [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTBaSDZSMk01SFNPVTcxWFhXVk85RU5FNy4u) |
 
