@@ -236,13 +236,55 @@ Para começar, precisamos cair de cabeça no Kotlin, que é a linguagem base par
 
 Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem Java, tente fazer transferência de conhecimento. O que mudou foi a linguagem, mas vários dos conceitos permanecem os mesmos.
 
-* [Kotlin: primeiros passos e Orientação a Objetos](https://www.alura.com.br/curso-online-kotlin-orientacao-objetos)
-* [Kotlin: herança, polimorfismo e Interface](https://www.alura.com.br/curso-online-kotlin-heranca-polimorfismo-interface)
-* [Kotlin: recursos da linguagem com pacotes e composição](https://www.alura.com.br/curso-online-kotlin-recursos-da-linguagem-com-pacotes-e-composicao)
-* [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety)
-* [Kotlin: Desenvolva com coleções, arrays e listas](https://www.alura.com.br/curso-online-kotlin-introducao-collections-arrays-listas)
-* [Kotlin Collections: Set e Map](https://www.alura.com.br/curso-online-kotlin-collections-set-map)
-* [Kotlin: recursos do paradigma funcional](https://www.alura.com.br/curso-online-kotlin-recursos-do-paradigma-funcional)
+| Kotlin: primeiros passos e Orientação a Objetos |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUg5M05YRFdHUzhMS1dXQVpPMlIzQTNRVS4u) |
+| [Kotlin: primeiros passos e Orientação a Objetos](https://www.alura.com.br/curso-online-kotlin-orientacao-objetos) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUg5M05YRFdHUzhMS1dXQVpPMlIzQTNRVS4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUN1UwU0tSOTE5UlFZMkdMUDA3WTFEVEQ3Si4u) |
+
+| Kotlin: herança, polimorfismo e interface |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMEg0N08wWExTMU1HUk1WVTY5TU9XSkRETS4u) |
+| [Kotlin: herança, polimorfismo e Interface](https://www.alura.com.br/curso-online-kotlin-heranca-polimorfismo-interface) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMEg0N08wWExTMU1HUk1WVTY5TU9XSkRETS4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUM0tCSDBYQ1E2NEtKOEozT0NOTzZYTzBOWi4u) |
+
+| Kotlin: recursos da linguagem com pacotes e composição |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMUM1NEVKS0dYOTE1RFhCUVMzQllJQ0IxRC4u) |
+| [Kotlin: recursos da linguagem com pacotes e composição](https://www.alura.com.br/curso-online-kotlin-recursos-da-linguagem-com-pacotes-e-composicao) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMUM1NEVKS0dYOTE1RFhCUVMzQllJQ0IxRC4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVFXT1dJUU9aTDBaQ0JXNzAxTjA5TDBGVi4u) |
+
+| Kotlin: lidando com exceptions e referências nulas |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJURVpBOVpWWU1WSU1CMEg1RUY3RjJEMTdHSi4u) |
+| [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJURVpBOVpWWU1WSU1CMEg1RUY3RjJEMTdHSi4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQ0NNWVU2MjE2VVJHRFVOMEI4Q1hJVko4Si4u) |
+
+| Kotlin: Desenvolva com coleções, arrays e listas |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUUxUDVKMElFSkc1WE9aNE9JUzJWQUpZVS4u) |
+| [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUUxUDVKMElFSkc1WE9aNE9JUzJWQUpZVS4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNTZNME5WV1UwRzNGOEsyUUZZTDJEVE1aSy4u) |
+
+| Kotlin Collections: Set e Map |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNTNORVIzWEw3SEZaS09QNjI4NTRQWEI1WC4u) |
+| [Kotlin Collections: Set e Map](https://www.alura.com.br/curso-online-kotlin-collections-set-map) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNTNORVIzWEw3SEZaS09QNjI4NTRQWEI1WC4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNDlHUFZIUU04RjBGVFM1S1RCV01OVUkzTS4u) |
+
+| Kotlin: recursos do paradigma funcional |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQko1UFZFQ082TjQyS1VRVFFHOVAwMTFJUi4u) |
+| [Kotlin: recursos do paradigma funcional](https://www.alura.com.br/curso-online-kotlin-recursos-do-paradigma-funcional) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQko1UFZFQ082TjQyS1VRVFFHOVAwMTFJUi4u) |
+| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJURFRYVU9LT1FGMUU2N0FRUlJIUFlGRU9BQy4u) |
+
 
 Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :).
 
