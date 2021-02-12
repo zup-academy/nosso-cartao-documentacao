@@ -275,6 +275,30 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 * [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)
 * [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg)
 
+O conteúdo que você acabou de consumir foi bem focado no módulo HTTP do Micronaut. Basicamente o que você precisa para construir uma aplicação com Micronaut que vai se comunicar primordialmente via tal protocolo. Agora vamos direcionar nossa atenção para o módulo de GRPC do Micronaut :). 
+
+O GRPC é a tentativa de aumentar a performance na comunicação entre os serviços numa arquitetura distribuída, por exemplo com Microsserviços. Nos próximos vídeos você ter acesso a bastante conhecimento sobre essa forma de comunicação e como o Micronaut facilita isso para você. 
+
+* [O que é GRPC e a motivação do seu uso](https://www.youtube.com/watch?v=OACwm4CYX2M&feature=youtu.be)
+* [Introdução a protobuf: explicação sobre o código pronto](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be)
+* [Introdução a protobuf: explicação enquanto constrói o código](https://www.youtube.com/watch?v=gBeQ1CgiFEU&feature=youtu.be)
+* [Expondo dados via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be)
+* [Expondo dados via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=tuZmLjCEvjI&feature=youtu.be)
+* [Consumindo um endpoint via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=ZGlxfNJkmcQ&feature=youtu.be)
+* [Consumindo um endpoint via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=Y6ojxAQoSkM&feature=youtu.be)
+* [Retornando códigos de erro: explicação sobre o código pronto](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be)
+* [Retornando códigos de erro: explicação enquanto constrói o código](https://www.youtube.com/watch?v=xcWkmNxf8JE&feature=youtu.be)
+* [Lidando com erros retornado pela API: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)
+* [Lidando com erros retornado pela API: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be)
+* [Healthcheck sobre HTTP: explicação sobre o código pronto](https://www.youtube.com/watch?v=Zle0hcwd_Jw&feature=youtu.be)
+* [Healthcheck sobre HTTP: explicação enquanto constrói o código](https://youtu.be/To32I8UPkkc)
+* [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)
+* [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE)
+
+
+
+
+
 
 
 
