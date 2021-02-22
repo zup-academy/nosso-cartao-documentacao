@@ -80,7 +80,7 @@ Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de 
 * [Spring Actuator](informacao_suporte/spring-actuator.md);
 * [Spring Health check](informacao_suporte/spring-health-check.md);
 * [Seguraça em ambientes cloud native](informacao_procedural/seguranca_cloud_native.md);
-* [Introudção a Oauth](informacao_suporte/oauth*md);
+* [Introudção a Oauth](informacao_suporte/oauth2.md);
 * [Introdução a Keycloak](informacao_suporte/keycloak.md);
 * [Sobre métricas](informacao_procedural/metric.md);
 * [Métricas tipo RED](informacao_procedural/metric-red.md);
