@@ -16,6 +16,10 @@
 
 *   Um novo autor criado e status 200 retornado
 
+### Antes de começar
+
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVo5RFZIMVZYVlVNUURLQUFENkVSOEZKNC4u)
+
 ### **informações de suporte geral**
 
 1.  Será que você fez um código parecido com esse exemplo [aqui](https://youtu.be/_lQXmLAiufQ) ?
@@ -37,4 +41,8 @@
 3.  Para realizar as validações padrões existe a Bean Validation
 4.  [Como criar um @RestControllerAdvice para customizar o json de saída com erros de validação](https://youtu.be/H6aM-4RaRrE)
 5.  [Como externalizar as mensagens de erro no arquivo de configuração.](https://youtu.be/FO4HnZNCvoo)
+
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)
 
