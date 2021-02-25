@@ -10,6 +10,9 @@ um json com a lista de livros com id e nome do livro
 
 Tente fazer sem a utilização de nenhum material de suporte.
 
+{% reusables avaliacao-antes-comecar-funcionalidade %}
+
+
 **informações de suporte para a feature**
 
 1.  Lembre que Controllers 100% coesos não é sobre ter controllers com um método só e sim sobre ter controllers onde todos os atributos sejam utilizados por todos os métodos.
