@@ -10,7 +10,7 @@ um json com a lista de livros com id e nome do livro
 
 Tente fazer sem a utilização de nenhum material de suporte.
 
-{% reusables avaliacao-antes-comecar-funcionalidade %}
+{% ../../reusables avaliacao-antes-comecar-funcionalidade %}
 
 
 **informações de suporte para a feature**
