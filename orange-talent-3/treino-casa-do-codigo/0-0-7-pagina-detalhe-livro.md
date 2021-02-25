@@ -20,6 +20,10 @@ Precisamos criar uma página com as mesmas informações que encontramos na pág
 
 Esta é uma feature que reutiliza as habilidades trabalhadas até aqui. Tente implementar sem o uso do material de suporte. 
 
+### Antes de começar
+
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVo5RFZIMVZYVlVNUURLQUFENkVSOEZKNC4u)
+
 ### **informações de suporte para a feature**
 
 1. Uma pergunta que você pode se fazer aqui é: crio uma classe nova aqui ou apenas adiciono um método em um controller existente. Lembre de conferir a ideia de [Controllers 100% coesos](https://youtu.be/NNKG2TFctfo) .
@@ -30,3 +34,7 @@ Esta é uma feature que reutiliza as habilidades trabalhadas até aqui. Tente im
 ### informações de suporte para a combinação Java/Kotlin + Spring
 
 1.  [Aqui](https://youtu.be/CWe1yokaPf4) tem algumas formas de você gerar um status code
+
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)

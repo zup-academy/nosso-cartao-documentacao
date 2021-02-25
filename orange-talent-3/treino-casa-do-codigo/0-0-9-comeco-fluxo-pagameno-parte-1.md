@@ -43,6 +43,10 @@ Os seguintes campos precisam ser preenchidos:
 
 Este começo de fechamento de compra envolve muitos passos. Decidimos começar pegando apenas os dados do formulário relativo a pessoa que está comprando. Este é um formulário um pouco mais desafiador, já que possuímos algumas validações customizadas que precisam ser feitas. Não tem nada que você não tenha trabalhado até aqui, mas é mais uma chance de você treinar sua habilidade para conhecer mais das tecnologias e colocar em prática alguns dos pilares que vem nos norteando. ​
 
+### Antes de começar
+
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVo5RFZIMVZYVlVNUURLQUFENkVSOEZKNC4u)
+
 ### **informações de suporte para a feature**
 
 1.  [A prioridade do código é funcionar](https://youtu.be/K1U1vzlPaVU). Se você tentar implementar tudo necessário para criar a versão inicial da compra, vai demorar muito para ver seu código rodando a primeira vez. Lembre que quanto mais você demora de rodar, maior é a chance de ter mais de um problema na primeira execução. [Olhe também este outro vídeo sobre a importância de priorizar o funcionamento do código](https://youtu.be/-WUFmUeeFro)
@@ -53,3 +57,6 @@ Este começo de fechamento de compra envolve muitos passos. Decidimos começar p
 6.  [Favorecemos a coesão através do encapsulamento](https://youtu.be/HGcQlsynTuM). Como você planeja validar se o documento é válido?
 7.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
     
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)

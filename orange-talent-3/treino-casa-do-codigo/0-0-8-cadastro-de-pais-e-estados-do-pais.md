@@ -24,7 +24,16 @@ Cada país tem um nome e cada estado tem um nome e pertence a um país.
 
 Aqui você tem mais uma oportunidade de treinar uma operação similar a que você já encontrou. Essa é uma coisa que acontece regularmente na nossa vida trabalhando. Muitas vezes nos pegamos implementando códigos que já são mais usuais para a gente e achamos fácil. Achar fácil, ao contrário do que pode parecer, é bom :). Quando está fácil, a chance é que você já tenha internalizado aquele conhecimento. E aí você pode se desafiar! Acha que é fácil? O quão rápido mantendo a qualidade você consegue fazer?
 
+### Antes de começar
+
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVo5RFZIMVZYVlVNUURLQUFENkVSOEZKNC4u)
+
 ## **informações de suporte geral**
 
 1.  [Coloque um cronômetro, estime o tempo para fazer e se desafie.](https://youtu.be/rEit6ssZYBw)
 2.  [Como Alberto faria esse código?](https://youtu.be/rEit6ssZYBw)
+
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)
+

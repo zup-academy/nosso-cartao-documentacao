@@ -10,7 +10,9 @@ um json com a lista de livros com id e nome do livro
 
 Tente fazer sem a utilização de nenhum material de suporte.
 
-{% ../../reusables avaliacao-antes-comecar-funcionalidade %}
+### Antes de começar
+
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVo5RFZIMVZYVlVNUURLQUFENkVSOEZKNC4u)
 
 
 **informações de suporte para a feature**
@@ -19,4 +21,6 @@ Tente fazer sem a utilização de nenhum material de suporte.
 2.  Separamos as bordas externas do sistema do seu núcleo. Não ligamos parâmetros de requisição externa com objetos de domínio diretamente, assim como não serializamos objetos de domínio para respostas de API.
 3.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
 
-</div>
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)
