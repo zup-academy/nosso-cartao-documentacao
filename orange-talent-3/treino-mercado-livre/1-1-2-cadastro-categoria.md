@@ -1,23 +1,27 @@
 # Cadastro de categorias
 
-## Necessidades
+### Necessidades
 
 No mercado livre você pode criar hierarquias de categorias livres. Ex: Tecnologia -> Celulares -> Smartphones -> Android,Ios etc. Perceba que o sistema precisa ser flexível o suficiente para que essas sequências sejam criadas.
 
 *   Toda categoria tem um nome
 *   A categoria pode ter uma categoria mãe
 
-## Restrições
+### Restrições
 
 *   O nome da categoria é obrigatório
 *   O nome da categoria precisa ser único
 
-## Resultado esperado
+### Resultado esperado
 
 *   categoria criada e status 200 retornado pelo endpoint.
 *   caso exista erros de validação, o endpoint deve retornar 400 e o json dos erros.
 
-## Informações de suporte geral
+### Antes de começar 
+
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
+
+### Informações de suporte geral
 
 1.  [Controllers 100% coesos](https://youtu.be/NNKG2TFctfo) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos.
 2.  Como foi que você fez para receber os dados da requisição? Será que aproveitou a facilidade do framework e recebeu a sua entidade(objeto que faz parte do domínio) direto no método mapeado para um endereço? [Dá uma olhada nesse pilar aqui.](https://youtu.be/AzyHKZwNg1A)
@@ -35,3 +39,7 @@ No mercado livre você pode criar hierarquias de categorias livres. Ex: Tecnolog
 3.  Para realizar as validações padrões existe a Bean Validation
 4.  [Como criar um @RestControllerAdvice para customizar o json de saída com erros de validação](https://youtu.be/H6aM-4RaRrE)
 5.  [Como externalizar as mensagens de erro no arquivo de configuração.](https://youtu.be/FO4HnZNCvoo)
+
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
