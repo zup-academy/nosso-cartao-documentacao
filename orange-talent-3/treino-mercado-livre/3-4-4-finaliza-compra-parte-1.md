@@ -28,7 +28,7 @@ Então essa é a parte 1 do processo de finalização de compra. Onde apenas ger
 *   A quantidade é positiva
 *   Precisa ter estoque para realizar a compra​
 
-## Resultado esperado**
+## **Resultado esperado**
 
 *   Caso a pessoa escolha o paypal seu endpoint deve gerar o seguinte redirect(302):
     *   Retorne o endereço da seguinte maneira: paypal.com/{idGeradoDaCompra}?redirectUrl={urlRetornoAppPosPagamento}
@@ -39,6 +39,9 @@ Então essa é a parte 1 do processo de finalização de compra. Onde apenas ger
 ## Você está no filé do código
 
 Aqui é para ser muito recompensador! Você já se esforçou demais, fez muita feature, deve ter gostado de algumas dicas, se questionado em relação as outras, não concordado com outras tantas. Só que, acima de tudo, você ESTUDOU E TREINOU. Tente implementar a feature completamente sozinho(a). Invista o tempo necessário, o tempo aqui é seu amigo e não seu inimigo. O foco é seu desenvolvimento!
+
+### Antes de começar
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
 
 ### **informações de suporte geral**
 
@@ -64,3 +67,7 @@ Aqui é para ser muito recompensador! Você já se esforçou demais, fez muita f
 7.  Brinque um pouco com a classe **_Assert_**​ ​do Spring para fazer checagens de parâmetro também. As ideias de Design By Contract ajudam demais a aumentar a confiabilidade da aplicação.
 8.  Para configurar o Spring Security olhe [aqui](https://youtu.be/0I--CLsqC7w)
 9.  Lembrando que, para receber a referência para o usuário logado no método do controller, você pode usar a annotation _@AuthenticationPrincipal_​.
+
+### Depois de finalizar
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
+
