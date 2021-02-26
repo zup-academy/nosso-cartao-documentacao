@@ -118,17 +118,17 @@ Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
 
 | Introdução a testes automatizados |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQldSQVdaVExMRlY4NlpTT0RNTU5MVDJRSi4u) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSce-T1V3xVS6JzGG71PJ5_uqTjAawV26JVn5gx6mq8DSbl8AA/viewform) |
 | [Introdução a testes automatizados](https://www.alura.com.br/curso-online-tdd) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQldSQVdaVExMRlY4NlpTT0RNTU5MVDJRSi4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQkNKSUdPSFpYNlNGU1VKUFBHN0VUUDdVUi4u) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSce-T1V3xVS6JzGG71PJ5_uqTjAawV26JVn5gx6mq8DSbl8AA/viewform) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Testes de integração |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQkU2NkxPUlo0RVBQNjZFTkYxNjZZQUI0MS4u) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWQSrbj2jsIJSxpJun3UNdPlcP7BJ7kjYY26P1jjdgV0ulOQ/viewform) |
 | [Testes de integração](https://www.alura.com.br/curso-online-teste-de-integracao) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQkU2NkxPUlo0RVBQNjZFTkYxNjZZQUI0MS4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUN1FCWkFPVUhDM1BPUlkxSFpWS040TzhQNy4u) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWQSrbj2jsIJSxpJun3UNdPlcP7BJ7kjYY26P1jjdgV0ulOQ/viewform) |
+| [Clique aqui para fazer o resumo do curso]() |
  
 
  * [Conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs). 
@@ -145,10 +145,10 @@ Importante lembrar que não é esperado que você acabe essa fase da leitura já
 
 | Introdução a Docker |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMTFVQkQ2MDhBR0FUMjlUMksxQjVSS0xORi4u) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) |
 | [Introdução a Docker](https://www.alura.com.br/curso-online-docker-e-docker-compose) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMTFVQkQ2MDhBR0FUMjlUMksxQjVSS0xORi4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUM0NBSENaRTZMN0pVQ1lXV0RMSVNLNU0wUS4u) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 * [Healthcheck](../informacao_procedural/healthcheck.md);
 * [Readiness checks](../informacao_procedural/readiness_checks.md);
@@ -173,10 +173,10 @@ Com o microservice de propostas implementado, chegou a hora de implementar um no
 
 | Introdução a Apache Kafka |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTZUVlFQMVlRQ05WWllWM0czTFZBMFYzTi4u) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform) |
 | [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTZUVlFQMVlRQ05WWllWM0czTFZBMFYzTi4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQzBWTElMN1lHMUpSNlAyRDZLMkVKVlhMSi4u) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 
 Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparado(a) para utilizar essa forma de integração.
@@ -237,52 +237,52 @@ Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem J
 
 | Kotlin: primeiros passos e Orientação a Objetos |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUg5M05YRFdHUzhMS1dXQVpPMlIzQTNRVS4u) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform) |
 | [Kotlin: primeiros passos e Orientação a Objetos](https://www.alura.com.br/curso-online-kotlin-orientacao-objetos) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUg5M05YRFdHUzhMS1dXQVpPMlIzQTNRVS4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUN1UwU0tSOTE5UlFZMkdMUDA3WTFEVEQ3Si4u) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Kotlin: herança, polimorfismo e interface |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMEg0N08wWExTMU1HUk1WVTY5TU9XSkRETS4u) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform) |
 | [Kotlin: herança, polimorfismo e Interface](https://www.alura.com.br/curso-online-kotlin-heranca-polimorfismo-interface) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMEg0N08wWExTMU1HUk1WVTY5TU9XSkRETS4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUM0tCSDBYQ1E2NEtKOEozT0NOTzZYTzBOWi4u) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Kotlin: recursos da linguagem com pacotes e composição |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMUM1NEVKS0dYOTE1RFhCUVMzQllJQ0IxRC4u) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform) |
 | [Kotlin: recursos da linguagem com pacotes e composição](https://www.alura.com.br/curso-online-kotlin-recursos-da-linguagem-com-pacotes-e-composicao) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMUM1NEVKS0dYOTE1RFhCUVMzQllJQ0IxRC4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVFXT1dJUU9aTDBaQ0JXNzAxTjA5TDBGVi4u) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Kotlin: lidando com exceptions e referências nulas |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJURVpBOVpWWU1WSU1CMEg1RUY3RjJEMTdHSi4u) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform) |
 | [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJURVpBOVpWWU1WSU1CMEg1RUY3RjJEMTdHSi4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQ0NNWVU2MjE2VVJHRFVOMEI4Q1hJVko4Si4u) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Kotlin: Desenvolva com coleções, arrays e listas |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUUxUDVKMElFSkc1WE9aNE9JUzJWQUpZVS4u) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform) |
 | [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUUxUDVKMElFSkc1WE9aNE9JUzJWQUpZVS4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNTZNME5WV1UwRzNGOEsyUUZZTDJEVE1aSy4u) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Kotlin Collections: Set e Map |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNTNORVIzWEw3SEZaS09QNjI4NTRQWEI1WC4u) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform) |
 | [Kotlin Collections: Set e Map](https://www.alura.com.br/curso-online-kotlin-collections-set-map) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNTNORVIzWEw3SEZaS09QNjI4NTRQWEI1WC4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNDlHUFZIUU04RjBGVFM1S1RCV01OVUkzTS4u) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Kotlin: recursos do paradigma funcional |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQko1UFZFQ082TjQyS1VRVFFHOVAwMTFJUi4u) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform) |
 | [Kotlin: recursos do paradigma funcional](https://www.alura.com.br/curso-online-kotlin-recursos-do-paradigma-funcional) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQko1UFZFQ082TjQyS1VRVFFHOVAwMTFJUi4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJURFRYVU9LT1FGMUU2N0FRUlJIUFlGRU9BQy4u) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 
 Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :). 
