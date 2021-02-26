@@ -25,7 +25,11 @@ Um usuário logado pode opinar sobre um produto. Claro que o melhor era que isso
 *   Uma nova opinião é criada e status 200 é retornado
 *   Em caso de erro de validação, retorne 400 e o json com erros.
 
-### **informações de suporte geral**
+### Antes de começar
+
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
+
+### **Informações de suporte geral**
 
 1.  [Controllers 100% coesos](https://youtu.be/NNKG2TFctfo) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos. Lembre que isso não quer dizer que o controller tem um método só, apenas que idealmente todos os métodos devem usar todos os atributos ou pelo menos a grande maioria deles.
 2.  Como foi que você fez para receber os dados da requisição? Será que aproveitou a facilidade do framework e recebeu a sua entidade(objeto que faz parte do domínio) direto no método mapeado para um endereço? [Dá uma olhada nesse pilar aqui.](https://youtu.be/AzyHKZwNg1A)
@@ -36,7 +40,7 @@ Um usuário logado pode opinar sobre um produto. Claro que o melhor era que isso
 8.  Caso você já esteja utilizando um projeto de segurança. O framework da sua escolha, integrado com algum outro projeto de segurança, deve permitir que você tenha acesso ao objeto que representa o usuário logado dentro do método do seu controller. 
 9.  [Como Alberto faria esse código](https://youtu.be/VNDJfWzlwg4)
 
-### informações de suporte para a combinação Java/Kotlin + Spring​
+### Informações de suporte para a combinação Java/Kotlin + Spring​
 
 1.  Para receber os dados da request como json, temos a annotation @RequestBody
 2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
@@ -48,3 +52,7 @@ Um usuário logado pode opinar sobre um produto. Claro que o melhor era que isso
 8.  Para configurar o Spring Security olhe [aqui](https://youtu.be/0I--CLsqC7w)
 9.  Lembrando que, para receber a referência para o usuário logado no método do controller, você pode usar a annotation _@AuthenticationPrincipal_​.
 10.  Para retornar status diferentes, consulte este material [aqui](https://youtu.be/CWe1yokaPf4)
+
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
