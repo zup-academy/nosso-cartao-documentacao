@@ -14,7 +14,7 @@ Aqui a gente vai permitir o cadastro de um produto por usuário logado.
 *   Pertence a uma categoria
 *   Instante de cadastro
 
-### **restrições**
+### **Restrições**
 
 *   Nome é obrigatório
 *   Valor é obrigatório e maior que zero
@@ -23,12 +23,16 @@ Aqui a gente vai permitir o cadastro de um produto por usuário logado.
 *   Descrição é obrigatória e tem máximo de 1000 caracteres.
 *   A categoria é obrigatória
 
-### **resultado esperado**
+### **Resultado esperado**
 
 *   Um novo produto criado e status 200 retornado
 *   Caso dê erro de validação retorne 400 e o json dos erros
 
-### **informações de suporte geral**
+### Antes de começar
+
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
+
+### **Informações de suporte geral**
 
 1.  [Controllers 100% coesos](https://youtu.be/NNKG2TFctfo) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos.
 2.  Como foi que você fez para receber os dados da requisição? Será que aproveitou a facilidade do framework e recebeu a sua entidade(objeto que faz parte do domínio) direto no método mapeado para um endereço? [Dá uma olhada nesse pilar aqui.](https://youtu.be/AzyHKZwNg1A)
@@ -43,7 +47,7 @@ Aqui a gente vai permitir o cadastro de um produto por usuário logado.
 12. Como Alberto testaria o código dele? Confira em três partes: [PARTE 1](https://youtu.be/weQ1L_xUGZw), [PARTE 2](https://youtu.be/Q-X2Wfiecek) e [PARTE 3](https://drive.google.com/file/d/1Wr1yRfymAnaYTPzUQdVgG5K5pMEL8LY8/view?usp=sharing) :). 
 
 
-### informações de suporte para a combinação Java/Kotlin + Spring​
+### Informações de suporte para a combinação Java/Kotlin + Spring​
 
 1.  Para receber os dados da request como json, temos a annotation @RequestBody
 2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
@@ -54,3 +58,7 @@ Aqui a gente vai permitir o cadastro de um produto por usuário logado.
 7.  Brinque um pouco com a classe **_Assert_**​ ​do Spring para fazer checagens de parâmetro também. As ideias de Design By Contract ajudam demais a aumentar a confiabilidade da aplicação. 
 8.  Para configurar o Spring Security olhe [aqui](https://youtu.be/0I--CLsqC7w)​
 9.  Lembrando que, para receber a referência para o usuário logado no método do controller, você pode usar a annotation _@AuthenticationPrincipal_​.
+
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
