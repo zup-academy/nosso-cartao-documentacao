@@ -1,5 +1,7 @@
 # Preparo para ser um(a) bom/boa estudante durante o bootcamp
 
+Vamos refletir se você se considera um bom estudante? Responda esse formulário sobre o tema [clicando aqui](https://forms.gle/WRKm5QvbAaz7dmAc6)
+
 O material aqui tem dicas baseado em vivência e também é pautado na teoria da carga cognitiva, que é uma tese amplamente aceita na psicologia da cognição e que guia a construção de diversos materiais de ensino mundo a fora. 
 
 Confira um vídeo explicativo [aqui](https://youtu.be/OVxHWz1R7oo) 
@@ -112,7 +114,7 @@ Para ser especialista, você precisa dominar uma coisa por vez. Porque para domi
 
 ## Questionário: Como ser um(a) bom/boa estudante
 
-Agora vamos refletir sobre o conteúdo aprendido acima. [Clique aqui e responda o questionário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJURTBETFhZNExXUFoxNTdONzFOWVZPN0ZMVC4u) 
+Agora que você passou por todo conteúdo acima, vamos refletir sobre isso? [Clique aqui e responda o formulário](https://forms.gle/WRKm5QvbAaz7dmAc6)
 
 
 
