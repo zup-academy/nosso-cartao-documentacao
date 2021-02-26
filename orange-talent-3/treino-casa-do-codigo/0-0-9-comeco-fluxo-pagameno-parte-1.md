@@ -1,6 +1,6 @@
 # Começo do fluxo de pagamento
 
-### **necessidades**
+### **Necessidades**
 
 Agora vamos começar o processo de conclusão de compra. Primeiro vamos realizar um cadastro de clientes. 
 
@@ -18,7 +18,7 @@ Os seguintes campos precisam ser preenchidos:
 *   telefone
 *   cep
 
-### **restrição**
+### **Restrição**
 
 *   email obrigatório e com formato adequado
 *   email é único no sistema
@@ -35,19 +35,19 @@ Os seguintes campos precisam ser preenchidos:
 *   telefone obrigatório
 *   cep é obrigatório
 
-### **resultado esperado**
+### **Resultado esperado**
 
 *   Cliente cadastrado no sistema e status 200 retornado com o id do novo cliente como corpo da resposta.
 
-### **sobre a utilização do material de suporte aqui**
+### **Sobre a utilização do material de suporte aqui**
 
 Este começo de fechamento de compra envolve muitos passos. Decidimos começar pegando apenas os dados do formulário relativo a pessoa que está comprando. Este é um formulário um pouco mais desafiador, já que possuímos algumas validações customizadas que precisam ser feitas. Não tem nada que você não tenha trabalhado até aqui, mas é mais uma chance de você treinar sua habilidade para conhecer mais das tecnologias e colocar em prática alguns dos pilares que vem nos norteando. ​
 
 ### Antes de começar
 
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVo5RFZIMVZYVlVNUURLQUFENkVSOEZKNC4u)
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
 
-### **informações de suporte para a feature**
+### **Informações de suporte para a feature**
 
 1.  [A prioridade do código é funcionar](https://youtu.be/K1U1vzlPaVU). Se você tentar implementar tudo necessário para criar a versão inicial da compra, vai demorar muito para ver seu código rodando a primeira vez. Lembre que quanto mais você demora de rodar, maior é a chance de ter mais de um problema na primeira execução. [Olhe também este outro vídeo sobre a importância de priorizar o funcionamento do código](https://youtu.be/-WUFmUeeFro)
 2.  [Controllers 100% coesos](https://youtu.be/NNKG2TFctfo) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos.
@@ -59,4 +59,4 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
     
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/beXvFuHAwU3GnuMT6)
