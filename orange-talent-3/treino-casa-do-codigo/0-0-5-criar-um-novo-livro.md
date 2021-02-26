@@ -1,4 +1,4 @@
-### **necessidades**
+### **Necessidades**
 
 *   Um título
 *   Um resumo do que vai ser encontrado no livro
@@ -10,7 +10,7 @@
 *   Um livro pertence a uma categoria
 *   Um livro é de um autor
 
-### **restrições**
+### **Restrições**
 
 *   Título é obrigatório
 *   Título é único
@@ -24,12 +24,12 @@
 *   A categoria não pode ser nula
 *   O autor não pode ser nulo
 
-### **resultado esperado**
+### **Resultado esperado**
 
 *   Um novo livro precisa ser criado e status 200 retornado
 *   Caso alguma restrição não seja atendida, retorne 400 e um json informando os problemas de validação
 
-### **sobre a utilização do material de suporte aqui**
+### **Sobre a utilização do material de suporte aqui**
 
 Esta é uma feature também bem parecida com o cadastro de categoria e autor. Por mais que ela tenha bem mais campos, os conhecimentos necessários para a implementação são os mesmos. Tente muito fazer sem olhar nenhum material de suporte. Se estiver complicado, tenta mais um pouco. É neste momento de busca da informação e organização das informações que já temos que o conhecimento vai se consolidando. 
 
@@ -37,10 +37,9 @@ Caso sinta que precisa de suporte, utilize o material de suporte de maneira bem 
 
 ### Antes de começar
 
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVo5RFZIMVZYVlVNUURLQUFENkVSOEZKNC4u)
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
 
-
-**informações de suporte para a feature**
+**Informações de suporte para a feature**
 
 1.  [Controllers 100% coesos](https://youtu.be/NNKG2TFctfo) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos.
 2.  Como foi que você fez para receber os dados da requisição? Será que aproveitou a facilidade do framework e recebeu a sua entidade(objeto que faz parte do domínio) direto no método mapeado para um endereço? [Dá uma olhada nesse pilar aqui.](https://youtu.be/AzyHKZwNg1A)
@@ -55,7 +54,7 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 11.  [Pegue cada uma das classes que você criou e realize a contagem da carga intrínseca](https://youtu.be/MOhzdKnX8oU). Esse é o viés de design que estamos trabalhando. Precisamos nos habituar a fazer isso para que se torne algo automático na nossa vida.
 12.  [Como Alberto faria esse código?](https://youtu.be/JEGxxIhjXyo)
 
-### informações de suporte para a combinação Java/Kotlin + Spring
+### Informações de suporte para a combinação Java/Kotlin + Spring
 
 1.  Para receber os dados da request como json, temos a annotation @RequestBody
 2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
@@ -66,9 +65,9 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/beXvFuHAwU3GnuMT6)
 
-### sensações
+### Sensações
 
 Aqui, mesmo com muito mais informações, você deve ter tido de novo um pouco daquele sentimento robótico. E aí a gente se questiona, mas não é um trabalho criativo? Não o tempo todo. Não só em desenvolvimento de software, como em qualquer outro trabalho considerado criativo, os momentos onde você vai realmente precisa combinar conhecimentos de uma forma diferente para sair com uma solução da cartola são escassos. O que você precisa estar é preparado(a)! 
 
