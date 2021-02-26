@@ -1,3 +1,5 @@
+Antes de começar essa funcionalidade, preencha o formulário [clicando aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
+
 ### necessidades
 
 *   Toda categoria precisa de um nome
@@ -47,3 +49,5 @@ Antes de passar para a próxima funcionalidade, envie o link para o diff da sua 
 ### sensações
 
 Talvez aqui você tenha achado que o código foi até meio repetitivo. E a verdade é que foi mesmo. Talvez no próximo você ache que foi até meio robótico, vai ser melhor ainda. Quanto mais automático você sente que é para fazer algo quer dizer que mais dominado aquilo está. O que você precisa sempre se questionar é: Será que este padrão ​ainda pode melhorar?
+
+Agora que terminou essa funcionalidade, preencha o formulário [clicando aqui](https://forms.gle/beXvFuHAwU3GnuMT6)
