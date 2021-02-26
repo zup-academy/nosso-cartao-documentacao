@@ -1,10 +1,10 @@
 # Cadastro de novo usuário
 
-## Necessidades
+### Necessidades
 
 * precisamos saber o instante do cadastro, login e senha.
 
-## Restrições
+### Restrições
 
 *   O instante não pode ser nulo e não pode ser no futuro
 *   O login não pode ser em branco ou nula
@@ -27,7 +27,11 @@ Nesta altura do campeonato deve estar um pouco mais claro a sugestão de divisã
 
 Caso sinta que precisa de suporte, utilize o material de suporte de maneira bem progressiva. Lembre que também temos nosso canal do discord e você pode pedir uma ajudinha por lá :). 
 
-### **informações de suporte geral**
+### Antes de começar 
+
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
+
+### **Informações de suporte geral**
 
 1.  Será que você fez um código parecido com esse exemplo [aqui](https://youtu.be/_lQXmLAiufQ) ?
 2.  Se a resposta para o ponto 1 foi sim, recomendo de novo esse material aqui sobre [arquitetura x design](https://youtu.be/HIIKgnIo7SA). Também acho que vai ser legal você olhar a [minha implementação logo de cara](https://youtu.be/1sXFbr19byA), apenas para ter uma ideia de design que estou propondo.
@@ -41,10 +45,14 @@ Caso sinta que precisa de suporte, utilize o material de suporte de maneira bem 
 10.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
 12.  [Como Alberto faria esse código](https://youtu.be/iQuCGFVZrlY)? Parte 2 com o código [resolvendo a questão da senha encodada](https://youtu.be/pvKsvSVzFJY).
 
-### informações de suporte para a combinação Java/Kotlin + Spring
+### Informações de suporte para a combinação Java/Kotlin + Spring
 
 1.  Para receber os dados da request como json, temos a annotation @RequestBody
 2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
 3.  Para realizar as validações padrões existe a Bean Validation
 4.  [Como criar um @RestControllerAdvice para customizar o json de saída com erros de validação](https://youtu.be/FO4HnZNCvoo)
 5.  [Como externalizar as mensagens de erro no arquivo de configuração.](https://youtu.be/FO4HnZNCvoo)
+
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
