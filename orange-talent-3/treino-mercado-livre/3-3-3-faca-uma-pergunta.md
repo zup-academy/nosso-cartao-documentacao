@@ -1,4 +1,4 @@
-### **explicação**
+### **Explicação**
 
 Um usuário logado pode fazer uma pergunta sobre o produto
 
@@ -22,6 +22,10 @@ Um usuário logado pode fazer uma pergunta sobre o produto
 *   Uma nova pergunta é criada e a lista de perguntas, com a nova pergunta adicionada, é retornada. Status 200
 *   Em caso de erro de validação, retorne 400 e o json com erros.
 
+### Antes de começar
+
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
+
 ### Informações de suporte geral
 
 1.  [Controllers 100% coesos](https://youtu.be/NNKG2TFctfo) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos. Lembre que isso não quer dizer que o controller tem um método só, apenas que idealmente todos os métodos devem usar todos os atributos ou pelo menos a grande maioria deles.
@@ -35,7 +39,7 @@ Um usuário logado pode fazer uma pergunta sobre o produto
 10.  Caso você já esteja utilizando um projeto de segurança. O framework da sua escolha, integrado com algum outro projeto de segurança, deve permitir que você tenha acesso ao objeto que representa o usuário logado dentro do método do seu controller. 
 11.  [Como Alberto faria esse código](https://youtu.be/-twyU9WPq8w) e como [Alberto faria para enviar o email.](https://youtu.be/5xOEBFlEHik) 
 
-### informações de suporte para a combinação Java/Kotlin + Spring​
+### Informações de suporte para a combinação Java/Kotlin + Spring​
 
 1.  Para receber os dados da request como json, temos a annotation @RequestBody
 2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
@@ -48,3 +52,7 @@ Um usuário logado pode fazer uma pergunta sobre o produto
 9.  Lembrando que, para receber a referência para o usuário logado no método do controller, você pode usar a annotation _@AuthenticationPrincipal_​.
 10.  Para retornar status diferentes, consulte este material [aqui](https://youtu.be/CWe1yokaPf4)
 11.  Uma solução muito utilizada no mercado para este tipo de situação é a criação de listeners. [Eu até já escrevi sobre isso muito atrás](https://domineospring.wordpress.com/2015/06/08/lidando-com-eventos-dentro-do-spring/) . Eu sempre recomendo que regras que fazem parte do fluxo de negócio fiquem explícitas, para que sejam mais facilmente encontradas.
+
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
