@@ -1,6 +1,6 @@
 # Cadastro novo autor
 
-Antes de começar essa funcionalidade, preencha um formulário [clicando aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
+Antes de começar essa funcionalidade, preencha o formulário [clicando aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
 
 ### **necessidades**
 
