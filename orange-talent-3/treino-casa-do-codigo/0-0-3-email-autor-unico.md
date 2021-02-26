@@ -1,3 +1,5 @@
+Antes de começar essa funcionalidade, preencha um formulário [clicando aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
+
 ### **necessidades**
 
 *   O email do autor precisa ser único no sistema
@@ -28,4 +30,5 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 
 Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)
 
+Agora que terminou essa funcionalidade, preencha o formulário [clicando aqui](https://forms.gle/beXvFuHAwU3GnuMT6)
 
