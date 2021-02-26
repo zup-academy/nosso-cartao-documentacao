@@ -4,11 +4,11 @@ Precisamos criar uma página com as mesmas informações que encontramos na pág
 
 **A ideia aqui é implementar todo código necessário para que tenhamos uma página com quase todas informações da página de detalhe da CDC.**
 
-### **necessidades**
+### **Necessidades**
 
 *   Ter um endpoint que em função de um id de livro retorne os detalhes necessários para montar a página.
 
-### **restrições**
+### **Restrições**
 
 *   Se o id não existir é para retornar 404
 
@@ -16,25 +16,25 @@ Precisamos criar uma página com as mesmas informações que encontramos na pág
 
 *   que o front possa montar a página
 
-### **sobre a utilização do material de suporte aqui**
+### **Sobre a utilização do material de suporte aqui**
 
 Esta é uma feature que reutiliza as habilidades trabalhadas até aqui. Tente implementar sem o uso do material de suporte. 
 
 ### Antes de começar
 
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVo5RFZIMVZYVlVNUURLQUFENkVSOEZKNC4u)
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
 
-### **informações de suporte para a feature**
+### **Informações de suporte para a feature**
 
 1. Uma pergunta que você pode se fazer aqui é: crio uma classe nova aqui ou apenas adiciono um método em um controller existente. Lembre de conferir a ideia de [Controllers 100% coesos](https://youtu.be/NNKG2TFctfo) .
 2.  É normal uma mesma classe possuir mais de uma forma de exibição de seus dados no sistema. [Como lidar com isso?](https://youtu.be/iyM12hm0Jig)
 3.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
 4.  [Como Alberto faria esse código?](https://youtu.be/U9taG94p9uc)
 
-### informações de suporte para a combinação Java/Kotlin + Spring
+### Informações de suporte para a combinação Java/Kotlin + Spring
 
 1.  [Aqui](https://youtu.be/CWe1yokaPf4) tem algumas formas de você gerar um status code
 
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/beXvFuHAwU3GnuMT6)
