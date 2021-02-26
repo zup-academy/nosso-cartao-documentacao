@@ -40,73 +40,73 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 
 | Java Servlet: Fundamentos da programação Web Java |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQlY0S1ExSlVVR1BEUTJDTUI0VDZSTFVYOS4u) |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/zafEBTfxUjomef1EA) |
 | [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQlY0S1ExSlVVR1BEUTJDTUI0VDZSTFVYOS4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNkhMUzZIU1dKUk0wWEk2NFA0NDlSWjIyWi4u) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/zafEBTfxUjomef1EA) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | HTTP: Entendendo a web por baixo dos panos |
 | --- | 
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUM1hIWkhFTkpOMkQ5M1NTUUZaUDM4TkZVRS4u) |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/MSLK8eKnVoxMtVue9) |
 | [Curso - HTTP: Entendendo a web por baixo dos panos](https://www.alura.com.br/curso-online-http-fundamentos) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUM1hIWkhFTkpOMkQ5M1NTUUZaUDM4TkZVRS4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUN01JN1k0UldHQTVJTVRTWUZaSlgwUEUyVC4u) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/MSLK8eKnVoxMtVue9) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Introdução ao SQL com MySQL: Manipule e consulte dados |
 | --- |
-| [Clique aqui para responder o questionário no ínicio do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMFVPWkIzQUVMSkxQUEIwWlE4QTNGQUJOQi4u) |
+| [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8) |
 | [Curso - Introdução ao SQL com MySQL: Manipule e consulte dados](https://www.alura.com.br/formacao-oracle-mysql) 1° curso |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMFVPWkIzQUVMSkxQUEIwWlE4QTNGQUJOQi4u) | 
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQVJaNzdMRUlYNFFBQ1ZDWUU5R0FNRUs1VS4u) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8) | 
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Consultas SQL: Avançando no SQL com MySQL |
 | --- |
-| [Clique aqui para responder o questionário no ínicio do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTBMUExIUVMxRE9KVTFHRkE2QjFISUQ2NC4u) |
+| [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) |
 | [Curso - Consultas SQL: Avançando no SQL com MySQL](https://www.alura.com.br/formacao-oracle-mysql) 2° curso |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTBMUExIUVMxRE9KVTFHRkE2QjFISUQ2NC4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUNFQzdPQlFHWUI4RUlZSDFNRURQWVlFTC4u) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | JPA e Hibernate | 
 | --- | 
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMzBWRzROVEo2RVo5QjlURlhWUkdHWkRPSy4u) |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
 | [Curso - JPA e Hibernate](https://www.alura.com.br/curso-online-jpa-hibernate-persistencia-objetos) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMzBWRzROVEo2RVo5QjlURlhWUkdHWkRPSy4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJURUxBS0kyTFpaRjBaWENXR0JTSVBYU0xaTi4u) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Spring Boot 1 |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQ01PVUtFTExXR09aUVVGMTlQOFVaN0wxNi4u) |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/aFFsKwaU6fVm3wa68) |
 | [Curso - Spring Boot 1](https://www.alura.com.br/curso-online-spring-boot-api-rest) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQ01PVUtFTExXR09aUVVGMTlQOFVaN0wxNi4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQVNMUTZPRTlEQUg4Q1FMMzAzTU43SU4wQy4u) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/aFFsKwaU6fVm3wa68) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Spring Boot 2 |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUN0tST0ZHNEZUMFgyVTBGSjg2MFhIUVVGUy4u) |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/eErweMN3xxA3AMjt5) |
 | [Curso - Spring Boot 2](https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUN0tST0ZHNEZUMFgyVTBGSjg2MFhIUVVGUy4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMk1KMDNKTUpPUTFDWkdWWkY1S1dFVVAzVi4u) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/eErweMN3xxA3AMjt5) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Spring Boot 3 |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQjRFUFM3QktWTk44TEtLNllRR05FVk9XUC4u) |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) |
 | [Curso - Spring Boot 3](https://www.alura.com.br/curso-online-spring-boot-profiles-testes-deploy) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQjRFUFM3QktWTk44TEtLNllRR05FVk9XUC4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUME4wWkM4Wk1TUURQNUZIREpIQUxDTElJTy4u) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | Spring Data JPA |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMjZQUzNWSlpZWTM5N1laSzNKSlRFTktZRi4u) |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
 | [Curso - Spring Data Jpa](https://www.alura.com.br/curso-online-spring-data-jpa) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUMjZQUzNWSlpZWTM5N1laSzNKSlRFTktZRi4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUODJLOTJQTlkyT1pDVjFaV042NkkxMk9IRC4u) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 | SOLID |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQVcySTdOWUxIUlZMOEtVMTJOUlk0WUtHSi4u) |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) |
 | [Curso - SOLID](https://cursos.alura.com.br/course/orientacao-a-objetos-avancada-e-principios-solid) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQVcySTdOWUxIUlZMOEtVMTJOUlk0WUtHSi4u) |
-| [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQTBaSDZSMk01SFNPVTcxWFhXVk85RU5FNy4u) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) |
+| [Clique aqui para fazer o resumo do curso]() |
 
 Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. Você vai construir dois projetos do zero. Nessa fase é importante que você vá se analisando e prestando muita atenção em relação ao nível de facilidade de cada funcionalidade construída. **Tem que ir ficando mais fácil**. Se não estiver ficando fácil, fique alerta, talvez você precise de ajuda. **Agora você entra na fase três do nosso bootcamp.**
 
