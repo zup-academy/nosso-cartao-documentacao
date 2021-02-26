@@ -1,5 +1,7 @@
 # Cadastro novo autor
 
+Antes de começar essa funcionalidade, preencha um formulário [clicando aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
+
 ### **necessidades**
 
 *   É necessário cadastrar um novo autor no sistema. Todo autor tem um nome, email e uma descrição. Também queremos saber o instante exato que ele foi registrado.
@@ -45,4 +47,6 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 ### Depois de finalizar
 
 Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)
+
+Agora que terminou essa funcionalidade, preencha o formulário [clicando aqui](https://forms.gle/beXvFuHAwU3GnuMT6)
 
