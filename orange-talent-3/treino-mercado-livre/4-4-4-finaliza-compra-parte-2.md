@@ -1,10 +1,10 @@
 # Realmente finaliza a compra - parte 2
 
-## Contexto
+### Contexto
 
 Aqui estamos lidando com o retorno do gateway de pagamento
 
-## Necessidades
+### Necessidades
 
 O meio de pagamento(pagseguro ou paypal) redireciona para a aplicação passando no mínimo 3 argumentos:
 
@@ -26,32 +26,35 @@ Temos alguns passos aqui.
 *   Caso a compra não tenha sido concluída com sucesso, precisamos:
     *   enviar um email para o usuário informando que o pagamento falhou com o link para que a pessoa possa tentar de novo.
 
-## Restrição
+### Restrição
 
 *   id de compra, id de transação e status são obrigatórios para todas urls de retorno de dentro da aplicação.
 *   O id de uma transação que vem de alguma plataforma de pagamento só pode ser processado com sucesso uma vez.
 *   Uma transação que foi concluída com sucesso não pode ter seu status alterado para qualquer coisa outra coisa.
 *   Uma compra não pode ter mais de duas transações concluídas com sucesso associada a ela.
 
-## Desafio extra 1
+### Antes de começar
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
+
+### Desafio extra 1
 
 *   O email não precisa ser real, manda um ```System.out.println```. Mas o sistema precisa estar preparado para enviar email real em produção.
 
-## Desafio extra 2
+### Desafio extra 2
 
 *   Temos duas plataformas de pagamento externas neste momento, vamos ter mais, como seu código ficaria preparado para esse requisito de negócio?
 
 
-## Resultado esperado
+### Resultado esperado
 
 *   Status 200 dizendo retornando o status do pagamento.
 *   Em caso de erro de validação, retorne 400 e o json com erros.
 
-## Você está no super filé do código
+### Você está no super filé do código
 
 Passou pela primeira parte do fechamento da compra? Agora é ainda mais desafiador. Você vai precisar juntar tudo que trabalhamos. E ainda tem uma coisa especial que é uma necessidade mais forte de generalização. Eu espero que você aproveite e fique ainda mais preparado(a) para enfrentar os próximos desafios. 
 
-## Informações de suporte geral
+### Informações de suporte geral
 
 1.  Lembre que uma das coisas mais importante do pilar "a prioridade é funcionar" é que você deve maximizar a execução do seu código. Planeje o que você quer fazer e implemente passo a passo. Faça uma pequena parte e execute. 
 2.  Quais restrições você pode colocar na compra para garantir que ela nunca tenha tentativas de pagamentos num estado inválido associado a ela? 
@@ -61,3 +64,8 @@ Passou pela primeira parte do fechamento da compra? Agora é ainda mais desafiad
 6.  O que merece ser testado? Já falamos um pouco sobre isso e os prós e contras. Eu continuo entendendo que a prioridade são fluxos de código que possuem branches(ifs, eles, loops etc). [Falo mais aqui](https://youtu.be/vCnhwbkX3EA). 
 9.  Como Alberto faria esse código? [Parte 1](https://youtu.be/b5vUoPygtv4), [parte 2](https://youtu.be/_QYVYx2ENDQ), [parte 3](https://youtu.be/AAugW3C54Cs)
 10. Como Alberto testaria esse código? [PARTE 1](https://youtu.be/zFRUxyz7FCA), [PARTE 2](https://youtu.be/F67IG4B8oC4). 
+
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
+
