@@ -4,11 +4,11 @@
 
 Com um produto cadastrado, um usuário logado pode adicionar imagens ao seu produto. Não precisa salvar a imagem em algum cloud ou no próprio sistema de arquivos. Cada arquivo de imagem pode virar um link ficticio que pode ser adicionado ao produto. 
 
-### **necessidades**
+### **Necessidades**
 
 *  Adicionar uma ou mais imagens a um determinado produto do próprio usuário
 
-### **restrições**
+### **Restrições**
 
 *  Tem uma ou mais fotos
 *  Só pode adicionar fotos ao produto que pertence ao próprio usuário
@@ -19,7 +19,10 @@ Com um produto cadastrado, um usuário logado pode adicionar imagens ao seu prod
 *   Caso dê erro de validação retorne 400 e o json dos erros
 *   Caso tente adicionar imagens a um produto que não é seu retorne 403.
 
-### desafio extra
+### Antes de começar
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
+
+### Desafio extra
 
 Como você faria para que em dev a imagem virasse um link fictício e em produção executasse um código que enviasse a imagem para algum cloud da vida?​​
 
@@ -35,7 +38,7 @@ Como você faria para que em dev a imagem virasse um link fictício e em produç
 9.  Caso você já esteja utilizando um projeto de segurança. O framework da sua escolha, integrado com algum outro projeto de segurança, deve permitir que você tenha acesso ao objeto que representa o usuário logado dentro do método do seu controller. 
 10.  Como Alberto faria esse código [parte1](https://youtu.be/vwPOO1LPfIc) e [parte 2(ownership)](https://youtu.be/HaiLyPBhAxo)
 
-### informações de suporte para a combinação Java/Kotlin + Spring​
+### Informações de suporte para a combinação Java/Kotlin + Spring​
 
 1.  Para receber os dados da request como json, temos a annotation @RequestBody
 2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
