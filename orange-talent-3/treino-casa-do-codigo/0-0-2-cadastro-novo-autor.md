@@ -1,12 +1,10 @@
 # Cadastro novo autor
 
-Antes de começar essa funcionalidade, preencha o formulário [clicando aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
-
-### **necessidades**
+### **Necessidades**
 
 *   É necessário cadastrar um novo autor no sistema. Todo autor tem um nome, email e uma descrição. Também queremos saber o instante exato que ele foi registrado.
 
-### **restrições**
+### **Restrições**
 
 *   O instante não pode ser nulo
 *   O email é obrigatório
@@ -14,15 +12,15 @@ Antes de começar essa funcionalidade, preencha o formulário [clicando aqui](ht
 *   O nome é obrigatório
 *   A descrição é obrigatória e não pode passar de 400 caracteres
 
-### **resultado esperado**
+### **Resultado esperado**
 
 *   Um novo autor criado e status 200 retornado
 
 ### Antes de começar
 
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVo5RFZIMVZYVlVNUURLQUFENkVSOEZKNC4u)
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
 
-### **informações de suporte geral**
+### **Informações de suporte geral**
 
 1.  Será que você fez um código parecido com esse exemplo [aqui](https://youtu.be/_lQXmLAiufQ) ?
 2.  Se a resposta para o ponto 1 foi sim, recomendo de novo esse material aqui sobre [arquitetura x design](https://youtu.be/HIIKgnIo7SA). Também acho que vai ser legal você olhar a [minha implementação logo de cara](https://youtu.be/1sXFbr19byA), apenas para ter uma ideia de design que estou propondo.
@@ -46,7 +44,5 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)
-
-Agora que terminou essa funcionalidade, preencha o formulário [clicando aqui](https://forms.gle/beXvFuHAwU3GnuMT6)
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/beXvFuHAwU3GnuMT6)
 
