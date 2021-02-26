@@ -1,6 +1,6 @@
 # Preparo para ser um(a) bom/boa estudante durante o bootcamp
 
-Vamos refletir se você se considera um bom estudante? Responda esse formulário sobre o tema [clicando aqui](https://forms.gle/WRKm5QvbAaz7dmAc6)
+Vamos refletir se você se considera um(a) bom/boa estudante? Responda esse formulário sobre o tema [clicando aqui](https://forms.gle/WRKm5QvbAaz7dmAc6)
 
 O material aqui tem dicas baseado em vivência e também é pautado na teoria da carga cognitiva, que é uma tese amplamente aceita na psicologia da cognição e que guia a construção de diversos materiais de ensino mundo a fora. 
 
