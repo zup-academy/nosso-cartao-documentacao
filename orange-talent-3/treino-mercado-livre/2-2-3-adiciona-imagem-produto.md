@@ -50,3 +50,8 @@ Como você faria para que em dev a imagem virasse um link fictício e em produç
 8.  Para configurar o Spring Security olhe [aqui](https://youtu.be/0I--CLsqC7w)
 9.  Lembrando que, para receber a referência para o usuário logado no método do controller, você pode usar a annotation _@AuthenticationPrincipal_​. 
 10.  Para retornar status diferentes, consulte este material [aqui](https://youtu.be/CWe1yokaPf4)
+
+### Depois de finalizar
+
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
+
