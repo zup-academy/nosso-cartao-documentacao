@@ -1,6 +1,6 @@
 # Realmente finaliza compra - parte 1
 
-## Contexto
+### Contexto
 
 Aqui a gente vai simular uma integração com um gateway como paypal, pagseguro etc. O fluxo geralmente é o seguinte:
 
@@ -10,7 +10,7 @@ Aqui a gente vai simular uma integração com um gateway como paypal, pagseguro 
 
 Então essa é a parte 1 do processo de finalização de compra. Onde apenas geramos a compra no sistema. Não precisamos da noção de um carrinho compra. Apenas temos o usuário logado comprando um produto.
 
-## Necessidades
+### Necessidades
 
 *   A pessoa pode escolher a quantidade de itens daquele produto que ela quer comprar
 *   O estoque do produto é abatido 
@@ -22,13 +22,13 @@ Então essa é a parte 1 do processo de finalização de compra. Onde apenas ger
 *   comprador(a)
 *   Suponha que o cliente pode escolher entre pagar com o Paypal ou Pagseguro.
 
-## Restrições
+### Restrições
 
 *   A quantidade é obrigatória
 *   A quantidade é positiva
 *   Precisa ter estoque para realizar a compra​
 
-## **Resultado esperado**
+### **Resultado esperado**
 
 *   Caso a pessoa escolha o paypal seu endpoint deve gerar o seguinte redirect(302):
     *   Retorne o endereço da seguinte maneira: paypal.com/{idGeradoDaCompra}?redirectUrl={urlRetornoAppPosPagamento}
@@ -36,7 +36,7 @@ Então essa é a parte 1 do processo de finalização de compra. Onde apenas ger
     *   Retorne o endereço da seguinte maneira: pagseguro.com?returnId={idGeradoDaCompra}&redirectUrl={urlRetornoAppPosPagamento}
 *   Caso aconteça alguma restrição retorne um status 400 informando os problemas. 
 
-## Você está no filé do código
+### Você está no filé do código
 
 Aqui é para ser muito recompensador! Você já se esforçou demais, fez muita feature, deve ter gostado de algumas dicas, se questionado em relação as outras, não concordado com outras tantas. Só que, acima de tudo, você ESTUDOU E TREINOU. Tente implementar a feature completamente sozinho(a). Invista o tempo necessário, o tempo aqui é seu amigo e não seu inimigo. O foco é seu desenvolvimento!
 
