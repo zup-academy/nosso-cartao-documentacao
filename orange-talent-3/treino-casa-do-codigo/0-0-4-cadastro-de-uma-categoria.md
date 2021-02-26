@@ -1,28 +1,26 @@
-Antes de começar essa funcionalidade, preencha o formulário [clicando aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
-
-### necessidades
+### Necessidades
 
 *   Toda categoria precisa de um nome
 
-### restrições
+### Restrições
 
 *   O nome é obrigatório
 *   O nome não pode ser duplicado
 
-### resultado esperado
+### Resultado esperado
 
 *   Uma nova categoria cadastrada no sistema e status 200 retorno
 *   Caso alguma restrição não seja atendida, retorne 400 e um json informando os problemas de validação
 
-### sobre a utilização do material de suporte aqui
+### Sobre a utilização do material de suporte aqui
 
 Esta é uma feature bem parecida com a de cadastro de autor. Tente implementar inicialmente sem utilizar nenhum material de suporte. Caso sinta dificuldade vá utilizando de acordo com a necessidade.
 
 ### Antes de começar
 
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVo5RFZIMVZYVlVNUURLQUFENkVSOEZKNC4u) ​
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
 
-### informações de suporte geral
+### Informações de suporte geral
 
 1.  [Controllers 100% coesos](https://youtu.be/NNKG2TFctfo) para lembrar você a nossa ideia de ter controllers que utilizam todos os atributos.
 2.  Como foi que você fez para receber os dados da requisição? Será que aproveitou a facilidade do framework e recebeu a sua entidade(objeto que faz parte do domínio) direto no método mapeado para um endereço? [Dá uma olhada nesse pilar aqui.](https://youtu.be/AzyHKZwNg1A)
@@ -34,7 +32,7 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 8.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
 10.  [Como Alberto faria esse código?](https://youtu.be/beucXcVOcfE)
 
-### informações de suporte para Spring + JPA
+### Informações de suporte para Spring + JPA
 
 1.  Para receber os dados da request como json, temos a annotation @RequestBody
 2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
@@ -43,11 +41,8 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/beXvFuHAwU3GnuMT6)
 
-
-### sensações
+### Sensações
 
 Talvez aqui você tenha achado que o código foi até meio repetitivo. E a verdade é que foi mesmo. Talvez no próximo você ache que foi até meio robótico, vai ser melhor ainda. Quanto mais automático você sente que é para fazer algo quer dizer que mais dominado aquilo está. O que você precisa sempre se questionar é: Será que este padrão ​ainda pode melhorar?
-
-Agora que terminou essa funcionalidade, preencha o formulário [clicando aqui](https://forms.gle/beXvFuHAwU3GnuMT6)
