@@ -1,24 +1,22 @@
-Antes de começar essa funcionalidade, preencha o formulário [clicando aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
-
-### **necessidades**
+### **Necessidades**
 
 *   O email do autor precisa ser único no sistema
 
-### **resultado esperado**
+### **Resultado esperado**
 
 *   Erro de validação no caso de email duplicado
 
 ### Antes de começar
 
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNVo5RFZIMVZYVlVNUURLQUFENkVSOEZKNC4u)
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
 
-### **informações de suporte geral**
+### **Informações de suporte geral**
 
 1.  [Todo framework mvc minimamente maduro possui um mecanismo pronto de realizar validação customizada. Spring, NestJS e ASP.NET Core MVC têm.](https://youtu.be/SygOC4d_N5w)
 
 2.  [Como Alberto faria esse código?](https://youtu.be/R7_KHlsuqgs)
 
-### informações de suporte para Spring + JPA
+### Informações de suporte para Spring + JPA
 
 1.  Para receber os dados da request como json, temos a annotation @RequestBody
 2.  Usamos a annotation @Valid para pedir que os dados da request sejam validados
@@ -28,7 +26,5 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUQUpWTEhYV0pLOFdPTlA2TUFGWUg2QUZVTC4u)
-
-Agora que terminou essa funcionalidade, preencha o formulário [clicando aqui](https://forms.gle/beXvFuHAwU3GnuMT6)
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/beXvFuHAwU3GnuMT6)
 
