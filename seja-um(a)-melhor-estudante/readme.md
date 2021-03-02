@@ -116,5 +116,7 @@ Para ser especialista, você precisa dominar uma coisa por vez. Porque para domi
 
 Agora que você passou por todo conteúdo acima, vamos refletir sobre isso? [Clique aqui e responda o formulário](https://forms.gle/WRKm5QvbAaz7dmAc6)
 
+Após esse formulário, você precisará escrever um plano de estudos baseado nos conceitos que foram apresentados nessa seção. [Clique aqui e escreva sua resposta](https://docs.google.com/forms/d/e/1FAIpQLSd4ux5-cgvGTkGm_rZB-IbapjFDlpIWbEJNh4qMPP0Z6wvm4Q/viewform)
+
 
 
