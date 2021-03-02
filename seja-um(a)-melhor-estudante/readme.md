@@ -45,7 +45,7 @@ E quais as são as formas de recuperar uma informação?
 
 Para ver o vídeo deste conteúdo clique [aqui](https://youtu.be/n-HvwyJKyII)
 
-Definir um objetivo de aprendizado é algo que parece simples, mas não é tão fácil de fazer. Quando pensamos em aprender algo, muitas vezes acabamos com um objetivo amplo demais e quem não fala para a gente se estamos nos aproximando daquilo que queremos. Alguns exemplos:
+Definir um objetivo de aprendizado é algo que parece simples, mas não é tão fácil de fazer. Quando pensamos em aprender algo, muitas vezes acabamos definindo um objetivo amplo demais e não temos claro se estamos nos aproximando daquilo que queremos. Alguns exemplos:
 
 1. Quero dominar arquitetura de software
 2. Quero melhorar a qualidade do meu código
@@ -53,48 +53,53 @@ Definir um objetivo de aprendizado é algo que parece simples, mas não é tão 
 4. Quero dominar programação reativa
 5. Quero saber dominar testes
 
-Aqui temos algumas perguntas relacionadas. A primeira é: Como você sabe se está chegando mais perto do objetivo? A segunda é: para que serve você aprender isso?
+Aqui temos algumas perguntas relacionadas. 
 
-Aprendizado é um habilitador de capacidades. Uma pergunta que considero mais interessante para definir seu objetivo é: Qual é a próxima coisa que eu quero ser capaz de fazer? Qual o próximo reconhecimento que eu espero ter? Quando você encara o aprendizado como um habilitador, tende a ficar mais nítido o que você precisa estudar. 
+A primeira é: Como você sabe se está chegando mais perto do seu objetivo? 
+A segunda é: Para que serve você aprender isso?
 
-Um segundo ponto muito importante é sobre o controle que você tem em relação ao alcance do seu objetivo. Tem objetivos que dependem só da gente e objetivos que não dependem só da gente. Você querer ser capaz de desenvolver uma versão sua do twitter utilizando Java e Spring depende só de você. Agora, você querer ser reconhecido(a) como uma referência em Java ou Spring não depende só de você. Quanto mais fora do seu controle é seu objetivo, mais desafiador tende a ser. 
+Aprendizado é um habilitador de capacidades. Uma pergunta que considero mais interessante para definir seu objetivo é: Qual é a próxima coisa que eu quero ser capaz de fazer? Qual o próximo reconhecimento que eu espero ter? 
 
-O terceiro ponto muito importante é que você precisar achar o ponto doce do objetivo. Preste atenção na relação entre suas habilidades e o que você quer buscar. 
+Quando você encara o aprendizado como um habilitador, tende a ficar mais nítido o que você precisa estudar. 
+
+Um segundo ponto muito importante é sobre o controle que você tem em relação ao alcance do seu objetivo. Tem objetivos que dependem só da gente e objetivos que não dependem só da gente. Você querer ser capaz de desenvolver uma versão sua do Twitter utilizando Java e Spring depende só de você. Agora, você querer ser reconhecido(a) como uma referência em Java ou Spring não depende só de você. Quanto mais fora do seu controle é seu objetivo, mais desafiador tende a ser. 
+
+O terceiro ponto muito importante é que você precisa achar o ponto doce do objetivo. Preste atenção na relação entre suas habilidades e o que você quer buscar. 
 
 1. Se o objetivo subtutilizar suas habilidades, ele tende a ser muito fácil e talvez não te faça querer ir atrás dele. 
-2. Se o objetivo tiver muito das suas habilidades atuais, talvez te deixe frustrado(a) e te faça desistir mais facilmente
+2. Se o objetivo exigir muito das suas habilidades atuais, talvez te deixe frustrado(a) e te faça desistir mais facilmente
 3. Se o objetivo é um pouco além das suas habilidades vai te deixar naquele estado que você não quer parar de buscá-lo. É aqui que você deve tentar chegar. 
 
-Agora alguns exemplos de definição de objetivos que estão sob seu controle. Fique atento as habilidades.
+Agora alguns exemplos de definição de objetivos que estão sob seu controle. Lembre-se: Fique atento as habilidades.
 
-1. Quero implementar minha de um internet banking com Java e Spring para verificar que sou capaz de desenvolver aplicações web com essas tecnologias. 
-2. Quero implementar um projeto com x% de cobertura de código para verificar que sou capaz de escrever testes automatizados de maneira fluída. 
+1. Quero implementar uma aplicação de um internet banking com Java e Spring para verificar que sou capaz de desenvolver aplicações web com essas tecnologias. 
+2. Quero implementar um projeto com x% de cobertura de código para verificar se sou capaz de escrever testes automatizados de maneira fluída. 
 3. Quero abrir um pull request para o projeto open source específico para verificar que sou capaz de fazer parte daquele projeto. 
 4. Quero escrever um livro sobre a tecnologia X
 5. Quero criar uma palestra sobre a tecnologia X
-6. Quero criar meu canal no youtube sobre design de código
+6. Quero criar meu canal no YouTube sobre design de código
 7. Quero criar um curso
 
-Tudo que está acima depende só de você. E cada coisa vai exigir um grau e número de habilidades diferentes. Só que quando você olha para elas, fica mais fácil de saber o que você precisa aprender. 
+Tudo que está aquim em cima depende só de você! E cada uma delas vai exigir um grau e número de habilidades diferentes. Quando você olha para elas, fica mais fácil de saber o que você precisa aprender. 
 
-Agora alguns exemplos de objetivos que não estão sob seu controle. 
+Alguns exemplos de objetivos que não estão sob seu controle. 
 
 1. Quero ser reconhecido como pleno/senior/especialista no meu trabalho
 2. Quero ser convidado para palestrar no evento x
-3. Quero ser contratado para trabalhar no netflix
+3. Quero ser contratado para trabalhar no Netflix
 4. Quero vender pelo menos x matrículas para meu curso
-5. Quero ter x seguidores no meu canal do youtube
+5. Quero ter x seguidores no meu canal do YoTtube
 6. Quero ter um pull request aprovado no projeto open source x
 
-Tudo acima está fora do seu controle e você não tem como garantir nada. Automaticamente este tipo de objetivo fica mais desafiador. A análise de habilidades continua valendo! 
+Tudo que listamos aqui em cima está fora do seu controle e você não tem como garantir nada. Automaticamente este tipo de objetivo fica mais desafiador. A análise de habilidades continua valendo! 
 
-Quando você visualiza onde quer chegar, fica muito mais fácil de traçar o caminho. Um ponto importante: para aumentar as chances de realizar seu objetivo que está fora do seu controle, maximize a realização dos objetivos que estão sob seu controle! 
+Quando você visualiza onde quer chegar fica muito mais fácil de traçar o caminho. Um ponto importante: para aumentar as chances de realizar seu objetivo que está fora do seu controle, maximize a realização dos objetivos que estão sob seu controle! 
 
 ## O poder dos esquemas na nossa mente
 
 Para ver o vídeo deste conteúdo clique [aqui](https://youtu.be/f8E7K0qOLEk)
 
-Já falamos sobre a memória de trabalho e sobre a importância de recuperar aquela informação de maneira variada. Também falamos que em determinado momento um número de x informações começa a ser analisado por nós como se fosse uma coisa só. Esse processo de transformar N itens em apenas um item é conhecido como geração de esquemas. 
+Já falamos sobre a memória de trabalho e sobre a importância de recuperar aquela informação de maneira variada. Também falamos que em determinado momento um número x de informações começa a ser analisado por nós como se fosse uma coisa só. Esse processo de transformar N itens em apenas um item é conhecido como geração de esquemas. 
 
 Um esquema conta como se fosse apenas um ponto na sua memória de trabalho e isso faz com que você possa aprender coisas cada vez mais complexas. Vamos supor que você estudou e praticou muito sobre design de código em linguagens orientadas a objetos, Spring, Java e testes. Você treinou tanto sobre isso que quando bate o olho no código a única coisa que chama sua atenção é a regra de negócio específica que você precisa lidar. Automaticamente seu poder da adaptabilidade vai lá para cima :). E geralmente adaptabilidade é uma das principais características de pessoas que são consideradas especialistas. 
 
@@ -104,11 +109,11 @@ Você precisa estudar e treinar de modo a potencializar a geração de esquemas 
 
 O vídeo deste conteúdo pode ser visto [aqui](https://youtu.be/N1hhffjCu_Q).
 
-Aqui é mais um lembrete sobre a necessidade de você controlar a informação de entrada. A internet está cheia de blog, ebook e vídeo de um monte gente falando de um monte de coisa. 
+Aqui é mais um lembrete sobre a necessidade de você controlar a informação de entrada. A internet está cheia de blog, ebook e vídeo de diversas pessoas falando de um monte de coisas. 
 
 VOCÊ NÃO PRECISA APRENDER TUDO AO MESMO TEMPO. 
 
-Dê um passo de cada vez e as chances são que você vai se dar bem no médio prazo. 
+Dê um passo de cada vez e as chances são grandes de você se dar bem no médio prazo. 
 
 Para ser especialista, você precisa dominar uma coisa por vez. Porque para dominar você vai ter que colocar esforço, experimentar, variar os exemplos e saber muito da teoria. Isso leva tempo. Qual tempo? Não tem resposta certa e se alguém te disser que tem, desconfie :). Então não se apresse, defina bons objetivos, reflita regularmente sobre onde está e continue andando para frente. 
 
@@ -116,7 +121,7 @@ Para ser especialista, você precisa dominar uma coisa por vez. Porque para domi
 
 Agora que você passou por todo conteúdo acima, vamos refletir sobre isso? [Clique aqui e responda o formulário](https://forms.gle/WRKm5QvbAaz7dmAc6)
 
-Após esse formulário, você precisará escrever um plano de estudos baseado nos conceitos que foram apresentados nessa seção. [Clique aqui e escreva sua resposta](https://docs.google.com/forms/d/e/1FAIpQLSd4ux5-cgvGTkGm_rZB-IbapjFDlpIWbEJNh4qMPP0Z6wvm4Q/viewform)
+Após responder esse formulário, você precisará escrever um plano de estudos baseado nos conceitos que foram apresentados nessa seção. [Clique aqui e escreva sua resposta](https://docs.google.com/forms/d/e/1FAIpQLSd4ux5-cgvGTkGm_rZB-IbapjFDlpIWbEJNh4qMPP0Z6wvm4Q/viewform)
 
 
 
