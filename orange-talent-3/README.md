@@ -43,70 +43,70 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/zafEBTfxUjomef1EA) |
 | [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/zafEBTfxUjomef1EA) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/9nmFah4A33Mi67Cx5) |
 
 | HTTP: Entendendo a web por baixo dos panos |
 | --- | 
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/MSLK8eKnVoxMtVue9) |
 | [Curso - HTTP: Entendendo a web por baixo dos panos](https://www.alura.com.br/curso-online-http-fundamentos) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/MSLK8eKnVoxMtVue9) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/iMyDjSPftxgbZBZ3A) |
 
 | Introdução ao SQL com MySQL: Manipule e consulte dados |
 | --- |
 | [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8) |
 | [Curso - Introdução ao SQL com MySQL: Manipule e consulte dados](https://www.alura.com.br/formacao-oracle-mysql) 1° curso |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8) | 
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui fazer o exercício de resolução de problema]() |
 
 | Consultas SQL: Avançando no SQL com MySQL |
 | --- |
 | [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) |
 | [Curso - Consultas SQL: Avançando no SQL com MySQL](https://www.alura.com.br/formacao-oracle-mysql) 2° curso |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui fazer o exercício de resolução de problema]() |
 
 | JPA e Hibernate | 
 | --- | 
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
 | [Curso - JPA e Hibernate](https://www.alura.com.br/curso-online-jpa-hibernate-persistencia-objetos) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui fazer o exercício de resolução de problema]() |
 
 | Spring Boot 1 |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/aFFsKwaU6fVm3wa68) |
 | [Curso - Spring Boot 1](https://www.alura.com.br/curso-online-spring-boot-api-rest) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/aFFsKwaU6fVm3wa68) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui fazer o exercício de resolução de problema]() |
 
 | Spring Boot 2 |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/eErweMN3xxA3AMjt5) |
 | [Curso - Spring Boot 2](https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/eErweMN3xxA3AMjt5) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui fazer o exercício de resolução de problema]() |
 
 | Spring Boot 3 |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) |
 | [Curso - Spring Boot 3](https://www.alura.com.br/curso-online-spring-boot-profiles-testes-deploy) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui fazer o exercício de resolução de problema]() |
 
 | Spring Data JPA |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
 | [Curso - Spring Data Jpa](https://www.alura.com.br/curso-online-spring-data-jpa) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui fazer o exercício de resolução de problema]() |
 
 | SOLID |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) |
 | [Curso - SOLID](https://cursos.alura.com.br/course/orientacao-a-objetos-avancada-e-principios-solid) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui fazer o exercício de resolução de problema]() |
 
 Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. Você vai construir dois projetos do zero. Nessa fase é importante que você vá se analisando e prestando muita atenção em relação ao nível de facilidade de cada funcionalidade construída. **Tem que ir ficando mais fácil**. Se não estiver ficando fácil, fique alerta, talvez você precise de ajuda. **Agora você entra na fase três do nosso bootcamp.**
 
