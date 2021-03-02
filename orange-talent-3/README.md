@@ -57,7 +57,7 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8) |
 | [Curso - Introdução ao SQL com MySQL: Manipule e consulte dados](https://www.alura.com.br/formacao-oracle-mysql) 1° curso |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8) | 
-| [Clique aqui fazer o exercício de resolução de problema]() |
+| [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSdFC2CKDnX1gGMRXF0beZJsQWEL5jC5oAqhVQbvtkvT3kgz2g/viewform) |
 
 | Consultas SQL: Avançando no SQL com MySQL |
 | --- |
