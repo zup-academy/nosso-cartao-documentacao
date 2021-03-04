@@ -308,7 +308,7 @@ Nosso programa está estimado em 13 semanas e abaixo temos o cronograma. Lembre 
 
 1. Estimamos que você conclua a **fase 1** + **fase 2** até a segunda semana. Essa é uma fase muito focada em teoria e atividades de fixação
 2. Estimamos que você conclua a **fase 3** até a quarta semana.
-3. Estimamos que você conclua a **fase 4** até a sétima semana.
+3. Estimamos que você conclua a **fase 4** até a oitava semana.
 3. Agora você tem até 5 semanas para fechar a **fase cinco** !
 
 O nosso programa é intenso e exige muito esforço da sua parte. Esperamos contar com toda sua energia!
