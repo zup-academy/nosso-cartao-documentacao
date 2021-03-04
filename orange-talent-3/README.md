@@ -1,6 +1,6 @@
 # Cronograma e plano de estudos e treinos
 
-O nosso bootcamp tem duração de até 12 semanas. Preparamos toda uma sequência de estudos e treinos que visam te deixar preparado(a) para construir API's utilizando Java/Kotlin como linguagem e Spring/Micronaut + Hibernate como frameworks principais. Fazendo com que você possa focar no que mais importa, que é entregar valor para o cliente final usando tecnologia como meio. 
+O nosso bootcamp tem duração de até 13 semanas. Preparamos toda uma sequência de estudos e treinos que visam te deixar preparado(a) para construir API's utilizando Java/Kotlin como linguagem e Spring/Micronaut + Hibernate como frameworks principais. Fazendo com que você possa focar no que mais importa, que é entregar valor para o cliente final usando tecnologia como meio. 
 
 ## O que vamos estudar e treinar?
 
@@ -32,7 +32,7 @@ Primeiro começamos entendendo a estrutura do bootcamp e como ficar melhor
 preparado(a) para consumir tudo que preparamos. Essa aqui é uma fase curta, porém fundamental. **Esta é a fase um do nosso bootcamp.**
 
 * [Consumir o material sobre como ficar preparado(a) para o bootcamp](../fique-preparado(a)-desafios/readme.md). Lá você vai entender direitinho como preparamos a jornada para você. 
-* [Consumir o material sobre como ser um(a) melhor estudante](../seja-um(a)-melhor-estudante/readme.md). Aqui você vai ter alguns vídeos que vão te ajudar a ser um(a) melhor estudante durante as 12 semanas.
+* [Consumir o material sobre como ser um(a) melhor estudante](../seja-um(a)-melhor-estudante/readme.md). Aqui você vai ter alguns vídeos que vão te ajudar a ser um(a) melhor estudante durante as 13 semanas.
 
 Agora você vai fazer uma imersão de teoria sobre desenvolvimento web utilizando o paradigma de programação orientado a objetos com Java, Spring e Hibernate. Aqui é uma fase com muita teoria e alguns exercícios de fixação. Não se preocupe se sentir a cabeça ficar pesada, é uma sensação normal. Toda essa fase de teoria está centrada em cursos prontos da plataforma Alura. Você deve ter acesso para conseguir fazê-los. **Esta é a fase dois do nosso bootcamp**. 
 
@@ -304,7 +304,7 @@ Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a te
 
 ## Cronograma para executar todas as atividades
 
-Nosso programa está estimado em 12 semanas e abaixo temos o cronograma. Lembre também que temos toda uma equipe pronta para te dar suporte, tirar dúvidas e te direcionar.
+Nosso programa está estimado em 13 semanas e abaixo temos o cronograma. Lembre também que temos toda uma equipe pronta para te dar suporte, tirar dúvidas e te direcionar.
 
 1. Estimamos que você conclua a **fase 1** + **fase 2** até a segunda semana. Essa é uma fase muito focada em teoria e atividades de fixação
 2. Estimamos que você conclua a **fase 3** até a quarta semana.
