@@ -26,7 +26,7 @@ Para que você se sinta e realmente seja capaz de construir API's, durante o boo
 * Micronaut para construção API's ainda mais preparadas para o mundo Cloud Native.
 * Stack de CI/CD da Amazon para que consiga fazer com que seu código seja um bom cliente da operação. Vamos de cultura DevOps. 
 
-## Sua sequência de atividades considerando todas as 12 semanas
+## Sua sequência de atividades considerando todas as 13 semanas
 
 Primeiro começamos entendendo a estrutura do bootcamp e como ficar melhor
 preparado(a) para consumir tudo que preparamos. Essa aqui é uma fase curta, porém fundamental. **Esta é a fase um do nosso bootcamp.**
