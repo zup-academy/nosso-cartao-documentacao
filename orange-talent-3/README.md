@@ -64,7 +64,7 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) |
 | [Curso - Consultas SQL: Avançando no SQL com MySQL](https://www.alura.com.br/formacao-oracle-mysql) 2° curso |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) |
-| [Clique aqui fazer o exercício de resolução de problema]() |
+| [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/aBzxxKDTDvYEPHSe8) |
 
 | JPA e Hibernate | 
 | --- | 
