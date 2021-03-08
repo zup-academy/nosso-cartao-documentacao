@@ -300,7 +300,11 @@ Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a te
 * [Gravando os dados com Micronaut Data: explicação enquanto constrói o código](https://www.youtube.com/watch?v=ypPIgASiyiU&feature=youtu.be)
 * [Fluxo completo para salvar um objeto no banco de dados](https://www.youtube.com/watch?v=cACkiymv-2Q&feature=youtu.be)
 
+Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
 
+[Construa um sistema distribuído que simule o funcionamento do PIX](https://github.com/zup-academy/orange-stack-documentacao/tree/master/desafio-01/01-key-manager#desafio-pix)
+
+Nesse momento você já deve estar sentindo apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC. 
 
 ## Cronograma para executar todas as atividades
 
