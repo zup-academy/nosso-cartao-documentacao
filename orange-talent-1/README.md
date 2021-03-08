@@ -338,11 +338,11 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
 * [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE)
 
 
+Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
 
+[Construa um sistema distribuído que simule o funcionamento do PIX](https://github.com/zup-academy/orange-stack-documentacao/tree/master/desafio-01/01-key-manager#desafio-pix)
 
-
-
-
+Nesse momento você já deve estar sentindo apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC. 
 
 
 ## Cronograma para executar todas as atividades
