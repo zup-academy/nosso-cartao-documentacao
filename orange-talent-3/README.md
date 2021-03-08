@@ -287,6 +287,8 @@ Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem J
 
 Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :). 
 
+Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação prática em dois vídeos semelhantes. O primeiro vídeo apresenta o assunto em cima de um exemplo já pronto, enquanto que o segundo apresenta o mesmo assunto construindo o exemplo junto. Nossa intenção é facilitar seu entendimento, fornecendo duas explicacões sobre o mesmo assunto em formatos diferentes. 
+
 * [O que é Micronaut ?](https://www.youtube.com/watch?v=FdxStVYU8xM&feature=youtu.be)
 * [Setup de um projeto utilizando Micronaut](https://www.youtube.com/watch?v=vojSldrKV8Y&feature=youtu.be)
 * [Configuração do IntelliJ para o Micronaut](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be)
@@ -299,6 +301,40 @@ Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a te
 * [Gravando os dados com Micronaut Data: explicação em cima do código pronto](https://www.youtube.com/watch?v=pWu2mqaKFEc&feature=youtu.be)
 * [Gravando os dados com Micronaut Data: explicação enquanto constrói o código](https://www.youtube.com/watch?v=ypPIgASiyiU&feature=youtu.be)
 * [Fluxo completo para salvar um objeto no banco de dados](https://www.youtube.com/watch?v=cACkiymv-2Q&feature=youtu.be)
+* [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)
+* [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8)
+* [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)
+* [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/8jwk3vLq-aY)
+* [Recebendo dados via PUT: explicação sobre o código pronto](https://youtu.be/awdppj2o7J0)
+* [Recebendo dados via PUT: explicação enquanto constrói o código](https://youtu.be/Jvl5RcrqJRc)
+* [Recebendo dados via DELETE: explicação sobre o código pronto](https://youtu.be/plojIuEWIPM)
+* [Recebendo dados via DELETE: explicação enquanto constrói o código](https://youtu.be/BZ2xuQqvdHE)
+* [Demarcação de transação: explicação sobre o código pronto](https://youtu.be/DS5g3ZNZHRc)
+* [Demarcação de transação: explicação enquanto constrói o código](https://youtu.be/M8x090WpXL8)
+* [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)
+* [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc)
+* [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)
+* [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg)
+
+O conteúdo que você acabou de consumir foi bem focado no módulo HTTP do Micronaut. Basicamente o que você precisa para construir uma aplicação com Micronaut que vai se comunicar primordialmente via tal protocolo. Agora vamos direcionar nossa atenção para o módulo de GRPC do Micronaut :). 
+
+O GRPC é a tentativa de aumentar a performance na comunicação entre os serviços numa arquitetura distribuída, por exemplo com Microsserviços. Nos próximos vídeos você ter acesso a bastante conhecimento sobre essa forma de comunicação e como o Micronaut facilita isso para você. 
+
+* [O que é GRPC e a motivação do seu uso](https://www.youtube.com/watch?v=OACwm4CYX2M&feature=youtu.be)
+* [Introdução a protobuf: explicação sobre o código pronto](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be)
+* [Introdução a protobuf: explicação enquanto constrói o código](https://www.youtube.com/watch?v=gBeQ1CgiFEU&feature=youtu.be)
+* [Expondo dados via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be)
+* [Expondo dados via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=tuZmLjCEvjI&feature=youtu.be)
+* [Consumindo um endpoint via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=ZGlxfNJkmcQ&feature=youtu.be)
+* [Consumindo um endpoint via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=Y6ojxAQoSkM&feature=youtu.be)
+* [Retornando códigos de erro: explicação sobre o código pronto](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be)
+* [Retornando códigos de erro: explicação enquanto constrói o código](https://www.youtube.com/watch?v=xcWkmNxf8JE&feature=youtu.be)
+* [Lidando com erros retornado pela API: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)
+* [Lidando com erros retornado pela API: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be)
+* [Healthcheck sobre HTTP: explicação sobre o código pronto](https://www.youtube.com/watch?v=Zle0hcwd_Jw&feature=youtu.be)
+* [Healthcheck sobre HTTP: explicação enquanto constrói o código](https://youtu.be/To32I8UPkkc)
+* [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)
+* [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE)
 
 Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
 
