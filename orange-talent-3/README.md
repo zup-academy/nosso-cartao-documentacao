@@ -71,7 +71,7 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
 | [Curso - JPA e Hibernate](https://www.alura.com.br/curso-online-jpa-hibernate-persistencia-objetos) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
-| [Clique aqui fazer o exercício de resolução de problema]() |
+| [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeNnZo7EEdsenPSK3UxD2KwEdbKR3g7MzvEuLYemrBmnFHuGA/viewform) |
 
 | Spring Boot 1 |
 | --- |
