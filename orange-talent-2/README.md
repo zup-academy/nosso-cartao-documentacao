@@ -266,7 +266,7 @@ Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem J
 | Kotlin: Desenvolva com coleções, arrays e listas |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUUxUDVKMElFSkc1WE9aNE9JUzJWQUpZVS4u) |
-| [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety) |
+| [Kotlin: Desenvolva com coleções, arrays e listas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUOUUxUDVKMElFSkc1WE9aNE9JUzJWQUpZVS4u) |
 | [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJUNTZNME5WV1UwRzNGOEsyUUZZTDJEVE1aSy4u) |
 
