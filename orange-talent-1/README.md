@@ -305,7 +305,7 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 * [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)
 * [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8)
 * [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)
-* [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/8jwk3vLq-aY)
+* [Mapeando queries explicitamente no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/8jwk3vLq-aY)
 * [Recebendo dados via PUT: explicação sobre o código pronto](https://youtu.be/awdppj2o7J0)
 * [Recebendo dados via PUT: explicação enquanto constrói o código](https://youtu.be/Jvl5RcrqJRc)
 * [Recebendo dados via DELETE: explicação sobre o código pronto](https://youtu.be/plojIuEWIPM)
