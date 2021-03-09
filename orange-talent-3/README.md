@@ -92,21 +92,21 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) |
 | [Curso - Spring Boot 3](https://www.alura.com.br/curso-online-spring-boot-profiles-testes-deploy) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) |
-| [Clique aqui fazer o exercício de resolução de problema]() |
+| [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSfrfYGzHj8hXZvRJGONRXqFCHSU6KQwe0i86rrRQtfuXSuWVA/viewform) |
 
 | Spring Data JPA |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
 | [Curso - Spring Data Jpa](https://www.alura.com.br/curso-online-spring-data-jpa) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
-| [Clique aqui fazer o exercício de resolução de problema]() |
+| [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeoVYhY5Ee09-Y7ZeAJyJj6YgfHHhx3kMJxSixSYooZLLqmgQ/viewform) |
 
 | SOLID |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) |
 | [Curso - SOLID](https://cursos.alura.com.br/course/orientacao-a-objetos-avancada-e-principios-solid) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) |
-| [Clique aqui fazer o exercício de resolução de problema]() |
+| [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/AZhpK5SX9a2ae8qe7) |
 
 Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. Você vai construir dois projetos do zero. Nessa fase é importante que você vá se analisando e prestando muita atenção em relação ao nível de facilidade de cada funcionalidade construída. **Tem que ir ficando mais fácil**. Se não estiver ficando fácil, fique alerta, talvez você precise de ajuda. **Agora você entra na fase três do nosso bootcamp.**
 
