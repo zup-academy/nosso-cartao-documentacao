@@ -78,14 +78,14 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/aFFsKwaU6fVm3wa68) |
 | [Curso - Spring Boot 1](https://www.alura.com.br/curso-online-spring-boot-api-rest) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/aFFsKwaU6fVm3wa68) |
-| [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/a4B4GBm3JCMg2QWX9) |
+| [Clique aqui fazer o exercício de resolução de problema]() |
 
 | Spring Boot 2 |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/eErweMN3xxA3AMjt5) |
 | [Curso - Spring Boot 2](https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/eErweMN3xxA3AMjt5) |
-| [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/8GmLmeYx9aQjKW3v5) |
+| [Clique aqui fazer o exercício de resolução de problema]() |
 
 | Spring Boot 3 |
 | --- |
