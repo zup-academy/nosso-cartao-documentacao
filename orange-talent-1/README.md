@@ -316,6 +316,12 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 * [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc)
 * [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)
 * [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg)
+* [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação sobre o código pronto](https://www.youtube.com/watch?v=9nPRHbToxAc&feature=youtu.be)
+* [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação enquanto constrói o código](https://www.youtube.com/watch?v=jAqA_R9gV_M&feature=youtu.be)
+* [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação sobre o código pronto](https://www.youtube.com/watch?v=4MG_H-lKydI&feature=youtu.be)
+* [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação enquanto constrói o código](https://www.youtube.com/watch?v=b71YTGU0_4E&feature=youtu.be)
+* [Implementando Validação customizada com Micronaut Validation: explicação sobre o código pronto](https://www.youtube.com/watch?v=UCHFApcJVW0&feature=youtu.be)
+* [Implementando Validação customizada com Micronaut Validation: explicação enquanto constrói o código](https://www.youtube.com/watch?v=x7P4nR7glgk&feature=youtu.be)
 
 O conteúdo que você acabou de consumir foi bem focado no módulo HTTP do Micronaut. Basicamente o que você precisa para construir uma aplicação com Micronaut que vai se comunicar primordialmente via tal protocolo. Agora vamos direcionar nossa atenção para o módulo de GRPC do Micronaut :). 
 
