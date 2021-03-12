@@ -85,7 +85,7 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/x1fep4xGm22kRw3m8) |
 | [Curso - Spring Boot 2](https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/eErweMN3xxA3AMjt5) |
-| [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/x1fep4xGm22kRw3m8) |
+| [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/DqJDioq6pHBbLdic9) |
 
 | Spring Boot 3 |
 | --- |
