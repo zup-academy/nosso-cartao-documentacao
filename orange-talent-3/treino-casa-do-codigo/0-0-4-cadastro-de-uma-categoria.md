@@ -18,7 +18,7 @@ Esta é uma feature bem parecida com a de cadastro de autor. Tente implementar i
 
 ### Antes de começar
 
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/fxHRjiS1KEHJAd5Z8)
 
 ### Informações de suporte geral
 
