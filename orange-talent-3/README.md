@@ -73,31 +73,31 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
 | [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeNnZo7EEdsenPSK3UxD2KwEdbKR3g7MzvEuLYemrBmnFHuGA/viewform) |
 
-| Spring Boot 1 |
+| Spring Boot API REST: Construa uma API |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/aFFsKwaU6fVm3wa68) |
 | [Curso - Spring Boot API REST: Construa uma API](https://www.alura.com.br/curso-online-spring-boot-api-rest) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/aFFsKwaU6fVm3wa68) |
 | [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/wk9yBa2yLkZjmRgSA) |
 
-| Spring Boot 2 |
+| Spring Boot API Rest: Segurança da API, Cache e Monitoramento |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/x1fep4xGm22kRw3m8) |
 | [Curso - Spring Boot API Rest: Segurança da API, Cache e Monitoramento](https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/eErweMN3xxA3AMjt5) |
 | [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/DqJDioq6pHBbLdic9) |
 
-| Spring Boot 3 |
+| Spring Boot e Teste: Profiles, Testes e Deploy |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) |
 | [Curso - Spring Boot e Teste: Profiles, Testes e Deploy](https://www.alura.com.br/curso-online-spring-boot-profiles-testes-deploy) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) |
 | [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSfrfYGzHj8hXZvRJGONRXqFCHSU6KQwe0i86rrRQtfuXSuWVA/viewform) |
 
-| Spring Data JPA |
+| Spring Data JPA: Repositórios, Consultas, Projeções e Specifcations |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
-| [Curso - Spring Data Jpa](https://www.alura.com.br/curso-online-spring-data-jpa) |
+| [Curso - Spring Data JPA: Repositórios, Consultas, Projeções e Specifcations](https://www.alura.com.br/curso-online-spring-data-jpa) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
 | [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeoVYhY5Ee09-Y7ZeAJyJj6YgfHHhx3kMJxSixSYooZLLqmgQ/viewform) |
 
