@@ -66,10 +66,10 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) |
 | [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/aBzxxKDTDvYEPHSe8) |
 
-| JPA e Hibernate | 
+| Java e JPA: Persista seus objetos com a JPA2 e Hibernate | 
 | --- | 
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
-| [Curso - JPA e Hibernate](https://www.alura.com.br/curso-online-jpa-hibernate-persistencia-objetos) |
+| [Curso - Java e JPA: Persista seus objetos com a JPA2 e Hibernate](https://www.alura.com.br/curso-online-jpa-hibernate-persistencia-objetos) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
 | [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeNnZo7EEdsenPSK3UxD2KwEdbKR3g7MzvEuLYemrBmnFHuGA/viewform) |
 
@@ -101,10 +101,10 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
 | [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeoVYhY5Ee09-Y7ZeAJyJj6YgfHHhx3kMJxSixSYooZLLqmgQ/viewform) |
 
-| SOLID |
+| SOLID com Java: Orientação a Objetos com Java |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) |
-| [Curso - SOLID](https://cursos.alura.com.br/course/orientacao-a-objetos-avancada-e-principios-solid) |
+| [Curso - SOLID com Java: Orientação a Objetos com Java](https://cursos.alura.com.br/course/orientacao-a-objetos-avancada-e-principios-solid) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) |
 | [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/AZhpK5SX9a2ae8qe7) |
 
