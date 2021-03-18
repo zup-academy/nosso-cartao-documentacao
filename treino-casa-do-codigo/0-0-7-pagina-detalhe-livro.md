@@ -16,6 +16,9 @@ Precisamos criar uma página com as mesmas informações que encontramos na pág
 
 *   que o front possa montar a página
 
+### **Antes de começar**
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/rmxDXAT6MBbYvVRD9)
+
 ### **sobre a utilização do material de suporte aqui**
 
 Esta é uma feature que reutiliza as habilidades trabalhadas até aqui. Tente implementar sem o uso do material de suporte. 
@@ -30,3 +33,6 @@ Esta é uma feature que reutiliza as habilidades trabalhadas até aqui. Tente im
 ### informações de suporte para a combinação Java/Kotlin + Spring
 
 1.  [Aqui](https://youtu.be/CWe1yokaPf4) tem algumas formas de você gerar um status code
+
+### **Depois de finalizar**
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/caz88MtyyS3VGzu8A)
