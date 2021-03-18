@@ -37,6 +37,10 @@ Os seguintes campos precisam ser preenchidos:
 
 *   Compra parcialmente gerada, mas ainda não gravada no banco de dados. Falta os dados do pedido em si que vão ser trabalhados no próximo cartão.
 
+### **Antes de começar**
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/LNA8JjsrV5uHhUmK8)
+
+
 ### **sobre a utilização do material de suporte aqui**
 
 Este começo de fechamento de compra envolve muitos passos. Decidimos começar pegando apenas os dados do formulário relativo a pessoa que está comprando. Este é um formulário um pouco mais desafiador, já que possuímos algumas validações customizadas que precisam ser feitas. Não tem nada que você não tenha trabalhado até aqui, mas é mais uma chance de você treinar sua habilidade para conhecer mais das tecnologias e colocar em prática alguns dos pilares que vem nos norteando. ​
@@ -51,3 +55,6 @@ Este começo de fechamento de compra envolve muitos passos. Decidimos começar p
 6.  [Favorecemos a coesão através do encapsulamento](https://youtu.be/HGcQlsynTuM). Como você planeja validar se o documento é válido?
 7.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
 9.  [Como Alberto faria esse código?](https://youtu.be/Oba10gpoyKQ)
+
+### **Depois de finalizar**
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/C4FfNjy2QqvDJLP56)
