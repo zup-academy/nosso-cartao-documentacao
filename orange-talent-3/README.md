@@ -94,7 +94,7 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) |
 | [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSfrfYGzHj8hXZvRJGONRXqFCHSU6KQwe0i86rrRQtfuXSuWVA/viewform) |
 
-| Spring Data JPA: Repositórios, Consultas, Projeções e Specifcations |
+| Spring Data JPA: Repositórios, Consultas, Projeções e Specifications |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
 | [Curso - Spring Data JPA: Repositórios, Consultas, Projeções e Specifcations](https://www.alura.com.br/curso-online-spring-data-jpa) |
