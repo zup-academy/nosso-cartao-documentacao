@@ -128,7 +128,7 @@ Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWQSrbj2jsIJSxpJun3UNdPlcP7BJ7kjYY26P1jjdgV0ulOQ/viewform) |
 | [Testes de integração](https://www.alura.com.br/curso-online-teste-de-integracao) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWQSrbj2jsIJSxpJun3UNdPlcP7BJ7kjYY26P1jjdgV0ulOQ/viewform) |
-| [Clique aqui fazer o exercício de resolução de problema]() |
+| [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSdDf7Mq-jBVkUJCU96464MGt-1Af5Z9yD4J4VveaW9P9XSeMg/viewform) |
  
 
  * [Conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs). 
