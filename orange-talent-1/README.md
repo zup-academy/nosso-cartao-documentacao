@@ -343,7 +343,13 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
 * [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)
 * [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE)
 
-Você já sabe como utilizar o Micronaut e o gRPC para criar aplicações de alta performance. Vamos ver como conseguimos realizar o deploy dessas aplicações em um provedor de cloud. No caso, vamos utilizar a AWS:
+Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
+
+[Construa um sistema distribuído que simule o funcionamento do PIX](https://github.com/zup-academy/orange-stack-documentacao/tree/master/desafio-01/01-key-manager#desafio-pix)
+
+Nesse momento você já deve estar sentindo mais apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC. 
+
+E o deploy? Como você vai levar sua aplicação da sua máquina para ficar exposta para ser consumida pelo mundo? Vamos agora mergulhar na teoria de deploy utilizando a nuvem da AWS. 
 
 * [Codebuild: O que é?](https://youtu.be/ESetAFRhn5M)
 * [Codebuild: Buildspec.yaml](https://youtu.be/8JXAwykjp-Q)
@@ -375,7 +381,7 @@ Você já sabe como utilizar o Micronaut e o gRPC para criar aplicações de alt
 * [Explicação sobre o exemplo já implementado](https://youtu.be/9raXC_eTec8)
 * [Explicação enquanto implementa o exemplo](https://youtu.be/UfCPMRV9J-c)
 
-Achamos que você também possa tirar proveito desses conteúdos:
+Você também deve consumir os conteúdos sobre Gitlab, que é uma ferramenta também utilizada dentro da Zup.
 
 * [Conhecendo o Gitlab](https://youtu.be/jpZxIalh9Ig)
 * [Explicação durante criação de projetos no Gitlab](https://youtu.be/JNH2DlUllVw)
@@ -384,12 +390,6 @@ Achamos que você também possa tirar proveito desses conteúdos:
 * [Mirroring gitlab x codecommit explicação sobre exemplo construído](https://youtu.be/pBeF59rrCg8)
 * [Mirroring gitlab x codecommit explicação sobre exemplo enquanto constrói](https://youtu.be/9UtuOfHIlsA)
 
-
-Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
-
-[Construa um sistema distribuído que simule o funcionamento do PIX](https://github.com/zup-academy/orange-stack-documentacao/tree/master/desafio-01/01-key-manager#desafio-pix)
-
-Nesse momento você já deve estar sentindo apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC. 
 
 
 ## Cronograma para executar todas as atividades
