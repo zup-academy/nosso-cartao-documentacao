@@ -121,14 +121,14 @@ Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSce-T1V3xVS6JzGG71PJ5_uqTjAawV26JVn5gx6mq8DSbl8AA/viewform) |
 | [Introdução a testes automatizados](https://www.alura.com.br/curso-online-tdd) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSce-T1V3xVS6JzGG71PJ5_uqTjAawV26JVn5gx6mq8DSbl8AA/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui fazer o exercício de resolução de problema]() |
 
 | Testes de integração |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWQSrbj2jsIJSxpJun3UNdPlcP7BJ7kjYY26P1jjdgV0ulOQ/viewform) |
 | [Testes de integração](https://www.alura.com.br/curso-online-teste-de-integracao) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWQSrbj2jsIJSxpJun3UNdPlcP7BJ7kjYY26P1jjdgV0ulOQ/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui fazer o exercício de resolução de problema]() |
  
 
  * [Conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs). 
