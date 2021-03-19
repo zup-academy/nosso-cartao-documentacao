@@ -343,6 +343,37 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
 * [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)
 * [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE)
 
+Você já sabe como utilizar o Micronaut e o gRPC para criar aplicações de alta performance. Vamos ver como conseguimos realizar o deploy dessas aplicações em um provedor de cloud. No caso, vamos utilizar a AWS:
+
+* [Codebuild: O que é?](https://youtu.be/ESetAFRhn5M)
+* [Codebuild: Buildspec.yaml](https://youtu.be/8JXAwykjp-Q)
+* [Codebuild: Criando projeto](https://youtu.be/IswwVdJREHI)
+* [Codebuild: Explicando a criação do projeto](https://youtu.be/iTkDmOhxIvo)
+* [Codedeploy: O que é?](https://youtu.be/8AXCIi_Wryo)
+* [Codedeploy: App Spec](https://youtu.be/lvBxrlSk8fc)
+* [Codedeploy: Criando explicação](https://youtu.be/6iuLxEqOeis)
+* [Codedeploy: Explicando a criação](https://youtu.be/fjgLeINXctI)
+* [Codedeploy: Custo](https://youtu.be/Hk2Sf1w3crI)
+* [Codepipeline: O que é?](https://youtu.be/YWXsdLvn-lg)
+* [ECR: O que é?](https://youtu.be/J9RCWLFbd2Q)
+* [ECR: Navegando na interface](https://youtu.be/ekJ6Wn8pMEY)
+* [ECR: Explicando e conhecendo a interface](https://youtu.be/wy0KiEc1t8g)
+* [Criando um Pipeline - Apresentação projeto](https://youtu.be/C3TAITn8f8k)
+* [Criando um Pipeline - O código utilizado](https://youtu.be/HTpPYAx4fBM)
+* [Criando um Pipeline - Explicando o código utilizado](https://youtu.be/HL3n5at_hoU)
+* [Criando um Pipeline - Roles](https://youtu.be/d5L7UiI6ufk)
+* [Criando um Pipeline - Explicação das roles](https://youtu.be/Vat5ZsW7vpM)
+* [Criando um Pipeline - EC2](https://youtu.be/5I3vN1aVKOo)
+* [Criando um Pipeline - Explicação EC2](https://youtu.be/AujNP1aa-Q0)
+* [Criando um Pipeline - Codebuild](https://youtu.be/nlBcZ9gzpXw)
+* [Criando um Pipeline - Explicação Codebuild](https://youtu.be/LwQlkX0QZMU)
+* [Criando um Pipeline - Codedeploy](https://youtu.be/ka1wflga_zA)
+* [Criando um Pipeline - Explicação Codedeploy](https://youtu.be/WQ3ODnh_cOA)
+* [Criando um Pipeline - Codepipeline](https://youtu.be/v-2abHknrPo)
+* [Criando um Pipeline - Explicação Codepipeline](https://youtu.be/3uEzsa0llWo)
+* [Apresentando Helm](https://youtu.be/6uoUNcM_JoY)
+* [Explicação sobre o exemplo já implementado](https://youtu.be/9raXC_eTec8)
+* [Explicação enquanto implementa o exemplo](https://youtu.be/UfCPMRV9J-c)
 
 Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
 
