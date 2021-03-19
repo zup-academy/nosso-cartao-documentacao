@@ -45,7 +45,7 @@ Este começo de fechamento de compra envolve muitos passos. Decidimos começar p
 
 ### Antes de começar
 
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/NrwJ7bqqq3ZNbqh36)
 
 ### **Informações de suporte para a feature**
 
@@ -59,4 +59,4 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
     
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/beXvFuHAwU3GnuMT6)
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/WGYnzTSN7gr9Zfo9A)
