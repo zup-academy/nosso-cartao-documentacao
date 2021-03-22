@@ -10,7 +10,7 @@
 
 ### Antes de começar
 
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/CsLKcN3rGYY9oT5v7)
 
 ### **Informações de suporte geral**
 
@@ -28,4 +28,4 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 4.  [Como criar um @RestControllerAdvice para customizar o json de saída com erros de validação](https://youtu.be/H6aM-4RaRrE)
 
 ### Depois de finalizar
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/CX8L1j1KRwaSzXZP7)
