@@ -5,3 +5,7 @@
 Você treinar escrever muito teste para que as técnicas e ferramentas fiquem dominadas. Dessa forma você vai estar deixando mais fácil fazer o teste valer a pena. 
 
 Lembre, quando o software vai ter teste automatizado uma aposta está sendo feita: Aumento de confiabilidade ao custo de velocidade. Não existe vitória para os dois lados e não se pode afirmar que escrever testes aumenta a qualidade do código final. Então você precisa ficar um ninja para maximizar a chance de estar fazendo a aposta certa. 
+
+#Depois de finalizar 
+
+Antes de passar para o próximo desafio, envie sua resposta de solução acessando [este formulário](https://forms.gle/4dpAjzYF2J7iCJT9A)
