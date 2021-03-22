@@ -1,7 +1,7 @@
 # Trabalhando com o usuário logado (vai impactar no resto do código) 
 
 ### Antes de começar
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/rx5cNhg5yXwFCBAf7)
 
 ### Problema
 
@@ -16,4 +16,4 @@ Em todo trecho de código que precisar do usuário logado, na primeira linha do 
 Depois, se você quiser, é só habilitar o projeto de segurança, receber o usuário como argumento do método e apagar essa linha... Tudo deveria funcionar normalmente.
 
 ### Depois de finalizar
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/QDNTTALDcUSV3hM59)
