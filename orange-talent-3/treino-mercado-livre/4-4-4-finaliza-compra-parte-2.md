@@ -34,7 +34,7 @@ Temos alguns passos aqui.
 *   Uma compra não pode ter mais de duas transações concluídas com sucesso associada a ela.
 
 ### Antes de começar
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/j6XtD48eEAFCi7rW7)
 
 ### Desafio extra 1
 
@@ -67,5 +67,5 @@ Passou pela primeira parte do fechamento da compra? Agora é ainda mais desafiad
 
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/nX3FjSe2BbDKbNft6)
 
