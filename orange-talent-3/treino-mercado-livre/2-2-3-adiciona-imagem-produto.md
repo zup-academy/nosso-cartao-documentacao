@@ -20,7 +20,7 @@ Com um produto cadastrado, um usuário logado pode adicionar imagens ao seu prod
 *   Caso tente adicionar imagens a um produto que não é seu retorne 403.
 
 ### Antes de começar
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/cmNZnUGtrfFAGnhu7)
+Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/wf8Gk2mp22Hd1MCQA)
 
 ### Desafio extra
 
@@ -53,5 +53,5 @@ Como você faria para que em dev a imagem virasse um link fictício e em produç
 
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/zZBo1qpQioTUf5FK6)
+Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/7Ur27NGnzjQpdzGN9)
 
