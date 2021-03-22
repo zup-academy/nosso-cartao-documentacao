@@ -286,6 +286,8 @@ Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem J
 | [Clique aqui para fazer o resumo do curso](https://forms.office.com/Pages/ResponsePage.aspx?id=N_g5dr5kZ0-40jxfQKJQe2u031d_ktJOmocsbZbiesJURFRYVU9LT1FGMUU2N0FRUlJIUFlGRU9BQy4u) |
 
 
+#### Micronaut
+
 Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :).
 
 Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação prática em dois vídeos semelhantes. O primeiro vídeo apresenta o assunto em cima de um exemplo já pronto, enquanto que o segundo apresenta o mesmo assunto construindo o exemplo junto. Nossa intenção é facilitar seu entendimento, fornecendo duas explicacões sobre o mesmo assunto em formatos diferentes. 
@@ -325,6 +327,8 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 
 O conteúdo que você acabou de consumir foi bem focado no módulo HTTP do Micronaut. Basicamente o que você precisa para construir uma aplicação com Micronaut que vai se comunicar primordialmente via tal protocolo. Agora vamos direcionar nossa atenção para o módulo de GRPC do Micronaut :). 
 
+#### gRPC
+
 O GRPC é a tentativa de aumentar a performance na comunicação entre os serviços numa arquitetura distribuída, por exemplo com Microsserviços. Nos próximos vídeos você ter acesso a bastante conhecimento sobre essa forma de comunicação e como o Micronaut facilita isso para você. 
 
 * [O que é GRPC e a motivação do seu uso](https://www.youtube.com/watch?v=OACwm4CYX2M&feature=youtu.be)
@@ -348,6 +352,8 @@ Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Ora
 [Construa um sistema distribuído que simule o funcionamento do PIX](https://github.com/zup-academy/orange-stack-documentacao/tree/master/desafio-01/01-key-manager#desafio-pix)
 
 Nesse momento você já deve estar sentindo mais apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC. 
+
+#### Deploy
 
 E o deploy? Como você vai levar sua aplicação da sua máquina para ficar exposta para ser consumida pelo mundo? Vamos agora mergulhar na teoria de deploy utilizando a nuvem da AWS. 
 
@@ -389,7 +395,6 @@ Você também deve consumir os conteúdos sobre Gitlab, que é uma ferramenta ta
 * [Explicação de criação de um repositório no codecommit](https://youtu.be/HuB5aSPk5HI)
 * [Mirroring gitlab x codecommit explicação sobre exemplo construído](https://youtu.be/pBeF59rrCg8)
 * [Mirroring gitlab x codecommit explicação sobre exemplo enquanto constrói](https://youtu.be/9UtuOfHIlsA)
-
 
 
 ## Cronograma para executar todas as atividades
