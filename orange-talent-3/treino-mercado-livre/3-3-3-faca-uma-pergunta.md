@@ -19,7 +19,7 @@ Um usuário logado pode fazer uma pergunta sobre o produto
 
 ### Resultado esperado
 
-*   Uma nova pergunta é criada e a lista de perguntas, com a nova pergunta adicionada, é retornada. Status 200
+*   Uma nova pergunta é criada e é retornada. Status 200
 *   Em caso de erro de validação, retorne 400 e o json com erros.
 
 ### Antes de começar
