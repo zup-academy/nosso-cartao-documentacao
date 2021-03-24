@@ -15,12 +15,12 @@ Então essa é a parte 1 do processo de finalização de compra. Onde apenas ger
 *   A pessoa pode escolher a quantidade de itens daquele produto que ela quer comprar
 *   O estoque do produto é abatido 
 *   Um email é enviado para a pessoa que é dona(o) do produto informando que um usuário realmente disse que queria comprar seu produto.
-*   Uma compra é gerada informando o status INICIADA e com as seguintes informações:
-  *   gateway escolhido para pagamento
-  *   produto escolhido
-  *   quantidade
-  *   comprador(a)
-  *   Valor do produto naquele momento
+* Uma compra é gerada informando o status INICIADA e com as seguintes informações:
+  * gateway escolhido para pagamento
+  * produto escolhido
+  * quantidade
+  * comprador(a)
+  * Valor do produto naquele momento
 *   Suponha que o cliente pode escolher entre pagar com o Paypal ou Pagseguro.
 
 ### Restrições
