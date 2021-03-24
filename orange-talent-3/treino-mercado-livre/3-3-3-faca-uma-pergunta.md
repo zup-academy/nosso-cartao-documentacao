@@ -8,7 +8,7 @@ Um usuário logado pode fazer uma pergunta sobre o produto
 *   Tem instante de criação
 *   O usuário que fez a pergunta
 *   O produto relacionado a pergunta
-*   O vendedor recebe um email com a pergunta nova e o link para a página de visualização do produto(ainda vai existir)
+*   O vendedor recebe um email com a pergunta nova
 *   o email não precisa ser de verdade. Pode ser apenas um print no console do servidor com o corpo.
 
 ### Restrições
