@@ -32,7 +32,7 @@ Então essa é a parte 1 do processo de finalização de compra. Onde apenas ger
 ### **Resultado esperado**
 
 *   Caso a pessoa escolha o paypal seu endpoint deve gerar o seguinte redirect(302):
-    *   Retorne o endereço da seguinte maneira: paypal.com/{idGeradoDaCompra}?redirectUrl={urlRetornoAppPosPagamento}
+    *   Retorne o endereço da seguinte maneira: paypal.com?buyerId={idGeradoDaCompra}&redirectUrl={urlRetornoAppPosPagamento}
 *   Caso a pessoa escolha o pagseguro o seu endpoint deve gerar o seguinte redirect(302):
     *   Retorne o endereço da seguinte maneira: pagseguro.com?returnId={idGeradoDaCompra}&redirectUrl={urlRetornoAppPosPagamento}
 *   Caso aconteça alguma restrição retorne um status 400 informando os problemas. 
