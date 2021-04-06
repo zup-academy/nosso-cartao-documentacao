@@ -148,7 +148,7 @@ Importante lembrar que não é esperado que você acabe essa fase da leitura já
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) |
 | [Introdução a Docker](https://www.alura.com.br/curso-online-docker-e-docker-compose) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
+| [Clique aqui para o exercício de resolução de problema](https://forms.gle/GJ4rXr31KVg2p7289) |
 
 * [Healthcheck](../informacao_procedural/healthcheck.md);
 * [Readiness checks](../informacao_procedural/readiness_checks.md);
