@@ -34,4 +34,4 @@ esteja viva. Esse [link](https://kubernetes.io/docs/tasks/configure-pod-containe
 - Este padrão é bastante comum na arquitetura de Microsserviços, se você deseja ver uma descrição
 detalhada, esse [link](https://microservices.io/patterns/observability/health-check-api.html) é uma boa opção.
 
-
+Agora que você passou por todo conteúdo acima, você precisará fazer um exercício de resolução de problema. [Clique aqui e escreva sua resposta](https://forms.gle/K7GmxYcDNSooyRpUA)
