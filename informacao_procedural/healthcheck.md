@@ -20,7 +20,7 @@ Entretanto, se nossa aplicação é uma aplicação de processamento em lote ou 
 funcionalidade via linha de comando, seguindo os mesmo princípios, ou seja, validando
 conexões externas da nossas aplicações.
 
-## Dicas de Claudio Eduardo Oliveira
+## Dicas
 
 - Incorpore esse padrão nos seus serviços, de maneira que todo serviço seja produzido já implementando esse padrão.
 
