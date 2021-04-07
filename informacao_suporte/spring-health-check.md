@@ -85,3 +85,5 @@ Para testar, basta abrir seu navegador e chamar o endereço `http://localhost:80
 Gostaria de saber mais sobre Health Check no Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#writing-custom-healthindicators)
 
 Gostaria de saber sobre os Health Checks implementados pelo Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-health-indicators)
+
+Agora que você passou por todo conteúdo acima, você precisará fazer um exercício de resolução de problema. [Clique aqui e escreva sua resposta](https://forms.gle/kod88fAdNXH7NkiKA)
