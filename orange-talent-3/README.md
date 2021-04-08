@@ -119,14 +119,14 @@ Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
 | Introdução a testes automatizados |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSce-T1V3xVS6JzGG71PJ5_uqTjAawV26JVn5gx6mq8DSbl8AA/viewform) |
-| [Introdução a testes automatizados](https://cursos.alura.com.br/course/tdd) |
+| [Java e Testes: Test Driven Development com Junit](https://cursos.alura.com.br/course/tdd) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSce-T1V3xVS6JzGG71PJ5_uqTjAawV26JVn5gx6mq8DSbl8AA/viewform) |
 | [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSdDf7Mq-jBVkUJCU96464MGt-1Af5Z9yD4J4VveaW9P9XSeMg/viewform) |
 
 | Testes de integração |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWQSrbj2jsIJSxpJun3UNdPlcP7BJ7kjYY26P1jjdgV0ulOQ/viewform) |
-| [Testes de integração](https://cursos.alura.com.br/course/teste-de-integracao) |
+| [Teste de Integração: Testes SQL e DAOs automatizados em Java](https://cursos.alura.com.br/course/teste-de-integracao) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWQSrbj2jsIJSxpJun3UNdPlcP7BJ7kjYY26P1jjdgV0ulOQ/viewform) |
 | [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSfuzTJIal73B_WA3cfrP004jPRCUwaiz4lo0DZ8sLIey6fS5A/viewform) |
  
