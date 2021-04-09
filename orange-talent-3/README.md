@@ -321,6 +321,10 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 * [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação enquanto constrói o código](https://www.youtube.com/watch?v=b71YTGU0_4E&feature=youtu.be)
 * [Implementando Validação customizada com Micronaut Validation: explicação sobre o código pronto](https://www.youtube.com/watch?v=UCHFApcJVW0&feature=youtu.be)
 * [Implementando Validação customizada com Micronaut Validation: explicação enquanto constrói o código](https://www.youtube.com/watch?v=x7P4nR7glgk&feature=youtu.be)
+* [Micronaut Testing - como testar uma API REST: explicação sobre o código pronto](https://www.youtube.com/watch?v=eTA32xkQiLI)
+* [Micronaut Testing - como testar uma API REST: explicação enquanto constrói o código](https://www.youtube.com/watch?v=4Qh3UZtVH9U)
+* [Micronaut Testing - como criar mocks com Micronaut: explicação sobre o código pronto](https://www.youtube.com/watch?v=2bx1cgZEZuw)
+* [Micronaut Testing - como criar mocks com Micronaut: explicação enquanto constrói o código](https://www.youtube.com/watch?v=IR0Y_b-1VqM)
 
 O conteúdo que você acabou de consumir foi bem focado no módulo HTTP do Micronaut. Basicamente o que você precisa para construir uma aplicação com Micronaut que vai se comunicar primordialmente via tal protocolo. Agora vamos direcionar nossa atenção para o módulo de GRPC do Micronaut :). 
 
