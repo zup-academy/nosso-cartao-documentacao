@@ -69,7 +69,7 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | Java e JPA: Persista seus objetos com a JPA2 e Hibernate | 
 | --- | 
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
-| [Curso - Java e JPA: Persista seus objetos com a JPA2 e Hibernate](https://www.alura.com.br/curso-online-jpa-hibernate-persistencia-objetos) |
+| [Curso - Java e JPA: Persista seus objetos com a JPA2 e Hibernate](https://cursos.alura.com.br/course/jpa-hibernate-persistencia-objetos) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
 | [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeNnZo7EEdsenPSK3UxD2KwEdbKR3g7MzvEuLYemrBmnFHuGA/viewform) |
 
