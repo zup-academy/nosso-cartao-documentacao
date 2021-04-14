@@ -345,6 +345,8 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
 * [Healthcheck sobre HTTP: explicação enquanto constrói o código](https://youtu.be/To32I8UPkkc)
 * [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)
 * [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE)
+* [Micronaut Testing: como testar uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=MJaXYdvUZiM&feature=youtu.be)
+* [Micronaut Testing: como testar uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=mq3UYOQ9FqE)
 
 Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
 
