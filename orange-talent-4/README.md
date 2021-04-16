@@ -352,7 +352,52 @@ Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Ora
 
 [Construa um sistema distribuído que simule o funcionamento do PIX](https://github.com/zup-academy/orange-stack-documentacao/tree/master/desafio-01/01-key-manager#desafio-pix)
 
-Nesse momento você já deve estar sentindo apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC. 
+Nesse momento você já deve estar sentindo apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC.
+
+#### Deploy
+
+E o deploy? Como você vai levar sua aplicação da sua máquina para ficar exposta para ser consumida pelo mundo? Vamos agora mergulhar na teoria de deploy utilizando a nuvem da AWS. 
+
+* [Kubernetes: Pods, Services e ConfigMaps](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap)
+* [Kubernetes: Deployments, Volumes e Escalabilidade](https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade)
+* [Codebuild: O que é?](https://youtu.be/ESetAFRhn5M)
+* [Codebuild: Buildspec.yaml](https://youtu.be/8JXAwykjp-Q)
+* [Codebuild: Criando projeto](https://youtu.be/IswwVdJREHI)
+* [Codebuild: Explicando a criação do projeto](https://youtu.be/iTkDmOhxIvo)
+* [Codedeploy: O que é?](https://youtu.be/8AXCIi_Wryo)
+* [Codedeploy: App Spec](https://youtu.be/lvBxrlSk8fc)
+* [Codedeploy: Criando explicação](https://youtu.be/6iuLxEqOeis)
+* [Codedeploy: Explicando a criação](https://youtu.be/fjgLeINXctI)
+* [Codedeploy: Custo](https://youtu.be/Hk2Sf1w3crI)
+* [Codepipeline: O que é?](https://youtu.be/YWXsdLvn-lg)
+* [ECR: O que é?](https://youtu.be/J9RCWLFbd2Q)
+* [ECR: Navegando na interface](https://youtu.be/ekJ6Wn8pMEY)
+* [ECR: Explicando e conhecendo a interface](https://youtu.be/wy0KiEc1t8g)
+* [Criando um Pipeline - Apresentação projeto](https://youtu.be/C3TAITn8f8k)
+* [Criando um Pipeline - O código utilizado](https://youtu.be/HTpPYAx4fBM)
+* [Criando um Pipeline - Explicando o código utilizado](https://youtu.be/HL3n5at_hoU)
+* [Criando um Pipeline - Roles](https://youtu.be/d5L7UiI6ufk)
+* [Criando um Pipeline - Explicação das roles](https://youtu.be/Vat5ZsW7vpM)
+* [Criando um Pipeline - EC2](https://youtu.be/5I3vN1aVKOo)
+* [Criando um Pipeline - Explicação EC2](https://youtu.be/AujNP1aa-Q0)
+* [Criando um Pipeline - Codebuild](https://youtu.be/nlBcZ9gzpXw)
+* [Criando um Pipeline - Explicação Codebuild](https://youtu.be/LwQlkX0QZMU)
+* [Criando um Pipeline - Codedeploy](https://youtu.be/ka1wflga_zA)
+* [Criando um Pipeline - Explicação Codedeploy](https://youtu.be/WQ3ODnh_cOA)
+* [Criando um Pipeline - Codepipeline](https://youtu.be/v-2abHknrPo)
+* [Criando um Pipeline - Explicação Codepipeline](https://youtu.be/3uEzsa0llWo)
+* [Apresentando Helm](https://youtu.be/6uoUNcM_JoY)
+* [Explicação sobre o exemplo já implementado](https://youtu.be/9raXC_eTec8)
+* [Explicação enquanto implementa o exemplo](https://youtu.be/UfCPMRV9J-c)
+
+Você também deve consumir os conteúdos sobre Gitlab, que é uma ferramenta também utilizada dentro da Zup.
+
+* [Conhecendo o Gitlab](https://youtu.be/jpZxIalh9Ig)
+* [Explicação durante criação de projetos no Gitlab](https://youtu.be/JNH2DlUllVw)
+* [O que é codecommit](https://youtu.be/jePOj3EyA_I)
+* [Explicação de criação de um repositório no codecommit](https://youtu.be/HuB5aSPk5HI)
+* [Mirroring gitlab x codecommit explicação sobre exemplo construído](https://youtu.be/pBeF59rrCg8)
+* [Mirroring gitlab x codecommit explicação sobre exemplo enquanto constrói](https://youtu.be/9UtuOfHIlsA)
 
 ## Cronograma para executar todas as atividades
 
