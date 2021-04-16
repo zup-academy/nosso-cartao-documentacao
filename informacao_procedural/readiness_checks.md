@@ -1,5 +1,7 @@
 # Readiness Check ou Liveness Check
 
+## Antes de começar 
+Por favor [clique aqui](https://forms.gle/TptHJ4SCiyF68wNx9) e responda o formulário antes de inciar o conteúdo
 
 Nossas aplicações normalmente rodam em um ambiente gerenciado, ou seja uma plataforma que é capaz de detectar se alguma coisa não está
 funcionando conforme o esperado, um _crash_ de aplicação ou carga demasiada.
@@ -35,3 +37,7 @@ suas regras de _alta-disponibilidade_ e _auto-scaling_
 esteja apta receber fluxo de trabalho. Esse [link](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) vai resolver o seu problema.
 
 - Se você usa o Spring e quer saber como o framework suporta readiness check [acesse aqui!!!](https://spring.io/blog/2020/03/25/liveness-and-readiness-probes-with-spring-boot)
+
+## Depois de finalizar 
+Agora que você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui](https://forms.gle/TptHJ4SCiyF68wNx9)
+
