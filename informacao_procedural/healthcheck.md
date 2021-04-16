@@ -1,3 +1,6 @@
+#Antes de começar
+Por favor [clique aqui](https://forms.gle/rrvPVyjEZ5ooCP4u9) e responda o formulário antes de inciar o conteúdo
+
 # Porque Health Check?
 
 Uma característica bastante importante que sua aplicação deve implementar é o **Health Check**.
@@ -34,4 +37,6 @@ esteja viva. Esse [link](https://kubernetes.io/docs/tasks/configure-pod-containe
 - Este padrão é bastante comum na arquitetura de Microsserviços, se você deseja ver uma descrição
 detalhada, esse [link](https://microservices.io/patterns/observability/health-check-api.html) é uma boa opção.
 
-Agora que você passou por todo conteúdo acima, você precisará fazer um exercício de resolução de problema. [Clique aqui e escreva sua resposta](https://forms.gle/K7GmxYcDNSooyRpUA)
+Agora que você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui](https://forms.gle/rrvPVyjEZ5ooCP4u9)
+
+E agora, precisará fazer um exercício de resolução de problema. [Clique aqui e escreva sua resposta](https://forms.gle/K7GmxYcDNSooyRpUA)
