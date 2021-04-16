@@ -1,5 +1,8 @@
 # Segurança de aplicações cloud-native
 
+## Antes de começar
+Por favor [clique aqui](https://forms.gle/7vRESyLPZfYq4VXg9) e responda o formulário antes de inciar o conteúdo
+
 Aplicações com características cloud-native estão aptas a rodar em múltiplos ambientes, isso
 faz com que não tenhamos certeza de quais níveis de segurança estão aplicados em determinados 
 ambientes. Por esse motivo devemos nos preocupar com ainda mais segurança nesse contexto.
@@ -36,4 +39,7 @@ seu nível de segurança aqui!!!](minimo_privilegios.md)
 - Sempre consulte a equipe de segurança nos momentos de dúvidas, essa equipe é destacada
 para garantir que todos nossos sistemas sejam seguros e sigam a regra de compliance da Zup.
 
-Agora que você passou por todo conteúdo acima, você precisará fazer um exercício de resolução de problema. [Clique aqui e escreva sua resposta](https://forms.gle/2y93wvkhpHYycJxt8)
+## Depois de finalizar
+Você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui](https://forms.gle/7vRESyLPZfYq4VXg9) 
+
+Depois disso, um exercício de resolução de problema. [Clique aqui e escreva sua resposta](https://forms.gle/2y93wvkhpHYycJxt8)
