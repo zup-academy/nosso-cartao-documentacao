@@ -1,5 +1,8 @@
 # OAuth2 um padrão de mercado para segurança de APIs REST!
 
+## Antes de começar
+Por favor [clique aqui](https://docs.google.com/forms/d/e/1FAIpQLSdbo1yVJvDAv6Jj0S4eIWeEH13Rk32tJUSs3hTe4IkLejf7ig/viewform?usp=sf_link) e responda o formulário antes de inciar o conteúdo
+
 Não queremos que qualquer usuário acesse nossa aplicação, precisamos de algum mecanismo que nos
 ajude a proteger nossa aplicação.
 
@@ -48,3 +51,6 @@ de atenção sempre utilize software de acordo com a regulamentação da licensa
  
 * Se você está curioso em saber como funciona o método Basic de Autenticação HTTP, [nesse link você pode
 encontrar aqui](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
+
+## Depois de finalizar
+Você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui](https://forms.gle/gbZUfvUu6jFpH77C6)
