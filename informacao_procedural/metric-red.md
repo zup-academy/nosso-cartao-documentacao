@@ -1,5 +1,8 @@
 # Métrica tipo RED
 
+## Antes de começar
+Por favor [clique aqui](https://forms.gle/i2L4YFCip8vpm94c7) e responda o formulário antes de inciar o conteúdo
+
 Quando falamos de métricas, existem vários tipos de métricas para responder várias perguntas, como por exemplo:
 
 - Métricas de infraestrutura, como por exemplo: CPU, memória, rede, etc.
@@ -34,7 +37,7 @@ Super interessante, né! Como a falta de métricas impacta diretamente no softwa
 
 Lembrando que é apenas um exemplo de como as métricas podem ajudar a manter a qualidade do seu software \ produto!
 
-## Dicas de Luram Archanjo
+## Dicas 
 
 Felizmente o Spring Boot Actuator quando configurado o endpoint de métricas, já implementa as métricas do tipo RED, gostaria 
 de saber mais!? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_suporte/spring-actuator-metrics.md)
@@ -56,3 +59,6 @@ http_server_requests_seconds_count{method="POST",outcome="CLIENT_ERROR",status="
 Gostaria de saber mais sobre Métricas do tipo RED? [Aqui tem uma explicação do que entendemos que você deve considerar!](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/#xref_monitoring_golden-signals)
 
 Está em dúvida sobre o que é Métrica? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_procedural/metric.md)
+
+## Depois de finalizar
+Você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui](https://forms.gle/i2L4YFCip8vpm94c7)
