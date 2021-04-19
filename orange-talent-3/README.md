@@ -325,6 +325,8 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 * [Micronaut Testing - como testar uma API REST: explicação enquanto constrói o código](https://www.youtube.com/watch?v=4Qh3UZtVH9U)
 * [Micronaut Testing - como criar mocks com Micronaut: explicação sobre o código pronto](https://www.youtube.com/watch?v=2bx1cgZEZuw)
 * [Micronaut Testing - como criar mocks com Micronaut: explicação enquanto constrói o código](https://www.youtube.com/watch?v=IR0Y_b-1VqM)
+* [Micronaut Testing - controle transacional e banco em memória: explicação sobre o código pronto](https://www.youtube.com/watch?v=gARN_7QtNfM)
+* [Micronaut Testing - controle transacional e banco em memória: explicação enquanto constrói o código](https://www.youtube.com/watch?v=uLV2pWmR8po)
 
 O conteúdo que você acabou de consumir foi bem focado no módulo HTTP do Micronaut. Basicamente o que você precisa para construir uma aplicação com Micronaut que vai se comunicar primordialmente via tal protocolo. Agora vamos direcionar nossa atenção para o módulo de GRPC do Micronaut :). 
 

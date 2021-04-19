@@ -328,6 +328,8 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 * [Micronaut Testing - como testar uma API REST: explicação enquanto constrói o código](https://www.youtube.com/watch?v=4Qh3UZtVH9U)
 * [Micronaut Testing - como criar mocks com Micronaut: explicação sobre o código pronto](https://www.youtube.com/watch?v=2bx1cgZEZuw)
 * [Micronaut Testing - como criar mocks com Micronaut: explicação enquanto constrói o código](https://www.youtube.com/watch?v=IR0Y_b-1VqM)
+* [Micronaut Testing - controle transacional e banco em memória: explicação sobre o código pronto](https://www.youtube.com/watch?v=gARN_7QtNfM)
+* [Micronaut Testing - controle transacional e banco em memória: explicação enquanto constrói o código](https://www.youtube.com/watch?v=uLV2pWmR8po)
 
 O conteúdo que você acabou de consumir foi bem focado no módulo HTTP do Micronaut. Basicamente o que você precisa para construir uma aplicação com Micronaut que vai se comunicar primordialmente via tal protocolo. Agora vamos direcionar nossa atenção para o módulo de GRPC do Micronaut :). 
 
@@ -350,6 +352,8 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
 * [Healthcheck sobre HTTP: explicação enquanto constrói o código](https://youtu.be/To32I8UPkkc)
 * [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)
 * [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE)
+* [Micronaut Testing: como testar uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=MJaXYdvUZiM&feature=youtu.be)
+* [Micronaut Testing: como testar uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=mq3UYOQ9FqE)
 
 Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
 
