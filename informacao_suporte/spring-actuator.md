@@ -1,7 +1,7 @@
 # Como configurar o Spring Boot Actuator?
 
 ## Antes de começar
-Por favor [clique aqui](https://forms.gle/TptHJ4SCiyF68wNx9) e responda o formulário antes de inciar o conteúdo
+Por favor [clique aqui](https://forms.gle/TptHJ4SCiyF68wNx9) e responda o formulário antes de iniciar o conteúdo
 
 O Spring Boot Actuator inclui vários recursos adicionais para ajudá-lo a monitorar e gerenciar seu aplicativo quando 
 você o envia à produção, como por exemplo:
