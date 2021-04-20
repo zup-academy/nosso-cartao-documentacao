@@ -1,7 +1,7 @@
 # Readiness Check ou Liveness Check
 
 ## Antes de começar 
-Por favor [clique aqui](https://forms.gle/TptHJ4SCiyF68wNx9) e responda o formulário antes de inciar o conteúdo
+Especialmente para este conteúdo, você responderá os formulários inicial e final junto com tópico que você estudará a seguir: Spring Boot Actuator
 
 Nossas aplicações normalmente rodam em um ambiente gerenciado, ou seja uma plataforma que é capaz de detectar se alguma coisa não está
 funcionando conforme o esperado, um _crash_ de aplicação ou carga demasiada.
@@ -22,7 +22,7 @@ Processamentos em lote também podem implementar este conceito expondo operaçõ
 de comando, dessa forma a plataforma, cujo serviço está instalado é capaz de identificar se realmente
 o serviço está apto a começar o trabalho.
 
-## Dicas de Claudio Eduardo Oliveira
+## Dicas
 
 - Tente minimizar o tempo de preparação da sua aplicação sempre que possível, esse tempo pode impactar
 sua regra de _auto-scaling_ e _alta-disponibilidade_ da sua aplicação, pois durante essa fase sua aplicação
@@ -37,7 +37,3 @@ suas regras de _alta-disponibilidade_ e _auto-scaling_
 esteja apta receber fluxo de trabalho. Esse [link](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) vai resolver o seu problema.
 
 - Se você usa o Spring e quer saber como o framework suporta readiness check [acesse aqui!!!](https://spring.io/blog/2020/03/25/liveness-and-readiness-probes-with-spring-boot)
-
-## Depois de finalizar 
-Agora que você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui](https://forms.gle/TptHJ4SCiyF68wNx9)
-
