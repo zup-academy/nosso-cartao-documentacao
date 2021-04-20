@@ -37,3 +37,8 @@ suas regras de _alta-disponibilidade_ e _auto-scaling_
 esteja apta receber fluxo de trabalho. Esse [link](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) vai resolver o seu problema.
 
 - Se você usa o Spring e quer saber como o framework suporta readiness check [acesse aqui!!!](https://spring.io/blog/2020/03/25/liveness-and-readiness-probes-with-spring-boot)
+
+## Lembrete
+
+Especialmente para este conteúdo, você responderá os formulários inicial e final junto com tópico que você estudará a seguir: Spring Boot Actuator
+
