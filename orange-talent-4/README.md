@@ -169,7 +169,7 @@ Agora que você fez mais imersão teórica, vamos treinar! Neste treino você va
 
 * [Implemente o microservice relativo a criação de propostas](./proposta/)
 
-Com o microservice de propostas implementado, chegou a hora de implementar um novo serviço, o que cuida das transações do cartã de crédito. Como é de praxe, antes de começar, vamos primeiro estudar a teoria necessária. 
+Com o microservice de propostas implementado, chegou a hora de implementar um novo serviço, o que cuida das transações do cartão de crédito. Como é de praxe, antes de começar, vamos primeiro estudar a teoria necessária. 
 
 | Introdução a Apache Kafka |
 | --- |
