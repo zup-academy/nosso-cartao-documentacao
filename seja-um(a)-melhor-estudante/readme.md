@@ -80,7 +80,7 @@ Agora alguns exemplos de definição de objetivos que estão sob seu controle. L
 6. Quero criar meu canal no YouTube sobre design de código
 7. Quero criar um curso
 
-Tudo que está aquim em cima depende só de você! E cada uma delas vai exigir um grau e número de habilidades diferentes. Quando você olha para elas, fica mais fácil de saber o que você precisa aprender. 
+Tudo que está aqui em cima depende só de você! E cada uma delas vai exigir um grau e número de habilidades diferentes. Quando você olha para elas, fica mais fácil de saber o que você precisa aprender. 
 
 Alguns exemplos de objetivos que não estão sob seu controle. 
 
