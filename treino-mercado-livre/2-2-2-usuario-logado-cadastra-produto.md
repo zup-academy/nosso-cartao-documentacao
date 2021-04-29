@@ -40,7 +40,7 @@ Aqui a gente vai permitir o cadastro de um produto por usuário logado.
 8.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
 10.  Caso você já esteja utilizando um projeto de segurança. O framework da sua escolha, integrado com algum outro projeto de segurança, deve permitir que você tenha acesso ao objeto que representa o usuário logado dentro do método do seu controller. 
 11.  Como Alberto faria esse código [parte 1​](https://youtu.be/dJRnTz7H96k) e [parte 2](https://youtu.be/ieXyWG-OC7Y) e [parte 3​](https://youtu.be/PxBySFg0bT8)
-12. Como Alberto testaria o código dele? Confira em três partes: [PARTE 1](https://youtu.be/weQ1L_xUGZw), [PARTE 2](https://youtu.be/Q-X2Wfiecek) :). 
+12. Como Alberto testaria o código dele? Confira em três partes: [PARTE 1](https://youtu.be/weQ1L_xUGZw) e [PARTE 2](https://youtu.be/Q-X2Wfiecek) :). 
 
 
 ### informações de suporte para a combinação Java/Kotlin + Spring​
