@@ -43,8 +43,8 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 7.  Deixamos pistas que facilitem o uso do código onde não conseguimos resolver com compilação. Muitas vezes recebemos String, ints que possuem significados. Um email por exemplo. Se você não pode garantir a validação do formato em compilação, [que tal deixar uma dica para a outra pessoa](https://youtu.be/iU19qJeXnVo)?
 8.  Utilize um insomnia ou qualquer outra forma para verificar o endpoint
 10.  Caso você já esteja utilizando um projeto de segurança. O framework da sua escolha, integrado com algum outro projeto de segurança, deve permitir que você tenha acesso ao objeto que representa o usuário logado dentro do método do seu controller. 
-11.  Como Alberto faria esse código [parte 1​](https://youtu.be/dJRnTz7H96k) e [parte 2](https://youtu.be/ieXyWG-OC7Y) e [parte 3​](https://youtu.be/PxBySFg0bT8)
-12. Como Alberto testaria o código dele? Confira em três partes: [PARTE 1](https://youtu.be/weQ1L_xUGZw), [PARTE 2](https://youtu.be/Q-X2Wfiecek) e [PARTE 3](https://drive.google.com/file/d/1Wr1yRfymAnaYTPzUQdVgG5K5pMEL8LY8/view?usp=sharing) :). 
+11. Como Alberto faria esse código [parte 1​](https://youtu.be/dJRnTz7H96k) e [parte 2](https://youtu.be/ieXyWG-OC7Y) e [parte 3​](https://youtu.be/PxBySFg0bT8)
+12. Como Alberto testaria o código dele? Confira em duas partes: [PARTE 1](https://youtu.be/weQ1L_xUGZw) e [PARTE 2](https://youtu.be/Q-X2Wfiecek) :). 
 
 
 ### Informações de suporte para a combinação Java/Kotlin + Spring​
