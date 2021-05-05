@@ -112,7 +112,7 @@ Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar 
 
 * [Implementar o desafio de construção de uma API que simule a editora Casa do Código](./treino-casa-do-codigo);
 
-Antes de inciar o desafio é importante que você faça um fork deste repositório: https://github.com/zup-academy/orange-talents-05-template-casa-do-codigo
+> Antes de inciar o desafio é importante que você faça um fork deste repositório: https://github.com/zup-academy/orange-talents-05-template-casa-do-codigo
 
 O desafio de implementação da Casa do Código foi muito importante para que você treinasse sua habilidade em desenvolver API's web. O próximo desafio exige habilidades bem similares, o que é bom. Lembre que a repetição em cenários variados eleva seu nível. Só que agora, além de ser um desafio mais complexo, também vai exigir de você a criação de testes automatizados. 
 
@@ -139,7 +139,7 @@ Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento 
 
 * [Implementar o desafio de construção de uma API que simule parte do funcionamento do mercado livre](./treino-mercado-livre);
 
-Antes de inciar o desafio é importante que você faça um fork deste repositório: https://github.com/zup-academy/orange-talents-05-template-mercado-livre
+> Antes de inciar o desafio é importante que você faça um fork deste repositório: https://github.com/zup-academy/orange-talents-05-template-mercado-livre
 
 Neste ponto da jornada, você deve estar se sentindo mais confiante e mais capaz de construir API's com as tecnologias e práticas até aqui trabalhadas. Vamos para o desafio final. Que é construir uma API que simule o funcionamento do credicard zero, um produto do Itaú. **Esta é a fase quatro do nosso bootcamp.**
 
