@@ -362,13 +362,15 @@ Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Ora
 
 [Construa um sistema distribuído que simule o funcionamento do PIX](https://github.com/zup-academy/orange-stack-documentacao/tree/master/desafio-01/01-key-manager#desafio-pix)
 
+> Para os desafios a seguir é importante que você faça um fork destes 2 repositórios: 
+> 
+> https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-rest
+> 
+> https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-grpc
+
 Nesse momento você já deve estar sentindo apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC.
 
 #### Deploy
-
-> Para os desafios a seguir é importante que você faça um fork destes 2 repositórios: 
-https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-rest
-https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-grpc
 
 E o deploy? Como você vai levar sua aplicação da sua máquina para ficar exposta para ser consumida pelo mundo? Vamos agora mergulhar na teoria de deploy utilizando a nuvem da AWS. 
 
