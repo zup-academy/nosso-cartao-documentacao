@@ -369,9 +369,8 @@ Nesse momento você já deve estar sentindo apto a construir microsserviços uti
 E o deploy? Como você vai levar sua aplicação da sua máquina para ficar exposta para ser consumida pelo mundo? Vamos agora mergulhar na teoria de deploy utilizando a nuvem da AWS. 
 
 > Para os desafios a seguir é importante que você faça um fork destes 2 repositórios: 
-* https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-rest
-* https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-grpc
-
+https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-rest
+https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-grpc
 
 
 * [Kubernetes: Pods, Services e ConfigMaps](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap)
