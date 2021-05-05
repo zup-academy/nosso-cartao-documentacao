@@ -372,6 +372,8 @@ E o deploy? Como você vai levar sua aplicação da sua máquina para ficar expo
 * https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-rest
 * https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-grpc
 
+
+
 * [Kubernetes: Pods, Services e ConfigMaps](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap)
 * [Kubernetes: Deployments, Volumes e Escalabilidade](https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade)
 * [Codebuild: O que é?](https://youtu.be/ESetAFRhn5M)
