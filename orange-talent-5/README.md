@@ -173,6 +173,8 @@ Agora que você fez mais imersão teórica, vamos treinar! Neste treino você va
 
 * [Implemente o microservice relativo a criação de propostas](./proposta/)
 
+> Antes de inciar o desafio é importante que você faça um fork deste repositório: https://github.com/zup-academy/orange-talents-05-template-proposta
+
 Com o microservice de propostas implementado, chegou a hora de implementar um novo serviço, o que cuida das transações do cartão de crédito. Como é de praxe, antes de começar, vamos primeiro estudar a teoria necessária. 
 
 | Introdução a Apache Kafka |
@@ -186,6 +188,8 @@ Com o microservice de propostas implementado, chegou a hora de implementar um no
 Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparado(a) para utilizar essa forma de integração.
 
 * [Serviço de transação](./transacao/);
+
+> Antes de inciar o desafio é importante que você faça um fork deste repositório: https://github.com/zup-academy/orange-talents-05-template-transacao
 
 Nesse momento do nosso bootcamp, você já deve estar se sentindo mais 
 apto(a) a criar API's REST que possam ser deployadas em ambientes Cloud Native. Agora vamos para a fase final, onde vamos nos desafiar a transferir todo esse conhecimento para uma nova stack de tecnologias, a Orange Foundation!  Antes de mais nada, deixe a gente te contar um pouco sobre essa nova stack. 
