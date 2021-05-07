@@ -42,7 +42,7 @@ A classe acima salva, atualiza e executa funções no escopo de uma transação.
 	}
 ```
 
-Uma outra possibilidade de uso, agora usando o método que espera um ```Supploer``` como argumento. 
+Uma outra possibilidade de uso, agora usando o método que espera um ```Supplier``` como argumento. 
 
 ```java
     @PostMapping(value = "/endereco")    
