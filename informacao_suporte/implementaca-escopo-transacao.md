@@ -48,11 +48,11 @@ Uma outra possibilidade de uso, agora usando o método que espera um ```Supplier
     @PostMapping(value = "/endereco")    
 	public ResponseEntity<?> cria(@RequestBody AlgumRequest request) {
         AlgumModel model = request.toModel();
-        executorTranscao.salvaEComita(model);
+        executorTransacao.salvaEComita(model);
 
         AlgumResultado algumResultado = sistemaExterno.consultaViaHttp(model.getInformacao());
         
-        AlgumModel modelAtualizado = executorTranscao.executa(() -> {
+        AlgumModel modelAtualizado = executorTransacao.executa(() -> {
             model.atualiza(algumResultadoTransformado);
             return model;
         });
