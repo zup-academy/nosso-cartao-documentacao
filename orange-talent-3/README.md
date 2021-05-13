@@ -176,7 +176,6 @@ Com o microservice de propostas implementado, chegou a hora de implementar um no
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform) |
 | [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
 
 
 Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparado(a) para utilizar essa forma de integração.
