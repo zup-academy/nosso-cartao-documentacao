@@ -182,7 +182,7 @@ Com o microservice de propostas implementado, chegou a hora de implementar um no
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform) |
 | [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
+
 
 
 Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparado(a) para utilizar essa forma de integração.
@@ -248,49 +248,48 @@ Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem J
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform) |
 | [Kotlin: primeiros passos e Orientação a Objetos](https://www.alura.com.br/curso-online-kotlin-orientacao-objetos) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
+
 
 | Kotlin: herança, polimorfismo e interface |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform) |
 | [Kotlin: herança, polimorfismo e Interface](https://www.alura.com.br/curso-online-kotlin-heranca-polimorfismo-interface) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
+
 
 | Kotlin: recursos da linguagem com pacotes e composição |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform) |
 | [Kotlin: recursos da linguagem com pacotes e composição](https://www.alura.com.br/curso-online-kotlin-recursos-da-linguagem-com-pacotes-e-composicao) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
+
 
 | Kotlin: lidando com exceptions e referências nulas |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform) |
 | [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
+
 
 | Kotlin: Desenvolva com coleções, arrays e listas |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform) |
 | [Kotlin:Desenvolva com coleções arrays e listas](https://cursos.alura.com.br/course/kotlin-introducao-collections-arrays-listas) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
+
 
 | Kotlin Collections: Set e Map |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform) |
 | [Kotlin Collections: Set e Map](https://www.alura.com.br/curso-online-kotlin-collections-set-map) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
 
 | Kotlin: recursos do paradigma funcional |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform) |
 | [Kotlin: recursos do paradigma funcional](https://www.alura.com.br/curso-online-kotlin-recursos-do-paradigma-funcional) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform) |
-| [Clique aqui para fazer o resumo do curso]() |
+
 
 
 Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :). 
