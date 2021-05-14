@@ -471,11 +471,11 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
 | [Retornando códigos de erro em uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=xcWkmNxf8JE&feature=youtu.be) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfDn4ur1Q-swVuDOjaeO_gbTx4Vti1nbHO71bfbE4iIlT9OvQ/viewform) |
 
-| Lidando com erros retornado pela API gRPC |
+| Lidando com erros retornados pela API gRPC |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform) |
-| [Lidando com erros retornado pela API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)|
-| [Lidando com erros retornado pela API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be) |
+| [Lidando com erros retornados pela API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)|
+| [Lidando com erros retornados pela API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform) |
 
 | Healthcheck sobre HTTP |
