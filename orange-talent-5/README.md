@@ -296,66 +296,215 @@ Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a te
 
 Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação prática em dois vídeos semelhantes. O primeiro vídeo apresenta o assunto em cima de um exemplo já pronto, enquanto que o segundo apresenta o mesmo assunto construindo o exemplo junto. Nossa intenção é facilitar seu entendimento, fornecendo duas explicacões sobre o mesmo assunto em formatos diferentes. 
 
-* [O que é Micronaut ?](https://www.youtube.com/watch?v=FdxStVYU8xM&feature=youtu.be)
-* [Setup de um projeto utilizando Micronaut](https://www.youtube.com/watch?v=vojSldrKV8Y&feature=youtu.be)
-* [Configuração do IntelliJ para o Micronaut](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be)
-* [Recebendo dados via JSON: explicação sobre código pronto](https://www.youtube.com/watch?v=PWBEwECz4y4&feature=youtu.be)
-* [Recebendo dados via JSON: explicação enquanto constrói o código ](https://www.youtube.com/watch?v=6MuZfE7BYPg&feature=youtu.be)
-* [Validando os dados de entrada de uma requisição: explicação em cima do código pronto](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be)
-* [Validando os dados de entrada de uma requisição: explicação enquanto constrói o código](https://www.youtube.com/watch?v=lyBlLDoW6xE&feature=youtu.be)
-* [Conversão de um objeto de entrada para um objeto de domínio: explicação sobre o código pronto](https://www.youtube.com/watch?v=Hoi3-Plm0uo&feature=youtu.be)
-* [Conversão de um objeto de entrada para um objeto de domínio: explicação enquanto constrói o código](https://www.youtube.com/watch?v=j-NkQfiDMt0&feature=youtu.be)
-* [Gravando os dados com Micronaut Data: explicação em cima do código pronto](https://www.youtube.com/watch?v=pWu2mqaKFEc&feature=youtu.be)
-* [Gravando os dados com Micronaut Data: explicação enquanto constrói o código](https://www.youtube.com/watch?v=ypPIgASiyiU&feature=youtu.be)
-* [Fluxo completo para salvar um objeto no banco de dados](https://www.youtube.com/watch?v=cACkiymv-2Q&feature=youtu.be)
-* [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)
-* [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8)
-* [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)
-* [Mapeando queries explicitamente no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/8jwk3vLq-aY)
-* [Recebendo dados via PUT: explicação sobre o código pronto](https://youtu.be/awdppj2o7J0)
-* [Recebendo dados via PUT: explicação enquanto constrói o código](https://youtu.be/Jvl5RcrqJRc)
-* [Recebendo dados via DELETE: explicação sobre o código pronto](https://youtu.be/plojIuEWIPM)
-* [Recebendo dados via DELETE: explicação enquanto constrói o código](https://youtu.be/BZ2xuQqvdHE)
-* [Demarcação de transação: explicação sobre o código pronto](https://youtu.be/DS5g3ZNZHRc)
-* [Demarcação de transação: explicação enquanto constrói o código](https://youtu.be/M8x090WpXL8)
-* [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)
-* [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc)
-* [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)
-* [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg)
-* [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação sobre o código pronto](https://www.youtube.com/watch?v=9nPRHbToxAc&feature=youtu.be)
-* [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação enquanto constrói o código](https://www.youtube.com/watch?v=jAqA_R9gV_M&feature=youtu.be)
-* [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação sobre o código pronto](https://www.youtube.com/watch?v=4MG_H-lKydI&feature=youtu.be)
-* [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação enquanto constrói o código](https://www.youtube.com/watch?v=b71YTGU0_4E&feature=youtu.be)
-* [Implementando Validação customizada com Micronaut Validation: explicação sobre o código pronto](https://www.youtube.com/watch?v=UCHFApcJVW0&feature=youtu.be)
-* [Implementando Validação customizada com Micronaut Validation: explicação enquanto constrói o código](https://www.youtube.com/watch?v=x7P4nR7glgk&feature=youtu.be)
-* [Micronaut Testing - como testar uma API REST: explicação sobre o código pronto](https://www.youtube.com/watch?v=eTA32xkQiLI)
-* [Micronaut Testing - como testar uma API REST: explicação enquanto constrói o código](https://www.youtube.com/watch?v=4Qh3UZtVH9U)
-* [Micronaut Testing - como criar mocks com Micronaut: explicação sobre o código pronto](https://www.youtube.com/watch?v=2bx1cgZEZuw)
-* [Micronaut Testing - como criar mocks com Micronaut: explicação enquanto constrói o código](https://www.youtube.com/watch?v=IR0Y_b-1VqM)
-* [Micronaut Testing - controle transacional e banco em memória: explicação sobre o código pronto](https://www.youtube.com/watch?v=gARN_7QtNfM)
-* [Micronaut Testing - controle transacional e banco em memória: explicação enquanto constrói o código](https://www.youtube.com/watch?v=uLV2pWmR8po)
+| O que é Micronaut ? |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdoQJ8JZ0caTZbm4arfeJHx5BqKpefi52hAAQy2UVL9Bx2hBg/viewform) |
+| [O que é Micronaut ?](https://www.youtube.com/watch?v=FdxStVYU8xM&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdoQJ8JZ0caTZbm4arfeJHx5BqKpefi52hAAQy2UVL9Bx2hBg/viewform) |
+
+| Setup de um projeto utilizando Micronaut |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfupKPjjF1Z7YkZaEvn5bmWjboyxzkNt7AlPAn_ug4eKuTyIg/viewform) |
+| [Setup de um projeto utilizando Micronaut](https://www.youtube.com/watch?v=vojSldrKV8Y&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfupKPjjF1Z7YkZaEvn5bmWjboyxzkNt7AlPAn_ug4eKuTyIg/viewform) |
+
+| Configuração do IntelliJ para o Micronaut |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfOHyZV-cCjDpYS0fCWsw9zNy_woDH86mR1aR16RYQnsiazeA/viewform) |
+| [Configuração do IntelliJ para o Micronaut](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfOHyZV-cCjDpYS0fCWsw9zNy_woDH86mR1aR16RYQnsiazeA/viewform) |
+
+| Recebendo dados via JSON |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfkDQPn8_NRXf4nuNWu3ivugKAaweoY-D53tWi2vH7VuqkNMw/viewform) |
+| [Recebendo dados via JSON: explicação sobre código pronto](https://www.youtube.com/watch?v=PWBEwECz4y4&feature=youtu.be)|
+| [Recebendo dados via JSON: explicação enquanto constrói o código ](https://www.youtube.com/watch?v=6MuZfE7BYPg&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfkDQPn8_NRXf4nuNWu3ivugKAaweoY-D53tWi2vH7VuqkNMw/viewform) |
+
+| Validando os dados de entrada de uma requisição |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform) |
+| [Validando os dados de entrada de uma requisição: explicação em cima do código pronto](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be)|
+| [Validando os dados de entrada de uma requisição: explicação enquanto constrói o código](https://www.youtube.com/watch?v=lyBlLDoW6xE&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform) |
+
+| Conversão de um objeto de entrada para um objeto de domínio |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform) |
+| [Conversão de um objeto de entrada para um objeto de domínio: explicação sobre o código pronto](https://www.youtube.com/watch?v=Hoi3-Plm0uo&feature=youtu.be)|
+| [Conversão de um objeto de entrada para um objeto de domínio: explicação enquanto constrói o código](https://www.youtube.com/watch?v=j-NkQfiDMt0&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform) |
+
+| Gravando os dados com Micronaut Data |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScEbOXJT8rwRD8SXxNPuDBz_Ufm5CSZ4-JUFstiHpS_94EbKQ/viewform) |
+| [Gravando os dados com Micronaut Data: explicação em cima do código pronto](https://www.youtube.com/watch?v=pWu2mqaKFEc&feature=youtu.be)|
+| [Gravando os dados com Micronaut Data: explicação enquanto constrói o código](https://www.youtube.com/watch?v=ypPIgASiyiU&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScEbOXJT8rwRD8SXxNPuDBz_Ufm5CSZ4-JUFstiHpS_94EbKQ/viewform) |
+
+| Fluxo completo para salvar um objeto no banco de dados |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8iesNl0dzwWRNunQn86JidpcRX09wHpaWkrHec5yzNdefHw/viewform) |
+| [Fluxo completo para salvar um objeto no banco de dados](https://www.youtube.com/watch?v=cACkiymv-2Q&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8iesNl0dzwWRNunQn86JidpcRX09wHpaWkrHec5yzNdefHw/viewform) |
+
+| Métodos que geram queries no Micronaut Data |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
+| [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)|
+| [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
+
+| Mapeando queries explicitamente no Micronaut Data |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
+| [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)|
+| [Mapeando queries explicitamente no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/8jwk3vLq-aY) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
+
+| Recebendo dados via PUT |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdJnOZFCzkJes-T3izhcJtqhU08pQweFcS6tpOL7cLHLjM7eg/viewform) |
+| [Recebendo dados via PUT: explicação sobre o código pronto](https://youtu.be/awdppj2o7J0)|
+| [Recebendo dados via PUT: explicação enquanto constrói o código](https://youtu.be/Jvl5RcrqJRc) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdJnOZFCzkJes-T3izhcJtqhU08pQweFcS6tpOL7cLHLjM7eg/viewform) |
+
+| Recebendo dados via DELETE |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform) |
+| [Recebendo dados via DELETE: explicação sobre o código pronto](https://youtu.be/plojIuEWIPM)|
+| [Recebendo dados via DELETE: explicação enquanto constrói o código](https://youtu.be/BZ2xuQqvdHE) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform) |
+
+| Demarcação de transação |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform) |
+| [Demarcação de transação: explicação sobre o código pronto](https://youtu.be/DS5g3ZNZHRc)|
+| [Demarcação de transação: explicação enquanto constrói o código](https://youtu.be/M8x090WpXL8) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform) |
+
+| Retornando dados em JSON |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
+| [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)|
+| [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
+
+| Definindo headers e status customizados |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
+| [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)|
+| [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
+
+| Consumindo um endpoint REST com Micronaut de forma declarativa |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSds2YJc52d7Gm-hB8_ejJPLuH-ljUqSm3DvtMFc-8YPjwEthg/viewform) |
+| [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação sobre o código pronto](https://www.youtube.com/watch?v=9nPRHbToxAc&feature=youtu.be)|
+| [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação enquanto constrói o código](https://www.youtube.com/watch?v=jAqA_R9gV_M&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSds2YJc52d7Gm-hB8_ejJPLuH-ljUqSm3DvtMFc-8YPjwEthg/viewform) |
+
+| Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWZE3A99j7loEgDGM_1mpvCpRODHKe-feIK8SZmLV9pHyA3g/viewform) |
+| [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação sobre o código pronto](https://www.youtube.com/watch?v=4MG_H-lKydI&feature=youtu.be)|
+| [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação enquanto constrói o código](https://www.youtube.com/watch?v=b71YTGU0_4E&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWZE3A99j7loEgDGM_1mpvCpRODHKe-feIK8SZmLV9pHyA3g/viewform) |
+
+| Implementando Validação customizada com Micronaut Validation |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSepMgR6j5lYRAGbTL_NII0DU_RBuh0PCedDQG_EFYdzxBcDdQ/viewform) |
+| [Implementando Validação customizada com Micronaut Validation: explicação sobre o código pronto](https://www.youtube.com/watch?v=UCHFApcJVW0&feature=youtu.be)|
+| [Implementando Validação customizada com Micronaut Validation: explicação enquanto constrói o código](https://www.youtube.com/watch?v=x7P4nR7glgk&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSepMgR6j5lYRAGbTL_NII0DU_RBuh0PCedDQG_EFYdzxBcDdQ/viewform) |
+
+| Micronaut Testing - como testar uma API REST |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf0SsaAU4SLbp1oSOO-msgLdw-FMmA1ghBBElIqst1FJnQvqA/viewform) |
+| [Micronaut Testing - como testar uma API REST: explicação sobre o código pronto](https://www.youtube.com/watch?v=eTA32xkQiLI)|
+| [Micronaut Testing - como testar uma API REST: explicação enquanto constrói o código](https://www.youtube.com/watch?v=4Qh3UZtVH9U) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf0SsaAU4SLbp1oSOO-msgLdw-FMmA1ghBBElIqst1FJnQvqA/viewform) |
+
+| Micronaut Testing - como criar mocks com Micronaut |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdknLTIGWbg5KH-mjJo5AmXMTsyj0l0DuFTJVzNbmT_MMThsQ/viewform) |
+| [Micronaut Testing - como criar mocks com Micronaut: explicação sobre o código pronto](https://www.youtube.com/watch?v=2bx1cgZEZuw)|
+| [Micronaut Testing - como criar mocks com Micronaut: explicação enquanto constrói o código](https://www.youtube.com/watch?v=IR0Y_b-1VqM) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdknLTIGWbg5KH-mjJo5AmXMTsyj0l0DuFTJVzNbmT_MMThsQ/viewform) |
+
+| Micronaut Testing - controle transacional e banco em memória |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfFRpEZVa4uB1AbulNcJmtZf2YiBKVj0_rAtTvGnMh6RqFPBw/viewform) |
+| [Micronaut Testing - controle transacional e banco em memória: explicação sobre o código pronto](https://www.youtube.com/watch?v=gARN_7QtNfM)|
+| [Micronaut Testing - controle transacional e banco em memória: explicação enquanto constrói o código](https://www.youtube.com/watch?v=uLV2pWmR8po) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfFRpEZVa4uB1AbulNcJmtZf2YiBKVj0_rAtTvGnMh6RqFPBw/viewform) |
+
 
 O conteúdo que você acabou de consumir foi bem focado no módulo HTTP do Micronaut. Basicamente o que você precisa para construir uma aplicação com Micronaut que vai se comunicar primordialmente via tal protocolo. Agora vamos direcionar nossa atenção para o módulo de GRPC do Micronaut :). 
 
 O GRPC é a tentativa de aumentar a performance na comunicação entre os serviços numa arquitetura distribuída, por exemplo com Microsserviços. Nos próximos vídeos você ter acesso a bastante conhecimento sobre essa forma de comunicação e como o Micronaut facilita isso para você. 
 
-* [O que é GRPC e a motivação do seu uso](https://www.youtube.com/watch?v=OACwm4CYX2M&feature=youtu.be)
-* [Introdução a protobuf: explicação sobre o código pronto](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be)
-* [Introdução a protobuf: explicação enquanto constrói o código](https://www.youtube.com/watch?v=gBeQ1CgiFEU&feature=youtu.be)
-* [Expondo dados via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be)
-* [Expondo dados via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=tuZmLjCEvjI&feature=youtu.be)
-* [Consumindo um endpoint via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=ZGlxfNJkmcQ&feature=youtu.be)
-* [Consumindo um endpoint via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=Y6ojxAQoSkM&feature=youtu.be)
-* [Retornando códigos de erro: explicação sobre o código pronto](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be)
-* [Retornando códigos de erro: explicação enquanto constrói o código](https://www.youtube.com/watch?v=xcWkmNxf8JE&feature=youtu.be)
-* [Lidando com erros retornado pela API: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)
-* [Lidando com erros retornado pela API: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be)
-* [Healthcheck sobre HTTP: explicação sobre o código pronto](https://www.youtube.com/watch?v=Zle0hcwd_Jw&feature=youtu.be)
-* [Healthcheck sobre HTTP: explicação enquanto constrói o código](https://youtu.be/To32I8UPkkc)
-* [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)
-* [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE)
-* [Micronaut Testing: como testar uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=MJaXYdvUZiM&feature=youtu.be)
-* [Micronaut Testing: como testar uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=mq3UYOQ9FqE)
+| O que é GRPC e a motivação do seu uso |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf2hg4pskdEKpxZg0AiPpFjbDrigJAPbs1nAPGRNZkik68lQA/viewform) |
+| [O que é GRPC e a motivação do seu uso](https://www.youtube.com/watch?v=OACwm4CYX2M&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf2hg4pskdEKpxZg0AiPpFjbDrigJAPbs1nAPGRNZkik68lQA/viewform) |
+
+| Introdução a protobuf |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScg_wZmcX5n98N2APt8gTHVM-BJLG03TdxbM1BpA1KrOSovPA/viewform) |
+| [Introdução a protobuf: explicação sobre o código pronto](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be)|
+| [Introdução a protobuf: explicação enquanto constrói o código](https://www.youtube.com/watch?v=gBeQ1CgiFEU&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScg_wZmcX5n98N2APt8gTHVM-BJLG03TdxbM1BpA1KrOSovPA/viewform) |
+
+| Expondo dados via GRPC |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfWbPedy1YBqqSfuC_U_lVUFiz_qapqNFX7neU14XwbepP63A/viewform) |
+| [Expondo dados via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be)|
+| [Expondo dados via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=tuZmLjCEvjI&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfWbPedy1YBqqSfuC_U_lVUFiz_qapqNFX7neU14XwbepP63A/viewform) |
+
+| Consumindo um endpoint via GRPC |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSefGv2Ak4kI1I2tjcemFzACVNMQAbQg3rXfGrUGpl-9HJeXQw/viewform) |
+| [Consumindo um endpoint via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=ZGlxfNJkmcQ&feature=youtu.be)|
+| [Consumindo um endpoint via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=Y6ojxAQoSkM&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSefGv2Ak4kI1I2tjcemFzACVNMQAbQg3rXfGrUGpl-9HJeXQw/viewform) |
+
+| Retornando códigos de erro em uma API gRPC |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfDn4ur1Q-swVuDOjaeO_gbTx4Vti1nbHO71bfbE4iIlT9OvQ/viewform) |
+| [Retornando códigos de erro em uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be)|
+| [Retornando códigos de erro em uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=xcWkmNxf8JE&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfDn4ur1Q-swVuDOjaeO_gbTx4Vti1nbHO71bfbE4iIlT9OvQ/viewform) |
+
+| Lidando com erros retornados pela API gRPC |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform) |
+| [Lidando com erros retornados pela API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)|
+| [Lidando com erros retornados pela API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform) |
+
+| Healthcheck sobre HTTP |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfGfy17qPwWTM9241s9HtJm1mDIjoCmAugg5XNkkd_h_wiDVA/viewform) |
+| [Healthcheck sobre HTTP: explicação sobre o código pronto](https://www.youtube.com/watch?v=Zle0hcwd_Jw&feature=youtu.be)|
+| [Healthcheck sobre HTTP: explicação enquanto constrói o código](https://youtu.be/To32I8UPkkc) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfGfy17qPwWTM9241s9HtJm1mDIjoCmAugg5XNkkd_h_wiDVA/viewform) |
+
+| Healthcheck sobre GRPC |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc9MLtLz770Ek-lUY9ESoufSbfVxwfEtaTSJL3hPgNxZX6ckQ/viewform) |
+| [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)|
+| [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc9MLtLz770Ek-lUY9ESoufSbfVxwfEtaTSJL3hPgNxZX6ckQ/viewform) |
+
+| Micronaut Testing - como testar uma API gRPC |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeRIamgeugJz__xPDEaXCxJBRYPg09gzgmdPHtKF2EaDKh8lg/viewform) |
+| [Micronaut Testing - como testar uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=MJaXYdvUZiM&feature=youtu.be)|
+| [Micronaut Testing - como testar uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=mq3UYOQ9FqE) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeRIamgeugJz__xPDEaXCxJBRYPg09gzgmdPHtKF2EaDKh8lg/viewform) |
 
 Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
 
