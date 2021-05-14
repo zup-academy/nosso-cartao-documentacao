@@ -464,18 +464,18 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
 | [Consumindo um endpoint via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=Y6ojxAQoSkM&feature=youtu.be) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSefGv2Ak4kI1I2tjcemFzACVNMQAbQg3rXfGrUGpl-9HJeXQw/viewform) |
 
-| Retornando códigos de erro |
+| Retornando códigos de erro em uma API gRPC |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfDn4ur1Q-swVuDOjaeO_gbTx4Vti1nbHO71bfbE4iIlT9OvQ/viewform) |
-| [Retornando códigos de erro: explicação sobre o código pronto](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be)|
-| [Retornando códigos de erro: explicação enquanto constrói o código](https://www.youtube.com/watch?v=xcWkmNxf8JE&feature=youtu.be) |
+| [Retornando códigos de erro em uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be)|
+| [Retornando códigos de erro em uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=xcWkmNxf8JE&feature=youtu.be) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfDn4ur1Q-swVuDOjaeO_gbTx4Vti1nbHO71bfbE4iIlT9OvQ/viewform) |
 
-| Lidando com erros retornado pela API |
+| Lidando com erros retornado pela API gRPC |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform) |
-| [Lidando com erros retornado pela API: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)|
-| [Lidando com erros retornado pela API: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be) |
+| [Lidando com erros retornado pela API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)|
+| [Lidando com erros retornado pela API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform) |
 
 | Healthcheck sobre HTTP |
@@ -492,11 +492,11 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
 | [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc9MLtLz770Ek-lUY9ESoufSbfVxwfEtaTSJL3hPgNxZX6ckQ/viewform) |
 
-| Micronaut Testing |
+| Micronaut Testing - como testar uma API gRPC |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeRIamgeugJz__xPDEaXCxJBRYPg09gzgmdPHtKF2EaDKh8lg/viewform) |
-| [Micronaut Testing: como testar uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=MJaXYdvUZiM&feature=youtu.be)|
-| [Micronaut Testing: como testar uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=mq3UYOQ9FqE) |
+| [Micronaut Testing - como testar uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=MJaXYdvUZiM&feature=youtu.be)|
+| [Micronaut Testing - como testar uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=mq3UYOQ9FqE) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeRIamgeugJz__xPDEaXCxJBRYPg09gzgmdPHtKF2EaDKh8lg/viewform) |
 
 
