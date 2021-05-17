@@ -14,7 +14,8 @@
 
 ### **Resultado esperado**
 
-*   Um novo autor criado e status 200 retornado
+* Um novo autor criado no sitema;
+* Status 200 retornado;
 
 ### Antes de começar
 
