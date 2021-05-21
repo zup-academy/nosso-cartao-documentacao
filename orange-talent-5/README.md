@@ -112,8 +112,6 @@ Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar 
 
 * [Implementar o desafio de construção de uma API que simule a editora Casa do Código](./treino-casa-do-codigo);
 
-> Antes de inciar o desafio é importante que você faça um fork deste repositório: https://github.com/zup-academy/orange-talents-05-template-casa-do-codigo
-
 O desafio de implementação da Casa do Código foi muito importante para que você treinasse sua habilidade em desenvolver API's web. O próximo desafio exige habilidades bem similares, o que é bom. Lembre que a repetição em cenários variados eleva seu nível. Só que agora, além de ser um desafio mais complexo, também vai exigir de você a criação de testes automatizados. 
 
 Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
@@ -138,8 +136,6 @@ Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
 Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento de confiabilidade de execução do código, mergulhe no desafio de criar uma API que simula parte do Mercado Livre.
 
 * [Implementar o desafio de construção de uma API que simule parte do funcionamento do mercado livre](./treino-mercado-livre);
-
-> Antes de inciar o desafio é importante que você faça um fork deste repositório: https://github.com/zup-academy/orange-talents-05-template-mercado-livre
 
 Neste ponto da jornada, você deve estar se sentindo mais confiante e mais capaz de construir API's com as tecnologias e práticas até aqui trabalhadas. Vamos para o desafio final. Que é construir uma API que simule o funcionamento do credicard zero, um produto do Itaú. **Esta é a fase quatro do nosso bootcamp.**
 
@@ -173,8 +169,6 @@ Agora que você fez mais imersão teórica, vamos treinar! Neste treino você va
 
 * [Implemente o microservice relativo a criação de propostas](./proposta/)
 
-> Antes de inciar o desafio é importante que você faça um fork deste repositório: https://github.com/zup-academy/orange-talents-05-template-proposta
-
 Com o microservice de propostas implementado, chegou a hora de implementar um novo serviço, o que cuida das transações do cartão de crédito. Como é de praxe, antes de começar, vamos primeiro estudar a teoria necessária. 
 
 | Introdução a Apache Kafka |
@@ -184,12 +178,9 @@ Com o microservice de propostas implementado, chegou a hora de implementar um no
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform) |
 
 
-
 Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparado(a) para utilizar essa forma de integração.
 
 * [Serviço de transação](./transacao/);
-
-> Antes de inciar o desafio é importante que você faça um fork deste repositório: https://github.com/zup-academy/orange-talents-05-template-transacao
 
 Nesse momento do nosso bootcamp, você já deve estar se sentindo mais 
 apto(a) a criar API's REST que possam ser deployadas em ambientes Cloud Native. Agora vamos para a fase final, onde vamos nos desafiar a transferir todo esse conhecimento para uma nova stack de tecnologias, a Orange Foundation!  Antes de mais nada, deixe a gente te contar um pouco sobre essa nova stack. 
@@ -284,6 +275,7 @@ Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem J
 | [Kotlin Collections: Set e Map](https://www.alura.com.br/curso-online-kotlin-collections-set-map) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform) |
 
+
 | Kotlin: recursos do paradigma funcional |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform) |
@@ -295,6 +287,7 @@ Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem J
 Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :). 
 
 Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação prática em dois vídeos semelhantes. O primeiro vídeo apresenta o assunto em cima de um exemplo já pronto, enquanto que o segundo apresenta o mesmo assunto construindo o exemplo junto. Nossa intenção é facilitar seu entendimento, fornecendo duas explicacões sobre o mesmo assunto em formatos diferentes. 
+
 
 | O que é Micronaut ? |
 | --- |
@@ -348,19 +341,19 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 | [Fluxo completo para salvar um objeto no banco de dados](https://www.youtube.com/watch?v=cACkiymv-2Q&feature=youtu.be) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8iesNl0dzwWRNunQn86JidpcRX09wHpaWkrHec5yzNdefHw/viewform) |
 
-| Métodos que geram queries no Micronaut Data |
+| Retornando dados em JSON |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
-| [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)|
-| [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
+| [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)|
+| [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
 
-| Mapeando queries explicitamente no Micronaut Data |
+| Definindo headers e status customizados |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
-| [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)|
-| [Mapeando queries explicitamente no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/8jwk3vLq-aY) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
+| [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)|
+| [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
 
 | Recebendo dados via PUT |
 | --- |
@@ -376,26 +369,26 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 | [Recebendo dados via DELETE: explicação enquanto constrói o código](https://youtu.be/BZ2xuQqvdHE) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform) |
 
+| Métodos que geram queries no Micronaut Data |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
+| [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)|
+| [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
+
+| Mapeando queries explicitamente no Micronaut Data |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
+| [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)|
+| [Mapeando queries explicitamente no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/8jwk3vLq-aY) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
+
 | Demarcação de transação |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform) |
 | [Demarcação de transação: explicação sobre o código pronto](https://youtu.be/DS5g3ZNZHRc)|
 | [Demarcação de transação: explicação enquanto constrói o código](https://youtu.be/M8x090WpXL8) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform) |
-
-| Retornando dados em JSON |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
-| [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)|
-| [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
-
-| Definindo headers e status customizados |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
-| [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)|
-| [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
 
 | Consumindo um endpoint REST com Micronaut de forma declarativa |
 | --- |
@@ -506,22 +499,16 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
 | [Micronaut Testing - como testar uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=mq3UYOQ9FqE) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeRIamgeugJz__xPDEaXCxJBRYPg09gzgmdPHtKF2EaDKh8lg/viewform) |
 
+
 Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
 
 [Construa um sistema distribuído que simule o funcionamento do PIX](https://github.com/zup-academy/orange-stack-documentacao/tree/master/desafio-01/01-key-manager#desafio-pix)
-
-> Para os desafios a seguir é importante que você faça um fork destes 2 repositórios: 
-> 
-> https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-rest
-> 
-> https://github.com/zup-academy/orange-talents-05-template-pix-keymanager-grpc
 
 Nesse momento você já deve estar sentindo apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC.
 
 #### Deploy
 
 E o deploy? Como você vai levar sua aplicação da sua máquina para ficar exposta para ser consumida pelo mundo? Vamos agora mergulhar na teoria de deploy utilizando a nuvem da AWS. 
-
 
 * [Kubernetes: Pods, Services e ConfigMaps](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap)
 * [Kubernetes: Deployments, Volumes e Escalabilidade](https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade)

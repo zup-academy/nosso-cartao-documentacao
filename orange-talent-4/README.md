@@ -341,19 +341,19 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 | [Fluxo completo para salvar um objeto no banco de dados](https://www.youtube.com/watch?v=cACkiymv-2Q&feature=youtu.be) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8iesNl0dzwWRNunQn86JidpcRX09wHpaWkrHec5yzNdefHw/viewform) |
 
-| Métodos que geram queries no Micronaut Data |
+| Retornando dados em JSON |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
-| [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)|
-| [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
+| [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)|
+| [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
 
-| Mapeando queries explicitamente no Micronaut Data |
+| Definindo headers e status customizados |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
-| [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)|
-| [Mapeando queries explicitamente no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/8jwk3vLq-aY) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
+| [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)|
+| [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
 
 | Recebendo dados via PUT |
 | --- |
@@ -369,26 +369,26 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 | [Recebendo dados via DELETE: explicação enquanto constrói o código](https://youtu.be/BZ2xuQqvdHE) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform) |
 
+| Métodos que geram queries no Micronaut Data |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
+| [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)|
+| [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
+
+| Mapeando queries explicitamente no Micronaut Data |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
+| [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)|
+| [Mapeando queries explicitamente no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/8jwk3vLq-aY) |
+| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
+
 | Demarcação de transação |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform) |
 | [Demarcação de transação: explicação sobre o código pronto](https://youtu.be/DS5g3ZNZHRc)|
 | [Demarcação de transação: explicação enquanto constrói o código](https://youtu.be/M8x090WpXL8) |
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform) |
-
-| Retornando dados em JSON |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
-| [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)|
-| [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
-
-| Definindo headers e status customizados |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
-| [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)|
-| [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
 
 | Consumindo um endpoint REST com Micronaut de forma declarativa |
 | --- |
