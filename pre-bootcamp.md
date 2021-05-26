@@ -63,5 +63,5 @@ Só que a real proficiência vai vir na hora do treino em cima dessas tecnologia
 |[Curso - Java 8 e as mudanças importantes](https://www.alura.com.br/curso-online-java8-lambdas)|
 |[Clique aqui para responder o questionário no final do curso](https://forms.gle/hKK15DvmqPGJXVVx5)
 
-Assim como um jogo de video game, aqui você também precisa passar fase por fase. Se uma fase parecer fácil para você, não tem problema, passa por ela mais rápido :). 
+Assim como um jogo de video game, aqui você também precisa passar fase por fase. Se uma fase parecer fácil para você, não tem problema, passe por ela mais rápido :). 
 
