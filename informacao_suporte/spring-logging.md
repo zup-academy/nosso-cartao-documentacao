@@ -90,8 +90,7 @@ Ficou bem mais fácil de identificar, qual proposta, documento, salário e quand
 
 E o mais importante: Sabemos que tem um furo de validação, pois não existe salário negativo!
 
-Eba! Está tudo funcionando! Você sabia que, se logar utilizando o formato JSON o log pode ser indexado e melhora muito o 
-troubleshooting de problemas? Quer saber mais? Acesse o [link!](../informacao_suporte/spring-logging-json.md)
+Eba! Está tudo funcionando! Você sabia que, se logar utilizando o formato JSON o log pode ser indexado e melhora muito o troubleshooting de problemas? Quer saber mais? Acesse o [link!](../informacao_suporte/spring-logging-json.md)
 
 ## Informação de Suporte
 
