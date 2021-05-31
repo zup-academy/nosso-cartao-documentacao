@@ -3,7 +3,7 @@
 ## Antes de começar
 Por favor [clique aqui](https://forms.gle/rrvPVyjEZ5ooCP4u9) e responda o formulário antes de inciar o conteúdo
 
-@# Porque Health Check?
+## Porque Health Check?
 
 Uma característica bastante importante que sua aplicação deve implementar é o **Health Check**.
 
@@ -15,7 +15,6 @@ Para que isso funcione precisamos expor alguma operação em nossa aplicação p
 Temos algumas alternativas, quando nossa aplicação expõe uma API REST podemos usar um endpoint *HTTP GET* para esse fim, esse endpoint deve verificar se o que a aplicação precisa para funcionar está 100% operacional. Isso pode incluir banco de dados e serviços de mensageria, por exemplo.
 
 Entretanto, se nossa aplicação é de processamento em lote ou batch, podemos expor uma funcionalidade via linha de comando, seguindo os mesmos princípios, ou seja, validando conexões externas das nossas aplicações.
-
 
 ## Dicas
 
