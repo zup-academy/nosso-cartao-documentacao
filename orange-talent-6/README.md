@@ -175,7 +175,7 @@ Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento 
 
 # FASE 4
 
-Estimamos que você conclua a fase 4 até a sétima semana.
+**Estimamos que você conclua a fase 4 até a oitava semana.**
 
 Neste ponto da jornada, você deve se sentir mais confiante e mais capaz de construir API's com as tecnologias e práticas até aqui trabalhadas. Vamos para o desafio final: Construir uma API que simula o funcionamento do Credicard zero, um produto do Itaú. 
 
