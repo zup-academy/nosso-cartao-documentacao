@@ -36,6 +36,6 @@ comuns são:
 
 Tem alguma dúvida sobre o que é PII. Neste [link](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act) tem uma breve descrição do termo.
 
-O produto API Manager da Zup suporta ofuscação na camada de APIs, se você quer saber como podemos isso, [Clique Aqui](https://www.zup.com.br/produtos/api-manager)
+O produto API Manager da Zup suporta ofuscação na camada de APIs, se você quer saber como podemos isso, [clique Aqui](https://www.zup.com.br/produtos/api-manager)
 
 
