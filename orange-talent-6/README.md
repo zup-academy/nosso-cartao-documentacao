@@ -28,7 +28,7 @@ Para que você se sinta e realmente seja capaz de construir API's, durante o boo
 
 ## Sua sequência de atividades considerando todas as 13 semanas
 
-## FASE 1
+# FASE 1
 
 Primeiro começamos entendendo a estrutura do bootcamp e como ficar melhor
 preparado(a) para consumir tudo que preparamos. Essa aqui é uma fase curta, porém fundamental. **Esta é a fase um do nosso bootcamp.**
@@ -36,7 +36,7 @@ preparado(a) para consumir tudo que preparamos. Essa aqui é uma fase curta, por
 * [Consumir o material sobre como ficar preparado(a) para o bootcamp](../fique-preparado(a)-desafios/readme.md). Lá você vai entender direitinho como preparamos a jornada para você. 
 * [Consumir o material sobre como ser um(a) melhor estudante](../seja-um(a)-melhor-estudante/readme.md). Aqui você vai ter alguns vídeos que vão te ajudar a ser um(a) melhor estudante durante as 13 semanas.
 
-## FASE 2
+# FASE 2
 
 Agora você vai fazer uma imersão de teoria sobre desenvolvimento web utilizando o paradigma de programação orientado a objetos com Java, Spring e Hibernate. Aqui é uma fase com muita teoria e alguns exercícios de fixação. Não se preocupe se sentir a cabeça ficar pesada, é uma sensação normal. Toda essa fase de teoria está centrada em cursos prontos da plataforma Alura. Você deve ter acesso para conseguir fazê-los. **Esta é a fase dois do nosso bootcamp**. 
 
