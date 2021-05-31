@@ -42,8 +42,10 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
 Queremos que você entenda a estrutura do programa e como ficar melhor                                                                                               preparadx para consumir tudo que preparamos. 
                                                                                                                                                                         Essa aqui é uma fase curta, porém fundamental! 
 
-* [Consumir o material sobre como ficar preparado(a) para o bootcamp](../fique-preparado(a)-desafios/readme.md). Lá você vai entender direitinho como preparamos a jornada para você. 
-* [Consumir o material sobre como ser um(a) melhor estudante](../seja-um(a)-melhor-estudante/readme.md). Aqui você vai ter alguns vídeos que vão te ajudar a ser um(a) melhor estudante durante as 13 semanas.
+* [Consumir o material sobre como ficar preparado(a) para o bootcamp](../fique-preparado(a)-desafios/readme.md).   
+    Lá você vai entender direitinho como preparamos a jornada para você. 
+* [Consumir o material sobre como ser um(a) melhor estudante](../seja-um(a)-melhor-estudante/readme.md).   
+    Aqui você vai ter alguns vídeos que vão te ajudar a ser um(a) melhor estudante durante as 13 semanas.
   
   
 
