@@ -176,9 +176,15 @@ Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conheci
 
 * **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/AZhpK5SX9a2ae8qe7) 
 
-Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. Você vai construir dois projetos do zero. Nessa fase é importante que você vá se analisando e prestando muita atenção em relação ao nível de facilidade de cada funcionalidade construída. **Tem que ir ficando mais fácil**. Se não estiver ficando fácil, fique alerta, talvez você precise de ajuda. **Agora você entra na fase três do nosso bootcamp.**
 
-* [Implementar o desafio de construção de uma API que simule a editora Casa do Código](./treino-casa-do-codigo);
+
+# FASE 3
+
+Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. Bem-vindx a fase 3 do nosso treino!
+
+Você vai construir dois projetos do zero. Nessa fase é importante que você faça uma auto análise e preste muita atenção ao nível de facilidade de cada funcionalidade que você vai construindo. Você deve sentir aos poucos que as etapas ficam mais fáceis. Se não estiver, vale o alerta: talvez você precise de ajuda, bora pra um café com um dos nossos mentores?!
+
+* **Desafio 1:** [Implementar o desafio de construção de uma API que simule a editora Casa do Código](./treino-casa-do-codigo);
 
 O desafio de implementação da Casa do Código foi muito importante para que você treinasse sua habilidade em desenvolver API's web. O próximo desafio exige habilidades bem similares, o que é bom. Lembre que a repetição em cenários variados eleva seu nível. Só que agora, além de ser um desafio mais complexo, também vai exigir de você a criação de testes automatizados. 
 
