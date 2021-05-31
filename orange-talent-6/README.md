@@ -37,7 +37,7 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
 **Dividimos o nosso cronograma em fases para apoiar você em cada etapa deste treino:**
     
   
-  # FASE 1
+# FASE 1
 
 Queremos que você entenda a estrutura do programa e como ficar melhor                                                                                               preparadx para consumir tudo que preparamos. 
                                                                                                                                                                         Essa aqui é uma fase curta, porém fundamental! 
@@ -67,7 +67,7 @@ Aqui é uma fase com muita teoria e alguns exercícios de fixação. Não se pre
 
 Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conhecimento sobre isso tudo. Depois vai chegar a parte do treino em cima dessas teorias e aí esperamos que você fique ainda mais capaz de utilizar as teorias de maneira mais fluida.  
 
-# Java Servlet: Fundamentos da programação Web Java
+## Java Servlet: Fundamentos da programação Web Java
 
 * **Questionário:** 
      [Clique aqui para responder o questionário no início do curso](https://forms.gle/zafEBTfxUjomef1EA) 
@@ -188,12 +188,19 @@ Aqui ainda não temos material gravado em vídeo, então por enquanto vai ser ne
 **ATENÇÃO**: É importante lembrar que não é esperado que você acabe essa fase da leitura já conseguindo aplicar tais conceitos facilmente. A ideia é ter o primeiro contato e deixar a semente plantada na sua cabeça para que, no momento da prática, tudo seja mais facilmente acessível.
 
 
-| Introdução a Docker |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) |
-| [Introdução a Docker](https://www.alura.com.br/curso-online-docker-e-docker-compose) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) |
-| [Clique aqui para o exercício de resolução de problema](https://forms.gle/GJ4rXr31KVg2p7289) |
+## Curso | Docker: Criando containers sem dor de cabeça
+
+* **Questionário:** 
+     [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) 
+   
+* **Bora pro curso?** 
+     [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-docker-e-docker-compose) 
+  
+* **Questionário**  
+    [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform)
+
+* **Exercício de resolução** 
+    [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/GJ4rXr31KVg2p7289)
 
 * [Healthcheck](../informacao_procedural/healthcheck.md);
 * [Readiness checks](../informacao_procedural/readiness_checks.md);
