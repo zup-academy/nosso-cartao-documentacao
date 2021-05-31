@@ -6,7 +6,7 @@ Nosso programa tem duração de até 13 semanas. Preparamos uma sequência de es
 
 O conteúdo é intenso e exige muito esforço da sua parte. Esperamos contar com toda sua energia!
 
-## Lembrete final
+## Lembre-se:
 Assim como um jogo de videogame, aqui você também precisa passar fase por fase.                                                                                           Se uma fase parecer fácil para você, não tem problema, passa por ela mais rápido.
 
 ## O que vamos estudar e treinar:
