@@ -51,16 +51,35 @@ Queremos que você entenda a estrutura do programa e como ficar melhor          
 
 # FASE 2
 
-Agora você vai fazer uma imersão de teoria sobre desenvolvimento web utilizando o paradigma de programação orientado a objetos com Java, Spring e Hibernate. Aqui é uma fase com muita teoria e alguns exercícios de fixação. Não se preocupe se sentir a cabeça ficar pesada, é uma sensação normal. Toda essa fase de teoria está centrada em cursos prontos da plataforma Alura. Você deve ter acesso para conseguir fazê-los. **Esta é a fase dois do nosso bootcamp**. 
+Nesta fase você fará uma imersão teórica sobre desenvolvimento web utilizando o paradigma de programação orientado a objetos com Java, Spring e Hibernate. 
 
-Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. Lembre que a ideia é que você tenha contato e que tenha um primeiro conhecimento sobre isso tudo. Depois vai chegar a parte do treino em cima dessas teorias e aí esperamos que você fique ainda mais capaz de utilizar as teorias de maneira mais fluida.  
+* Design de código orientado a objetos com a linguagem Java
+* SQL básico para realizar as operações de leitura e escrita necessárias
+* Spring MVC para facilitar na criação da camada web da aplicação
+* Hibernate para fazer o mapeamento entre o mundo orientado a objetos e relacional
+* Design de código orientado a objetos com a linguagem Java
+* Spring Boot para facilitar a utilização de tecnologias do ecossistemas Spring
+* Spring Validation para facilitar no processo de validação da entrada dos dados
 
-| Java Servlet: Fundamentos da programação Web Java |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://forms.gle/zafEBTfxUjomef1EA) |
-| [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java) |
-| [Clique aqui para responder o questionário no final do curso](https://forms.gle/zafEBTfxUjomef1EA) |
-| [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/9nmFah4A33Mi67Cx5) |
+Aqui é uma fase com muita teoria e alguns exercícios de fixação. Não se preocupe se sentir a cabeça ficar pesada, é uma sensação normal. 
+
+**Em toda essa fase teórica focaremos nos cursos da plataforma Alura. Seu acesso já está liberado pelo nosso time, basta seguir as orientações das PM´s.**
+
+Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conhecimento sobre isso tudo. Depois vai chegar a parte do treino em cima dessas teorias e aí esperamos que você fique ainda mais capaz de utilizar as teorias de maneira mais fluida.  
+
+# Java Servlet: Fundamentos da programação Web Java
+
+* **Questionário:** 
+     [Clique aqui para responder o questionário no início do curso](https://forms.gle/zafEBTfxUjomef1EA) 
+   
+* **Bora pro curso?** 
+     [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java) 
+  
+* **Questionário**  
+    [Clique aqui para responder o questionário no final do curso](https://forms.gle/zafEBTfxUjomef1EA) 
+
+* **Exercício de resolução** 
+    [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/9nmFah4A33Mi67Cx5) 
 
 | HTTP: Entendendo a web por baixo dos panos |
 | --- | 
@@ -154,20 +173,11 @@ Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento 
 
 * [Implementar o desafio de construção de uma API que simule parte do funcionamento do mercado livre](./treino-mercado-livre);
 
-# FASE 4
+Neste ponto da jornada, você deve estar se sentindo mais confiante e mais capaz de construir API's com as tecnologias e práticas até aqui trabalhadas. Vamos para o desafio final. Que é construir uma API que simule o funcionamento do credicard zero, um produto do Itaú. **Esta é a fase quatro do nosso bootcamp.**
 
-Estimamos que você conclua a fase 4 até a sétima semana.
+Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de criação de propostas. Aqui ainda não temos material gravado em vídeo, então por enquanto vai ser necessário ler os nossos textos :). 
 
-Neste ponto da jornada, você deve se sentir mais confiante e mais capaz de construir API's com as tecnologias e práticas até aqui trabalhadas. 
-Vamos para o desafio final: Construir uma API que simula o funcionamento do Credicard zero, um produto do Itaú. 
-Estamos quase lá, reta final do nosso treino! Bora lá!
-
-Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de criação de propostas. 
-
-Aqui ainda não temos material gravado em vídeo, então por enquanto vai ser necessário ler os nossos textos :)
-
-**ATENÇÃO**: É importante lembrar que não é esperado que você acabe essa fase da leitura já conseguindo aplicar tais conceitos facilmente. A ideia é ter o primeiro contato e deixar a semente plantada na sua cabeça para que, no momento da prática, tudo seja mais facilmente acessível.
-
+Importante lembrar que não é esperado que você acabe essa fase da leitura já conseguindo aplicar tais conceitos facilmente. A ideia é ter o primeiro contato e deixar a semente plantada na sua cabeça para que, no momento da prática, tudo seja mais facilmente acessível. 
 
 | Introdução a Docker |
 | --- |
