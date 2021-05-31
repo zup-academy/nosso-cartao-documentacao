@@ -1,10 +1,17 @@
-# Cronograma e plano de estudos e treinos
+# Bem-vindx ao programa Orange Talents
 
-O nosso bootcamp tem duração de até 13 semanas. Preparamos toda uma sequência de estudos e treinos que visam te deixar preparado(a) para construir API's utilizando Java/Kotlin como linguagem e Spring/Micronaut + Hibernate como frameworks principais. Fazendo com que você possa focar no que mais importa, que é entregar valor para o cliente final usando tecnologia como meio. 
+## O Orange Talents é um programa de aceleração de carreira e busca uma evolução exponencial em tecnologia,                                                               sob uma perspectiva de treino intenso e deliberado.
 
-## O que vamos estudar e treinar?
+Nosso programa tem duração de até 13 semanas. Preparamos uma sequência de estudos e treinos que visam te deixar preparadx para                                            construir API's utilizando Java/Kotlin como linguagem e Spring/Micronaut + Hibernate como frameworks principais,                                                      fazendo com que você consiga focar no que mais importa: entregar valor para o cliente final usando tecnologia como meio. 
 
-Para que você se sinta e realmente seja capaz de construir API's, durante o bootcamp, você vai estudar e treinar em cima dos seguinte tópicos:
+O conteúdo é intenso e exige muito esforço da sua parte. Esperamos contar com toda sua energia!
+
+## Lembrete final
+Assim como um jogo de videogame, aqui você também precisa passar fase por fase.                                                                                           Se uma fase parecer fácil para você, não tem problema, passa por ela mais rápido.
+
+## O que vamos estudar e treinar:
+
+Para que você se sinta e, realmente seja capaz de construir API's, você vai estudar e treinar em cima dos seguinte tópicos:
 
 * Design de código orientado a objetos com a linguagem Java;
 * Design de código orientado a objetos com a linguagem Kotlin;
@@ -26,15 +33,19 @@ Para que você se sinta e realmente seja capaz de construir API's, durante o boo
 * Micronaut para construção API's ainda mais preparadas para o mundo Cloud Native.
 * Stack de CI/CD da Amazon para que consiga fazer com que seu código seja um bom cliente da operação. Vamos de cultura DevOps. 
 
-## Sua sequência de atividades considerando todas as 13 semanas
+## Dividimos o nosso cronograma em fases para apoiar você em cada etapa deste treino:
+  
+  
 
 # FASE 1
 
-Primeiro começamos entendendo a estrutura do bootcamp e como ficar melhor
-preparado(a) para consumir tudo que preparamos. Essa aqui é uma fase curta, porém fundamental. **Esta é a fase um do nosso bootcamp.**
+Queremos que você entenda a estrutura do programa e como ficar melhor                                                                                               preparadx para consumir tudo que preparamos. 
+                                                                                                                                                                        Essa aqui é uma fase curta, porém fundamental! 
 
 * [Consumir o material sobre como ficar preparado(a) para o bootcamp](../fique-preparado(a)-desafios/readme.md). Lá você vai entender direitinho como preparamos a jornada para você. 
 * [Consumir o material sobre como ser um(a) melhor estudante](../seja-um(a)-melhor-estudante/readme.md). Aqui você vai ter alguns vídeos que vão te ajudar a ser um(a) melhor estudante durante as 13 semanas.
+  
+  
 
 # FASE 2
 
