@@ -4,7 +4,7 @@ Vimos no material de [logging](../informacao_suporte/spring-logging.md) a import
 
 Você sabia que com base nos logs, podemos utilizar ferramentas para indexar os mesmos e tomar decisões?
 
-Esses ferramentais de coleta de logs (Logstash, Fluentd, Fluent bit) geralmente trabalham melhor com a indexação no formato 
+Essas ferramentas de coleta de logs (Logstash, Fluentd, Fluent bit) geralmente trabalham melhor com a indexação no formato 
 [JSON](https://www.json.org/json-en.html)!
 
 Demais né! Vamos fazer isso utilizando o Spring?
@@ -118,7 +118,7 @@ Você aplicou o fator XI. Logs, na qual diz que devemos tratar logs como fluxos 
 
 Quer saber mais? Acesse o [link!](../informacao_procedural/twelve-factor-logs.md)
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre logs? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging)
 
