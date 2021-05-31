@@ -44,8 +44,10 @@ Se você tem alguma dúvida de como fazer isso, acesse:
 - [Gerando projeto com Spring no IntelliJ](https://www.jetbrains.com/help/idea/spring-boot.html#top)
 - [Gerando projeto com Maven Archetype](../informacao_procedural/maven-archetype-novo-projeto.md)
 
-Agora você precisa fazer uma cópia do projeto no Github, temos um vídeo explicando o passo a passo de como fazer: [Criando uma cópia do projeto (fork) para o seu usuário do github](https://github.com/zup-academy/orange-talents-05-template-casa-do-codigo)
+Agora você precisa fazer uma cópia do projeto no Github, temos um vídeo explicando o passo a passo de como fazer esta etapa: [Criando uma cópia do projeto (fork) para o seu usuário do github](https://github.com/zup-academy/orange-talents-05-template-casa-do-codigo)
 
+
+Em seguida, você precisa:
   - Clonar o projeto do github na sua máquina local
   - Adiconar os arquivos/pastas do projeto que foram gerados pelo http://start.spring.io
   - Implementar os desafios
