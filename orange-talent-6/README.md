@@ -37,7 +37,7 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
 **Dividimos o nosso cronograma em fases para apoiar você em cada etapa deste treino:**
     
   
-  # FASE 1
+# FASE 1
 
 Queremos que você entenda a estrutura do programa e como ficar melhor                                                                                               preparadx para consumir tudo que preparamos. 
                                                                                                                                                                         Essa aqui é uma fase curta, porém fundamental! 
@@ -67,113 +67,82 @@ Aqui é uma fase com muita teoria e alguns exercícios de fixação. Não se pre
 
 Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conhecimento sobre isso tudo. Depois vai chegar a parte do treino em cima dessas teorias e aí esperamos que você fique ainda mais capaz de utilizar as teorias de maneira mais fluida.  
 
-## Curso | Java Servlet: Fundamentos da programação Web Java
+## Java Servlet: Fundamentos da programação Web Java
 
-* **Questionário Inicial:** [Clique aqui para responder o questionário no início do curso](https://forms.gle/zafEBTfxUjomef1EA) 
-        
-* **Bora pro curso?** [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java)
-      
-* **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/zafEBTfxUjomef1EA) 
+* **Questionário:** 
+     [Clique aqui para responder o questionário no início do curso](https://forms.gle/zafEBTfxUjomef1EA) 
+   
+* **Bora pro curso?** 
+     [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java) 
   
-* **Exercício de resolução:** [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/9nmFah4A33Mi67Cx5) 
-    
+* **Questionário**  
+    [Clique aqui para responder o questionário no final do curso](https://forms.gle/zafEBTfxUjomef1EA) 
 
-## Curso | HTTP: Entendendo a web por baixo dos panos 
+* **Exercício de resolução** 
+    [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/9nmFah4A33Mi67Cx5) 
 
-* **Questionário Inicial:** [Clique aqui para responder o questionário no início do curso](https://forms.gle/MSLK8eKnVoxMtVue9) 
+| HTTP: Entendendo a web por baixo dos panos |
+| --- | 
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/MSLK8eKnVoxMtVue9) |
+| [Curso - HTTP: Entendendo a web por baixo dos panos](https://www.alura.com.br/curso-online-http-fundamentos) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/MSLK8eKnVoxMtVue9) |
+| [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/iMyDjSPftxgbZBZ3A) |
 
-* **Bora pro curso?**  [Curso - HTTP: Entendendo a web por baixo dos panos](https://www.alura.com.br/curso-online-http-fundamentos) 
+| Introdução ao SQL com MySQL: Manipule e consulte dados |
+| --- |
+| [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8) |
+| [Curso - Introdução ao SQL com MySQL: Manipule e consulte dados](https://www.alura.com.br/formacao-oracle-mysql) 1° curso |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8) | 
+| [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSdFC2CKDnX1gGMRXF0beZJsQWEL5jC5oAqhVQbvtkvT3kgz2g/viewform) |
 
-* **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/MSLK8eKnVoxMtVue9) 
+| Consultas SQL: Avançando no SQL com MySQL |
+| --- |
+| [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) |
+| [Curso - Consultas SQL: Avançando no SQL com MySQL](https://www.alura.com.br/formacao-oracle-mysql) 2° curso |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) |
+| [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/aBzxxKDTDvYEPHSe8) |
 
-* **Exercício de resolução:** [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/iMyDjSPftxgbZBZ3A) 
+| Java e JPA: Persista seus objetos com a JPA2 e Hibernate | 
+| --- | 
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
+| [Curso - Java e JPA: Persista seus objetos com a JPA2 e Hibernate](https://cursos.alura.com.br/course/jpa-hibernate-persistencia-objetos) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) |
+| [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeNnZo7EEdsenPSK3UxD2KwEdbKR3g7MzvEuLYemrBmnFHuGA/viewform) |
 
+| Spring Boot API REST: Construa uma API |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/aFFsKwaU6fVm3wa68) |
+| [Curso - Spring Boot API REST: Construa uma API](https://www.alura.com.br/curso-online-spring-boot-api-rest) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/aFFsKwaU6fVm3wa68) |
+| [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/wk9yBa2yLkZjmRgSA) |
 
-## Curso | Introdução ao SQL com MySQL: Manipule e consulte dados 
+| Spring Boot API Rest: Segurança da API, Cache e Monitoramento |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/x1fep4xGm22kRw3m8) |
+| [Curso - Spring Boot API Rest: Segurança da API, Cache e Monitoramento](https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/eErweMN3xxA3AMjt5) |
+| [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/DqJDioq6pHBbLdic9) |
 
-* **Questionário Inicial:** [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8)
+| Spring Boot e Teste: Profiles, Testes e Deploy |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) |
+| [Curso - Spring Boot e Teste: Profiles, Testes e Deploy](https://www.alura.com.br/curso-online-spring-boot-profiles-testes-deploy) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) |
+| [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSfrfYGzHj8hXZvRJGONRXqFCHSU6KQwe0i86rrRQtfuXSuWVA/viewform) |
 
-* **Bora pro curso?** [Curso - Introdução ao SQL com MySQL: Manipule e consulte dados](https://www.alura.com.br/formacao-oracle-mysql) 1° curso
+| Spring Data JPA: Repositórios, Consultas, Projeções e Specifications |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
+| [Curso - Spring Data JPA: Repositórios, Consultas, Projeções e Specifcations](https://www.alura.com.br/curso-online-spring-data-jpa) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/F1HzNGdcHTmKijbs8) |
+| [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeoVYhY5Ee09-Y7ZeAJyJj6YgfHHhx3kMJxSixSYooZLLqmgQ/viewform) |
 
-* **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8) 
-
-* **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSdFC2CKDnX1gGMRXF0beZJsQWEL5jC5oAqhVQbvtkvT3kgz2g/viewform) 
-
-
-## Consultas SQL: Avançando no SQL com MySQL
-
-* **Questionário Inicial:**  [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) 
-
-* **Bora pro curso?**  [Curso - Consultas SQL: Avançando no SQL com MySQL](https://www.alura.com.br/formacao-oracle-mysql) 2° curso 
-
-* **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) 
-
-* **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/aBzxxKDTDvYEPHSe8) 
-
-
-## Java e JPA: Persista seus objetos com a JPA2 e Hibernate 
-
-* **Questionário Inicial:**  [Clique aqui para responder o questionário no início do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) 
-
-* **Bora pro curso?** [Curso - Java e JPA: Persista seus objetos com a JPA2 e Hibernate](https://cursos.alura.com.br/course/jpa-hibernate-persistencia-objetos) 
-
-* **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/ZG2g8QCftoWNcpNT9) 
-
-* **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeNnZo7EEdsenPSK3UxD2KwEdbKR3g7MzvEuLYemrBmnFHuGA/viewform) 
-
-
-## Spring Boot API REST: Construa uma API 
-
-* **Questionário Inicial:**  [Clique aqui para responder o questionário no início do curso](https://forms.gle/aFFsKwaU6fVm3wa68) 
-
-* **Bora pro curso?** [Curso - Spring Boot API REST: Construa uma API](https://www.alura.com.br/curso-online-spring-boot-api-rest) 
-
-* **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/aFFsKwaU6fVm3wa68) 
-
-* **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/wk9yBa2yLkZjmRgSA) 
-
-
-## Spring Boot API Rest: Segurança da API, Cache e Monitoramento 
-
-* **Questionário Inicial:** [Clique aqui para responder o questionário no início do curso](https://forms.gle/x1fep4xGm22kRw3m8) 
-
-* **Bora pro curso?** [Curso - Spring Boot API Rest: Segurança da API, Cache e Monitoramento](https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento) 
- 
-* **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/eErweMN3xxA3AMjt5) 
-
-* **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/DqJDioq6pHBbLdic9) 
-
-## Spring Boot e Teste: Profiles, Testes e Deploy 
-
-* **Questionário Inicial:** [Clique aqui para responder o questionário no início do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) 
-
-* **Bora pro curso?** [Curso - Spring Boot e Teste: Profiles, Testes e Deploy](https://www.alura.com.br/curso-online-spring-boot-profiles-testes-deploy) 
-
-* **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/nXcSn1Pf2PfhFxGh6) 
-
-* **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSfrfYGzHj8hXZvRJGONRXqFCHSU6KQwe0i86rrRQtfuXSuWVA/viewform) 
-
-
-## Spring Data JPA: Repositórios, Consultas, Projeções e Specifications
-
-* **Questionário Inicial:** [Clique aqui para responder o questionário no início do curso](https://forms.gle/F1HzNGdcHTmKijbs8) 
-
-* **Bora pro curso?** [Curso - Spring Data JPA: Repositórios, Consultas, Projeções e Specifcations](https://www.alura.com.br/curso-online-spring-data-jpa) 
-
-* **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/F1HzNGdcHTmKijbs8) 
-
-* **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeoVYhY5Ee09-Y7ZeAJyJj6YgfHHhx3kMJxSixSYooZLLqmgQ/viewform) 
-
-
-## SOLID com Java: Orientação a Objetos com Java 
-
-* **Questionário Inicial:** [Clique aqui para responder o questionário no início do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) 
-
-* **Bora pro curso?** [Curso - SOLID com Java: Orientação a Objetos com Java](https://cursos.alura.com.br/course/orientacao-a-objetos-avancada-e-principios-solid) 
-
-* **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) 
-
-* **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/AZhpK5SX9a2ae8qe7) 
+| SOLID com Java: Orientação a Objetos com Java |
+| --- |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) |
+| [Curso - SOLID com Java: Orientação a Objetos com Java](https://cursos.alura.com.br/course/orientacao-a-objetos-avancada-e-principios-solid) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) |
+| [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/AZhpK5SX9a2ae8qe7) |
 
 Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. Você vai construir dois projetos do zero. Nessa fase é importante que você vá se analisando e prestando muita atenção em relação ao nível de facilidade de cada funcionalidade construída. **Tem que ir ficando mais fácil**. Se não estiver ficando fácil, fique alerta, talvez você precise de ajuda. **Agora você entra na fase três do nosso bootcamp.**
 
@@ -204,22 +173,37 @@ Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento 
 
 * [Implementar o desafio de construção de uma API que simule parte do funcionamento do mercado livre](./treino-mercado-livre);
 
-Neste ponto da jornada, você deve estar se sentindo mais confiante e mais capaz de construir API's com as tecnologias e práticas até aqui trabalhadas. Vamos para o desafio final. Que é construir uma API que simule o funcionamento do credicard zero, um produto do Itaú. **Esta é a fase quatro do nosso bootcamp.**
+# FASE 4
 
-Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de criação de propostas. Aqui ainda não temos material gravado em vídeo, então por enquanto vai ser necessário ler os nossos textos :). 
+**Estimamos que você conclua a fase 4 até a oitava semana.**
 
-Importante lembrar que não é esperado que você acabe essa fase da leitura já conseguindo aplicar tais conceitos facilmente. A ideia é ter o primeiro contato e deixar a semente plantada na sua cabeça para que, no momento da prática, tudo seja mais facilmente acessível. 
+Neste ponto da jornada, você deve se sentir mais confiante e mais capaz de construir API's com as tecnologias e práticas até aqui trabalhadas. Vamos para o desafio final: Construir uma API que simula o funcionamento do Credicard zero, um produto do Itaú. 
 
-| Introdução a Docker |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) |
-| [Introdução a Docker](https://www.alura.com.br/curso-online-docker-e-docker-compose) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) |
-| [Clique aqui para o exercício de resolução de problema](https://forms.gle/GJ4rXr31KVg2p7289) |
+Estamos quase lá, reta final do nosso treino! Bora lá!
+
+Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de criação de propostas. 
+
+Aqui ainda não temos material gravado em vídeo, então por enquanto vai ser necessário ler os nossos textos :)
+
+**ATENÇÃO**: É importante lembrar que não é esperado que você acabe essa fase da leitura já conseguindo aplicar tais conceitos facilmente. A ideia é ter o primeiro contato e deixar a semente plantada na sua cabeça para que, no momento da prática, tudo seja mais facilmente acessível.
+
+
+## Curso | Docker: Criando containers sem dor de cabeça
+
+* **Questionário:** 
+     [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) 
+* **Bora pro curso?** 
+     [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-docker-e-docker-compose) 
+* **Questionário**  
+    [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform)
+* **Exercício de resolução** 
+    [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/GJ4rXr31KVg2p7289)
+
+## Cursos | Zup Edu
 
 * [Healthcheck](../informacao_procedural/healthcheck.md);
 * [Readiness checks](../informacao_procedural/readiness_checks.md);
-* [Spring Actuator](../informacao_suporte/spring-actuator.md);
+* [Spring Boot Actuator](../informacao_suporte/spring-actuator.md);
 * [Spring Health check](../informacao_suporte/spring-health-check.md);
 * [Segurança em ambientes cloud native](../informacao_procedural/seguranca_cloud_native.md);
 * [Introdução a Oauth](../informacao_suporte/oauth2.md);
