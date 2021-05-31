@@ -1,14 +1,12 @@
 # Como utilizar logs no Spring?
 
-Talvez seu código não está funcionando e está com dificuldade de encontrar o problema, não se preocupe!
+Talvez seu código não esteja funcionando e está com dificuldade de encontrar o problema, não se preocupe!
 
 Uma das maneiras de se encontrar um erro é por meio de Logs!
 
-Log de dados é um arquivo de texto gerado por um software para descrever eventos sobre o seu funcionamento, 
-utilização por usuários ou interação com outros sistemas. Um log, após ser gerado, passa a ser incrementado ao 
-longo do tempo com informações que permitem diagnosticar possíveis bugs!
+Log de dados é um arquivo de texto gerado por um software para descrever eventos sobre o seu funcionamento, utilização por usuários ou interação com outros sistemas. Um log, após ser gerado, passa a ser incrementado ao longo do tempo com informações que permitem diagnosticar possíveis bugs!
 
-## Vamos fazer isso com Spring, então!!!
+## Vamos fazer isso com Spring!
 
 O [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging) 
 utiliza por padrão o [Logback](http://logback.qos.ch/) em caso de utilizar os `Starters`, para utilizar o mesmo, 
@@ -33,7 +31,7 @@ public class Exemplo {
 }
 ```
 
-Pronto!!!
+Pronto!
 
 Agora você pode logar suas informações e diagnosticar possíveis erros mais rápido!
 
@@ -53,7 +51,7 @@ Você aplicou o fator XI. Logs, na qual diz que devemos tratar logs como fluxos 
 
 Quer saber mais? Acesse o [link!](../informacao_procedural/twelve-factor-logs.md)
 
-## Dicas de Luram Archanjo
+## Dicas
 
 Tenha uma equilíbrio na quantidade de logs da sua aplicação, pois, pouco log complica na depuração de problemas e logs 
 demais também!
@@ -90,12 +88,12 @@ public void criarProposta(Proposta proposta) {
 
 Ficou bem mais fácil de identificar, qual proposta, documento, salário e quando a mesma foi criada!
 
-E o mais importante! Sabemos que tem um furo de validação, pois não existe salário negativo!
+E o mais importante: Sabemos que tem um furo de validação, pois não existe salário negativo!
 
-Eba! Está tudo funcionando! Você sabia, se logar utilizando o formato JSON o log pode ser indexado e melhora muito o 
+Eba! Está tudo funcionando! Você sabia que, se logar utilizando o formato JSON o log pode ser indexado e melhora muito o 
 troubleshooting de problemas? Quer saber mais? Acesse o [link!](../informacao_suporte/spring-logging-json.md)
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre logs? acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging)
 
