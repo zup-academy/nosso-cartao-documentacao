@@ -13,7 +13,7 @@ Vamos ver um exemplo:
 ![alt text](../images/non-tls.png "comunicacao_nao_segura")
 
 Para nos proteger desses ataques **sempre** precisamos usar um canal de comunicação seguro, um modelo
-que nos permita nos autenticar e realizar a encriptação da mensagem antes do envio. Neste caso quando o 
+que nos permita nos autenticar e realizar a encriptação da mensagem antes do envio. Neste caso, quando o 
 atacante obter acesso às informações essas informações vão estar criptografadas de maneira que a informação
 não tenha serventia ao atacante.
 
@@ -25,6 +25,3 @@ Perceba que o canal de transmissão está protegido, o acesso a informação fic
 mais complexo para o atacante, isso exige muito mais esforço e minimiza consideravelmente
 as chances de termos informações expostas.
 
-# Informação de Suporte
-
-FIXME
