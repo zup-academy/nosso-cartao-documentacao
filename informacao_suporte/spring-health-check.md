@@ -3,15 +3,16 @@
 ## Antes de começar
 Por favor [clique aqui](https://forms.gle/mdTJe2zdWcrBa3XQ6) e responda o formulário antes de inciar o conteúdo
 
-Nesse tutorial iremos aprender como fazer nosso próprio Health Check caso for necessário.
+Neste tutorial vamos aprender como fazer nosso próprio Health Check caso for necessário.
 
-1ª Precisamos saber qual motivação do uso do Health Check! [Aqui tem uma explicação do que entendemos que você deve considerar](../informacao_procedural/healthcheck.md)
+1º Precisamos saber qual a motivação do uso do Health Check! [Aqui tem uma explicação do que entendemos que você deve considerar](../informacao_procedural/healthcheck.md)
 
 2º Precisamos saber quais os tipos de Health Checks que existem! [Aqui tem uma explicação do que entendemos que você deve considerar](../informacao_procedural/readiness_checks.md)
 
 Eba! Estamos contextualizados e prontos para pôr em prática nosso conhecimento sobre esse tema! Vamos lá?
 
 1º Precisamos criar nossa classe que irá representar o Health Check desejado, conforme código abaixo:
+
 
 ```java
 public class MeuHealthCheck {
@@ -83,7 +84,7 @@ Pronto! Criamos nosso primeiro Health Check customizado utilizando Spring Boot A
 
 Para testar, basta abrir seu navegador e chamar o endereço `http://localhost:8080/actuator/health`!
 
-# Informação de Suporte
+## Informação de Suporte
 
 Gostaria de saber mais sobre Health Check no Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#writing-custom-healthindicators)
 
