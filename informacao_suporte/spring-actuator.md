@@ -3,12 +3,12 @@
 ## Antes de começar
 Por favor [clique aqui](https://forms.gle/TptHJ4SCiyF68wNx9) e responda o formulário antes de iniciar o conteúdo
 
-O Spring Boot Actuator inclui vários recursos adicionais para ajudá-lo a monitorar e gerenciar seu aplicativo quando 
-você o envia à produção, como por exemplo:
+O Spring Boot Actuator inclui vários recursos adicionais para ajudá-lo a monitorar e gerenciar seu aplicativo quando você o envia à produção, como por exemplo:
+Endpoint para monitoramento da saúde da aplicação (Health Check).
 
-- Endpoint para monitoramento da saúde da aplicação (Health Check).
-- Endpoint para expor métricas da aplicação.
-- Endpoint para expor as propriedades da sua aplicação.
+Endpoint para expor métricas da aplicação.
+
+Endpoint para expor as propriedades da sua aplicação.
 
 Super legal né! Quer saber quais são os outros endpoints, acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints)
 
@@ -47,14 +47,13 @@ Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas,
 
 - Adicionar autenticação
 - Adicionar autorização
-
-## Dicas 2
-
+- 
 Não negligencie as informações que você está expondo sobre a sua infraestrutura.
 
-# Informação de Suporte
 
-Talvez esteja pensando sobre segurança no Spring Boot Actuator? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_suporte/spring-actuator-security.md)
+## Informação de Suporte
+
+Talvez você esteja pensando sobre segurança no Spring Boot Actuator? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_suporte/spring-actuator-security.md)
 
 Quer saber mais sobre Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-enabling)
 
