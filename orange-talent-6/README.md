@@ -34,11 +34,10 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
 * Micronaut para construção API's ainda mais preparadas para o mundo Cloud Native.
 * Stack de CI/CD da Amazon para que consiga fazer com que seu código seja um bom cliente da operação. Vamos de cultura DevOps. 
 
-## Dividimos o nosso cronograma em fases para apoiar você em cada etapa deste treino:
+**Dividimos o nosso cronograma em fases para apoiar você em cada etapa deste treino:**
+    
   
-  
-
-# FASE 1
+  # FASE 1
 
 Queremos que você entenda a estrutura do programa e como ficar melhor                                                                                               preparadx para consumir tudo que preparamos. 
                                                                                                                                                                         Essa aqui é uma fase curta, porém fundamental! 
