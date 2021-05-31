@@ -1,4 +1,4 @@
-# Como consumir tudo que preparamos para você no bootcamp
+# Como consumir tudo que preparamos para você aqui no Orange Talents
 
 ## Teoria + treino
 
