@@ -1,8 +1,9 @@
 # Bem-vindx ao programa Orange Talents
 
-## O Orange Talents é um programa de aceleração de carreira e busca uma evolução exponencial em tecnologia,                                                               sob uma perspectiva de treino intenso e deliberado.
+## Orange Talents: um programa de aceleração de carreira e evolução exponencial em tecnologia.                                                                         
 
-Nosso programa tem duração de até 13 semanas. Preparamos uma sequência de estudos e treinos que visam te deixar preparadx para                                            construir API's utilizando Java/Kotlin como linguagem e Spring/Micronaut + Hibernate como frameworks principais,                                                      fazendo com que você consiga focar no que mais importa: entregar valor para o cliente final usando tecnologia como meio. 
+**Nosso programa tem duração de até 13 semanas.**   
+   Preparamos uma sequência de estudos e treinos que visam te deixar preparadx para                                                                                  construir API's utilizando Java/Kotlin como linguagem e Spring/Micronaut + Hibernate como frameworks principais,                                                      fazendo com que você consiga focar no que mais importa: entregar valor para o cliente final usando tecnologia como meio. 
 
 O conteúdo é intenso e exige muito esforço da sua parte. Esperamos contar com toda sua energia!
 
