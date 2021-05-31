@@ -133,7 +133,7 @@ Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conheci
 * **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/wk9yBa2yLkZjmRgSA) 
 
 
-## Spring Boot API Rest: Segurança da API, Cache e Monitoramento 
+## Curso | Spring Boot API Rest: Segurança da API, Cache e Monitoramento 
 
 * **Questionário Inicial:** [Clique aqui para responder o questionário no início do curso](https://forms.gle/x1fep4xGm22kRw3m8) 
 
@@ -166,7 +166,7 @@ Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conheci
 * **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSeoVYhY5Ee09-Y7ZeAJyJj6YgfHHhx3kMJxSixSYooZLLqmgQ/viewform) 
 
 
-## SOLID com Java: Orientação a Objetos com Java 
+## Curso | SOLID com Java: Orientação a Objetos com Java 
 
 * **Questionário Inicial:** [Clique aqui para responder o questionário no início do curso](https://forms.gle/FdbZ3WA34Xx82d7n8) 
 
