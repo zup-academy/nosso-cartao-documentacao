@@ -188,7 +188,7 @@ Importante lembrar que não é esperado que você acabe essa fase da leitura já
 
 * [Healthcheck](../informacao_procedural/healthcheck.md);
 * [Readiness checks](../informacao_procedural/readiness_checks.md);
-* [Spring Actuator](../informacao_suporte/spring-actuator.md);
+* [Spring Boot Actuator](../informacao_suporte/spring-actuator.md);
 * [Spring Health check](../informacao_suporte/spring-health-check.md);
 * [Segurança em ambientes cloud native](../informacao_procedural/seguranca_cloud_native.md);
 * [Introdução a Oauth](../informacao_suporte/oauth2.md);
