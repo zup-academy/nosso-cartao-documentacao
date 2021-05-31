@@ -69,17 +69,13 @@ Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conheci
 
 ## Java Servlet: Fundamentos da programação Web Java
 
-* **Questionário:** 
-     [Clique aqui para responder o questionário no início do curso](https://forms.gle/zafEBTfxUjomef1EA) 
+* **Questionário:**[Clique aqui para responder o questionário no início do curso](https://forms.gle/zafEBTfxUjomef1EA) 
    
-* **Bora pro curso?** 
-     [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java) 
+* **Bora pro curso?** [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java) 
   
-* **Questionário:**  
-    [Clique aqui para responder o questionário no final do curso](https://forms.gle/zafEBTfxUjomef1EA) 
+* **Questionário:**[Clique aqui para responder o questionário no final do curso](https://forms.gle/zafEBTfxUjomef1EA) 
 
-* **Exercício de resolução:** 
-    [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/9nmFah4A33Mi67Cx5) 
+* **Exercício de resolução:**[Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/9nmFah4A33Mi67Cx5) 
 
 | HTTP: Entendendo a web por baixo dos panos |
 | --- | 
@@ -190,14 +186,10 @@ Aqui ainda não temos material gravado em vídeo, então por enquanto vai ser ne
 
 ## Curso | Docker: Criando containers sem dor de cabeça
 
-* **Questionário:** 
-     [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) 
-* **Bora pro curso?** 
-     [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-docker-e-docker-compose) 
-* **Questionário:**  
-    [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform)
-* **Exercício de resolução:** 
-    [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/GJ4rXr31KVg2p7289)
+* **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) 
+* **Bora pro curso?**[Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-docker-e-docker-compose) 
+* **Questionário:**[Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform)
+* **Exercício de resolução:**[Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/GJ4rXr31KVg2p7289)
 
 ## Cursos | Zup Edu
 
