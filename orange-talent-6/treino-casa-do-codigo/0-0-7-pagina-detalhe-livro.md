@@ -1,8 +1,8 @@
-### **Implementação da página de detalhe**
+# Implementação da página de detalhe livro
 
 Precisamos criar uma página com as mesmas informações que encontramos na página de detalhe da Casa do Código. Aqui está a página real => [https://www.casadocodigo.com.br/products/livro-spring-boot](https://www.casadocodigo.com.br/products/livro-spring-boot)
 
-**A ideia aqui é implementar todo código necessário para que tenhamos uma página com quase todas informações da página de detalhe da CDC.**
+**A ideia aqui é implementar todo código necessário para que tenhamos uma página com quase todas informações da página de detalhe da Casa do Código.**
 
 ### **Necessidades**
 
@@ -14,7 +14,7 @@ Precisamos criar uma página com as mesmas informações que encontramos na pág
 
 ### **Resultado esperado**
 
-*   que o front possa montar a página
+*   Que o front possa montar a página
 
 ### **Sobre a utilização do material de suporte aqui**
 
@@ -22,7 +22,9 @@ Esta é uma feature que reutiliza as habilidades trabalhadas até aqui. Tente im
 
 ### Antes de começar
 
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/YTYdUMkVHZuPByaD6)
+Por favor descreva como você pretende realizar a implementação deste desafio. 
+  
+  **Para acessar o formulário [clique aqui](https://forms.gle/YTYdUMkVHZuPByaD6)**
 
 ### **Informações de suporte para a feature**
 
