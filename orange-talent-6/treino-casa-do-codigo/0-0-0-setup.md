@@ -18,7 +18,7 @@ Nosso mais experiente membro do time, sugeriu os seguintes itens:
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
 
-Gerenciador de dependência
+# Gerenciador de dependência
 
 - [Maven](https://maven.apache.org/)
 
