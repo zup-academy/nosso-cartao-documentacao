@@ -1,8 +1,5 @@
 # Health Check
 
-## Antes de começar
-Por favor [clique aqui](https://forms.gle/rrvPVyjEZ5ooCP4u9) e responda o formulário antes de inciar o conteúdo
-
 ## Porque Health Check?
 
 Uma característica bastante importante que sua aplicação deve implementar é o **Health Check**.
@@ -30,6 +27,6 @@ Entretanto, se nossa aplicação é de processamento em lote ou batch, podemos e
 
 ## Depois de finalizar
 
-Agora que você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui](https://forms.gle/rrvPVyjEZ5ooCP4u9)
+Agora que você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui]()
 
 E agora, precisará fazer um exercício de resolução de problema. [Clique aqui e escreva sua resposta](https://forms.gle/K7GmxYcDNSooyRpUA)

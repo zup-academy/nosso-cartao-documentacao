@@ -1,8 +1,5 @@
 # Readiness Check ou Liveness Check
 
-## Antes de começar 
-Especialmente para este conteúdo, você responderá os formulários inicial e final junto com tópico que você estudará a seguir: Spring Boot Actuator
-
 
 Nossas aplicações normalmente rodam em um ambiente gerenciado, ou seja uma plataforma que é capaz de detectar se alguma coisa não está funcionando conforme o esperado, um crash de aplicação ou carga demasiada.
 
@@ -25,8 +22,3 @@ Processamentos em lote também podem implementar este conceito expondo operaçõ
 - Se você quer descobrir como o **kubernetes** utiliza seu readiness check para garantir que sua aplicação esteja apta para receber fluxo de trabalho. Esse [link](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) vai resolver o seu problema.
 
 - Se você usa o Spring e quer saber como o framework suporta readiness check [acesse aqui!](https://spring.io/blog/2020/03/25/liveness-and-readiness-probes-with-spring-boot)
-
-## Lembrete
-
-Especialmente para este conteúdo, você responderá os formulários inicial e final junto com tópico que você estudará a seguir: Spring Boot Actuator
-

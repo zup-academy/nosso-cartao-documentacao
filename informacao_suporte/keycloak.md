@@ -1,8 +1,5 @@
 # Entendendo conceitos de segurança para nossa aplicação!!!
 
-## Antes de começar
-Por favor [clique aqui](https://forms.gle/ZBHPJrTcpKoxCFKd7) e responda o formulário antes de inciar o conteúdo
-
 ## Contexto
 
 Armazenar senhas e dados sensíveis sempre é uma missão crítica para sistemas. 
@@ -64,6 +61,3 @@ não tem problema, [aqui você pode encontrar uma descrição sobre isso](https:
       * [Aqui você encontra o nosso docker-compose.yaml](../informacao_procedural/nosso-compose.md) como uma série de serviços necessários para nossa solução!
     
     * Talvez você pode estar se perguntando o que é docker-compose. [Este link pode ter ajudar a entender melhor a ferramenta](https://docs.docker.com/compose/) 
-
-## Depois de finalizar
-Você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui](https://forms.gle/ZBHPJrTcpKoxCFKd7)
