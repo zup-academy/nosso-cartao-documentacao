@@ -1,10 +1,12 @@
+# Exibir lista livros
+
 ### **Necessidade**
 
 Para que seja fácil pegar um id do livro, vamos exibir a lista de livros cadastrados.
 
 ### **Resultado esperado**
 
-um json com a lista de livros com id e nome do livro
+Um json com a lista de livros com id e nome do livro
 
 ### **Sobre a utilização do material de suporte aqui**
 
@@ -12,7 +14,10 @@ Tente fazer sem a utilização de nenhum material de suporte.
 
 ### Antes de começar
 
-Por favor descreva como você pretende realizar a implementação deste desafio. Para acessar o formulário [clique aqui](https://forms.gle/LjkCJVgadurTjpDc7)
+Por favor descreva como você pretende realizar a implementação deste desafio. 
+  
+  **Para acessar o formulário [clique aqui](https://docs.google.com/forms/d/e/1FAIpQLSezEWfnZvaE8-gbCccqSYXmq9VIA6afjXcRAAv0Y9DszSHA4w/viewform)**
+
 
 **Informações de suporte para a feature**
 
@@ -22,4 +27,4 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/rVuHwH3DnrVXADLm8)
+Antes de passar para a próxima funcionalidade, **envie o link para o diff da sua solução acessando [este formulário](https://docs.google.com/forms/d/e/1FAIpQLSdmJxg636XFzXmgzYSePROTHsxKZcUcI1Q4RJPrOTq-WxO1Kw/viewform)**
