@@ -31,5 +31,6 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/w7XqSMitfxgiQBo19)
+Antes de passar para a próxima funcionalidade, **envie o link para o diff da sua solução acessando [este formulário](https://docs.google.com/forms/d/e/1FAIpQLSdOEWfSXBYeqIzwZykvp5s9D0NQQQYuPnouXjY-VDhFU29eig/viewform)**
+
 
