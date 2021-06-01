@@ -1,9 +1,10 @@
 # Testes: Mitos x Realidade
 
-[Neste vídeo](https://youtu.be/5SYZCM2Fgpw) potencialmente polêmico aterrisamos em relação a como vamos abordar os testes aqui. 
+[Neste vídeo](https://youtu.be/5SYZCM2Fgpw) potencialmente polêmico, focamos em como vamos abordar os testes.
 
-Vamos nos inspirar demais no que foi pesquisado e seguir por uma linha que tende a ser mais segura quando falamos de criar testes que revelem bugs. 
+Vamos nos inspirar demais no que foi pesquisado e seguir por uma linha que tende a ser mais segura quando falamos de criar testes que revelam bugs.
 
-Você também vai ver que TDD não vai ser sugerido, simplesmente pela falta de evidência que a prática realmente ajude na qualidade da entrega final. 
+Você também vai ver que TDD não será nosso foco, simplesmente porque faltam evidências que a prática de TDD realmente ajuda na qualidade da entrega final.
 
-O nosso módulo não vai ser sobre quantidade de testes e sim sobre qualidade deles.
+O nosso módulo não vai ser sobre quantidade de testes e sim sobre a qualidade deles.
+
