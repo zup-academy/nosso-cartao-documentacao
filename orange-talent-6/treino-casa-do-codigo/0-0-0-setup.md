@@ -40,9 +40,9 @@ O recomendado e utilizado no mercado \ ZUP é o [Spring Initializr!](https://sta
 
 Se você tem alguma dúvida de como fazer isso, acesse:
 
-- [Gerando projeto com Spring Initializr](../informacao_procedural/spring-initializr-novo-projeto.md)
+- [Gerando projeto com Spring Initializr](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_procedural/spring-initializr-novo-projeto.md)
 - [Gerando projeto com Spring no IntelliJ](https://www.jetbrains.com/help/idea/spring-boot.html#top)
-- [Gerando projeto com Maven Archetype](../informacao_procedural/maven-archetype-novo-projeto.md)
+- [Gerando projeto com Maven Archetype](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_procedural/maven-archetype-novo-projeto.md)
 
 Agora você precisa fazer uma cópia do projeto no Github, temos um vídeo explicando o passo a passo de como fazer esta etapa: [Criando uma cópia do projeto (fork) para o seu usuário do github](https://github.com/zup-academy/orange-talents-05-template-casa-do-codigo)
 
