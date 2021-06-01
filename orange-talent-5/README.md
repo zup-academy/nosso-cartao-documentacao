@@ -150,20 +150,79 @@ Importante lembrar que não é esperado que você acabe essa fase da leitura já
 | [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd4b_yVzCjesGWorAw6SwGAaS2rAC5o6nLtQpopU4nCf9UUcg/viewform) |
 | [Clique aqui para o exercício de resolução de problema](https://forms.gle/GJ4rXr31KVg2p7289) |
 
-* [Healthcheck](../informacao_procedural/healthcheck.md);
-* [Readiness checks](../informacao_procedural/readiness_checks.md);
-* [Spring Actuator](../informacao_suporte/spring-actuator.md);
-* [Spring Health check](../informacao_suporte/spring-health-check.md);
-* [Segurança em ambientes cloud native](../informacao_procedural/seguranca_cloud_native.md);
-* [Introdução a Oauth](../informacao_suporte/oauth2.md);
-* [Introdução a Keycloak](../informacao_suporte/keycloak.md);
-* [Sobre métricas](../informacao_procedural/metric.md);
-* [Métricas tipo RED](../informacao_procedural/metric-red.md);
-* [Métricas tipo USE](../informacao_procedural/metric-use.md);
-* [Introdução ao Prometheus](../informacao_procedural/prometheus.md);
-* [Spring Actuator e métricas](../informacao_suporte/spring-actuator-metrics.md)
-* [Introdução a Open tracing](../informacao_procedural/open-tracing.md);
-* [Jaeger como implementaçãod de Open tracing](../informacao_suporte/jaeger.md);
+## Cursos | Zup Edu
+
+* ### Health Check, Readiness & Liveness Check e Spring Boot Actuator
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfC38gykjbDP2ifAxhiz0_QiqrOBJRZxj1Gm5C2B1lnBlzX4A/viewform)
+
+    * **Material:** [Healthcheck](../informacao_procedural/health_check_readiness_check_&_spring_boot_actuator.md)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfC38gykjbDP2ifAxhiz0_QiqrOBJRZxj1Gm5C2B1lnBlzX4A/viewform)
+
+    * **Exercício de resolução:** [Clique aqui para fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSdjzx1N_bnG3D1q1bk2xME3MtEbbm2ZUiinjkZk9yWEW_MRUA/viewform)
+
+
+* ### Segurança em ambientes Cloud Native
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://forms.gle/7vRESyLPZfYq4VXg9)
+
+    * **Material:** [Segurança em ambientes cloud native](../informacao_procedural/seguranca_cloud_native.md)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/7vRESyLPZfYq4VXg9)
+
+    * **Exercício de resolução:** [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/2y93wvkhpHYycJxt8)
+
+* ### Introdução a OAuth
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdbo1yVJvDAv6Jj0S4eIWeEH13Rk32tJUSs3hTe4IkLejf7ig/viewform)
+
+    * **Material:** [Introdução a OAuth](../informacao_suporte/oauth2.md)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdbo1yVJvDAv6Jj0S4eIWeEH13Rk32tJUSs3hTe4IkLejf7ig/viewform)
+
+* ### Introdução a Keycloak
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://forms.gle/ZBHPJrTcpKoxCFKd7)
+
+    * **Material:** [Introdução a Keycloak](../informacao_suporte/keycloak.md)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/ZBHPJrTcpKoxCFKd7)
+
+* ### Sobre Métricas
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdKubAqBlcbyyIRdP9qzezK883dTMrUMRIugQZF-67bq44rnA/viewform)
+
+    * **Material:** [Sobre métricas](../informacao_procedural/metric.md)
+
+    * **Material:**  [Métricas tipo RED](../informacao_procedural/metric-red.md)
+
+    * **Material:**  [Métricas tipo USE](../informacao_procedural/metric-use.md)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdKubAqBlcbyyIRdP9qzezK883dTMrUMRIugQZF-67bq44rnA/viewform)
+
+* ### Introdução ao Prometheus
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScrQoTV0-KGpaGaB5xZwR9OOig_gALjOpRINyoloCJ58tRbbg/viewform)
+
+    * **Material:** [Introdução ao Prometheus](../informacao_procedural/prometheus.md)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScrQoTV0-KGpaGaB5xZwR9OOig_gALjOpRINyoloCJ58tRbbg/viewform)
+
+* ### Spring Actuator e métricas
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdaxf94jWBRHw9jVISxNDxoHOvdWcE274cjV__GoHxKBeaT5Q/viewform)
+
+    * **Material:** [Spring Actuator e métricas](../informacao_suporte/spring-actuator-metrics.md)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdaxf94jWBRHw9jVISxNDxoHOvdWcE274cjV__GoHxKBeaT5Q/viewform)
+
+* ### Introdução a Open Tracing
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScMq_35oDnbAjyPsuCW7nagpt6NSnB4916KfyvUWT5tShSqEA/viewform)
+
+    * **Material:** [Introdução a Open Tracing](../informacao_procedural/open-tracing.md)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScMq_35oDnbAjyPsuCW7nagpt6NSnB4916KfyvUWT5tShSqEA/viewform)
+
+* ### Jaeger como implementação de Open tracing
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeiLaxvdo0xh2brlzQAMeerA2bGKUkEmLDWRVy8sjftCuklbA/viewform)
+
+    * **Material:** [Jaeger como implementação de Open tracing](../informacao_suporte/jaeger.md)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeiLaxvdo0xh2brlzQAMeerA2bGKUkEmLDWRVy8sjftCuklbA/viewform)
 
 Agora que você fez mais imersão teórica, vamos treinar! Neste treino você vai utilizar tudo que você estudou e até um pouco mais!
 
