@@ -1,4 +1,4 @@
-# Structural testing: Cobertua por linhas de código
+# Structural testing: Cobertura por linhas de código
 
 [Neste vídeo](https://youtu.be/duMAgiBKx_Q) exploramos neste vídeo a cobertura mais básica que é feita por linhas de código.
 
