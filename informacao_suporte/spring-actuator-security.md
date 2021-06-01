@@ -62,10 +62,10 @@ Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas,
 
 ## Dicas de Claudio Eduardo Oliveira
 
-Não negligencie as informações que você está expondo sobre a sua infraestrutura.
+- Não negligencie as informações que você está expondo sobre a sua infraestrutura.
 
 # Informação de Suporte
 
-Quer saber mais sobre Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-enabling)
+- Quer saber mais sobre Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-enabling)
 
-Quer saber mais sobre o The Twelve-Factor App? Acesse o [link!](https://12factor.net/pt_br/)
+- Quer saber mais sobre o The Twelve-Factor App? Acesse o [link!](https://12factor.net/pt_br/)

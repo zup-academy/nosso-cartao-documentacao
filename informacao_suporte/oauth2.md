@@ -33,6 +33,3 @@ Na nossa solução vamos usar a implementação do Keycloak, uma aplicação que
  
 * Se você está curioso em saber como funciona o método Basic de Autenticação HTTP, [nesse link você pode
 encontrar aqui](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
-
-## Depois de finalizar
-Você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui](https://forms.gle/gbZUfvUu6jFpH77C6)

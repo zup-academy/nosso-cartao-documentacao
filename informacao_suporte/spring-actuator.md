@@ -47,8 +47,7 @@ Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas,
 
 - Adicionar autenticação
 - Adicionar autorização
-- 
-Não negligencie as informações que você está expondo sobre a sua infraestrutura.
+- Não negligencie as informações que você está expondo sobre a sua infraestrutura.
 
 
 ## Informação de Suporte
