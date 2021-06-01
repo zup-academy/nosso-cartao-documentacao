@@ -180,7 +180,9 @@ Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conheci
 
 # FASE 3
 
-Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. Bem-vindx a fase 3 do nosso treino!
+Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. 
+
+**Bem-vindx a fase 3 do nosso treino!**
 
 Você vai construir dois projetos do zero. Nessa fase é importante que você faça uma auto análise e preste muita atenção ao nível de facilidade de cada funcionalidade que você vai construindo. Você deve sentir aos poucos que as etapas ficam mais fáceis. Se não estiver, vale o alerta: talvez você precise de ajuda, bora pra um café com um dos nossos mentores?!
 
@@ -212,7 +214,7 @@ Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
 * **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSfuzTJIal73B_WA3cfrP004jPRCUwaiz4lo0DZ8sLIey6fS5A/viewform)
  
 
-* ###  [Conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs). 
+* ###  [Conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs)
 
 Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento de confiabilidade de execução do código, mergulhe no desafio de criar uma API que simula parte do Mercado Livre.
 
