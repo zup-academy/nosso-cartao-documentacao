@@ -1,30 +1,19 @@
-# Entendendo conceitos de segurança para nossa aplicação!!!
+# Entendendo conceitos de segurança para nossa aplicação!
 
 ## Contexto
 
-Armazenar senhas e dados sensíveis sempre é uma missão crítica para sistemas. 
-Essas informações são passíveis de auditoria e em alguns casos podemos ter vazamentos de informações 
-dessas informações, pelo fato de não estarmos preparados para **todos** os tipos de ataques que estamos sujeitos.
-Levamos isso em conta, então nosso processo de autenticação deve ser **delegado** à um sistema externo.
+Armazenar senhas e dados sensíveis sempre é uma missão crítica para sistemas. Essas informações são passíveis de auditoria e em alguns casos podemos ter vazamentos de informações, pelo fato de não estarmos preparados para **todos** os tipos de ataques que estamos sujeitos. Levando isso em conta, nosso processo de autenticação deve ser **delegado** a um sistema externo.
 
 ## Explicacao Necessária
 
-Existe uma categoria de sistemas que lidam especificamente com gerenciamento e perfis de usuário. 
-Nessa categoria esses sistemas implementam de maneira bastante efetiva controles de segurança, 
-criptografia da informação, proteção contra ataques comuns no mundo virtual. 
-Eles contam com uma vasta variedades de features que você pode gradualmente aumentando ou 
-reduzindo a segurança de controle de seus usuários. 
+Existe uma categoria de sistemas que lidam especificamente com gerenciamento e perfis de usuário. Nessa categoria, esses sistemas implementam de maneira bastante efetiva controles de segurança, criptografia da informação, proteção contra ataques comuns no mundo virtual. Eles contam com uma vasta variedade de features que você pode gradualmente aumentando ou reduzindo a segurança de controle de seus usuários.
 
-Na nossa solução vamos usar a implementação do Keycloak, uma aplicação que pode nos ajudar a manter
-os dados dos nossos usuários seguro além de prover uma maneira bem simples de integração com Spring Framework.
-O produto é open-source então podemos usá-lo sem nenhum problema de licenciamento. Aliás esse é um ponto
-de atenção sempre utilize software de acordo com a regulamentação da licensa
+Na nossa solução vamos usar a implementação do Keycloak, uma aplicação que pode nos ajudar a manter os dados dos nossos usuários seguros, além de prover uma maneira bem simples de integração com Spring Framework. O produto é open-source então podemos usá-lo sem nenhum problema de licenciamento. Aliás esse é um ponto de atenção: sempre utilize software de acordo com a regulamentação da licença
+
 
 ## Necessidades
 
-Devemos "subir" nosso servidor de IAM e verificar se ele está operante e pronto para realizarmos
-nossas integrações que serão realizadas no próximos passos.
-
+Devemos "subir" nosso servidor de IAM e verificar se ele está operante e pronto para realizarmos nossas integrações que serão realizadas nos próximos passos.
 
 ## Resultado Esperado
 - Identificar o serviço declarado no docker-compose.yaml
