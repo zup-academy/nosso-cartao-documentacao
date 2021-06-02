@@ -3,18 +3,18 @@
 O Spring Boot Actuator fornece muitas APIs interessantes para monitoramento do nosso sistema, contrapartida, essas 
 informações podem ser utilizadas para explorar falhas de segurança!
 
-Como assim!?
+Como assim?
 
 Vou dar um exemplo, imagina que por algum motivo o recurso de `/actuator/env` está público, ou seja, qualquer um pode 
 acesso de qualquer lugar!
 
-Um Hacker, pode por exemplo obter todas as versões das dependências utilizadas no seu projeto e 
-explorar falhas, como por exemplo na imagem abaixo:
+Um Hacker, pode por exemplo, obter todas as versões das dependências utilizadas no seu projeto e 
+explorar falhas, como na imagem abaixo:
 
 ![alt text](../images/spring-008.png "Spring Boot Actuator")
 
 O Hacker sabe que estou utilizando Spring Boot 2.3.0 e com uma simples pesquisa no google pode encontrar falhas 
-relacionadas a esta versão, como por exemplo na imagem abaixo:
+relacionadas a esta versão, como na imagem abaixo:
 
 ![alt text](../images/spring-009.png "Spring Boot Actuator")
 
@@ -53,18 +53,15 @@ management.endpoints.web.cors.allowed-origins=https://example.com
 management.endpoints.web.cors.allowed-methods=GET
 ```
 
-## Dicas de Luram Archanjo
+## Dicas
+Não negligencie as informações que você está expondo sobre a sua infraestrutura.
 
 Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas, como por exemplo:
 
 - Adicionar autenticação
 - Adicionar autorização
 
-## Dicas de Claudio Eduardo Oliveira
-
-- Não negligencie as informações que você está expondo sobre a sua infraestrutura.
-
-# Informação de Suporte
+## Informação de Suporte
 
 - Quer saber mais sobre Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-enabling)
 
