@@ -71,9 +71,9 @@ Já passou pela primeira parte do fechamento da compra? Agora é ainda mais desa
 
 6.  O que merece ser testado? Já falamos um pouco sobre isso e os prós e contras. Eu continuo entendendo que a prioridade são fluxos de código que possuem branches(ifs, eles, loops etc). [Falo mais aqui](https://youtu.be/vCnhwbkX3EA). 
 
-7.  Como Alberto faria esse código? [Parte 1](https://youtu.be/b5vUoPygtv4), [parte 2](https://youtu.be/_QYVYx2ENDQ), [parte 3](https://youtu.be/AAugW3C54Cs)
+7.  Como Alberto faria esse código? [Parte 1](https://youtu.be/b5vUoPygtv4), [Parte 2](https://youtu.be/_QYVYx2ENDQ), [Parte 3](https://youtu.be/AAugW3C54Cs)
 
-8. Como Alberto testaria esse código? [PARTE 1](https://youtu.be/zFRUxyz7FCA), [PARTE 2](https://youtu.be/F67IG4B8oC4). 
+8. Como Alberto testaria esse código? [Parte 1](https://youtu.be/zFRUxyz7FCA), [Parte 2](https://youtu.be/F67IG4B8oC4). 
 
 ### Depois de finalizar
 
