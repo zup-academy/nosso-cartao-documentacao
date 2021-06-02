@@ -10,15 +10,15 @@ Precisamos criar um projeto para atender as funcionalidades da **Casa do código
 
 Nosso mais experiente membro do time, sugeriu os seguintes itens:
 
-## Linguagem de programação
+### Linguagem de programação
 
 - [Java 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 
-## Tecnologia
+### Tecnologia
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
 
-# Gerenciador de dependência
+### Gerenciador de dependência
 
 - [Maven](https://maven.apache.org/)
 
