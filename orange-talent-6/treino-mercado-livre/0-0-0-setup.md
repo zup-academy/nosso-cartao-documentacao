@@ -1,8 +1,8 @@
-# Setup do Projeto - Mercado Livre
+# Setup do Projeto | Mercado Livre
 
 ## Objetivo
 
-Sabemos que está ansioso(a) para começar a codificar, porém antes precisamos preparar nosso ambiente, portanto esse será nosso objetivo nessa tarefa.
+Você deve estar ansiosx para começar a codificar, porém antes precisamos preparar nosso ambiente, portanto esse será nosso objetivo nessa tarefa.
 
 ## Descrição
 
@@ -10,16 +10,16 @@ Nessa tarefa precisamos criar um projeto para atender as funcionalidades da **Me
 
 Nosso mais experiente membro do time, sugeriu os seguintes itens:
 
-Linguagem de programação
+### Linguagem de programação
 
 - [Java 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 
-Tecnologia
+### Tecnologia
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring Cloud Feign](https://spring.io/projects/spring-cloud-openfeign)
 
-Gerenciador de dependência
+### Gerenciador de dependência
 
 - [Maven](https://maven.apache.org/)
 
