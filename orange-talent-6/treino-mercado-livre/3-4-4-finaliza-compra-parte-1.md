@@ -1,4 +1,4 @@
-# Realmente finaliza compra - Parte 1
+# Realmente finaliza compra | Parte 1
 
 ### Contexto
 
