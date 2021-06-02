@@ -173,5 +173,5 @@ de encontrar o container do **prometheus** na rede. Um comportamento similar a h
     detalhes do funcionamento de redes](https://docs.docker.com/config/containers/container-networking/)
     * Talvez você pode se perguntar qual é o modelo padrão de rede no docker. [Este link explica um pouco do modelo bridge](https://docs.docker.com/network/bridge/)    
     * Ou ainda pode ter alguma dúvida sobre a existência de outros modelos de rede no docker. [Sim, temos um modelo chamado overlay, aqui você acha detalhes sobre ele](https://docs.docker.com/network/overlay/) 
-* Ou ainda voc    
+
     
