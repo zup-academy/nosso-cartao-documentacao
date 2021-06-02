@@ -216,9 +216,12 @@ Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
 
 ## Assista aqui um [Conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs)
 
-Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento de confiabilidade de execução do código, mergulhe no desafio de criar uma API que simula parte do Mercado Livre.
 
-* [Implementar o desafio de construção de uma API que simule parte do funcionamento do mercado livre](./treino-mercado-livre);
+Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento da confiabilidade de execução do seu código, mergulhe no desafio de criar uma API que simula parte do Mercado Livre.
+
+
+* **Desafio 1:** [Implementar o desafio de construção de uma API que simule parte do funcionamento do mercado livre](./treino-mercado-livre);
+
 
 # FASE 4
 
