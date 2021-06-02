@@ -253,7 +253,7 @@ Aqui ainda não temos material gravado em vídeo, então por enquanto vai ser ne
 * ### Health Check, Readiness & Liveness Check e Spring Boot Actuator
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfC38gykjbDP2ifAxhiz0_QiqrOBJRZxj1Gm5C2B1lnBlzX4A/viewform)
       
-    * **Material:** [Healthcheck](../informacao_procedural/health_check_readiness_check_&_spring_boot_actuator.md)
+    * **Material:** [Health Check, Readiness & Liveness Check e Spring Boot Actuator](../informacao_procedural/health_check_readiness_check_&_spring_boot_actuator.md)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfC38gykjbDP2ifAxhiz0_QiqrOBJRZxj1Gm5C2B1lnBlzX4A/viewform)
 
