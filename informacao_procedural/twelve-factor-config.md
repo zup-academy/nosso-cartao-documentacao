@@ -1,4 +1,4 @@
-# Como fornecer configurações de serviços externos para minha aplicação???
+# Como fornecer configurações de serviços externos para minha aplicação?
 
 Nossa aplicação precisa acessar alguns serviços externos, esses serviços externos
 estão instalados em algum lugar que pode ser identificado em uma rede de computadores.
@@ -12,10 +12,10 @@ ambiente para ambiente.
 Configurações deve ser providas pelo ambiente no qual a aplicação roda, ou seja, sua aplicação deve sempre perguntar
 ao ambiente a informação que ela precisa.
 
-Essas configurações podem variar de ambiente para ambiente, porém se o ambiente estiver essas informações
+Essas configurações podem variar de ambiente para ambiente, porém se estiver com essas informações
 não teremos problemas ao promover nossas aplicações entre eles.
 
-## Mas como posso resolver isso com Spring???
+## Mas como posso resolver isso com Spring?
 
 O Spring suporta a configuração das aplicações usando os arquivos _*.properties_ ou _*.yaml_, nesses arquivos podemos
 fazer referências as varíaveis de ambiente. 
@@ -32,10 +32,9 @@ cartoes:
 Veja que em ambos os casos usamos os caracteres **$** para indicar que aquela propriedade
 deve ser resolvida com varíaveis de ambiente.
   
+## Quero definir um valor padrão. É possível?
 
-## Quero definir um valor padrão. É possível???
-
-Sim. Vamos fazer isso então.
+Sim. Vamos fazer isso.
 
 ```properties
 cartoes.host=${CARTOES_URL:http://localhost:9999/api/cartoes}
@@ -48,7 +47,7 @@ cartoes:
 
 É possível notar que utilizamos **:** separando a varíavel de ambiente do valor default.  
 
-## Dicas de Claudio Eduardo Oliveira
+## Dicas
 
 Utilize valores default somente em contexto de desenvolvimento, essa prática não é recomendada
 para ambientes produtivos.
