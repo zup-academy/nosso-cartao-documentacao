@@ -1,8 +1,5 @@
 # Como configurar o Spring Boot Actuator?
 
-## Antes de começar
-Por favor [clique aqui](https://forms.gle/TptHJ4SCiyF68wNx9) e responda o formulário antes de iniciar o conteúdo
-
 O Spring Boot Actuator inclui vários recursos adicionais para ajudá-lo a monitorar e gerenciar seu aplicativo quando você o envia à produção, como por exemplo:
 Endpoint para monitoramento da saúde da aplicação (Health Check).
 
@@ -49,7 +46,6 @@ Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas,
 - Adicionar autorização
 - Não negligencie as informações que você está expondo sobre a sua infraestrutura.
 
-
 ## Informação de Suporte
 
 Talvez você esteja pensando sobre segurança no Spring Boot Actuator? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_suporte/spring-actuator-security.md)
@@ -57,6 +53,3 @@ Talvez você esteja pensando sobre segurança no Spring Boot Actuator? [Aqui tem
 Quer saber mais sobre Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-enabling)
 
 Quer saber mais sobre o The Twelve-Factor App? Acesse o [link!](https://12factor.net/pt_br/)
-
-## Depois de finalizar
-Agora que você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui](https://forms.gle/TptHJ4SCiyF68wNx9)
