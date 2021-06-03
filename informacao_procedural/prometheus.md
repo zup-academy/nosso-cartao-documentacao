@@ -1,6 +1,6 @@
 # Prometheus
 
-O Prometheus é um sistema de monitoramento de código aberto baseado em métricas. Claro, Prometheus está longe de ser o 
+O Prometheus é um sistema de monitoramento de código aberto baseado em métricas. Claro que está longe de ser o 
 único lá fora, então o que o torna notável?
 
 Prometheus faz uma coisa e faz bem. Ele possui um modelo de dados simples, porém poderoso, e uma linguagem de consulta 
@@ -10,7 +10,7 @@ das métricas, deixando-os para outras ferramentas mais apropriadas.
 O mesmo é escrito principalmente em Go e licenciado sob a licença Apache 2.0, na qual existem centenas de pessoas que 
 contribuíram para o projeto em si, que não são controladas por nenhuma empresa.
 
-Demais né! Um projeto focado em métrica, código aberto e sem nenhuma empresa por traz, esses fatores o deixam muito 
+Demais né? Um projeto focado em métrica, código aberto e sem nenhuma empresa por traz, esses fatores o deixam muito 
 poderoso e fica claro sua utilização no mercado, principalmente na **Zup** onde é extremamente **recomendado**!
 
 E ainda mais, para instrumentar seu próprio código, existem bibliotecas em todas as linguagens populares, incluindo Go, 
@@ -53,12 +53,12 @@ responsabilidade de enviar as métricas são da aplicação (operação de curta
 
 Para atender esse cenário o Prometheus provê uma API para receber essas métricas!
 
-Demais né! Lembrando é apenas para casos de operações com curta duração! Se você utiliza uma aplicação que roda horas, 
+Lembrando é apenas para casos de operações com curta duração! Se você utiliza uma aplicação que roda horas, 
 dias, meses, etc. Utilize o modelo de pull model e remova a complexidade da sua aplicação!
 
 Quer saber mais sobre Push Model e quando utilizar? O Prometheus tem uma [página](https://prometheus.io/docs/practices/pushing/) sobre isso!
 
-## Dicas de Luram Archanjo
+## Dicas
 
 Prometheus é muito utilizado no mercado e **recomendado pela Zup**, portanto, tente se aprofundar ao 
 máximo sobre o tema em sua área de atuação!
