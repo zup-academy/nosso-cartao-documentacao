@@ -39,6 +39,8 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
   
 # FASE 1
 
+**Estimamos que você conclua a fase 1 até a segunda semana.**
+
 Queremos que você entenda a estrutura do programa e como ficar melhor                                                                                               preparadx para consumir tudo que preparamos. 
                                                                                                                                                                         Essa aqui é uma fase curta, porém fundamental! 
 
@@ -50,6 +52,8 @@ Queremos que você entenda a estrutura do programa e como ficar melhor          
   
 
 # FASE 2
+
+**Estimamos que você conclua a fase 2 até a segunda semana.**
 
 Nesta fase você fará uma imersão teórica sobre desenvolvimento web utilizando o paradigma de programação orientado a objetos com Java, Spring e Hibernate. 
 
@@ -180,6 +184,8 @@ Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conheci
 
 # FASE 3
 
+**Estimamos que você conclua a fase 3 até a quarta semana.**
+
 Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. 
 
 **Bem-vindx a fase 3 do nosso treino!**
@@ -214,13 +220,13 @@ Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
 * **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSfuzTJIal73B_WA3cfrP004jPRCUwaiz4lo0DZ8sLIey6fS5A/viewform)
  
 
-## Assista aqui um [Conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs)
+### Assista aqui um [Conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs)
 
 
 Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento da confiabilidade de execução do seu código, mergulhe no desafio de criar uma API que simula parte do Mercado Livre.
 
 
-* **Desafio 1:** [Implementar o desafio de construção de uma API que simule parte do funcionamento do mercado livre](./treino-mercado-livre);
+* **Desafio 2:** [Implementar o desafio de construção de uma API que simule parte do funcionamento do mercado livre](./treino-mercado-livre);
 
 
 # FASE 4
@@ -324,23 +330,27 @@ Aqui ainda não temos material gravado em vídeo, então por enquanto vai ser ne
 
 Agora que você fez mais imersão teórica, vamos treinar! Neste treino você vai utilizar tudo que você estudou e até um pouco mais!
 
-* [Implemente o microservice relativo a criação de propostas](./proposta/)
+* **Desafio 3:** [Implemente o microservice relativo a criação de propostas](./proposta/)
 
 Com o microservice de propostas implementado, chegou a hora de implementar um novo serviço, o que cuida das transações do cartão de crédito. Como é de praxe, antes de começar, vamos primeiro estudar a teoria necessária. 
 
-| Introdução a Apache Kafka |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform) |
-| [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform) |
+* ### Introdução a Apache Kafka
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform)
 
+    * **Curso:** [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform)
 
 Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparado(a) para utilizar essa forma de integração.
 
-* [Serviço de transação](./transacao/);
+* **Desafio 4:*** [Serviço de transação](./transacao/);
 
-Nesse momento do nosso bootcamp, você já deve estar se sentindo mais 
-apto(a) a criar API's REST que possam ser deployadas em ambientes Cloud Native. Agora vamos para a fase final, onde vamos nos desafiar a transferir todo esse conhecimento para uma nova stack de tecnologias, a Orange Foundation!  Antes de mais nada, deixe a gente te contar um pouco sobre essa nova stack. 
+# FASE 5
+
+**Estimamos que você conclua a fase 5 até a décima terceira semana.**
+
+Nesse momento do nosso treinamento, você já deve estar se sentindo mais 
+apto(a) a criar API's REST que possam ser deployadas em ambientes Cloud Native. Agora vamos para a fase final, onde vamos nos desafiar a transferir todo esse conhecimento para uma nova stack de tecnologias, a Orange Foundation! Antes de mais nada, deixe a gente te contar um pouco sobre essa nova stack: 
 
 A Zup + Itaú decidiram apostar em um novo conjunto de tecnologias que são ainda mais aderentes a este mundo onde tudo executa no cloud. A Orange Foundation vai atuar em diversas vertentes do desenvolvimento, tais como:
 
