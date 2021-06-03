@@ -3,7 +3,7 @@
 Nesse tutorial vamos aprender como gerar um projeto utilizando o [Maven Archetype](https://maven.apache.org/archetype/index.html), primeiro precisamos saber o 
 que é [Maven](https://maven.apache.org/what-is-maven.html).
 
-## [Maven](https://maven.apache.org/what-is-maven.html)
+## Maven
 
 [Maven](https://maven.apache.org/what-is-maven.html) é uma ferramenta de gerenciamento e automação 
 de construção (build) de projetos. Entretanto, por fornecer diversas funcionalidades adicionais através do uso de 
