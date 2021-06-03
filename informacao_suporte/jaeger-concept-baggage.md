@@ -37,7 +37,7 @@ Span activeSpan = tracer.activeSpan();
 activeSpan.setBaggageItem("user.email", "luram.archanjo@zup.com.br");
 ```
 
-Demais né! Vamos testar?
+Vamos testar?
 
 Para testar precisamos verificar se o Jaeger foi iniciado, conforme está no docker-compose, para isto, vamos abrir em 
 nosso navegador favorito o endereço `http://localhost:16686/search`
@@ -50,7 +50,7 @@ conforme imagem abaixo:
 ![alt text](../images/open-tracing-008.png "OpenTracing")
 
 No código acima, no segundo serviço a gente obteve o **baggage item** utilizando o método `getBaggageItem()`, 
-conforme código abaixo, e sobrescreveu o mesmo:
+conforme código abaixo, e sobrescreve o mesmo:
 
 ```java
 Span activeSpan = tracer.activeSpan();
@@ -58,9 +58,9 @@ String userEmail = activeSpan.getBaggageItem("user.email");
 activeSpan.setBaggageItem("user.email", userEmail);
 ```
 
-Demais né! Agora podemos utilizar vários **baggage itens** para melhorar nosso processo de troubleshooting!
+Agora podemos utilizar vários **baggage itens** para melhorar nosso processo de troubleshooting!
 
-## Dicas de Luram Archanjo
+## Dicas 
 
 Use com parcimônia o **baggage item**, pois é um código de infraestrutura (trace) em conjunto com o código de negócio, 
 portanto tente segmentar!
