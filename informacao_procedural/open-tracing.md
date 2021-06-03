@@ -1,6 +1,6 @@
 # OpenTracing
 
-Nos últimos anos os modelos de arquitetura distribuídos, como o Micosserviços, vem sendo amplamente adotadas pelas empresas 
+Nos últimos anos os modelos de arquitetura distribuídos, como o Microsserviços, vem sendo amplamente adotadas pelas empresas 
 por prover vários benefícios para as mesmas. Porém como tudo em tecnologia, temos vantagens e desvantagens!
 
 Uma desvantagem bastante latente nesse estilo de arquitetura é o troubleshooting de problemas: quanto mais serviços, 
@@ -13,9 +13,9 @@ um erro, como saber qual chamada interna falhou e como descobrir isso de forma e
 
 Uma alternativa é coletar os logs de cada serviço e analisá-los. Num cenário onde temos poucos serviços isso parece 
 viável, mas e quando tiver inúmeras instâncias desse um mesmo serviço sendo executadas? Imagina que  no exemplo da
-figura acima tenhamos 5 instâncias de cada serviço. Logo, teriamos que coletar e analisar logs de 20 instâncias diferentes.
+figura acima tenhamos 5 instâncias de cada serviço. Logo, teríamos que coletar e analisar logs de 20 instâncias diferentes.
 Para dificultar ainda mais o trabalho, lembramos que os logs possuem informações sobre as diversas requisições que as
-instâncias dos serviços estão processanto, e não somente as que estamos buscando. 
+instâncias dos serviços estão processando, e não somente as que estamos buscando. 
 
 Não parece ser viável e eficaz!
 
@@ -28,7 +28,7 @@ como por exemplo:
 
 Assim foi criada a especificação do OpenTracing para tratar do pilar de Trace. A ideia consiste em gerar metadados no início
 de cada operação para identificá-las, e propagá-los internamente entre os serviços envolvidos na operação podendo ser 
-utilizado quaisquer protocolos que implementem a especificação, como por exemplo:
+utilizado quaisquer protocolos que implementam a especificação, como por exemplo:
 
 - HTTP
 - AMQP
@@ -42,7 +42,7 @@ a imagem abaixo:
 No exemplo vemos que o  `trace-id 000001` foi gerado no `Serviço A` e propagado em todas as chamadas internas que 
 a operação precisou fazer para atender a requisição do cliente.
 
-Demais né! 
+Demais né?
 
 Além de propagar os metadados os mesmos são enviados assíncronamente para uma ferramenta que os armazena e 
 provendo funcionalidades, como por exemplo:
@@ -63,14 +63,14 @@ exemplo na imagem abaixo:
 Na imagem acima, conseguimos filtrar a operação de acordo com algum metadado e conseguimos visualizar os serviços que a 
 operação precisou passar e quais são os tempos, etc.
 
-Demais né!? O mercado e a comunidade conseguiram mitigar a complexidade de troubleshooting em sistemas distribuídos!
+O mercado e a comunidade conseguiram mitigar a complexidade de troubleshooting em sistemas distribuídos!
 
-# Terminologia
+## Terminologia
 
 Quando falamos sobre OpenTracing e sua especificação temos algumas terminologias e que são bastantes úteis para nós 
 desenvolvedores:
 
-## Span
+    ## Span
 
 Span é um período que representa uma operação, como por exemplo, uma requisição HTTP, na qual contém metadados extremamente 
 importantes, como:
@@ -83,7 +83,7 @@ importantes, como:
   próprio rastreamento, como por exemplo: identificador do usuário.
 - Logs do span \ operação em si.
 
-## Trace
+    ## Trace
 
 Um trace é um conjunto de `span` contendo a ordem de execução dos mesmos, como por exemplo:
 
@@ -96,10 +96,10 @@ Um trace é um conjunto de `span` contendo a ordem de execução dos mesmos, com
         [Span D···········································]
 ```
 
-## Dicas de Luram Archanjo
+## Dicas
 
 Utilize o `Baggage` para propagar informações de contexto do negócio, assim você consegue filtrar por eles e melhorar sua 
-operação \ sustentação. Por exemplo, sempre propague o identificador do usuário pois se algum usuário fizer uma reclamação
+operação \ sustentação. Por exemplo, sempre propague o identificador do usuário, pois se algum usuário fizer uma reclamação
 por conta de algum erro basta utilizar a ferramenta de OpenTracing para buscar por todas as operações com erro e 
 que contenham o identificador do determinado usuário.
 
