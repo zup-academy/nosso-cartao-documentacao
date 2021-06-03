@@ -48,7 +48,7 @@ Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas,
 
 ## Informação de Suporte
 
-Talvez você esteja pensando sobre segurança no Spring Boot Actuator? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_suporte/spring-actuator-security.md)
+Talvez você esteja pensando sobre segurança no Spring Boot Actuator... [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_suporte/spring-actuator-security.md)
 
 Quer saber mais sobre Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-enabling)
 
