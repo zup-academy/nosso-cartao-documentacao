@@ -97,7 +97,7 @@ Não deixe pública sua API, alinhe sempre com sua equipe as melhores práticas,
 - Adicionar autenticação
 - Adicionar autorização
 
-# Informação de Suporte
+## Informação de Suporte
 
 Está em dúvida de como configurar o Spring Boot Actuator? [Aqui você encontra como fazer isto!](../informacao_suporte/spring-actuator.md)
 
