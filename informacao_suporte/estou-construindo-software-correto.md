@@ -6,17 +6,17 @@ O software como um todo é automação do desejo de uma ou mais pessoas. Geralme
 
 ## Estamos construindo a funcionalidade correta?
 
-Geralmente dividimos um projeto em diversas funcionalidades que precisam ser implementadas. Antes de implementar a funcionalidade é necessário que você explore o que precisa ser feito para garantir mais uma vez que vamos construir o que é realmente necessário e que está condizente com o desejo das pessoas que precisam daquela automação. Você precisa ser um(a) ótima entendedor(a) de funcionalidades. 
+Geralmente dividimos um projeto em diversas funcionalidades que precisam ser implementadas. Antes de implementar a funcionalidade é necessário que você explore o que precisa ser feito para garantir mais uma vez que vamos construir o que é realmente necessário e que está condizente com o desejo das pessoas que precisam daquela automação. Você precisa ser um(a) ótimo(a) entendedor(a) de funcionalidades. 
 
-*A versão mais eficiente de uma pessoa programando é aquela que entende, questiona e implementa estritamente o que foi combinado. Não inventamos coisas que não foram pedidas, não fazemos suposição de funcionalidade e nem caímos na armadilha de achar que entendemos mais do que a pessoa que solicitou a funcionalidade.*
+*A versão mais eficiente de uma pessoa programando é aquela que entende, questiona e implementa estritamente o que foi combinado. Não inventamos coisas que não foram pedidas, não criamos uma suposição de funcionalidade e nem caímos na armadilha de achar que entendemos mais do que a pessoa que solicitou a funcionalidade.*
 
-Algumas dicas que podem te ajudar
+### Algumas dicas que podem te ajudar
 
 * Está claro o motivo daquela construção? Sempre pergunte o motivo por trás daquela funcionalidade. Pode ser que quem pediu não saiba responder direito e está tudo bem, pelo menos está claro que estamos fazendo algo sem um valor agregado óbvio. 
-* Geralmente uma funcionalidade precisa de algum tipo dado de entrada. Quais são estes dados? Explore aqui para descobrir exatamente o que é necessário. 
+* Geralmente uma funcionalidade precisa de algum tipo de dado de entrada. Quais são estes dados? Explore aqui para descobrir exatamente o que é necessário. 
 * Muitas vezes tais dados de entrada possuem restrições. Quais são as restrições? Explore de novo. 
 * Tem alguma outra restrição relacionada ao contexto recebimento destes dados? Alguma coisa não pode ser repetida etc?
-* Qual a saída esperada em caso de algum falha na checagem de restrições?
+* Qual a saída esperada em caso de alguma falha na checagem de restrições?
 * Qual a saída esperada em caso de sucesso?
 
 Lembre que precisamos implementar o software correto. Se você não fizer boas perguntas, corre o risco de implementar algo que não foi pedido e aí você e todas outras pessoas saem perdendo.
