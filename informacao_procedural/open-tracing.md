@@ -70,7 +70,7 @@ O mercado e a comunidade conseguiram mitigar a complexidade de troubleshooting e
 Quando falamos sobre OpenTracing e sua especificação temos algumas terminologias e que são bastantes úteis para nós 
 desenvolvedores:
 
-    ## Span
+  ## Span
 
 Span é um período que representa uma operação, como por exemplo, uma requisição HTTP, na qual contém metadados extremamente 
 importantes, como:
@@ -83,7 +83,7 @@ importantes, como:
   próprio rastreamento, como por exemplo: identificador do usuário.
 - Logs do span \ operação em si.
 
-    ## Trace
+  ## Trace
 
 Um trace é um conjunto de `span` contendo a ordem de execução dos mesmos, como por exemplo:
 
