@@ -114,7 +114,7 @@ O sentimento de "mágica" do Spring se deve a condição, se existe ou não uma 
 motivo em sua grande maioria basta adicionar uma dependência no `pom.xml` que a "mágica" acontece! Na verdade alguma 
 classe contida na dependência, habilita certas configurações, funcionalidades, comportamentos, etc.
 
-Demais né! Vamos testar?
+Vamos testar?
 
 Para testar precisamos verificar se o Jaeger foi iniciado, conforme está no docker-compose, para isto, vamos abrir em 
 nosso navegador favorito o endereço `http://localhost:16686/search`
@@ -132,7 +132,7 @@ abaixo:
 
 Demais né!?
 
-## Dicas de Luram Archanjo
+## Dicas
 
 Explore a ferramenta ao máximo, assim você conseguirá no futuro utilizar a mesma da melhorar maneira, como por exemplo:
 
