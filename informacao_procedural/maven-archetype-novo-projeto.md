@@ -12,7 +12,7 @@ muito mais do que apenas uma ferramenta auxiliar!
 
 Já sabemos o que é [Maven](https://maven.apache.org/what-is-maven.html), bora falar de Archetype?
 
-## [Maven Archetype](https://maven.apache.org/archetype/index.html)
+## Maven Archetype
 
 [Maven Archetype](https://maven.apache.org/archetype/index.html) tem como objetivo catalogar vários padrões de projeto, 
 como por exemplo:
@@ -24,7 +24,7 @@ projeto na estrutura do Maven, conforme imagem abaixo:
 
 Para saber quais são os outros Archetype, acesse o [catálogo](https://maven.apache.org/archetypes).
 
-#### Agora que sabemos os conceitos, bora colocar em prática?
+### Agora que sabemos os conceitos, bora colocar em prática?
 
 Para gerar nosso projeto, iremos utilizar o [maven-archetype-quickstart](https://maven.apache.org/archetypes/maven-archetype-quickstart/) 
 para tal precisamos instalar o [Maven](https://maven.apache.org/what-is-maven.html) em nosso ambiente.
