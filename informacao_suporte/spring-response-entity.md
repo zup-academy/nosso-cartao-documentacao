@@ -4,7 +4,7 @@ Quando escolhemos seguir o modelo arquitetural REST devemos seguir as práticas 
 nesse caso o modelo define um modelo rigoroso no controle de Status Code na resposta. Se você tem dúvida pode clicar
 aqui.
 
-Então precisamos de um modelo que nos ajude mapear essas práticas com nossos Controllers que foram implementados
+Então precisamos de um modelo que nos ajude a mapear essas práticas com nossos Controllers que foram implementados
 com Spring.
 O framework possui a classe [ResponseEntity](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/http/ResponseEntity.html) que é uma abstração completa para o Response, nela temos como definir
 os Headers, Body e Status Code de uma resposta HTTP, e é essa classe que vamos explorar agora!!!
@@ -31,8 +31,8 @@ ResponseEntity.badRequest()
 ResponseEntity.notFound()
 
 ```
-Como podemos ver esses métodos são bastante declarativos como podemos ver, mas ainda temos que lidar
-com o Body da requisição como podemos fazer isso??  _exceto quando utilizamos o Status Code 204_
+Como podemos ver esses métodos são bastante descritivos, mas ainda temos que lidar
+com o Body da requisição como podemos fazer isso?  _exceto quando utilizamos o Status Code 204_
 
 ## Manipulando o Body da requisição
 
@@ -53,13 +53,13 @@ Veja como o método _body()_ é utilizado permitindo a definição do conteúdo 
 ### Customizando Status Code
 
 Em algumas situações precisamos usar um Status Code que não possui um método pré-definido, nesse
-caso pode usar o método _status()_ combinado com a nossa denição de body usando novamente o
+caso pode usar o método _status()_ combinado com a nossa definição de body usando novamente o
 método _body()_. Vamos ver essa construção
 
 ```java
 ResponseEntity.status(HttpStatus.CONFLICT).body("Elemento ja criado");
 ```
-Como podemos ver usamos o Status Code de conflito **409**, e logo depois fizemos a definição do
+Como podemos ver, usamos o Status Code de conflito **409**, e logo depois fizemos a definição do
 body.
 
 
@@ -67,13 +67,13 @@ body.
 
 Algumas vezes precisamos manipular os Headers da nossa resposta, como por exemplo incluir uma
 meta-informação do objeto que foi criado, nesse caso podemos utilizar o método _header()_ adicionando
-os headers necessário.
+os headers necessários.
 
 ```java
 ResponseEntity.ok().header("x-custom-data", "custom").body("Body");
 ```
 
-Como podemos ver na assinatura do método _header()_ recebe dois parâmetros o primeiro
+Como podemos ver na assinatura do método _header()_ recebe dois parâmetros: o primeiro
 é header já o segundo é o valor da entrada do header.
 
 Como podemos ver a classe _ResponseEntity_ provê uma abstração bastante fluída para manipularmos
