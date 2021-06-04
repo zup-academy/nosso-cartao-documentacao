@@ -1,4 +1,4 @@
-## A necessidade da conversão
+# A necessidade da conversão
 
 Combinamos de nunca conectar objetos de domínio com a borda mais externa do sistema. Só que, por conta disso, muitas vezes, precisamos pegar os dados deste objeto que vive nas bordas do sistema para criar um objeto que representa um conceito do nosso negócio em si. Abaixo temos um exemplo de uma classe que representa os dados de entrada de um endpoint.
 
