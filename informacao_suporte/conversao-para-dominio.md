@@ -149,4 +149,4 @@ public class NovaPropostaRequest {
 
 }
 ```
-Sugerimos que você utilize esta ideia durante as conversões de objetos de entrada(request) para objetos de domínio(representam o conceito). Entretanto precisamos que você fique alerta quando se deparar com outras formas de fazer o mesmo código. 
+Sugerimos que você utilize esta ideia durante as conversões de objetos de entrada(request) para objetos de domínio(representam o conceito). Entretanto, precisamos que você fique alerta quando se deparar com outras formas de fazer o mesmo código. 
