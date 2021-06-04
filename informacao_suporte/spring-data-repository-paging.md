@@ -10,14 +10,14 @@ os mesmo com a possibilidade de ordenar e ou limitar as consultas.
 - **findAll(Pageable pageable):** Busca todas as entidades e aplica a ordenação e limite configurado passado como Pageable.
 - **findAll(Sort sort):** Busca todas as entidades e aplica o(s) limite(s) configurado passado como Sort.
 
-Para ordenar ou limitar as consultas é precisso passar o seguinte objeto:
+Para ordenar ou limitar as consultas é preciso passar o seguinte objeto:
 
-- **Pageable**: Limita e pagina as consultas.
+- **Pageable**: Limita e página as consultas.
 - **Sort**: Ordena as consultas.
 
 Código de exemplo:
 
-**Limitando \ Paginando**
+**Limitando e Paginando**
 
 ```java
 public class Example {
@@ -69,6 +69,6 @@ Eba, temos nosso repositório criado e configurado!
 
 Você sabia que existem outros tipos de repositórios? Quer saber mais? Acesse o [link!](../informacao_suporte/spring-data-repository-types.md)
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre os métodos dessa interface, acesse o [link!](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)
