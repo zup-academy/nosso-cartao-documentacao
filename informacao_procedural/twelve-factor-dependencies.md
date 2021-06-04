@@ -1,7 +1,7 @@
 # Dependências. II do 12 Factor Apps
 
 Talvez a primeira pergunta que você tenha pensado é: _Como posso deixar o que minha aplicação 
-precisa explicita???_
+precisa explicita?_
 
 É bem provável que você já tenha feito isso, se você usou Maven ou Gradle você já
 declarou quais bibliotecas  sua aplicação precisa.
