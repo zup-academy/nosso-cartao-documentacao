@@ -1,4 +1,4 @@
-# Qual diferença do @Valid e @Validated?
+# Qual a diferença do @Valid e @Validated?
 
 Existem duas anotações para habilitar a validação da classe, parâmetro, etc.
 
@@ -39,7 +39,7 @@ public class Exemplo {
 }
 ```
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre Spring Validation, acesse o [link!](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#validation)
 
