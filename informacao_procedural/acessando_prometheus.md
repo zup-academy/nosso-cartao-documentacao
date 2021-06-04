@@ -85,9 +85,7 @@ arbitrariamente, mas imagine quando nossos sistemas tiverem dezenas de instânci
 que informar o prometheus, esta tarefa se tornaria inviável. Para isto o prometheus é capaz de se conectar com implementações de Service Discovery
 mais usadas no mercado como kubernetes e Consul por exemplo. Essas implementações são capazes de fornecer informações das instâncias para o prometheus.
 
-Olha que massa hein!
-
-Vamos dar uma olhada na tela
+Vamos dar uma olhada na tela:
    
 ![home service discovery](../images/prometheus_service_discovery.png "home service discovery")
 
@@ -131,9 +129,9 @@ Quer ver como isso funciona dê uma olhada no [grafana neste link](../informacao
 
 * Se por algum motivo, você se questionou sobre o mapeamento de portas no docker [esse link pode te ajudar em entender isso em detalhes](https://docs.docker.com/config/containers/container-networking/)
 
-* Se por acaso você se perguntou "Mas pera ae se nomenclatura de métricas pode ser um problema, será que existe uma padrão para isso?. [Neste link você vai encontrar um pouco disso](https://prometheus.io/docs/practices/naming/)
+* Se por acaso você se perguntou "Mas se nomenclatura de métricas pode ser um problema, será que existe uma padrão para isso?. [Neste link você vai encontrar um pouco disso](https://prometheus.io/docs/practices/naming/)
 
-* Talvez você possa estar interessado em explorar mais as configurações do prometheus. A documentação é o melhor caminho pra isso, [aqui você pode encontrá-la](https://prometheus.io/docs/prometheus/latest/configuration/configuration/)
+* Talvez você possa estar interessado em explorar mais as configurações do Prometheus. A documentação é o melhor caminho pra isso, [aqui você pode encontrá-la](https://prometheus.io/docs/prometheus/latest/configuration/configuration/)
 
 * Se você nunca ouviu falar de Service Discovery, [esse link pode te ajudar com isso](https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/)
   
