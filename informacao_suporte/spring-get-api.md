@@ -60,7 +60,7 @@ public class MeuController {
 ```
 
 Para mapear o Path Parameter no Spring, você tem que passar a expressão `{NOME_DA_VARIÁVEL}` na sua API, conforme 
-exemplo abaixo!
+exemplo abaixo:
 
 ```java
 @GetMapping("/v1/propostas/{identificador}")
