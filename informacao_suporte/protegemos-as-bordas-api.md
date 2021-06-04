@@ -1,4 +1,4 @@
-# Não serializamos objetos de domínio para respostas de API
+# Não vamos serializar objetos de domínio para respostas de API
 
 Essa daqui é uma prática simples de ser seguida e que tende a facilitar a manutenção dos contratos da sua api. Imagine que você precisa retornar uma lista de livros como JSON a partir de um endpoint. Abaixo temos um possível código.
 
