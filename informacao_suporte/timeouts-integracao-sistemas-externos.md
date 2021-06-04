@@ -1,8 +1,8 @@
-## Recomendação: Toda execução externa deve ter um tempo máximo de resposta
+# Recomendação: Toda execução externa deve ter um tempo máximo de resposta
 
 Controlar o tempo máximo de espera de resposta para os possíveis tipos de comunicação que seu sistema pode ter, gera um pouco mais de previsibilidade na execução do código necessário para atender determinada requisição. Independente do ecossistema de tecnologias que você esteja lidando, é recomendado que você controle este tempo de resposta. 
 
-### Controlando timeouts do Feign para aplicações Spring Boot
+## Controlando timeouts do Feign para aplicações Spring Boot
 
 Em aplicações que utilizam Spring Boot, estas possibilidades de configuração já vem prontas através das classes de autoconfiguração providas pelos starters. Por exemplo, para controlar o tempo de espera para requisições feitas através do Feign:
 
@@ -17,7 +17,7 @@ feign.client.config.nomeFeignClienteDefinidoNoBean.connect-timeout=100
 
 A combinação acima leva a uma espera máxima de 200 milissegundos para a execução da operação. Você pode saber mais sobre as possibilidades de configuração do Feign num projeto Spring Boot consultando a [documentação oficial](https://docs.spring.io/spring-cloud-openfeign/docs/2.2.4.RELEASE/reference/html/appendix.html)
 
-### Controlando timeouts do Hibernate para aplicações Spring Boot
+## Controlando timeouts do Hibernate para aplicações Spring Boot
 
 O mesmo tipo de approach pode ser utilizado para controlar o timeout de execução padrão de queries através de alguma implementação da JPA. 
 
