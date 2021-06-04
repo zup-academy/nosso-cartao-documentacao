@@ -12,9 +12,8 @@ diferente, conforme imagem abaixo:
 
 ![alt text](../images/kafka-001.png "Apache Kafka")
 
-Demais né!?
 
-Além dos pontos citados acima temos a possibilidade de segmentar os eventos de acordo com uma determinada chave!
+Além dos pontos citados acima, temos a possibilidade de segmentar os eventos de acordo com uma determinada chave!
 
 Quando enviamos um evento sem chave, o tópico seleciona aleatoriamente a partição que irá o evento, porém quando enviamos 
 com uma chave, todos os eventos com a mesma chave irá somente para aquela partição e de forma **ordenada**, conforme imagem 
@@ -34,7 +33,7 @@ as posições, como por exemplo:
 2. Rio de Janeiro ~ 15:30
 3. Espírito Santos ~ 18:00
 
-Imagina se a gente não envia-se o identificador com chave? Ficaria algo aleatório, como por exemplo:
+Imagina se a gente não enviasse o identificador com chave? Ficaria algo aleatório, como por exemplo:
 
 **Caminhão 001**
 
@@ -49,12 +48,12 @@ Para que isso seja possível, a partição trabalha de forma independente, confo
 Como a partição trabalha de forma independente, a mensagem que está na posição 0 na partição 1 não é a mesma mensagem 
 na posição 0 na partição 2 e assim sucessivamente!
 
-Demais né! Com essa segmentação é possível escalar nossos consumidores e os mesmos pedirem para obter as mensagens da 
+Com essa segmentação é possível escalar nossos consumidores e os mesmos pedirem para obter as mensagens da 
 posição 4 em diante, por exemplo!
 
-Quer saber mais sobre consumidores? [Aqui tem uma explicação do que entendemos que você deve considerar!!](../informacao_suporte/kafka-consumer.md)
+Quer saber mais sobre consumidores? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_suporte/kafka-consumer.md)
 
-## Dicas de Luram Archanjo
+## Dicas
 
 Aproveite ao máximo para aprender sobre esse tema, pois, o mesmo é muito flexível e permite atender vários casos de uso, 
 como por exemplo:
