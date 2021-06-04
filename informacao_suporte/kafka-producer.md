@@ -10,9 +10,6 @@ líder geral e sim um líder específico por partição.
 Para que seja possível saber os líderes o Apache Kafka informa para os produtores quais brokers estão aptos a receber 
 eventos, por isso, é de extrema importância ter replicações das partições, pois, se uma máquina (broker) cai a outra 
 assume a liderança da(s) partição(ões)!
-
-Demais né!?
-
 Para enviar um evento é preciso enviar as seguintes informações:
 
 - Nome do tópico.
@@ -23,11 +20,11 @@ Eba! Sabemos como funciona um produtor!
 
 Calma! Vamos aprender sobre o ciclo de vida do mesmo?
 
-Sabia que é possível configura retry para que não percamos mensagens?
+Sabia que é possível configurar retry para que não percamos mensagens?
 
 ![alt text](../images/kafka-009.png "Apache Kafka")
 
-Demais né!
+Demais né?
 
 Além do ciclo de vida do retry, existe a possibilidade de configurar o modelo de reconhecimento do envio do evento?
 
@@ -38,11 +35,11 @@ ele quer, como por exemplo:
 
 - 0: O produtor não irá esperar pelo reconhecimento do recebimento do evento pelo Apache Kafka.
 - 1: O produtor somente irá esperar pelo reconhecimento do recebimento do evento pelo líder.
-- all: O produtor irá esperar pelo reconhecimento do recebimento do evento por todos os brokers que tenha a partição!
+- all: O produtor irá esperar pelo reconhecimento do recebimento do evento por todos os brokers que tenham a partição!
 
-Demais né! Portanto, se deseja não perder mensagem utilize o modelo de reconhecimento do tipo `all`.
+Portanto, se deseja não perder a mensagem utilize o modelo de reconhecimento do tipo `all`.
 
-## Dicas de Luram Archanjo
+## Dicas
 
 É de extrema importância saber os modelos de reconhecimento de eventos, pois, isso impacta diretamente no negócio, como 
 por exemplo, imagina que é um evento de transação bancária e por algum motivo foi perdido esse evento?
