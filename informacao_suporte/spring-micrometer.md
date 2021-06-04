@@ -59,7 +59,7 @@ public void meuContador() {
 }
 ```
 
-Criamos nosso contador, demais né!
+Criamos nosso contador!
 
 Agora vamos incrementar o mesmo, para isto existe um método denominado `increment`, conforme código abaixo:
 
@@ -109,7 +109,7 @@ timerConsultarProposta.record(() -> {
 });
 ```
 
-Pronto agora temos um temporizador, precisamos achar uma maneira de estimular o mesmo! O que acha de colocar na sua API de 
+Pronto. Agora temos um temporizador, precisamos achar uma maneira de estimular o mesmo! O que acha de colocar na sua API de 
 consultar proposta?
 
 Para testar, precisamos consultar algumas propostas!
@@ -133,7 +133,7 @@ Talvez esteja se perguntando o motivo de ter duas métricas?
 Com as duas métricas conseguimos responder quantas consultas foram feitas (12) e quantos segundos elas demoraram em 
 média (36 / 12 = 3s) no período selecionado, demais né!?
 
-Eba! Aprendemos como criar uma métrica de temporizador! Vamos aprender outra?
+Aprendemos como criar uma métrica de temporizador! Vamos aprender outra?
 
 ## Métrica tipo Gauge
 
@@ -220,9 +220,9 @@ meu_gauge{banco="Itaú",emissora="Mastercard",} 1.0
 
 Após achar a métrica fique atualizando a página para ver se o número sobe ou desce conforme as interações do @Scheduled.
 
-Eba! Aprendemos como criar métrica de medidor!
+Aprendemos como criar métricas de medidor!
 
-# Informação de Suporte
+## Informação de Suporte
 
 Está em dúvida de como configurar o Spring Boot Actuator? [Aqui você encontra como fazer isto!](../informacao_suporte/spring-actuator.md)
 
