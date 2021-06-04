@@ -2,9 +2,7 @@
 
 Nesse tutorial vamos aprender como utilizar Base64 em Java!
 
-Está animado!? Vamos lá!
-
-Primeiro precisamos entender um pouco mais sobre Base64!
+Primeiro precisamos entender um pouco mais sobre a Base64!
 
 Base64 é um algoritmo de codificação que permite transformar qualquer caractere de qualquer idioma em um 
 alfabeto que consiste em letras latinas, dígitos e sinais. Com isso podemos converter caracteres especiais como os 
@@ -37,16 +35,15 @@ String mensagemDecodificada = new String(decode);
 System.out.println(mensagemDecodificada);
 ```
 
-Pronto! Já sabemos utilizar Base64, demais né!
+Pronto! Já sabemos utilizar Base64!
 
-## Dicas de Luram Archanjo
-
+## Dicas 
 Não utilize Base64 como uma camada de segurança, pois é utilizado apenas para transferir dados com caracteres especiais, 
 como por exemplo, uma chave RSA, etc.
 
-Como é um algoritmo de codificação a mensagem Luram Archanjo, sempre vai ser `THVyYW0gQXJjaGFuam8=`, ou seja, ela pode ser 
+Como é um algoritmo de codificação da mensagem, sempre vai ser `THVyYW0gQXJjaGFuam8=`, ou seja, ela pode ser 
 aberta por qualquer pessoa em qualquer ferramenta que suporta Base64.
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre Base64, acesse o [link!](https://pt.wikipedia.org/wiki/Base64)
