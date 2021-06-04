@@ -10,7 +10,7 @@ nossa API, portanto qual devo utilizar?
 |PUT ou PATCH|Utilizado para atualizar um determinado recurso.|
 |DELETE|Utilizado para remover um determinado recurso.|
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre o método POST? Acesse o [link!](../informacao_suporte/rest-post.md)
 
