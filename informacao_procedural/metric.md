@@ -1,6 +1,6 @@
 # Métricas
 
-Métricas são muito importantes para o desenvolvimento de software, especialmente quando trabalhamos com sistemas 
+As Métricas são muito importantes para o desenvolvimento de software, especialmente quando trabalhamos com sistemas 
 distribuídos. Quando nossas funções são executadas em diversas máquinas, entender o comportamento do ecossistema é muito 
 importante para troubleshooting!
 
@@ -10,7 +10,7 @@ Utilizamos métricas para troubleshooting e também para tomada de decisões, co
 - Métricas de tempo de processamento de uma determinada funcionalidade
 - Métricas de utilização de um determinado produto, como por exemplo: vendas onlines, físicas ou por terceiros.
 
-Agora que sabemos a importância de métricas, vamos aplicá-las?
+Agora que sabemos a importância das métricas, vamos aplicá-las?
 
 ## Dicas
 
