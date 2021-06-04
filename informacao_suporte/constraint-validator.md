@@ -1,6 +1,6 @@
 # Como fazer minha própria anotação do Bean Validation?
 
-Criar minha própria anotação do Bean Validation!? Sim é possível!
+Criar minha própria anotação do Bean Validation? Sim é possível!
 
 Para isto, vamos seguir alguns passos, tudo bem?
 
@@ -40,7 +40,7 @@ public class MeuValidador implements ConstraintValidator<MinhaAnotacao, String> 
 }
 ```
 
-Essa interface requer dois parâmetro, o primeiro deve ser uma anotação e o segundo deve ser o tipo do atributo que está 
+Essa interface requer dois parâmetros, o primeiro deve ser uma anotação e o segundo deve ser o tipo do atributo que está 
 esperando, como por exemplo: String, Integer, Double, etc.
 
 Agora que está tudo configurado, vamos implementar o método `isValid` e dar inteligência ao nosso validador?
@@ -87,6 +87,6 @@ public class Proposta {
 
 Pronto! Você criou sua própria anotação do Bean Validation!
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre Bean Validation, acesse o [link!](https://beanvalidation.org/)
