@@ -343,7 +343,7 @@ Com o microservice de propostas implementado, chegou a hora de implementar um no
 
 Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparadx para utilizar essa forma de integração.
 
-* **Desafio 4:** [Serviço de transação](./transacao/);
+* **Desafio 4:** [Serviço de transação](./transacao/)
 
 # FASE 5
 
