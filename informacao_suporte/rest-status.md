@@ -5,8 +5,8 @@
 | Status  | Descrição  |
 |---|---|
 | **200**  | Status genérico de sucesso.  |
-| **201**  | Informa que um recurso foi criado com sucesso. Normalmente este recurso é utilizado para responder as requisições do tipo POST.  |
-| **202**  | Indica que a requisição foi aceita para um determinado processamento. Este status normalmente é utilizado para requisições assíncronas.  |
+| **201**  | Informa que um recurso foi criado com sucesso. Normalmente este recurso é utilizado para responder às requisições do tipo POST.  |
+| **202**  | Indica que a requisição foi feita para um determinado processamento. Este status normalmente é utilizado para requisições assíncronas.  |
 | **204**  | Indica que a execução ocorreu com sucesso e que está operação não retornou ou retornará nenhuma informação  |
 
 ## 300 - Redirecionamentos
@@ -21,11 +21,11 @@
 
 | Status  | Descrição  |
 |---|---|
-| **400**  | Indica que que o servidor não pode tratar a requisição por causa de erros do cliente (erro sintático, tamanho dos dados, tipo ou formato inválido etc).  |
-| **401**  | O Servidor não reconheceu suas credenciais para o recurso solicitada.  |
+| **400**  | Indica que o servidor não pode tratar a requisição por causa de erros do cliente (erro sintático, tamanho dos dados, tipo ou formato inválido etc).  |
+| **401**  | O Servidor não reconheceu suas credenciais para o recurso solicitado.  |
 | **403**  | Credencial não tem os privilégios suficientes para acessar o recurso solicitado.  |
 | **404**  | URI informada não existe.  |
-| **405**  | Método HTTP utilizado não é permitido na URI solicitada.  |
+| **405**  | O método HTTP utilizado não é permitido na URI solicitada.  |
 | **415**  | Normalmente este erro é ocasionado pela falta do Header Content. Verifique o Header Content-Type ou Content-Encoding.  |
 | **422**  | Ocorreu algum erro de negócio com sua mensagem. Sintaticamente a requisição é válida, semanticamente não.  |
 
