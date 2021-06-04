@@ -73,7 +73,7 @@ public class MeuValidador implements Validator {
 }
 ```
 
-E para finalizar, precisamos e adicionar quais validadores nosso controller irá aplicar, conforme código abaixo:
+E para finalizar, precisamos adicionar quais validadores nosso controller irá aplicar, conforme código abaixo:
 
 ```java
 @RestController
@@ -90,8 +90,8 @@ public class MeuController {
 }
 ```
 
-Eba! Já temos validações!!!
+Eba! Já temos validações!
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre Spring Validation, acesse o [link!](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#validator)
