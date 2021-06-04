@@ -22,12 +22,11 @@ Para isso execute o seguinte comando:
 ```shell script
 mvn spring-boot:run
 ```
+Pronto! Agora você pode esperar sua aplicação subir...   
 
-Pronto!!! Agora você pode esperar sua aplicação subir...   
+## Informação de Suporte
 
-# Informação de Suporte
-
-* Talvez você possa estar se perguntando o que é o Maven??? [Este link pode esclarecer algumas coisas para você](https://maven.apache.org/)
+* Talvez você possa estar se perguntando o que é o Maven? [Este link pode esclarecer algumas coisas para você](https://maven.apache.org/)
 
 * Maven eu tenho uma idéia, mas o que são plugins do Maven. [Este link tem o detalhamento necessário](https://maven.apache.org/plugins/index.html)
 
@@ -35,7 +34,7 @@ Pronto!!! Agora você pode esperar sua aplicação subir...
 
 * Quais são as opções de comando que eu posso executar com o plugin do Spring Boot? [Aqui estão elas!](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/html/#goals)
 
-## Dicas de Claudio Eduardo Oliveira
+## Dicas
 
 * Essa não é a melhor maneira de rodar suas aplicações em ambiente produtivo, tenha em mente que essa maneira é 
 recomendada somente durante o ciclo de desenvolvimento!
