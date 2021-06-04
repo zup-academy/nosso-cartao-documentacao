@@ -17,6 +17,6 @@ Agora que sabemos a importância das métricas, vamos aplicá-las?
 Todo software tem que ter uma observabilidade, principalmente quando falamos de sistemas distribuídos, pois pode crescer 
 muito o mesmo, ter 100, 200 ou até mais aplicações sendo executadas gerando inúmeros cenários e inúmeros pontos de falha!
 
-Todo sucesso é fruto de um bom planejamento, portanto quando mais métricas úteis nosso sistema ter, melhor será as tomadas 
+Todo sucesso é fruto de um bom planejamento, portanto quanto mais métricas úteis nosso sistema tiver, melhor serão as tomadas 
 de decisão, tanto técnica quanto de negócio!
 
