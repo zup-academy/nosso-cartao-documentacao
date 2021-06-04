@@ -1,7 +1,7 @@
-# Mas porque 400? Entendendo um pouco sobre REST!!!
+# Mas porque 400? Entendendo um pouco sobre REST!
 
 Seguindo o estilo arquitetural REST temos que aplicar algumas características que o modelo define, portanto, toda 
-solicitação incorreta devemos representar como **400 Bad Request**, pois o nossa aplicação não consegue, processar devido 
+solicitação incorreta devemos representar como **400 Bad Request**, pois o nossa aplicação não consegue processar devido 
 algum erro, como por exemplo: campos obrigatórios violados.
 
 Geralmente nos projetos são definidos um padrão de erro para melhorar a identificação do mesmo, conforme exemplo abaixo:
@@ -28,7 +28,7 @@ Content-Type: application/json
   ]
 }
 ```
-## Vamos fazer isso com Spring, então!!!
+## Vamos fazer isso com Spring!
 
 O Spring provê uma classe denominada ResponseEntity na qual você consegue passar todas as informações da requisição HTTP, 
 como por exemplo, status, body, header, etc.
@@ -40,7 +40,7 @@ public ResponseEntity<?> novaProposta(){
 }
 ```
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre status code? Acesse o [link!](../informacao_suporte/rest-status.md)
 
