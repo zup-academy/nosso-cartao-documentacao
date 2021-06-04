@@ -1,8 +1,5 @@
 # Como implementar um Health Check utilizando Spring Boot Actuator?
 
-## Antes de começar
-Por favor [clique aqui](https://forms.gle/mdTJe2zdWcrBa3XQ6) e responda o formulário antes de inciar o conteúdo
-
 Neste tutorial vamos aprender como fazer nosso próprio Health Check caso for necessário.
 
 1º Precisamos saber qual a motivação do uso do Health Check! [Aqui tem uma explicação do que entendemos que você deve considerar](../informacao_procedural/healthcheck.md)
@@ -89,8 +86,3 @@ Para testar, basta abrir seu navegador e chamar o endereço `http://localhost:80
 Gostaria de saber mais sobre Health Check no Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#writing-custom-healthindicators)
 
 Gostaria de saber sobre os Health Checks implementados pelo Spring Boot Actuator? Acesse o [link!](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-health-indicators)
-
-## Depois de finalizar
-Agora que você passou por todo conteúdo acima, você precisará responder o formulário do final do curso, [basta clicar aqui](https://forms.gle/mdTJe2zdWcrBa3XQ6)
-
-E agora, um exercício de resolução de problema. [Clique aqui e escreva sua resposta](https://forms.gle/kod88fAdNXH7NkiKA)
