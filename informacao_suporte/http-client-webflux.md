@@ -43,7 +43,7 @@ Mono<Cartao> cartao = client.get().uri("http://localhost:9999/api/cartoes/1111")
 
 - O que é Spring [Webflux](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html)?
 - Quer descobrir que biblioteca o Spring WebClient usa por padrão. [Clique aqui!!!](https://github.com/reactor/reactor-netty)
-- Ainda tenho algumas dúvidas sobre o WebClient. [A documentação completa você pode encontra aqui.](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-client)
+- Ainda tenho algumas dúvidas sobre o WebClient. [A documentação completa você pode encontrar aqui.](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-client)
 - Se você está curioso e quer ver como podemos implementar uma pequena aplicação utilizando a stack reativa do
 spring. [Este link é um guia inicial para investir nessa jornada](https://spring.io/guides/gs/reactive-rest-service/)
 
