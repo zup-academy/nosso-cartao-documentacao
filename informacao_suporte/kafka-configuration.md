@@ -110,7 +110,6 @@ tem que definir qual será o desserializador da chave e do evento \ mensagem, co
 `JsonDeserializer`, etc. A segunda etapa e quais são as configurações desse consumidor, por este motivo foi criado o 
 método `consumerConfigurations()`.
 
-Demais né!?
 
 Agora a nossa configuração do consumidor está tudo ok, vamos configurar nosso `listener`? 
 
@@ -128,8 +127,6 @@ public ConcurrentKafkaListenerContainerFactory<String, TransactionMessage> kafka
 
 No código acima, a gente criou um `ConcurrentKafkaListenerContainerFactory`, no qual precisa ser cadastrado como ele irá 
 tratar os eventos recebidos, por isso, foi criado o método `transactionConsumerFactory()`!
-
-Demais né!? 
 
 Vamos recapitular?
 
@@ -155,13 +152,13 @@ No código acima a gente definiu nosso listener para isso é preciso seguir algu
 Primeiro a gente precisou configurar a anotação `KafkaListener` no qual é necessário configurar qual tópico ele irá 
 coletar os eventos, como por exemplo, `${spring.kafka.topic.transactions}`!
 
-O interessante que a gente utilizou o fator III. Configurações, na qual diz que você deve armazenar as configurações no 
+O interessante é que a gente utilizou o fator III. Configurações, na qual diz que você deve armazenar as configurações no 
 ambiente, do `The Twelve-Factor App`, quer saber mais? [Aqui tem uma explicação do que entendemos que você deve considerar!](../informacao_procedural/twelve-factor-config.md)
 
 Segundo a gente precisou adicionar qual evento a gente iria receber e para isso basta passar como parâmetro toda "mágica" 
 de como tratar o evento foi definido na classe `KafkaConfiguration`!
 
-Demais né!? Agora sabemos como consumir eventos no kafka!
+Agora sabemos como consumir eventos no kafka!
 
 ## Informações de suporte
 
