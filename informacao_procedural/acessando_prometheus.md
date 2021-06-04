@@ -52,8 +52,9 @@ ao prometheus estão listadas, perceba que precisamos trabalhar com bastante rig
 O menu Status é um menu que conta com diversos sub-menus relacionados a configuração do prometheus, podemos encontrar a versão do sistema, 
 configurações de runtime, os parâmetros de inicialização da ferramentas entre outras informações.
 
-Os pontos bastante importante relacionados à coleta de métricas são **Targets** e **Service Discovery**, estes são relacionados à como o prometheus está operando
-em relação a obtenção dos valores da métricas. 
+Os pontos importantes
+relacionados à coleta de métricas são **Targets** e **Service Discovery**, estes são relacionados à como o Prometheus está operando
+em relação a obtenção dos valores das métricas. 
 
 Vamos entender isso agora!
 
@@ -63,7 +64,7 @@ Vamos entender isso agora!
 configurações são realizadas através do arquivo de configuração _prometheus.yaml_, mas este pode ser um trabalho de infra, para nosso contexto basta
 entendermos que precisamos avisar o prometheus que ele precisa buscar métricas.
 
-Essa tela nos ajuda bastante a entender como estão nossos sistemas em relação ás coletas, ela mostra se o endpoint de coleta está ok, e podemos
+Essa tela nos ajuda bastante a entender como estão nossos sistemas em relação às coletas, ela mostra se o endpoint de coleta está ok, e podemos
 ver informações da última coleta e quanto tempo demorou. Quando há erro também conseguimos identificar o motivo.
 
 Então esta tela nos ajuda muito, vale a pena lembrar dela....algum momento ela pode te salvar!
@@ -101,11 +102,11 @@ Na home do prometheus escolha uma métrica qualquer e depois clique na tab **Gra
 Veja no exemplo, escolhemos a métrica de coletas de log do logback por nível. Cada linha de log é um evento, essa métrica visa mostrar quantos deles
 utilizamos.
 
-Nome da métricas:
+Nome da métrica:
 
 **transacoes_logback_events_total**
 
-Veja abaixo
+Veja abaixo:
 
 ![home metrics](../images/sample_prometheus.png "metrics sample")
 
@@ -115,7 +116,7 @@ Quer dizer mais ou menos sucesso, na verdade colocamos métricas mas parece que 
 Não consigo criar agregações e "juntar" métricas, e é por isso que outra ferramenta aparece em cena. O **Grafana** é uma ferramenta feita
 para renderizar gráficos e adivinha ele tem uma fortíssima integração com o prometheus...
 
-Opaaa.....quer ver como isso funciona dê uma olhada no [grafana neste link](../informacao_procedural/acessando_grafana.md)
+Quer ver como isso funciona dê uma olhada no [grafana neste link](../informacao_procedural/acessando_grafana.md)
 
 ## Informações de suporte
 
