@@ -334,14 +334,14 @@ Agora que você fez mais imersão teórica, vamos treinar! Neste treino você va
 
 Com o microservice de propostas implementado, chegou a hora de implementar um novo serviço, o que cuida das transações do cartão de crédito. Como é de praxe, antes de começar, vamos primeiro estudar a teoria necessária. 
 
-* ### Introdução a Apache Kafka
+* ## Curso | Introdução a Apache Kafka
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform)
 
     * **Bora pro curso?:** [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform)
 
-Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparado(a) para utilizar essa forma de integração.
+Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparadx para utilizar essa forma de integração.
 
 * **Desafio 4:** [Serviço de transação](./transacao/);
 
@@ -350,7 +350,7 @@ Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno
 **Estimamos que você conclua a fase 5 até a décima terceira semana.**
 
 Nesse momento do nosso treinamento, você já deve estar se sentindo mais 
-apto(a) a criar API's REST que possam ser deployadas em ambientes Cloud Native. Agora vamos para a fase final, onde vamos nos desafiar a transferir todo esse conhecimento para uma nova stack de tecnologias, a Orange Foundation! Antes de mais nada, deixe a gente te contar um pouco sobre essa nova stack: 
+aptx a criar API's REST que possam ser deployadas em ambientes Cloud Native. Agora vamos para a fase final, onde vamos nos desafiar a transferir todo esse conhecimento para uma nova stack de tecnologias, a Orange Foundation! Antes de mais nada, deixe a gente te contar um pouco sobre essa nova stack: 
 
 A Zup + Itaú decidiram apostar em um novo conjunto de tecnologias que são ainda mais aderentes a este mundo onde tudo executa no cloud. A Orange Foundation vai atuar em diversas vertentes do desenvolvimento, tais como:
 
