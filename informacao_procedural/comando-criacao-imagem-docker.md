@@ -1,6 +1,6 @@
 # Tenho meu Dockerfile, e agora qual comando do docker devo usar para criar minha imagem?
 
-Legal, temos nosso Dockerfile, vamos entender agora como realizar a construção da imagem.
+Temos nosso Dockerfile, vamos entender agora como realizar a construção da imagem.
 
 O primeiro passo é chegar no diretório onde está nosso Dockerfile, dentro desse diretório podemos executar o comando:
 
@@ -10,12 +10,12 @@ docker image build -t zupacademy/proposta:latest .
 
 Massa, parece que esse comando tem alguns parâmetros, vamos entendê-los?
 
-**docker image** no início do comando indica que vamos utilizar a API de imagens. Logo depois encontramos a flag **-t** 
+O **docker image** no início do comando indica que vamos utilizar a API de imagens. Logo depois encontramos a flag **-t** 
 nesse caso colocamos um nome e a tag o nome é composto pelo **usuário/nome** da imagem. No nosso caso estamos usando o
 docker hub um repositório público de imagens, por isso seguimos esse padrão, dependendo do seu vendor de Registry esse 
 padrão pode mudar ligeiramente.
 
-O ponto final no final do comando indica o contexto da build, por esse motivo utilizamos **.**, estamos na raiz do diretório.
+O ponto final no final do comando indica o contexto da build, por esse motivo utilizamos **.** na raiz do diretório.
 
 Eba! Nossa imagem foi gerada! Vamos testá-la?
 
