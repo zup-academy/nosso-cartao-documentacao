@@ -1,4 +1,4 @@
-### Modelando um recurso REST
+# Modelando um recurso REST
 
 Existem um conjunto de boas práticas para fazer um bom design de API, vamos explorar
 algumas práticas na criação de um path de uma **API**. 
@@ -7,16 +7,16 @@ algumas práticas na criação de um path de uma **API**.
 
 http://servidor/carrinhos/efa3df09-366b-4d85-9c10-b5244ffb35a9/itens/fbcc35b6-b02b-4f74-a992-7a4d6a84d10f
 
-#### Vamos entender um pouco dessa URL
+## Vamos entender um pouco dessa URL
 
 **Recurso**
 
 _/carrinhos_
 
 Coleções dos elementos sempre no plural, procure criar recursos que tenham algum sentido para o negócio e seja
-fácil de ser identificado num contexto de negócio. Por exemplo num contexto de _ecommerce_ carrinho é um substantivo
+fácil de ser identificado num contexto de negócio. Por exemplo num contexto de _e-commerce_ carrinho é um substantivo
 bastante familiar a todos os participantes envolvidos no sistema.
-Sugestão podemos usar alguns conceitos do [DDD - Domain Driven Design](https://www.infoq.com/br/news/2019/07/bounded-context-eric-evans/) na modelagem aqui!!
+Sugestão: podemos usar alguns conceitos do [DDD - Domain Driven Design](https://www.infoq.com/br/news/2019/07/bounded-context-eric-evans/) na modelagem aqui!!
 
 
 **Identificador do recurso**
@@ -42,6 +42,6 @@ _fbcc35b6-b02b-4f74-a992-7a4d6a84d10f_
 Identificador de um item do carrinho.Podemos usar UUIDs caso você deseje adicionar
 característica de imprevisibilidade, ou aqui podemos usar o identificador sequencial que não há problemas 
 
-#Informação de Suporte
+## Informação de Suporte
 
-Quer aprender sobre como modelar Status Codes, [Veja Aqui !!!](../informacao_suporte/rest-status.md)
+Quer aprender sobre como modelar Status Codes, [Veja aqui!](../informacao_suporte/rest-status.md)
