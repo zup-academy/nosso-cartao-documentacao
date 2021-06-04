@@ -1,10 +1,10 @@
-# Mas porque 500? Entendendo um pouco sobre REST!!!
+# Mas porque 500? Entendendo um pouco sobre REST!
 
 Seguindo o estilo arquitetural REST temos que aplicar algumas características que o modelo define, portanto, todo erro 
 não tratado, devemos representar como **500 Internal Server Error**, pois indica que o servidor encontrou um erro 
 inesperado.
 
-## Vamos fazer isso com Spring, então!!!
+## Vamos fazer isso com Spring!
 
 O Spring provê uma classe denominada ResponseEntity na qual você consegue passar todas as informações da requisição HTTP, 
 como por exemplo, status, body, header, etc.
@@ -16,7 +16,7 @@ public ResponseEntity<?> novaProposta(){
 }
 ```
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre status code? Acesse o [link!](../informacao_suporte/rest-status.md)
 
