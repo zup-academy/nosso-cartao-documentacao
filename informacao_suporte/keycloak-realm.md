@@ -21,7 +21,7 @@ somente configurar um nome.
 
 Preenchido o nome podemos clicar em **Create**
 
-Pronto!!!
+Pronto!
 
 Simples assim, você deverá ser redirecionado para a tela de configurações do Realm.
 
