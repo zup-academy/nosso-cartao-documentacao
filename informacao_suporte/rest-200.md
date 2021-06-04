@@ -1,17 +1,17 @@
-# Mas porque 200? Entendendo um pouco sobre REST!!!
+# Mas porque 200? Entendendo um pouco sobre REST!
 
 Seguindo o estilo arquitetural REST temos que aplicar algumas características que o modelo define.
 
 Toda operação realizada com sucesso ela deve retornar o status code **200**, porém temos algumas regras a serem seguidas:
 
 - Os métodos GET, PUT, PATCH e DELETE são operações de alteração ou obtenção de um determinado recurso, portanto devemos
-retornar 200.
+retornar o 200.
 
-- Quando utilizado o método POST para criação de um determinado recurso devemos retornar [201](rest-201.md).
+- Quando utilizado o método POST para criação de um determinado recurso devemos retornar o [201](rest-201.md).
 
 - Quando utilizado o método POST para ordenar algo, como por exemplo: Enviar email, resetar senha, etc. Devemos retornar 200.
 
-## Vamos fazer isso com Spring, então!!!
+## Vamos fazer isso com Spring!
 
 O Spring provê uma classe denominada ResponseEntity na qual você consegue passar todas as informações da requisição HTTP, 
 como por exemplo, status, body, header, etc.
@@ -23,7 +23,7 @@ public ResponseEntity<?> obterProposta(){
 }
 ```
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre status code? Acesse o [link!](../informacao_suporte/rest-status.md)
 
