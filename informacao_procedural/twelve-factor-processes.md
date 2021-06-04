@@ -1,9 +1,9 @@
 # Processos. VI do 12 Factor Apps
 
-Mas, minha aplicação não pode ter estado??? 
+Mas, minha aplicação não pode ter estado?
 
 Parece que eu construo aplicação para lidar com estado, por exemplo, a 
-entidade proposta do meu sistema, tem um estado de inativa. Eu não posso mais fazer isso???
+entidade proposta do meu sistema, tem um estado de inativa. Eu não posso mais fazer isso?
 
 Podemos, nossas aplicações são construídas para gerenciar alguns estados, como por exemplo
 a proposta, de uma maneira geral esse estado deve ser persistido/armazenado em uma outra 
@@ -14,7 +14,7 @@ na memória, perceba que se nossa aplicação "morrer" inevitavelmente vamos per
 de maneira que outra instância da nossa aplicação não consegue "continuar" o trabalho.  
   
 Por exemplo, tudo bem se armazenarmos nossa lista de propostas em um banco de dados,
-perceba que nossa aplicação ainda se mantém _stateless_ porque o estado não esta nela,
+perceba que nossa aplicação ainda se mantém _stateless_ porque o estado não está nela,
 todo o estado está armazenado no banco de dados.
 
 ## Informações de suporte
