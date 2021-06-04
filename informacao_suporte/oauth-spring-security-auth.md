@@ -61,4 +61,4 @@ aplicar um modelo de segurança mais efetivo. [Esse link pode ter ajudar muito c
 
 * Talvez você possa estar se perguntando "Mas o que é um scope no JWT?". [Esse link pode ter dar uma breve introdução sobre o tema](https://oauth.net/2/scope/) 
 
-  * Ou se você prefere dar uma revisada na RFC, [este link vai te levar para la!!](https://tools.ietf.org/html/rfc6749#section-3.3) 
+  * Ou se você prefere dar uma revisada na RFC, [este link vai te levar para lá!](https://tools.ietf.org/html/rfc6749#section-3.3) 
