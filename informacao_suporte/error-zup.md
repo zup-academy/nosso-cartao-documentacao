@@ -195,4 +195,4 @@ Gostaria de saber a padronização de erros utilizada pelo Spring Boot? [Aqui vo
 
 Gostaria de saber a padronização de erros seguindo as boas práticas de Orientação a Objetos? [Aqui você encontra como fazer isso!](error-object-oriented.md)
 
-Quer sabemos mais sobre Handler Advice, acesse o [link!](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc)
+Quer saber mais sobre Handler Advice, acesse o [link!](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc)
