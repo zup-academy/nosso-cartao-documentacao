@@ -1,4 +1,4 @@
-# Como criar um Realm no keycloak
+# Como criar um Realm no Keycloak
 
 O keycloak tem um conceito de Realm, que na prática é um grupo de divisão lógico. Neste grupo 
 contém usuários, credenciais, perfis e grupos.
