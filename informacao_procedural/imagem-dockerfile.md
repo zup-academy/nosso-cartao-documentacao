@@ -1,7 +1,7 @@
 # Primeiros passos para criação de uma imagem Docker
 
 O primeiro passo para criar uma imagem Docker é criar um arquivo
-chamada **Dockerfile** esse arquivo contém todas as informações necessárias
+chamado **Dockerfile**. Esse arquivo contém todas as informações necessárias
 para criamos nossa estrutura de diretório que nossa imagem docker vai conter.
 
 O simples fato de termos isso em um arquivo já nos garante um princípio bastante
@@ -17,7 +17,7 @@ FROM openjdk:11
 A palavra **FROM** indica que nossa imagem utiliza como base a imagem do openjdk
 todos dockerfiles devem ter essa instrução.
 
-Isso vai nos ajudar, porque perceba, não precisamos declarar a instalação
+Isso vai nos ajudar, porque não precisamos declarar a instalação
 do Java, essa imagem já vem previamente configurada!
 
 No nosso segundo passo, vamos informar o caminho do nosso Jar como argumento
@@ -69,7 +69,7 @@ o nosso jar.
 
 Legal, veja que instruímos o docker em como criar nossa imagem.
 
-Eba! Tudo está configurado! Vamos gerar nossa imagem?
+Tudo está configurado! Vamos gerar nossa imagem?
 
 Primeiro, precisamos gerar nosso jar, para isso, execute o comando abaixo:
 
