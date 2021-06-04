@@ -63,7 +63,7 @@ Como podemos ver, usamos o Status Code de conflito **409**, e logo depois fizemo
 body.
 
 
-## Configurando Headers
+### Configurando Headers
 
 Algumas vezes precisamos manipular os Headers da nossa resposta, como por exemplo incluir uma
 meta-informação do objeto que foi criado, nesse caso podemos utilizar o método _header()_ adicionando
