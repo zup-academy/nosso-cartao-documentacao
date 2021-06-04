@@ -30,7 +30,7 @@ Pronto!
 
 Agora já sabemos como usar a anotação @GetMapping!
 
-# Como receber dados na minha API GET utilizando Spring?
+## Como receber dados na minha API GET utilizando Spring?
 
 Existem duas formas de receber dados em uma requisição HTTP do tipo GET, como por exemplo:
 
