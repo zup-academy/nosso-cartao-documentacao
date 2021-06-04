@@ -188,4 +188,4 @@ Gostaria de saber a padronização de erros seguindo as boas práticas de Orient
 
 Gostaria de saber a padronização de erros utilizada pela Zup? [Aqui você encontra como fazer isso!](../informacao_suporte/error-zup.md)
 
-Quer sabemos mais sobre Handler Advice, acesse o [link!](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc)
+Quer saber mais sobre Handler Advice, acesse o [link!](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc)
