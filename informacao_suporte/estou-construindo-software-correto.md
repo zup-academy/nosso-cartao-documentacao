@@ -1,8 +1,8 @@
-## Estamos o construindo o software correto?
+## Estamos construindo o software correto?
 
-O software como um todo é automação do desejo de uma ou mais pessoas. Geralmente algump processo é feito de manualmente e, em algum momento do tempo, tal processo precisa ser automatizado. Agora pense comigo: Como vamos construir o software correto se não entendermos o desejo que precisa ser automatizado? 
+O software como um todo é automação do desejo de uma ou mais pessoas. Geralmente algum processo é feito de manualmente e, em algum momento do tempo, tal processo precisa ser automatizado. Agora pense comigo: Como vamos construir o software correto se não entendermos o desejo que precisa ser automatizado? 
 
-É muito importante que você entenda exatamente o que precisa ser feito. De preferência você deve buscar ser um especialista no domínio que etá envolvido. Isso tende a facilitar todas as conversas que você vai ter sobre o projeto, a realizar perguntas melhores, ser mais questionador(a) etc. 
+É muito importante que você entenda exatamente o que precisa ser feito. De preferência você deve buscar ser um especialista no domínio que está envolvido. Isso tende a facilitar todas as conversas que você terá sobre o projeto, a realizar perguntas melhores, ser mais questionador(a) etc. 
 
 ## Estamos construindo a funcionalidade correta?
 
