@@ -4,7 +4,7 @@ Para configurar sua aplicação no Prometheus, primeiro precisamos entender o qu
 
 > Está em dúvida sobre o que é Target no Prometheus? Não se preocupe! Escrevemos um [material específico para você!](../informacao_procedural/acessando_prometheus.md)
 
-Eba! Agora que sabemos o que é Prometheus e Target! Vamos colocar configurar nossa aplicação?
+Agora que sabemos o que é Prometheus e Target! Vamos colocar configurar nossa aplicação?
 
 Imagino que esteja utilizando nosso [docker-compose](../ops/docker-compose.yaml), primeiro precisamos parar o container 
 do Prometheus para isso execute o comando abaixo:
@@ -66,7 +66,7 @@ prometheus:
 # Restante omitido
 ```
 
-Eba está tudo configurado! Vamos testar?
+Está tudo configurado! Vamos testar?
 
 Para testar precisamos somente iniciar o container novamente, conforme exemplo abaixo:
 
