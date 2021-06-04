@@ -42,12 +42,12 @@ regra, o token repassado deve conter a claim _SCOPE_propostas:read_, caso contr�
 
 Uma informação bastante importante aqui as claims do token JWT se tornam Roles no Spring Security!!
 
-Outra informação importante você não precisa necessariamente usar os **scopes** do seu JWT, voce utilizar
-alguma custom claim para validá-lo, não há nenhuma restrição em usar uma claim especifica
-utilizamos scope por acharmos mais indicado para nosso caso, mas atente-se as necessidades
+Outra informação importante: você não precisa necessariamente usar os **scopes** do seu JWT, se você utilizar
+alguma custom claim para validá-lo, não há nenhuma restrição em usar uma claim específica
+utilizamos scope por acharmos mais indicado para nosso caso, mas atente-se às necessidades
 do seu projeto.
 
-Pronto e ae que tal colocar isso em prática no seu projeto!
+Pronto e agora, que tal colocar isso em prática no seu projeto?
 
 # Informação de Suporte
 
@@ -56,7 +56,7 @@ Pronto e ae que tal colocar isso em prática no seu projeto!
 definição sobre Autorização](https://auth0.com/docs/authorization)
 
 * O material anterior detalha muito bem sobre o processo de Autorização, mas é **muito** importante
-que consigamos entender a diferença entre **Autenticação** e **Autorização** isso vai nos ajudar
+que consigamos entender a diferença entre **Autenticação** e **Autorização** isso vai nos ajudar a
 aplicar um modelo de segurança mais efetivo. [Esse link pode ter ajudar muito com isso](https://auth0.com/docs/authorization/authentication-and-authorization)
 
 * Talvez você possa estar se perguntando "Mas o que é um scope no JWT?". [Esse link pode ter dar uma breve introdução sobre o tema](https://oauth.net/2/scope/) 
