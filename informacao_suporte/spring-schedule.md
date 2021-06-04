@@ -33,7 +33,7 @@ public class MinhaTarefa {
 }
 ```
 
-No código de exemplo foi criado a função da nossa tarefa, porém não é o suficiente!
+No código de exemplo, foi criado a função da nossa tarefa porém não é o suficiente!
 
 3º Precisamos dizer para o Spring que está classe é uma tarefa e que precisa executar o método `executaOperacao` a cada 1 segundo, para 
 isto, precisamos adicionar duas anotações: [@Component](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Component.html) 
@@ -58,18 +58,18 @@ Para testar, vamos fazer algo simples! Vamos adicionar um log no método `execut
 System.out.println("Executando minha operação");
 ```
 
-Iniciou sua aplicação!? Muito legal esse recurso, né!?
+Iniciou sua aplicação? Muito legal esse recurso, não acha?
 
 ## Conhecendo a anotação
 
-Sempre quando aprendemos algo é super importante ir mais fundo, e quando falamos de Anotações, por exemplo, existem 
+Sempre quando aprendemos algo é super importante ir mais fundo, e quando falamos de anotações, por exemplo, existem 
 várias configurações que podem atender seu cenário!
 
 Vamos aprender mais sobre a anotação [@Scheduled](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/Scheduled.html)?
 
 No exemplo acima a gente utilizou o atributo `fixedDelay`, o que ele faz? qual objetivo?
 
-O atributo `fixedDelay` execute o método anotado com um período fixo em milissegundos entre o final da última chamada e o 
+O atributo `fixedDelay` executa o método anotado com um período fixo de milissegundos entre o final da última chamada e o 
 início da próxima.
 
 Existem outros atributos, como por exemplo:
@@ -81,14 +81,14 @@ Super bacana né! Temos várias possibilidades e aplicabilidade em apenas uma an
 
 ## Melhores práticas
 
-No exemplo acima a gente colocou para executar a cada um segundo a operação, mais o cliente mudou de ideia e necessita 
+No exemplo acima a gente colocou para executar a cada um segundo a operação, mas o cliente mudou de ideia e necessita 
 que seja a cada hora!
 
-Muito fácil né! Só alterar no código, compilar, fazer testes, release e deploy e em 3 dias está pronto!
+Muito fácil! Só alterar no código, compilar, fazer testes, release e deploy e em 3 dias está pronto!
 
 Três dias por conta de alterar uma linha de código, não parece bom!
 
-Pensando nisso o Spring permite você definir a periodicidade via propriedade, que demais né! Vamos fazer isto!?
+Pensando nisso o Spring permite você definir a periodicidade via propriedade. Vamos fazer isto?
 
 1º Precisamos definir nossa propriedade no arquivo `application.properties`, conforme exemplo abaixo:
 
@@ -101,7 +101,6 @@ periodicidade.executa-operacao=1000
 ```java
 @Scheduled(fixedDelayString = "${periodicidade.executa-operacao}")
 ```
-
 Não entendeu, não tem problema! Vamos explicar melhor!
 
 Para cada possibilidade de configuração na anotação @Scheduled existe a mesma via String, como por exemplo:
@@ -122,7 +121,7 @@ Exemplo
 @Scheduled(fixedDelayString = "${periodicidade.executa-operacao}")
 ```
 
-Demais né!? Sim, porém caímos no mesmo problema, vai levar dias!
+Sim, porém caímos no mesmo problema, vai levar dias!
 
 Vamos melhorar isso? Estamos a um passo de fazer uma revolução!
 
@@ -143,7 +142,7 @@ periodicidade.executa-operacao=${NOME_DA_VARIAVEL_DE_AMBIENTE}
 
 Dessa forma fica obrigatório ter essa propriedade para executar nossa aplicação, isso é ruim!
 
-Não seria legal termos um valor padrão, caso não existir a variável de ambiente?
+Não seria legal termos um valor padrão, caso não exista a variável de ambiente?
 
 Para isto, precisamos definir o valor padrão, conforme exemplo abaixo:
 
@@ -171,13 +170,13 @@ Você aplicou o fator III. Configurações, na qual diz que você deve armazenar
 
 Quer saber mais?  Acesse o [link!](https://12factor.net/pt_br/config)
 
-## Dicas de Luram Archanjo
+## Dicas
 
 Se você deixar a lógica no agendamento e o deploy for feito em várias instâncias? Como evitar a concorrência?
 
 Concorrência é um ponto sempre importante a ser considerado, portanto alinhe sempre com sua equipe as melhores práticas!
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre Spring Schedule, acesse o [link!](https://docs.spring.io/spring/docs/current/spring-framework-reference/integration.html#scheduling-annotation-support)
 
