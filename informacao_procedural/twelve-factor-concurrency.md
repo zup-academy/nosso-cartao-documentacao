@@ -1,7 +1,7 @@
 # Concorrência. VII do 12 Factor Apps
 
-Espera um minuto, posso adicionar mais CPU e Memória que meu processo
-suporta, isso não é um problema, né???
+_"Espera um minuto, posso adicionar mais CPU e Memória que meu processo
+suporta, isso não é um problema, né?"_
 
 Esse tipo de escalabilidade é chamada de escalabilidade vertical e não é uma prática
 recomendada para aplicações de nuvem. Essa prática normalmente tem um limite,
