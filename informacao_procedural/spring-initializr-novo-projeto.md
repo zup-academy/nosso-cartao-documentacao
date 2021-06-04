@@ -1,6 +1,6 @@
 # Gerando projeto com Spring Initializr
 
-Olá, nesse tutorial vamos aprender como gerar um projeto utilizando o [Spring Initializr](https://start.spring.io/), 
+Nesse tutorial vamos aprender como gerar um projeto utilizando o [Spring Initializr](https://start.spring.io/), 
 mas afinal o que é Spring Initializr?
 
 ## Spring Initializr
