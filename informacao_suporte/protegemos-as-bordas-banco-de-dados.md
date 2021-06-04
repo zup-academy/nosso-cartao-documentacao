@@ -35,7 +35,7 @@ A recomendação é que sempre que possível, verifique se os parâmetros de ent
     }
 ```
 
-Se o id chegar aí nulo, você tem um bug, tal fluxo deveria ser interrompido e uma falha deveria ser gerada no sistema. A vantagem é que agora você tem uma falha, gerada por um bug que está mais fácil de rastrear, já que você se defendeu e colocou uma mensagem razoável para próxima pessoa. 
+Se o id chegar nulo, você tem um bug, tal fluxo deveria ser interrompido e uma falha deveria ser gerada no sistema. A vantagem é que agora você tem uma falha, gerada por um bug que está mais fácil de rastrear, já que você se defendeu e colocou uma mensagem razoável para próxima pessoa. 
 
 Você deve encarar suas tabelas do mesmo jeito. Você não sabe se quem disparou as operações relacionadas ao banco de dados realizou as validações corretas. Então não confie! Não confie em nenhum dado que chega de uma camada superior, eles sempre podem estar errados!
 
