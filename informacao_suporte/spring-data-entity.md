@@ -45,7 +45,7 @@ public class MinhaEntidade {
 ```
 
 Nesse caso, dependendo do seu banco de dados, será criado uma coluna do tipo VARCHAR(255), pois o atributo é String, 
-quer saber mais do mapeamento de tipo de atributo x tipo no banco de dados, acess o [link!](https://www.tutorialspoint.com/hibernate/hibernate_mapping_types.htm#:~:text=When%20you%20prepare%20a%20Hibernate,not%20SQL%20database%20types%20either.)
+quer saber mais do mapeamento de tipo de atributo x tipo no banco de dados, acesse o [link!](https://www.tutorialspoint.com/hibernate/hibernate_mapping_types.htm#:~:text=When%20you%20prepare%20a%20Hibernate,not%20SQL%20database%20types%20either.)
 
 #### @Enumerated
 
@@ -131,6 +131,6 @@ public class MinhaEntidade {
 }
 ```
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre as anotações do JPA? [clique aqui!](https://docs.oracle.com/javaee/7/api/javax/persistence/package-summary.html)
