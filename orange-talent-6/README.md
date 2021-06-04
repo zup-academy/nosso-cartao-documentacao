@@ -349,10 +349,11 @@ Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno
 
 **Estimamos que você conclua a fase 5 até a décima terceira semana.**
 
-Nesse momento do nosso treinamento, você já deve estar se sentindo mais 
-aptx a criar API's REST que possam ser deployadas em ambientes Cloud Native. Agora vamos para a fase final, onde vamos nos desafiar a transferir todo esse conhecimento para uma nova stack de tecnologias, a Orange Foundation! Antes de mais nada, deixe a gente te contar um pouco sobre essa nova stack: 
+Agora vamos para a fase final! 
 
-A Zup + Itaú decidiram apostar em um novo conjunto de tecnologias que são ainda mais aderentes a este mundo onde tudo executa no cloud. A Orange Foundation vai atuar em diversas vertentes do desenvolvimento, tais como:
+Vamos nos desafiar a transferir todo esse conhecimento para uma nova stack de tecnologias, a Orange Foundation! Antes de mais nada, vamos te contar um pouco sobre essa nova stack.
+
+A Zup + Itaú, juntas, decidiram apostar em um novo conjunto de tecnologias que são ainda mais aderentes a este mundo onde tudo se executa na Cloud. A Orange Foundation vai atuar em diversas vertentes do desenvolvimento, tais como:
 
 * Backend;
 * Frontend;
@@ -378,7 +379,7 @@ Aqui no nosso programa, vamos focar nas tecnologias associadas com a vertente de
 * AWS Code Build;
 * AWS Code Deploy;
 
-Algumas delas, como JUnit, Prometheus e Jaeger já trabalhamos. Vamos continuar fazendo uso delas e estudar e praticar em cima de mais algumas agora:
+Algumas delas, como JUnit, Prometheus e Jaeger já trabalhamos. Vamos continuar fazendo uso delas, estudar e praticar em cima de mais algumas agora:
 
 * Kotlin;
 * Micronaut;
@@ -391,64 +392,58 @@ Algumas delas, como JUnit, Prometheus e Jaeger já trabalhamos. Vamos continuar 
 * AWS Code Build;
 * AWS Code Deploy;
 
-Está pronto(a)? Vamos para a **fase cinco do nosso programa**. 
-
-ESTAMOS NESSE MOMENTO CONSTRUINDO O MATERIAL DA FASE 5 PARA QUE VOCÊ POSSA SE DESAFIAR AINDA MAIS, AGUARDE POR ATUALIZAÇÕES AQUI :). 
-
-Só que não é porque estamos construindo, que não podemos já ir liberando as partes que estão prontos, Release early, Release often :). 
-
 Para começar, precisamos cair de cabeça no Kotlin, que é a linguagem base para a stack de backend da Orange Foundation. A teoria e atividades iniciais para a linguagem podem ser consumidas na Alura. 
 
 Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem Java, tente fazer transferência de conhecimento. O que mudou foi a linguagem, mas vários dos conceitos permanecem os mesmos.
 
-| Kotlin: primeiros passos e Orientação a Objetos |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform) |
-| [Kotlin: primeiros passos e Orientação a Objetos](https://www.alura.com.br/curso-online-kotlin-orientacao-objetos) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform) |
+* ## Curso | Kotlin: primeiros passos e Orientação a Objetos
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform)
 
+    * **Bora pro curso?:** [Kotlin: primeiros passos e Orientação a Objetos](https://www.alura.com.br/curso-online-kotlin-orientacao-objetos)
 
-| Kotlin: herança, polimorfismo e interface |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform) |
-| [Kotlin: herança, polimorfismo e Interface](https://www.alura.com.br/curso-online-kotlin-heranca-polimorfismo-interface) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform) |
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform)
 
+* ## Curso | Kotlin: herança, polimorfismo e interface
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform)
 
-| Kotlin: recursos da linguagem com pacotes e composição |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform) |
-| [Kotlin: recursos da linguagem com pacotes e composição](https://www.alura.com.br/curso-online-kotlin-recursos-da-linguagem-com-pacotes-e-composicao) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform) |
+    * **Bora pro curso?:** [Kotlin: herança, polimorfismo e Interface](https://www.alura.com.br/curso-online-kotlin-heranca-polimorfismo-interface)
 
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform)
 
-| Kotlin: lidando com exceptions e referências nulas |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform) |
-| [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform) |
+* ## Curso | Kotlin: recursos da linguagem com pacotes e composição 
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform)
 
+    * **Bora pro curso?:** [Kotlin: recursos da linguagem com pacotes e composição](https://www.alura.com.br/curso-online-kotlin-recursos-da-linguagem-com-pacotes-e-composicao) 
 
-| Kotlin: Desenvolva com coleções, arrays e listas |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform) |
-| [Kotlin:Desenvolva com coleções arrays e listas](https://cursos.alura.com.br/course/kotlin-introducao-collections-arrays-listas) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform) |
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform)
 
+* ## Curso | Kotlin: lidando com exceptions e referências nulas 
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform)
 
-| Kotlin Collections: Set e Map |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform) |
-| [Kotlin Collections: Set e Map](https://www.alura.com.br/curso-online-kotlin-collections-set-map) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform) |
+    * **Bora pro curso?:** [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety) 
 
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform)
 
-| Kotlin: recursos do paradigma funcional |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform) |
-| [Kotlin: recursos do paradigma funcional](https://www.alura.com.br/curso-online-kotlin-recursos-do-paradigma-funcional) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform) |
+* ## Curso | Kotlin: Desenvolva com coleções, arrays e listas
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform)
 
+    * **Bora pro curso?:** [Kotlin:Desenvolva com coleções arrays e listas](https://cursos.alura.com.br/course/kotlin-introducao-collections-arrays-listas) 
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform)
+
+* ## Curso | Kotlin Collections: Set e Map
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform)
+
+    * **Bora pro curso?:** [Kotlin Collections: Set e Map](https://www.alura.com.br/curso-online-kotlin-collections-set-map)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform)
+
+* ## Curso | Kotlin: recursos do paradigma funcional
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform)
+
+    * **Bora pro curso?:** [Kotlin: recursos do paradigma funcional](https://www.alura.com.br/curso-online-kotlin-recursos-do-paradigma-funcional)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform)
 
 
 Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :). 
