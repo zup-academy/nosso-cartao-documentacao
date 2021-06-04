@@ -4,7 +4,7 @@ Uma das maneiras de se integrar com sistemas externos que expõe seus serviços
 via HTTP é utilizando a classe [RestTemplate](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/client/RestTemplate.html) do Spring. A classe possui uma API fluida
 que permite que possamos usar os principais métodos HTTP, como POST, GET, PUT entre outros.
 
-Primeiro passado devemos identificar o método HTTP que devemos utilizar. Depois devemos indicar a URL
+Primeiro passo: devemos identificar o método HTTP que devemos utilizar. Depois devemos indicar a URL
 que o serviço se encontra e por fim invocar a configuração.
 
 ```java
@@ -17,7 +17,7 @@ Perceba que nosso retorno é tipado, ou seja podemos utilizar uma classe nossa q
 da chamada HTTP, afinal nossa implementação consegue realizar a deserialização, porque nosso RestTemplate se
 integra com frameworks como o Jackson por exemplo!!!
 
-# Conhecendo o RestTemplate
+## Conhecendo o RestTemplate
 
 Sempre quando aprendemos algo é super importante ir mais fundo, e quando falamos de RestTemplate, por exemplo, existem 
 várias configurações que podem atender seu cenário!
@@ -87,11 +87,11 @@ como por exemplo:
 
 Se não deseja segmentar por faixa de status code, não tem problema, basta tratar a exceção [HttpStatusCodeException](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/client/HttpStatusCodeException.html).
 
-Pronto! Agora sabemos lidar com erro!
+Pronto! Agora sabemos lidar com o erro!
 
 Se quiser obter a resposta do erro, como por exemplo o body, existe um método para isto o [getResponseBodyAsString](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/client/RestClientResponseException.html#getResponseBodyAsString--);
 
-Pronto! Estamos mais preparados para lidar com os cenários da Zup!
+Agora estamos mais preparados para lidar com os cenários da Zup!
 
 ## Informações de Suporte
 
