@@ -49,7 +49,7 @@ do seu projeto.
 
 Pronto e agora, que tal colocar isso em prática no seu projeto?
 
-# Informação de Suporte
+## Informação de Suporte
 
 * Talvez seja a primeira vez que você tenha se deparado com o termo **Autorização**, esse termo
 é muito importante quando falamos em segurança de software. [Aqui você pode encontrar uma boa
