@@ -4,7 +4,7 @@ Espera um minuto, posso adicionar mais CPU e Memória que meu processo
 suporta, isso não é um problema, né???
 
 Esse tipo de escalabilidade é chamada de escalabilidade vertical e não é uma prática
-recomendada para aplicações de nuvem. Essa prática normalmente tem um limitante,
+recomendada para aplicações de nuvem. Essa prática normalmente tem um limite,
 por exemplo, nossa máquina não suporta mais que 64 GB de Ram, perceba que temos um limite,
 esse limite impacta diretamente nossa capacidade de escalar aplicações.
 
