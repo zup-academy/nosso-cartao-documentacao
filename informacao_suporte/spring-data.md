@@ -1,7 +1,7 @@
 # O que é Spring Data?
 
 [Spring Data](https://spring.io/projects/spring-data) é um dos projetos do [Spring](https://spring.io/) que tem como 
-objetivo prover uma forma consistente de acesso ao dados, ou seja, acesso aos banco de dados.
+objetivo prover uma forma consistente de acesso aos dados, ou seja, acesso aos bancos de dados.
 
 As suas principais funcionalidades são:
 
@@ -16,6 +16,6 @@ dados, existem inúmeros módulos implementados:
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa): Suporte ao [Java Persistence API (JPA)](https://www.oracle.com/java/technologies/persistence-jsp.html).
 - [Spring Data MongoDB](https://spring.io/projects/spring-data-mongodb): Suporte ao [MongoDB](https://www.mongodb.com/).
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre Spring Data? [clique aqui!](https://spring.io/projects/spring-data)
