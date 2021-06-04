@@ -3,7 +3,7 @@
 Precisamos com certa frequência criar diferentes web service clients, nosso serviço,
 na maioria das vezes necessitam se comunicar entre eles. 
 
-Podemos encontrar alguns padrões no processo de criação desses clientes, envolvem
+Podemos encontrar alguns padrões no processo de criação desses clientes, que envolvem
 mapeamento de objetos de entrada, saída e configurações de URI como Path Params e Query Params.
 O projeto OpenFeign pode nos ajudar nessa geração, já que podemos identificar um padrão na escrita 
 desses clientes.
@@ -43,7 +43,7 @@ Note que a dependência é do projeto "guarda-chuva" [Spring Cloud](https://spri
 Essa anotação indica para o Spring Framework que nosso projeto vai utilizar a configuração
 de clientes web services dinâmicas.
  
-Ok!! Dependência adicionada agora podemos começar definir nosso cliente wevb service. O
+Ok! Dependência adicionada agora podemos começar a definir nosso cliente web service. O
 projeto OpenFeign utiliza interfaces para definir nossas operações com serviço web, depois de verificar a
 documentação podemos começar a construir nosso cliente.
 
@@ -62,12 +62,12 @@ public interface CartoesClient {
 em regras de balanceamento de carga
 
 Logo depois, definimos nossa operação cartoes(), mas tem algumas coisinhas importantes logo acima da nossa operação
-@RequestMapping que indica alguma configurações que podemos realizar.
+@RequestMapping que indica alguma configuração que podemos realizar.
 
 Quando vamos chamar uma operação precisamos saber a URI dessa operação no servidor e também precisamos saber o método HTTP
-que essa operação chama. Com @RequestMapping conseguimos resolver esse problema!!!!
+que essa operação chama. Com @RequestMapping conseguimos resolver esse problema!
 
-Legal, nosso cliente web service estamos criando agora podemos chamar nosso serviço externo!!!
+Legal, nosso cliente web service, que estamos criando agora, será nosso serviço externo!
 
 ## Lidando com erros
 
@@ -81,7 +81,7 @@ como por exemplo:
 
 Se não deseja segmentar por faixa de status code, não tem problema, basta tratar a exceção [FeignException](https://javadoc.io/static/io.github.openfeign/feign-core/10.7.0/feign/FeignException.html).
 
-Pronto! Agora sabemos lidar com erro!
+Pronto! Agora sabemos lidar com o erro!
 
 Se quiser obter a resposta do erro, como por exemplo o body, existe um método para isto o [content()](https://javadoc.io/static/io.github.openfeign/feign-core/10.7.0/feign/FeignException.html#content--);
 
@@ -94,9 +94,9 @@ conseguirmos entender o OpenFeign
 
 - Talvez você esteja em dúvida qual operação e verbo HTTP usar, [nesse caso esse conteúdo vai te ajudar a sanar essa dúvida](../informacao_suporte/rest-get.md)
 
-- Não entendi muito bem a parte de documentação, por que eu deveria olhar ela??? [Este link tem algumas explicações interessantes sobre o modelo de documentção que estamos utilizando]((http://spec.openapis.org/oas/v3.0.3))
+- Não entendi muito bem a parte de documentação, por que eu deveria olhar ela? [Este link tem algumas explicações interessantes sobre o modelo de documentação que estamos utilizando]((http://spec.openapis.org/oas/v3.0.3))
 
-- Talvez você queira explorar mais as funcionalidadesdo Feign, [aqui você encontra o código fonte e a documentação](https://github.com/OpenFeign/feign) 
+- Talvez você queira explorar mais as funcionalidades do Feign, [aqui você encontra o código fonte e a documentação](https://github.com/OpenFeign/feign) 
 
 - Se você ficou com dúvida sobre como usar URI, [este link vai resolver seu problema!!!](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Basico_sobre_HTTP/Identifying_resources_on_the_Web)
 
