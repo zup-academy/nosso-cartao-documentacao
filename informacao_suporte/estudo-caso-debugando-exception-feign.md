@@ -76,15 +76,16 @@ feign.FeignException$NotFound: status 404 reading Integracoes#avalia(NovoDocumen
 	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
 
 ```
-Aqui temos a chamada stack trace da exception. Basicamente aí você tem todos pontos do código que foram executados até o momento que o bug aconteceu. Você precisa ficar ninja de olhar para essa pilha e interpretá-la. 
+Aqui temos a chamada stack trace da exception. Basicamente aí você tem todos pontos do código que foram executados até o momento que o bug aconteceu. Você precisa ficar ninja de olhar para essa pilha e interpretá-la.
 
-Se você for olhando de cima para baixo, em algum momento você vai encontrar uma referência para um linha do seu código de produção. Na primeira exception temos o seguinte:
+Se você for olhando de cima para baixo, em algum momento você vai encontrar uma referência para uma linha do seu código de produção. Na primeira exception temos o seguinte:
+
 
 ```java
 at br.com.zup.nossocartao.novaproposta.CriaNovaPropostaController.cria(CriaNovaPropostaController.java:50) ~[classes/:na]
 ```
 
-Os pontos de invocação do seu código são importantes porque é por ali que deve estar o problema. Sempre ache o primeiro ponto e vá subindo na pilha. O último ponto de invocação do seu código demarca o exato local onde começou uma sequência de eventos que gerou um bug.
+Os pontos de invocação do seu código são importantes porque é por ali que deve estar o problema. Sempre encontre o primeiro ponto e vá subindo na pilha. O último ponto de invocação do seu código demarca o exato local onde começou uma sequência de eventos que gerou um bug.
 
 ## E onde está o bug?
 
