@@ -1,11 +1,11 @@
-# Como usar o UriComponentsBuilder ???
+# Como usar o UriComponentsBuilder ?
 
 É uma classe utilitária do Spring que nos ajuda a criar URIs. Essa classe nos ajuda a lidar
 com problemas comuns de encodings presentes nas URIs.
 
 ## Usando UriComponentsBuilder no seu RestController
 
-Uma característica bastante interessante no Spring é que o objeto UriComponentsBuilder é injetado automaticamente nos metodos
+Uma característica bastante interessante no Spring é que o objeto UriComponentsBuilder é injetado automaticamente nos métodos
 de um método no Controller. Veja um exemplo abaixo:
 
 ```java
@@ -32,7 +32,7 @@ public ResponseEntity<PropostaCriada> novaProposta(@RequestBody @Valid NovaPropo
 Um ponto bastante interessante é que o próprio _UriComponentsBuilder_ consegue gerenciar o endereço
 do servidor baseado nas próprias configurações internas da aplicação.
 
-Pronto!!! 
+Pronto!
 
 Agora já sabemos como usar a classe _UriComponentsBuilder_ de acordo com as práticas recomendadas pelo
 Spring. 
