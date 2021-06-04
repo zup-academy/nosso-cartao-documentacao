@@ -3,8 +3,8 @@
 Como já vimos anteriormente o Keycloak é uma ferramenta que permite que possamos gerenciar nossas aplicações (clientes),
 desta maneira garantimos essas aplicações, como browser, aplicativos e serviços estejam configuradas e seguras. 
 
-Essas aplicações podem ter inúmeros escopos, que são utilizados para permitir, habilidar, bloquear determinadas ações no 
-sistema, como por exemplo: Somente quem tem o escopo ADMIM pode ver X,Y,Z página.
+Essas aplicações podem ter inúmeros escopos, que são utilizados para permitir, habilitar, bloquear determinadas ações no 
+sistema, como por exemplo: Somente quem tem o escopo ADMIN pode ver X,Y,Z página.
 
 Vamos criar nosso primeiro escopo e associar a um cliente?
 
@@ -29,7 +29,7 @@ que temos um elemento chamado **keycloak**. Abaixo segue o fragmento
     ## restante omitido
     ##
 ``` 
-A porta de administração padrão do keycloak é **8080**, mas perceba que fizemos um "bind" para
+A porta de administração padrão do keycloak é **8080**, mas perceba: fizemos um "bind" para
 porta **18080**.
 
 Faça o login na plataforma, caso você tenha algum problema em realizar o login [este link pode te ajudar](keycloak-login.md)
@@ -37,7 +37,7 @@ Faça o login na plataforma, caso você tenha algum problema em realizar o login
 Depois disso você deve certificar-se que você esteja no seu Realm previamente criado. Se por algum motivo você não criou seu Realm, sem problemas
 [este link vai te ajudar com isso](keycloak-realm.md)
 
-No canto superior esquerdo você pode ver o Realm selecionado, na figura abaixo estamos no Nosso-cartao, no menu **Configure** 
+No canto superior esquerdo você pode ver o Realm selecionado, na figura abaixo estamos no _"Nosso-cartão"_, no menu **Configure** 
 seleciona a opção **Client Scopes** e então clique no botão **Create**. Como na figura abaixo:
 
 ![image](../images/keycloak/keycloak-scope-001.jpg "Image")
@@ -46,7 +46,7 @@ Depois você será redirecionado para uma página onde você deverá preencher i
 
 ![image](../images/keycloak/keycloak-scope-002.jpg "Image")
 
-Eba! Você criou seu primeiro cliente! Vamos associar em nossa aplicação?
+Você criou seu primeiro cliente! Vamos associar em nossa aplicação?
 
 Para associar o escopo criado em nossa aplicação, no menu **Configure**  seleciona a opção **Clients** e então clique 
 no botão **Edit** do cliente desejado. Como na figura abaixo:
@@ -65,7 +65,7 @@ abaixo:
 Eba! Está tudo configurado! Para testar gera uma novo token e verifica se o escopo criado está contido no mesmo, conforme 
 exemplo abaixo:
 
-**Requisiçao**
+**Requisição**
 
 ```shell script
 curl --location --request POST 'http://localhost:18080/auth/realms/nosso-cartao/protocol/openid-connect/token' \
@@ -92,8 +92,7 @@ curl --location --request POST 'http://localhost:18080/auth/realms/nosso-cartao/
     "scope": "meu-primeiro-escopo profile email"
 }
 ```
-
-Demais né!? Agora que você gerou o token é preciso fornecer o mesmo nas APIs que requerem autenticação!
+Agora que você gerou o token é preciso fornecer o mesmo nas APIs que requerem autenticação!
 
 Para passar o token nas APIs que requerem autenticação é preciso enviar o **Header** denominado **Authorization** com o 
 o valor do **access_token** com o prefixo **Bearer**!
@@ -119,4 +118,4 @@ curl --location --request POST 'http://localhost:8080/v1/proposals' \
 
 ## Informações de suporte
 
-* Talvez você pode estar se perguntando, qual a função sobre o docker-compose. [Aqui você pode encontrar](https://docs.docker.com/compose/)
+* Talvez você possa estar se perguntando, qual a função sobre o docker-compose. [Aqui você pode encontrar](https://docs.docker.com/compose/)
