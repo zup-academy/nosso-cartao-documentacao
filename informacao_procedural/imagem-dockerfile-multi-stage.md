@@ -1,4 +1,4 @@
-# Melhorando nossas imagens com multi-stage builds!!!
+# Melhorando nossas imagens com multi-stage builds!
 
 Quando pensamos em imagens, tentamos minimizar o tamanho delas.
 
@@ -9,10 +9,10 @@ se sua imagem tiver 1GB de tamanho, isso com certeza vai degradar o funcionament
 Precisamos achar uma maneira que nos ajude a reduzir o tamanho das nossas imagens, é o multi-stage build é um caminho
 para nos ajudar com isso.
 
-E mais legal ainda, podemos rodar nossa build dentro do Docker, não precisamos nenhuma dependência na nossa máquina porque a produção 
-do artefato é feita dentro do container...muito massa!!!
+E o mais legal ainda: podemos rodar nossa build dentro do Docker, não precisamos nenhuma dependência na nossa máquina porque a produção 
+do artefato é feita dentro do container.
 
-Então não vamos perder tempo e fazer isso acontecer!!!
+Então não vamos perder tempo e fazer isso acontecer!
 
 ```dockerfile
 
@@ -30,7 +30,7 @@ ENTRYPOINT ["java","-jar","/usr/app/app.jar"]
 
 ```
 
-Opa, temos dois comandos FROM???
+Opa, temos dois comandos FROM?
 
 Perceba, que temos dois estágios na nossa build, podemos notar que no primeiro estágio utilizamos o maven como base. O maven é utilizado
 para realizar a build da nossa aplicação e produzir nosso artefato, dentro desse estágio é artefato produzido.
@@ -41,16 +41,16 @@ Um detalhe bastante importante é que nossa aplicação não precisa de maven pa
 do JRE, note que o maven na fase de runtime se torna um overhead no sistema de arquivos, não precisamos dele para rodar. Com isso introduzimos
 nosso segundo **FROM** que contém somente openjdk.
 
-Note que no comando **COPY** usando a flag **--from** e indicamos o caminho de qual arquivos queremos copiar, no nosso caso queremos copiar o artefato produzido
+Note que no comando **COPY** usando a flag **--from** e indicamos o caminho de qual arquivo queremos copiar, no nosso caso queremos copiar o artefato produzido
 no primeiro estágio. Indicamos um caminho que desejamos ser mais adequado.
 
 Por fim, declaramos que nossa aplicação expõe nossos serviços na porta _8080_.
 
-Esta técnica reduz consideravelmente o tamanho da sua imagem, é atualmente é o modelo mais adequado para adotarmos. 
+Esta técnica reduz consideravelmente o tamanho da sua imagem, é atualmente o modelo mais adequado para adotarmos. 
    
 ## Informações de suporte
 
-* Talvez você possa querer instalar o docker na sua máquina. [Esse link pode te ajudar com isso!!!](https://docs.docker.com/get-docker/)
+* Talvez você possa querer instalar o docker na sua máquina. [Esse link pode te ajudar com isso!](https://docs.docker.com/get-docker/)
 
 * Se em algum momento você pensou em entender em mais detalhes o padrão multi-stage. [Esse link vai te ajudar muito.](https://docs.docker.com/develop/develop-images/multistage-build/) 
   
@@ -59,7 +59,7 @@ Esta técnica reduz consideravelmente o tamanho da sua imagem, é atualmente é 
 * Se você ficou em dúvida em como podemos utilizar o comando FROM, [esse link tem algumas informações que podem
   te ajudar a compreender melhor os detalhes](https://docs.docker.com/engine/reference/builder/#from)
 
-* Se você acha que precisa de mais detalhamentos sobre o comando ARG, [esse link é a referência pra isso!!](https://docs.docker.com/engine/reference/builder/#arg)  
+* Se você acha que precisa de mais detalhamentos sobre o comando ARG, [esse link é a referência pra isso!](https://docs.docker.com/engine/reference/builder/#arg)  
 
 * Talvez você pode estar se questionando em quais informações o COPY é capaz de copiar. [A documentação pode ser um caminho para sanar sua dúvida](https://docs.docker.com/engine/reference/builder/#copy)
 
