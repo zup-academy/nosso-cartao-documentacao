@@ -26,7 +26,7 @@ public class MeuController {
 }
 ```
 
-Pronto!!!
+Pronto!
 
 Agora já sabemos como usar a anotação @GetMapping!
 
@@ -95,10 +95,10 @@ public class MeuController {
 Neste nosso exemplo a gente mapeou em nossa API o query parameter `status` como sendo opcional, caso não passado o valor 
 padrão será `ATIVO`, demais né!
 
-Pronto!!!
+Pronto!
 
 Agora já sabemos como usar a anotação @GetMapping, @PathVariable e @RequestParam!
 
-#Informação de Suporte
+## Informação de Suporte
 
-Quer saber mais sobre como criar API's REST no Spring? [Aqui você encontra como fazer isso !!!](https://spring.io/guides/gs/rest-service/)
+Quer saber mais sobre como criar API's REST no Spring? [Aqui você encontra como fazer isso!](https://spring.io/guides/gs/rest-service/)
