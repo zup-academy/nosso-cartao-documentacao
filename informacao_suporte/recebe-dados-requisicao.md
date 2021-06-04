@@ -1,6 +1,6 @@
 # Separamos as bordas externas do sistema do seu núcleo. 
 
-**Não ligamos parâmetros de requisição externa com objetos de domínio diretamente, assim como não serializamos objetos de domínio para respostas de API.**
+**Não ligamos parâmetros de requisição externa com objetos de domínio diretamente, assim como não fazemos a serializção dos objetos de domínio para respostas de API.**
 
 Todo framework web moderno permite que você receba os dados de uma requisição web utilizando uma classe do seu próprio domínio. Exemplo:
 
@@ -10,7 +10,7 @@ public void novaProposta(Proposta proposta){
 
 }
 ```
-Essa classe proposta poderia um construtor com argumentos com os mesmos nomes dos parâmetros que vem na requisição.
+Essa classe proposta poderia ser um construtor com argumentos com os mesmos nomes dos parâmetros que vem na requisição.
 
 ```java
 public class Proposta{
@@ -37,7 +37,7 @@ Agora imagine que você mudou o fluxo do recebimento do documento. Em vez de rec
 
 ## Genérico x Específico
 
-A classe de domínio permeia a aplicação inteira. Ela nasce para ser utilizada em um ponto e naturalmente vai sendo exigida em outros lugares. Dada as necessidades tal classe pode ir sendo alterada. Como você vai minimizar a chance dessa alteração quebrar quem está consumindo algum endpoint? 
+A classe de domínio permeia a aplicação inteira. Ela nasce para ser utilizada em um ponto e naturalmente vai sendo exigida em outros lugares. Dada às necessidades tal classe pode ir sendo alterada. Como você vai minimizar a chance dessa alteração quebrar quem está consumindo algum endpoint? 
 
 Enquanto a classe de domínio nasce para ser usada na aplicação inteira, os parâmetros para um endpoint nascem para ser usados naquele local específico. Dois endpoints diferentes, por coincidência podem usar os mesmos parâmetros, mas eles ainda são diferentes. Os dados podem vir de formulários diferentes. 
 
@@ -53,7 +53,7 @@ public void novaProposta(NovaPropostaRequest request){
 
 ```
 
-Existe uma bela chance da classe ```NovaPropostaRequest``` ter detalhes parecidos com a classe ```Proposta``` e está tudo bem. Não precisamos reaproveitar todo pedaço de código que existe. 
+Existe uma bela chance da classe ```NovaPropostaRequest``` ter detalhes parecidos com a classe ```Proposta``` e está tudo bem. Não precisamos aproveitar todo pedaço de código que existe. 
 
 Agora, se o código estivesse usando o construtor da classe ```Proposta``` e ele fosse alterado, seu código ia dar problema de compilação. E você pode pensar algo assim: "Ah, mas se eu alterar o construtor da classe ```NovaPropostaRequest``` vai quebrar também!". Vai quebrar sim, mas vai quebrar apenas nesse endpoint :). Parar de funcionar é ruim, mas se a correção tiver sido facilitada o impacto disso é bem menor. 
 
