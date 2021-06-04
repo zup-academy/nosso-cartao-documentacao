@@ -1,21 +1,21 @@
 # Dependências. II do 12 Factor Apps
 
-Talvez a primeira pergunta que você tenha pensado é _Como posso deixar o que minha aplicação 
+Talvez a primeira pergunta que você tenha pensado é: _Como posso deixar o que minha aplicação 
 precisa explicita???_
 
 É bem provável que você já tenha feito isso, se você usou Maven ou Gradle você já
-declarou quais biblíotecas sua aplicação precisa.
+declarou quais bibliotecas  sua aplicação precisa.
 
 Perceba que se alguém tem interesse em saber o que sua aplicação usa, basta
 essa pessoa analisar seu arquivo `pom.xml` ou `build.gradle`. Nesses arquivos
 as informações estão bastante explícitas.
 
-Mas e sobre isolar as dependências??
+Mas e sobre isolar as dependências?
 
 Ferramentas como o Maven e Gradle também fazem isso, ambas são capazes
 de incluir essas dependências dentro do seu artefato, ou aplicação.
 
-Viu, como é simples!!!
+Viu, como é simples?
 
 ## Informações de suporte
 
