@@ -44,6 +44,6 @@ spring.datasource.password=postgres
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-# Informação de Suporte
+## Informação de Suporte
 
 Quer saber mais sobre as propriedades do Spring Data? [clique aqui!](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#data-properties)
