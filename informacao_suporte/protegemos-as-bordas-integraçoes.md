@@ -1,4 +1,4 @@
-# Não serializamos objetos de respostas para o nosso domínio
+# Não vamos serializar objetos de respostas para o nosso domínio
 
 Essa daqui é uma prática simples de ser seguida e que tende a facilitar a manutenção dos contratos da sua integração. Imagine 
 que você precisa buscar uma lista de livros como JSON a partir de um endpoint. Abaixo temos um possível código.
@@ -44,7 +44,7 @@ de sofrer modificações que cruzem a aplicação inteira.
 
 ## Criando uma representação para o endpoint
 
-Uma solução que adiciona um ponto de complexidde, dado a métrica que estamos trabalhando derivada do CDD, mas que 
+Uma solução que adiciona um ponto de complexidade, dado a métrica que estamos trabalhando derivada do CDD, mas que 
 diminui a fragilidade do contrato é a de criar uma classe específica para a saída de determinado endpoint. 
 
 ```java
@@ -92,7 +92,7 @@ Perceba que agora a classe ```LivroResponse``` funciona como uma representante(P
 * E se mudar o contrato da API?
 
 Para a primeira e terceira nada vai acontecer na nossa classe de saída. Já para a segunda vamos ter um erro de compilação, 
-o que é ideal dentro de uma linguagem compilada. Mesmo se a linguagem for dinâmica, vamos tomar um erro em tempo de execução. 
+o que é ideal dentro de uma linguagem compilada. Mesmo se a linguagem for dinâmica, vamos cometer um erro em tempo de execução. 
 
 Importante ressaltar que antes aquele trecho de código tinha dois pontos de complexidade e passou a ter três, por conta 
 da referência a nova classe.
