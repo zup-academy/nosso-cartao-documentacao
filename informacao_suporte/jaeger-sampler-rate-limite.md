@@ -16,7 +16,7 @@ Para configurar a amostragem **rate limit**, precisamos adicionar a seguinte pro
 opentracing.jaeger.rate-limiting-sampler.max-traces-per-second=${JAEGER_SAMPLER:10}
 ```
 
-## Dicas de Luram Archanjo
+## Dicas
 
 Essa é a abordagem mais segura, pois, nunca irá extrapolar o limite e consequentemente não irá impactar sua aplicação.
 
