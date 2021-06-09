@@ -36,7 +36,7 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
 
 ## Cronograma para executar todas as atividades
 
-**Dividimos o nosso cronograma em fases para apoiar você em cada etapa deste treino:**
+**Dividimos o nosso cronograma em fases para apoiar você em cada etapa deste treino.**
 *Lembre também que temos toda uma equipe pronta para te dar suporte, tirar dúvidas e te direcionar.*
 
 1. Na primeira semana, você ficará totalmente focado no **Onboarding da Zup**
