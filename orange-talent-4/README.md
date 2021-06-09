@@ -316,17 +316,17 @@ Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação
 
 | Validando os dados de entrada de uma requisição |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform) |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/tc9UoSGdGBNDW3NA9) |
 | [Validando os dados de entrada de uma requisição: explicação em cima do código pronto](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be)|
 | [Validando os dados de entrada de uma requisição: explicação enquanto constrói o código](https://www.youtube.com/watch?v=lyBlLDoW6xE&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/tc9UoSGdGBNDW3NA9) |
 
 | Conversão de um objeto de entrada para um objeto de domínio |
 | --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform) |
+| [Clique aqui para responder o questionário no início do curso](https://forms.gle/g5pVKaHRY55pJJD29) |
 | [Conversão de um objeto de entrada para um objeto de domínio: explicação sobre o código pronto](https://www.youtube.com/watch?v=Hoi3-Plm0uo&feature=youtu.be)|
 | [Conversão de um objeto de entrada para um objeto de domínio: explicação enquanto constrói o código](https://www.youtube.com/watch?v=j-NkQfiDMt0&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform) |
+| [Clique aqui para responder o questionário no final do curso](https://forms.gle/g5pVKaHRY55pJJD29) |
 
 | Gravando os dados com Micronaut Data |
 | --- |
