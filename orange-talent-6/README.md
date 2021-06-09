@@ -477,8 +477,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfkDQPn8_NRXf4nuNWu3ivugKAaweoY-D53tWi2vH7VuqkNMw/viewform)
 
     * **Bora pro curso?** 
-    * [Recebendo dados via JSON: explicação sobre código pronto](https://www.youtube.com/watch?v=PWBEwECz4y4&feature=youtu.be)
-    * [Recebendo dados via JSON: explicação enquanto constrói o código ](https://www.youtube.com/watch?v=6MuZfE7BYPg&feature=youtu.be)
+    [Recebendo dados via JSON: explicação sobre código pronto](https://www.youtube.com/watch?v=PWBEwECz4y4&feature=youtu.be)
+    [Recebendo dados via JSON: explicação enquanto constrói o código ](https://www.youtube.com/watch?v=6MuZfE7BYPg&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfkDQPn8_NRXf4nuNWu3ivugKAaweoY-D53tWi2vH7VuqkNMw/viewform)
 
@@ -486,8 +486,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform)
 
     * **Bora pro curso?** 
-    * [Validando os dados de entrada de uma requisição: explicação em cima do código pronto](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be)
-    * [Validando os dados de entrada de uma requisição: explicação enquanto constrói o código](https://www.youtube.com/watch?v=lyBlLDoW6xE&feature=youtu.be)  
+    [Validando os dados de entrada de uma requisição: explicação em cima do código pronto](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be)
+    [Validando os dados de entrada de uma requisição: explicação enquanto constrói o código](https://www.youtube.com/watch?v=lyBlLDoW6xE&feature=youtu.be)  
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform)
 
@@ -495,8 +495,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform)
 
     * **Bora pro curso?** 
-    * [Conversão de um objeto de entrada para um objeto de domínio: explicação sobre o código pronto](https://www.youtube.com/watch?v=Hoi3-Plm0uo&feature=youtu.be)
-    * [Conversão de um objeto de entrada para um objeto de domínio: explicação enquanto constrói o código](https://www.youtube.com/watch?v=j-NkQfiDMt0&feature=youtu.be)
+    [Conversão de um objeto de entrada para um objeto de domínio: explicação sobre o código pronto](https://www.youtube.com/watch?v=Hoi3-Plm0uo&feature=youtu.be)
+    [Conversão de um objeto de entrada para um objeto de domínio: explicação enquanto constrói o código](https://www.youtube.com/watch?v=j-NkQfiDMt0&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform)
 
@@ -504,8 +504,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScEbOXJT8rwRD8SXxNPuDBz_Ufm5CSZ4-JUFstiHpS_94EbKQ/viewform)
 
     * **Bora pro curso?** 
-    * [Gravando os dados com Micronaut Data: explicação em cima do código pronto](https://www.youtube.com/watch?v=pWu2mqaKFEc&feature=youtu.be)
-    * [Gravando os dados com Micronaut Data: explicação enquanto constrói o código](https://www.youtube.com/watch?v=ypPIgASiyiU&feature=youtu.be)
+    [Gravando os dados com Micronaut Data: explicação em cima do código pronto](https://www.youtube.com/watch?v=pWu2mqaKFEc&feature=youtu.be)
+    [Gravando os dados com Micronaut Data: explicação enquanto constrói o código](https://www.youtube.com/watch?v=ypPIgASiyiU&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScEbOXJT8rwRD8SXxNPuDBz_Ufm5CSZ4-JUFstiHpS_94EbKQ/viewform)
 
@@ -520,8 +520,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform)
 
     * **Bora pro curso?** 
-    * [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)
-    * [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc)
+    [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)
+    [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform)
 
@@ -529,8 +529,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform)
 
     * **Bora pro curso?** 
-    * [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)
-    * [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg)
+    [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)
+    [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform)
 
@@ -538,8 +538,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdJnOZFCzkJes-T3izhcJtqhU08pQweFcS6tpOL7cLHLjM7eg/viewform)
 
     * **Bora pro curso?** 
-    * [Recebendo dados via PUT: explicação sobre o código pronto](https://youtu.be/awdppj2o7J0)
-    * [Recebendo dados via PUT: explicação enquanto constrói o código](https://youtu.be/Jvl5RcrqJRc)
+    [Recebendo dados via PUT: explicação sobre o código pronto](https://youtu.be/awdppj2o7J0)
+    [Recebendo dados via PUT: explicação enquanto constrói o código](https://youtu.be/Jvl5RcrqJRc)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdJnOZFCzkJes-T3izhcJtqhU08pQweFcS6tpOL7cLHLjM7eg/viewform)
 
@@ -547,8 +547,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform)
 
     * **Bora pro curso?** 
-    * [Recebendo dados via DELETE: explicação sobre o código pronto](https://youtu.be/plojIuEWIPM)
-    * [Recebendo dados via DELETE: explicação enquanto constrói o código](https://youtu.be/BZ2xuQqvdHE)
+    [Recebendo dados via DELETE: explicação sobre o código pronto](https://youtu.be/plojIuEWIPM)
+    [Recebendo dados via DELETE: explicação enquanto constrói o código](https://youtu.be/BZ2xuQqvdHE)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform)
 
@@ -556,8 +556,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform)
 
     * **Bora pro curso?** 
-    * [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)
-    * [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8)
+    [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)
+    [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform)
 
@@ -566,8 +566,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform)
 
     * **Bora pro curso?** 
-    * [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)
-    * [Mapeando queries explicitamente no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/8jwk3vLq-aY)
+    [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)
+    [Mapeando queries explicitamente no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/8jwk3vLq-aY)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform)
 
@@ -575,8 +575,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform)
 
     * **Bora pro curso?** 
-    * [Demarcação de transação: explicação sobre o código pronto](https://youtu.be/DS5g3ZNZHRc)
-    * [Demarcação de transação: explicação enquanto constrói o código](https://youtu.be/M8x090WpXL8)
+    [Demarcação de transação: explicação sobre o código pronto](https://youtu.be/DS5g3ZNZHRc)
+    [Demarcação de transação: explicação enquanto constrói o código](https://youtu.be/M8x090WpXL8)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform)
 
@@ -584,8 +584,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSds2YJc52d7Gm-hB8_ejJPLuH-ljUqSm3DvtMFc-8YPjwEthg/viewform)
 
     * **Bora pro curso?** 
-    * [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação sobre o código pronto](https://www.youtube.com/watch?v=9nPRHbToxAc&feature=youtu.be)
-    * [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação enquanto constrói o código](https://www.youtube.com/watch?v=jAqA_R9gV_M&feature=youtu.be)
+    [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação sobre o código pronto](https://www.youtube.com/watch?v=9nPRHbToxAc&feature=youtu.be)
+    [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação enquanto constrói o código](https://www.youtube.com/watch?v=jAqA_R9gV_M&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSds2YJc52d7Gm-hB8_ejJPLuH-ljUqSm3DvtMFc-8YPjwEthg/viewform)
 
@@ -593,8 +593,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWZE3A99j7loEgDGM_1mpvCpRODHKe-feIK8SZmLV9pHyA3g/viewform)
 
     * **Bora pro curso?** 
-    * [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação sobre o código pronto](https://www.youtube.com/watch?v=4MG_H-lKydI&feature=youtu.be)
-    * [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação enquanto constrói o código](https://www.youtube.com/watch?v=b71YTGU0_4E&feature=youtu.be)
+    [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação sobre o código pronto](https://www.youtube.com/watch?v=4MG_H-lKydI&feature=youtu.be)
+    [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação enquanto constrói o código](https://www.youtube.com/watch?v=b71YTGU0_4E&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWZE3A99j7loEgDGM_1mpvCpRODHKe-feIK8SZmLV9pHyA3g/viewform)
 
@@ -602,8 +602,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSepMgR6j5lYRAGbTL_NII0DU_RBuh0PCedDQG_EFYdzxBcDdQ/viewform)
 
     * **Bora pro curso?** 
-    * [Implementando Validação customizada com Micronaut Validation: explicação sobre o código pronto](https://www.youtube.com/watch?v=UCHFApcJVW0&feature=youtu.be)
-    * [Implementando Validação customizada com Micronaut Validation: explicação enquanto constrói o código](https://www.youtube.com/watch?v=x7P4nR7glgk&feature=youtu.be)
+    [Implementando Validação customizada com Micronaut Validation: explicação sobre o código pronto](https://www.youtube.com/watch?v=UCHFApcJVW0&feature=youtu.be)
+    [Implementando Validação customizada com Micronaut Validation: explicação enquanto constrói o código](https://www.youtube.com/watch?v=x7P4nR7glgk&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSepMgR6j5lYRAGbTL_NII0DU_RBuh0PCedDQG_EFYdzxBcDdQ/viewform)
 
@@ -611,8 +611,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf0SsaAU4SLbp1oSOO-msgLdw-FMmA1ghBBElIqst1FJnQvqA/viewform)
 
     * **Bora pro curso?** 
-    * [Micronaut Testing - como testar uma API REST: explicação sobre o código pronto](https://www.youtube.com/watch?v=eTA32xkQiLI)
-    * [Micronaut Testing - como testar uma API REST: explicação enquanto constrói o código](https://www.youtube.com/watch?v=4Qh3UZtVH9U)
+    [Micronaut Testing - como testar uma API REST: explicação sobre o código pronto](https://www.youtube.com/watch?v=eTA32xkQiLI)
+    [Micronaut Testing - como testar uma API REST: explicação enquanto constrói o código](https://www.youtube.com/watch?v=4Qh3UZtVH9U)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf0SsaAU4SLbp1oSOO-msgLdw-FMmA1ghBBElIqst1FJnQvqA/viewform)
 
@@ -620,8 +620,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdknLTIGWbg5KH-mjJo5AmXMTsyj0l0DuFTJVzNbmT_MMThsQ/viewform)
 
     * **Bora pro curso?** 
-    * [Micronaut Testing - como criar mocks com Micronaut: explicação sobre o código pronto](https://www.youtube.com/watch?v=2bx1cgZEZuw)
-    * [Micronaut Testing - como criar mocks com Micronaut: explicação enquanto constrói o código](https://www.youtube.com/watch?v=IR0Y_b-1VqM)
+    [Micronaut Testing - como criar mocks com Micronaut: explicação sobre o código pronto](https://www.youtube.com/watch?v=2bx1cgZEZuw)
+    [Micronaut Testing - como criar mocks com Micronaut: explicação enquanto constrói o código](https://www.youtube.com/watch?v=IR0Y_b-1VqM)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdknLTIGWbg5KH-mjJo5AmXMTsyj0l0DuFTJVzNbmT_MMThsQ/viewform)
 
@@ -629,8 +629,8 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfFRpEZVa4uB1AbulNcJmtZf2YiBKVj0_rAtTvGnMh6RqFPBw/viewform)
 
     * **Bora pro curso?** 
-    * [Micronaut Testing - controle transacional e banco em memória: explicação sobre o código pronto](https://www.youtube.com/watch?v=gARN_7QtNfM)
-    * [Micronaut Testing - controle transacional e banco em memória: explicação enquanto constrói o código](https://www.youtube.com/watch?v=uLV2pWmR8po)
+    [Micronaut Testing - controle transacional e banco em memória: explicação sobre o código pronto](https://www.youtube.com/watch?v=gARN_7QtNfM)
+    [Micronaut Testing - controle transacional e banco em memória: explicação enquanto constrói o código](https://www.youtube.com/watch?v=uLV2pWmR8po)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfFRpEZVa4uB1AbulNcJmtZf2YiBKVj0_rAtTvGnMh6RqFPBw/viewform)
 
@@ -649,8 +649,8 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScg_wZmcX5n98N2APt8gTHVM-BJLG03TdxbM1BpA1KrOSovPA/viewform)
 
     * **Bora pro curso?** 
-    * [Introdução a protobuf: explicação sobre o código pronto](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be)
-    * [Introdução a protobuf: explicação enquanto constrói o código](https://www.youtube.com/watch?v=gBeQ1CgiFEU&feature=youtu.be)
+    [Introdução a protobuf: explicação sobre o código pronto](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be)
+    [Introdução a protobuf: explicação enquanto constrói o código](https://www.youtube.com/watch?v=gBeQ1CgiFEU&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScg_wZmcX5n98N2APt8gTHVM-BJLG03TdxbM1BpA1KrOSovPA/viewform)
 
@@ -658,8 +658,8 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfWbPedy1YBqqSfuC_U_lVUFiz_qapqNFX7neU14XwbepP63A/viewform)
 
     * **Bora pro curso?** 
-    * [Expondo dados via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be)
-    * [Expondo dados via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=tuZmLjCEvjI&feature=youtu.be)
+    [Expondo dados via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be)
+    [Expondo dados via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=tuZmLjCEvjI&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfWbPedy1YBqqSfuC_U_lVUFiz_qapqNFX7neU14XwbepP63A/viewform)
 
@@ -667,8 +667,8 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSefGv2Ak4kI1I2tjcemFzACVNMQAbQg3rXfGrUGpl-9HJeXQw/viewform) 
 
     * **Bora pro curso?** 
-    * [Consumindo um endpoint via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=ZGlxfNJkmcQ&feature=youtu.be)
-    * [Consumindo um endpoint via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=Y6ojxAQoSkM&feature=youtu.be)
+    [Consumindo um endpoint via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=ZGlxfNJkmcQ&feature=youtu.be)
+    [Consumindo um endpoint via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=Y6ojxAQoSkM&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSefGv2Ak4kI1I2tjcemFzACVNMQAbQg3rXfGrUGpl-9HJeXQw/viewform) 
 
@@ -676,8 +676,8 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfDn4ur1Q-swVuDOjaeO_gbTx4Vti1nbHO71bfbE4iIlT9OvQ/viewform)
 
     * **Bora pro curso?** 
-    * [Retornando códigos de erro em uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be)
-    * [Retornando códigos de erro em uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=xcWkmNxf8JE&feature=youtu.be)
+    [Retornando códigos de erro em uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be)
+    [Retornando códigos de erro em uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=xcWkmNxf8JE&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfDn4ur1Q-swVuDOjaeO_gbTx4Vti1nbHO71bfbE4iIlT9OvQ/viewform)
 
@@ -685,8 +685,8 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform)
 
     * **Bora pro curso?** 
-    * [Lidando com erros retornados pela API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)
-    * [Lidando com erros retornados pela API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be) 
+    [Lidando com erros retornados pela API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)
+    [Lidando com erros retornados pela API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be) 
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform)
 
@@ -694,8 +694,8 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfGfy17qPwWTM9241s9HtJm1mDIjoCmAugg5XNkkd_h_wiDVA/viewform)
 
     * **Bora pro curso?** 
-    * [Healthcheck sobre HTTP: explicação sobre o código pronto](https://www.youtube.com/watch?v=Zle0hcwd_Jw&feature=youtu.be)
-    * [Healthcheck sobre HTTP: explicação enquanto constrói o código](https://youtu.be/To32I8UPkkc)
+    [Healthcheck sobre HTTP: explicação sobre o código pronto](https://www.youtube.com/watch?v=Zle0hcwd_Jw&feature=youtu.be)
+    [Healthcheck sobre HTTP: explicação enquanto constrói o código](https://youtu.be/To32I8UPkkc)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfGfy17qPwWTM9241s9HtJm1mDIjoCmAugg5XNkkd_h_wiDVA/viewform)
 
@@ -703,8 +703,8 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc9MLtLz770Ek-lUY9ESoufSbfVxwfEtaTSJL3hPgNxZX6ckQ/viewform)
 
     * **Bora pro curso?** 
-    * [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)
-    * [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE)
+    [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)
+    [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc9MLtLz770Ek-lUY9ESoufSbfVxwfEtaTSJL3hPgNxZX6ckQ/viewform)
 
@@ -712,14 +712,14 @@ O GRPC é a tentativa de aumentar a performance na comunicação entre os servi�
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeRIamgeugJz__xPDEaXCxJBRYPg09gzgmdPHtKF2EaDKh8lg/viewform)
 
     * **Bora pro curso?** 
-    * [Micronaut Testing - como testar uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=MJaXYdvUZiM&feature=youtu.be)
-    * [Micronaut Testing - como testar uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=mq3UYOQ9FqE)
+    [Micronaut Testing - como testar uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=MJaXYdvUZiM&feature=youtu.be)
+    [Micronaut Testing - como testar uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=mq3UYOQ9FqE)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeRIamgeugJz__xPDEaXCxJBRYPg09gzgmdPHtKF2EaDKh8lg/viewform)
 
 Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
 
-[Construa um sistema distribuído que simule o funcionamento do PIX](https://github.com/zup-academy/orange-stack-documentacao/tree/master/desafio-01/01-key-manager#desafio-pix)
+* **Desafio 5:** [Construa um sistema distribuído que simule o funcionamento do PIX](https://github.com/zup-academy/orange-stack-documentacao/tree/master/desafio-01/01-key-manager#desafio-pix)
 
 Nesse momento você já deve estar se sentindo apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC.
 
