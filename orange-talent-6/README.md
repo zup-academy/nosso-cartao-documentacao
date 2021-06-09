@@ -42,14 +42,14 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
 1. Na primeira semana, você ficará totalmente focado no **Onboarding da Zup**
 2. Estimamos que você conclua a **fase 1** + **fase 2** até a terceira semana. Essa é uma fase muito focada em teoria e atividades de fixação
 3. Estimamos que você conclua a **fase 3** até a quinta semana.
-4. Estimamos que você conclua a **fase 4** até a nona semana.
+4. Estimamos que você conclua a **fase 4** até a oitava semana.
 5. Agora você tem até 5 semanas para fechar a **fase cinco** !
 
    
   
 # FASE 1
 
-**Estimamos que você conclua a fase 1 até a segunda semana.**
+**Estimamos que você conclua a fase 1 até a terceira semana.**
 
 Queremos que você entenda a estrutura do programa e como ficar melhor                                                                                               preparadx para consumir tudo que preparamos. 
                                                                                                                                                                         Essa aqui é uma fase curta, porém fundamental! 
@@ -63,7 +63,7 @@ Queremos que você entenda a estrutura do programa e como ficar melhor          
 
 # FASE 2
 
-**Estimamos que você conclua a fase 2 até a segunda semana.**
+**Estimamos que você conclua a fase 2 até a terceira semana.**
 
 Nesta fase você fará uma imersão teórica sobre desenvolvimento web utilizando o paradigma de programação orientado a objetos com Java, Spring e Hibernate. 
 
@@ -191,10 +191,9 @@ Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conheci
 * **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://forms.gle/AZhpK5SX9a2ae8qe7) 
 
 
-
 # FASE 3
 
-**Estimamos que você conclua a fase 3 até a quarta semana.**
+**Estimamos que você conclua a fase 3 até a quinta semana.**
 
 Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. 
 
