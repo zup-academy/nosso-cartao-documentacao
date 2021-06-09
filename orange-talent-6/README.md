@@ -34,8 +34,18 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
 * Micronaut para construção API's ainda mais preparadas para o mundo Cloud Native.
 * Stack de CI/CD da Amazon para que consiga fazer com que seu código seja um bom cliente da operação. Vamos de cultura DevOps. 
 
+## Cronograma para executar todas as atividades
+
 **Dividimos o nosso cronograma em fases para apoiar você em cada etapa deste treino:**
-    
+*Lembre também que temos toda uma equipe pronta para te dar suporte, tirar dúvidas e te direcionar.*
+
+1. Na primeira semana, você ficará totalmente focado no **Onboarding da Zup**
+2. Estimamos que você conclua a **fase 1** + **fase 2** até a terceira semana. Essa é uma fase muito focada em teoria e atividades de fixação
+3. Estimamos que você conclua a **fase 3** até a quinta semana.
+4. Estimamos que você conclua a **fase 4** até a nona semana.
+5. Agora você tem até 5 semanas para fechar a **fase cinco** !
+
+   
   
 # FASE 1
 
@@ -767,21 +777,3 @@ Você também deve consumir os conteúdos sobre Gitlab, que também é uma ferra
 * [Explicação de criação de um repositório no codecommit](https://youtu.be/HuB5aSPk5HI)
 * [Mirroring gitlab x codecommit explicação sobre exemplo construído](https://youtu.be/pBeF59rrCg8)
 * [Mirroring gitlab x codecommit explicação sobre exemplo enquanto constrói](https://youtu.be/9UtuOfHIlsA)
-
-## Cronograma para executar todas as atividades
-
-Nosso programa está estimado em 13 semanas e abaixo temos o cronograma. Lembre também que temos toda uma equipe pronta para te dar suporte, tirar dúvidas e te direcionar.
-
-1. Na primeira semana, você ficará totalmente focado no **Onboarding da Zup**
-2. Estimamos que você conclua a **fase 1** + **fase 2** até a terceira semana. Essa é uma fase muito focada em teoria e atividades de fixação
-3. Estimamos que você conclua a **fase 3** até a quinta semana.
-4. Estimamos que você conclua a **fase 4** até a nona semana.
-5. Agora você tem até 5 semanas para fechar a **fase cinco** !
-
-O nosso programa é intenso e exige muito esforço da sua parte. Esperamos contar com toda sua energia!
-
-## Lembrete final
-
-Assim como um jogo de video game, aqui você também precisa passar fase por fase. Se uma fase parecer fácil para você, não tem problema, passe por ela mais rápido :). 
-
-
