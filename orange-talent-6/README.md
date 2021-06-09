@@ -736,8 +736,16 @@ Nesse momento você já deve estar se sentindo apto a construir microsserviços 
 
 E o deploy? Como você vai levar sua aplicação da sua máquina para ficar exposta para ser consumida pelo mundo? Vamos agora mergulhar na teoria de deploy utilizando a nuvem da AWS. 
 
-* [Kubernetes: Pods, Services e ConfigMaps](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap)
-* [Kubernetes: Deployments, Volumes e Escalabilidade](https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade)
+## Curso | Kubernetes: Pods, Services e ConfigMaps
+ 
+* **Bora pro curso?** [Kubernetes: Pods, Services e ConfigMaps](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap) 
+ 
+## Curso | Kubernetes: Deployments, Volumes e Escalabilidade
+ 
+* **Bora pro curso?** [Kubernetes: Deployments, Volumes e Escalabilidade](https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade)
+
+## Cursos | Zup Edu
+
 * [Codebuild: O que é?](https://youtu.be/ESetAFRhn5M)
 * [Codebuild: Buildspec.yaml](https://youtu.be/8JXAwykjp-Q)
 * [Codebuild: Criando projeto](https://youtu.be/IswwVdJREHI)
