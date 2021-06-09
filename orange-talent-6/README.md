@@ -392,9 +392,9 @@ Algumas delas, como JUnit, Prometheus e Jaeger já trabalhamos. Vamos continuar 
 * AWS Code Build;
 * AWS Code Deploy;
 
-Para começar, precisamos cair de cabeça no Kotlin, que é a linguagem base para a stack de backend da Orange Foundation. A teoria e atividades iniciais para a linguagem podem ser consumidas na Alura. 
+Para começar, precisamos cair de cabeça no Kotlin, que é a linguagem base para a stack de backend da Orange Foundation. A teoria e atividades iniciais para a linguagem vão ser consumidas na Alura. 
 
-Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem Java, tente fazer transferência de conhecimento. O que mudou foi a linguagem, mas vários dos conceitos permanecem os mesmos.
+Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem Java, tente fazer transferência de conhecimento. O que mudou foi a linguagem, mas muitos conceitos permanecem os mesmos.
 
 * ## Curso | Kotlin: primeiros passos e Orientação a Objetos
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform)
@@ -448,162 +448,208 @@ Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem J
 
 Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :). 
 
-Um detalhe importante sobre a didática neste ponto. Dividimos cada explicação prática em dois vídeos semelhantes. O primeiro vídeo apresenta o assunto em cima de um exemplo já pronto, enquanto que o segundo apresenta o mesmo assunto construindo o exemplo junto. Nossa intenção é facilitar seu entendimento, fornecendo duas explicacões sobre o mesmo assunto em formatos diferentes. 
+Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação prática em dois vídeos semelhantes. O primeiro vídeo apresenta o assunto em cima de um exemplo já pronto, enquanto que o segundo apresenta o mesmo assunto construindo o exemplo. Nossa intenção é facilitar seu entendimento, fornecendo duas explicacões sobre o mesmo assunto em formatos diferentes. 
+
+## Cursos | Zup Edu
+
+* ## O que é Micronaut ?
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdoQJ8JZ0caTZbm4arfeJHx5BqKpefi52hAAQy2UVL9Bx2hBg/viewform)
+
+    * **Bora pro curso?** [O que é Micronaut?](https://www.youtube.com/watch?v=FdxStVYU8xM&feature=youtu.be)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdoQJ8JZ0caTZbm4arfeJHx5BqKpefi52hAAQy2UVL9Bx2hBg/viewform)
+
+* ## Setup de um projeto utilizando Micronaut
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfupKPjjF1Z7YkZaEvn5bmWjboyxzkNt7AlPAn_ug4eKuTyIg/viewform)
+
+    * **Bora pro curso?** [Setup de um projeto utilizando Micronaut](https://www.youtube.com/watch?v=vojSldrKV8Y&feature=youtu.be)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfupKPjjF1Z7YkZaEvn5bmWjboyxzkNt7AlPAn_ug4eKuTyIg/viewform)
+
+* ## Configuração do IntelliJ para o Micronaut
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfOHyZV-cCjDpYS0fCWsw9zNy_woDH86mR1aR16RYQnsiazeA/viewform)
+
+    * **Bora pro curso?** [Configuração do IntelliJ para o Micronaut](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfOHyZV-cCjDpYS0fCWsw9zNy_woDH86mR1aR16RYQnsiazeA/viewform)
+
+* ## Recebendo dados via JSON
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfkDQPn8_NRXf4nuNWu3ivugKAaweoY-D53tWi2vH7VuqkNMw/viewform)
+
+    * **Bora pro curso?** 
+    * [Recebendo dados via JSON: explicação sobre código pronto](https://www.youtube.com/watch?v=PWBEwECz4y4&feature=youtu.be)
+    * [Recebendo dados via JSON: explicação enquanto constrói o código ](https://www.youtube.com/watch?v=6MuZfE7BYPg&feature=youtu.be)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfkDQPn8_NRXf4nuNWu3ivugKAaweoY-D53tWi2vH7VuqkNMw/viewform)
+
+* ## Validando os dados de entrada de uma requisição
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform)
+
+    * **Bora pro curso?** 
+    * [Validando os dados de entrada de uma requisição: explicação em cima do código pronto](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be)
+    * [Validando os dados de entrada de uma requisição: explicação enquanto constrói o código](https://www.youtube.com/watch?v=lyBlLDoW6xE&feature=youtu.be)  
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform)
+
+* ## Conversão de um objeto de entrada para um objeto de domínio
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform)
+
+    * **Bora pro curso?** 
+    * [Conversão de um objeto de entrada para um objeto de domínio: explicação sobre o código pronto](https://www.youtube.com/watch?v=Hoi3-Plm0uo&feature=youtu.be)
+    * [Conversão de um objeto de entrada para um objeto de domínio: explicação enquanto constrói o código](https://www.youtube.com/watch?v=j-NkQfiDMt0&feature=youtu.be)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform)
+
+* ## Gravando os dados com Micronaut Data
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScEbOXJT8rwRD8SXxNPuDBz_Ufm5CSZ4-JUFstiHpS_94EbKQ/viewform)
+
+    * **Bora pro curso?** 
+    * [Gravando os dados com Micronaut Data: explicação em cima do código pronto](https://www.youtube.com/watch?v=pWu2mqaKFEc&feature=youtu.be)
+    * [Gravando os dados com Micronaut Data: explicação enquanto constrói o código](https://www.youtube.com/watch?v=ypPIgASiyiU&feature=youtu.be)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScEbOXJT8rwRD8SXxNPuDBz_Ufm5CSZ4-JUFstiHpS_94EbKQ/viewform)
+
+* ## Fluxo completo para salvar um objeto no banco de dados 
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8iesNl0dzwWRNunQn86JidpcRX09wHpaWkrHec5yzNdefHw/viewform)
+
+    * **Bora pro curso?**[Fluxo completo para salvar um objeto no banco de dados](https://www.youtube.com/watch?v=cACkiymv-2Q&feature=youtu.be)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8iesNl0dzwWRNunQn86JidpcRX09wHpaWkrHec5yzNdefHw/viewform)
+
+* ## Retornando dados em JSON
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform)
+
+    * **Bora pro curso?** 
+    * [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)
+    * [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform)
+
+* ## Definindo headers e status customizados
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform)
+
+    * **Bora pro curso?** 
+    * [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)
+    * [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform)
+
+* ## Recebendo dados via PUT
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdJnOZFCzkJes-T3izhcJtqhU08pQweFcS6tpOL7cLHLjM7eg/viewform)
+
+    * **Bora pro curso?** 
+    * [Recebendo dados via PUT: explicação sobre o código pronto](https://youtu.be/awdppj2o7J0)
+    * [Recebendo dados via PUT: explicação enquanto constrói o código](https://youtu.be/Jvl5RcrqJRc)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdJnOZFCzkJes-T3izhcJtqhU08pQweFcS6tpOL7cLHLjM7eg/viewform)
+
+* ## Recebendo dados via DELETE
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform)
+
+    * **Bora pro curso?** 
+    * [Recebendo dados via DELETE: explicação sobre o código pronto](https://youtu.be/plojIuEWIPM)
+    * [Recebendo dados via DELETE: explicação enquanto constrói o código](https://youtu.be/BZ2xuQqvdHE)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform)
+
+* ## Métodos que geram queries no Micronaut Data
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform)
+
+    * **Bora pro curso?** 
+    * [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)
+    * [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform)
 
 
-| O que é Micronaut ? |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdoQJ8JZ0caTZbm4arfeJHx5BqKpefi52hAAQy2UVL9Bx2hBg/viewform) |
-| [O que é Micronaut ?](https://www.youtube.com/watch?v=FdxStVYU8xM&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdoQJ8JZ0caTZbm4arfeJHx5BqKpefi52hAAQy2UVL9Bx2hBg/viewform) |
+* ## Mapeando queries explicitamente no Micronaut Data
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform)
 
-| Setup de um projeto utilizando Micronaut |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfupKPjjF1Z7YkZaEvn5bmWjboyxzkNt7AlPAn_ug4eKuTyIg/viewform) |
-| [Setup de um projeto utilizando Micronaut](https://www.youtube.com/watch?v=vojSldrKV8Y&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfupKPjjF1Z7YkZaEvn5bmWjboyxzkNt7AlPAn_ug4eKuTyIg/viewform) |
+    * **Bora pro curso?** 
+    * [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)
+    * [Mapeando queries explicitamente no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/8jwk3vLq-aY)
 
-| Configuração do IntelliJ para o Micronaut |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfOHyZV-cCjDpYS0fCWsw9zNy_woDH86mR1aR16RYQnsiazeA/viewform) |
-| [Configuração do IntelliJ para o Micronaut](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfOHyZV-cCjDpYS0fCWsw9zNy_woDH86mR1aR16RYQnsiazeA/viewform) |
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform)
 
-| Recebendo dados via JSON |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfkDQPn8_NRXf4nuNWu3ivugKAaweoY-D53tWi2vH7VuqkNMw/viewform) |
-| [Recebendo dados via JSON: explicação sobre código pronto](https://www.youtube.com/watch?v=PWBEwECz4y4&feature=youtu.be)|
-| [Recebendo dados via JSON: explicação enquanto constrói o código ](https://www.youtube.com/watch?v=6MuZfE7BYPg&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfkDQPn8_NRXf4nuNWu3ivugKAaweoY-D53tWi2vH7VuqkNMw/viewform) |
+* ## Demarcação de transação 
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform)
 
-| Validando os dados de entrada de uma requisição |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform) |
-| [Validando os dados de entrada de uma requisição: explicação em cima do código pronto](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be)|
-| [Validando os dados de entrada de uma requisição: explicação enquanto constrói o código](https://www.youtube.com/watch?v=lyBlLDoW6xE&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform) |
+    * **Bora pro curso?** 
+    * [Demarcação de transação: explicação sobre o código pronto](https://youtu.be/DS5g3ZNZHRc)
+    * [Demarcação de transação: explicação enquanto constrói o código](https://youtu.be/M8x090WpXL8)
 
-| Conversão de um objeto de entrada para um objeto de domínio |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform) |
-| [Conversão de um objeto de entrada para um objeto de domínio: explicação sobre o código pronto](https://www.youtube.com/watch?v=Hoi3-Plm0uo&feature=youtu.be)|
-| [Conversão de um objeto de entrada para um objeto de domínio: explicação enquanto constrói o código](https://www.youtube.com/watch?v=j-NkQfiDMt0&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform) |
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform)
 
-| Gravando os dados com Micronaut Data |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScEbOXJT8rwRD8SXxNPuDBz_Ufm5CSZ4-JUFstiHpS_94EbKQ/viewform) |
-| [Gravando os dados com Micronaut Data: explicação em cima do código pronto](https://www.youtube.com/watch?v=pWu2mqaKFEc&feature=youtu.be)|
-| [Gravando os dados com Micronaut Data: explicação enquanto constrói o código](https://www.youtube.com/watch?v=ypPIgASiyiU&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScEbOXJT8rwRD8SXxNPuDBz_Ufm5CSZ4-JUFstiHpS_94EbKQ/viewform) |
+* ## Consumindo um endpoint REST com Micronaut de forma declarativa
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSds2YJc52d7Gm-hB8_ejJPLuH-ljUqSm3DvtMFc-8YPjwEthg/viewform)
 
-| Fluxo completo para salvar um objeto no banco de dados |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8iesNl0dzwWRNunQn86JidpcRX09wHpaWkrHec5yzNdefHw/viewform) |
-| [Fluxo completo para salvar um objeto no banco de dados](https://www.youtube.com/watch?v=cACkiymv-2Q&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8iesNl0dzwWRNunQn86JidpcRX09wHpaWkrHec5yzNdefHw/viewform) |
+    * **Bora pro curso?** 
+    * [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação sobre o código pronto](https://www.youtube.com/watch?v=9nPRHbToxAc&feature=youtu.be)
+    * [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação enquanto constrói o código](https://www.youtube.com/watch?v=jAqA_R9gV_M&feature=youtu.be)
 
-| Retornando dados em JSON |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
-| [Retornando dados em JSON: explicação sobre o código pronto](https://youtu.be/PML9YWZUnbk)|
-| [Retornando dados em JSON: explicação enquanto constrói o código](https://youtu.be/5-GURTr3UTc) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform) |
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSds2YJc52d7Gm-hB8_ejJPLuH-ljUqSm3DvtMFc-8YPjwEthg/viewform)
 
-| Definindo headers e status customizados |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
-| [Definindo headers e status customizados: explicação sobre o código pronto](https://youtu.be/wgvIFkR5ea0)|
-| [Definindo headers e status customizados: explicação enquanto constrói o código](https://youtu.be/-cQ8Y6hTNUg) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform) |
+* ## Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON 
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWZE3A99j7loEgDGM_1mpvCpRODHKe-feIK8SZmLV9pHyA3g/viewform)
 
-| Recebendo dados via PUT |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdJnOZFCzkJes-T3izhcJtqhU08pQweFcS6tpOL7cLHLjM7eg/viewform) |
-| [Recebendo dados via PUT: explicação sobre o código pronto](https://youtu.be/awdppj2o7J0)|
-| [Recebendo dados via PUT: explicação enquanto constrói o código](https://youtu.be/Jvl5RcrqJRc) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdJnOZFCzkJes-T3izhcJtqhU08pQweFcS6tpOL7cLHLjM7eg/viewform) |
+    * **Bora pro curso?** 
+    * [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação sobre o código pronto](https://www.youtube.com/watch?v=4MG_H-lKydI&feature=youtu.be)
+    * [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação enquanto constrói o código](https://www.youtube.com/watch?v=b71YTGU0_4E&feature=youtu.be)
 
-| Recebendo dados via DELETE |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform) |
-| [Recebendo dados via DELETE: explicação sobre o código pronto](https://youtu.be/plojIuEWIPM)|
-| [Recebendo dados via DELETE: explicação enquanto constrói o código](https://youtu.be/BZ2xuQqvdHE) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform) |
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWZE3A99j7loEgDGM_1mpvCpRODHKe-feIK8SZmLV9pHyA3g/viewform)
 
-| Métodos que geram queries no Micronaut Data |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
-| [Métodos que geram queries no Micronaut Data: explicação sobre o código pronto](https://youtu.be/cph_Ei7tulY)|
-| [Métodos que geram queries no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/BPSrR9lf7b8) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform) |
+* ## Implementando Validação customizada com Micronaut Validation
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSepMgR6j5lYRAGbTL_NII0DU_RBuh0PCedDQG_EFYdzxBcDdQ/viewform)
 
-| Mapeando queries explicitamente no Micronaut Data |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
-| [Mapeando queries explicitamente no Micronaut Data: explicação sobre o código pronto](https://youtu.be/58rBJ1EmJ3o)|
-| [Mapeando queries explicitamente no Micronaut Data: explicação enquanto constrói o código](https://youtu.be/8jwk3vLq-aY) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform) |
+    * **Bora pro curso?** 
+    * [Implementando Validação customizada com Micronaut Validation: explicação sobre o código pronto](https://www.youtube.com/watch?v=UCHFApcJVW0&feature=youtu.be)
+    * [Implementando Validação customizada com Micronaut Validation: explicação enquanto constrói o código](https://www.youtube.com/watch?v=x7P4nR7glgk&feature=youtu.be)
 
-| Demarcação de transação |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform) |
-| [Demarcação de transação: explicação sobre o código pronto](https://youtu.be/DS5g3ZNZHRc)|
-| [Demarcação de transação: explicação enquanto constrói o código](https://youtu.be/M8x090WpXL8) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform) |
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSepMgR6j5lYRAGbTL_NII0DU_RBuh0PCedDQG_EFYdzxBcDdQ/viewform)
 
-| Consumindo um endpoint REST com Micronaut de forma declarativa |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSds2YJc52d7Gm-hB8_ejJPLuH-ljUqSm3DvtMFc-8YPjwEthg/viewform) |
-| [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação sobre o código pronto](https://www.youtube.com/watch?v=9nPRHbToxAc&feature=youtu.be)|
-| [Consumindo um endpoint REST com Micronaut de forma declarativa: explicação enquanto constrói o código](https://www.youtube.com/watch?v=jAqA_R9gV_M&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSds2YJc52d7Gm-hB8_ejJPLuH-ljUqSm3DvtMFc-8YPjwEthg/viewform) |
+* ## Micronaut Testing - como testar uma API REST
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf0SsaAU4SLbp1oSOO-msgLdw-FMmA1ghBBElIqst1FJnQvqA/viewform)
 
-| Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWZE3A99j7loEgDGM_1mpvCpRODHKe-feIK8SZmLV9pHyA3g/viewform) |
-| [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação sobre o código pronto](https://www.youtube.com/watch?v=4MG_H-lKydI&feature=youtu.be)|
-| [Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON: explicação enquanto constrói o código](https://www.youtube.com/watch?v=b71YTGU0_4E&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWZE3A99j7loEgDGM_1mpvCpRODHKe-feIK8SZmLV9pHyA3g/viewform) |
+    * **Bora pro curso?** 
+    * [Micronaut Testing - como testar uma API REST: explicação sobre o código pronto](https://www.youtube.com/watch?v=eTA32xkQiLI)
+    * [Micronaut Testing - como testar uma API REST: explicação enquanto constrói o código](https://www.youtube.com/watch?v=4Qh3UZtVH9U)
 
-| Implementando Validação customizada com Micronaut Validation |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSepMgR6j5lYRAGbTL_NII0DU_RBuh0PCedDQG_EFYdzxBcDdQ/viewform) |
-| [Implementando Validação customizada com Micronaut Validation: explicação sobre o código pronto](https://www.youtube.com/watch?v=UCHFApcJVW0&feature=youtu.be)|
-| [Implementando Validação customizada com Micronaut Validation: explicação enquanto constrói o código](https://www.youtube.com/watch?v=x7P4nR7glgk&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSepMgR6j5lYRAGbTL_NII0DU_RBuh0PCedDQG_EFYdzxBcDdQ/viewform) |
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf0SsaAU4SLbp1oSOO-msgLdw-FMmA1ghBBElIqst1FJnQvqA/viewform)
 
-| Micronaut Testing - como testar uma API REST |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf0SsaAU4SLbp1oSOO-msgLdw-FMmA1ghBBElIqst1FJnQvqA/viewform) |
-| [Micronaut Testing - como testar uma API REST: explicação sobre o código pronto](https://www.youtube.com/watch?v=eTA32xkQiLI)|
-| [Micronaut Testing - como testar uma API REST: explicação enquanto constrói o código](https://www.youtube.com/watch?v=4Qh3UZtVH9U) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf0SsaAU4SLbp1oSOO-msgLdw-FMmA1ghBBElIqst1FJnQvqA/viewform) |
+* ## Micronaut Testing - como criar mocks com Micronaut
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdknLTIGWbg5KH-mjJo5AmXMTsyj0l0DuFTJVzNbmT_MMThsQ/viewform)
 
-| Micronaut Testing - como criar mocks com Micronaut |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdknLTIGWbg5KH-mjJo5AmXMTsyj0l0DuFTJVzNbmT_MMThsQ/viewform) |
-| [Micronaut Testing - como criar mocks com Micronaut: explicação sobre o código pronto](https://www.youtube.com/watch?v=2bx1cgZEZuw)|
-| [Micronaut Testing - como criar mocks com Micronaut: explicação enquanto constrói o código](https://www.youtube.com/watch?v=IR0Y_b-1VqM) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdknLTIGWbg5KH-mjJo5AmXMTsyj0l0DuFTJVzNbmT_MMThsQ/viewform) |
+    * **Bora pro curso?** 
+    * [Micronaut Testing - como criar mocks com Micronaut: explicação sobre o código pronto](https://www.youtube.com/watch?v=2bx1cgZEZuw)
+    * [Micronaut Testing - como criar mocks com Micronaut: explicação enquanto constrói o código](https://www.youtube.com/watch?v=IR0Y_b-1VqM)
 
-| Micronaut Testing - controle transacional e banco em memória |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfFRpEZVa4uB1AbulNcJmtZf2YiBKVj0_rAtTvGnMh6RqFPBw/viewform) |
-| [Micronaut Testing - controle transacional e banco em memória: explicação sobre o código pronto](https://www.youtube.com/watch?v=gARN_7QtNfM)|
-| [Micronaut Testing - controle transacional e banco em memória: explicação enquanto constrói o código](https://www.youtube.com/watch?v=uLV2pWmR8po) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfFRpEZVa4uB1AbulNcJmtZf2YiBKVj0_rAtTvGnMh6RqFPBw/viewform) |
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdknLTIGWbg5KH-mjJo5AmXMTsyj0l0DuFTJVzNbmT_MMThsQ/viewform)
+
+* ## Micronaut Testing - controle transacional e banco em memória
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfFRpEZVa4uB1AbulNcJmtZf2YiBKVj0_rAtTvGnMh6RqFPBw/viewform)
+
+    * **Bora pro curso?** 
+    * [Micronaut Testing - controle transacional e banco em memória: explicação sobre o código pronto](https://www.youtube.com/watch?v=gARN_7QtNfM)
+    * [Micronaut Testing - controle transacional e banco em memória: explicação enquanto constrói o código](https://www.youtube.com/watch?v=uLV2pWmR8po)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfFRpEZVa4uB1AbulNcJmtZf2YiBKVj0_rAtTvGnMh6RqFPBw/viewform)
+
+O conteúdo que você acabou de consumir foi bem focado no módulo HTTP do Micronaut: basicamente o que você precisa para construir uma aplicação com Micronaut que vai se comunicar primordialmente via tal protocolo. Agora vamos direcionar nossa atenção para o módulo de GRPC do Micronaut :). 
+
+O GRPC é a tentativa de aumentar a performance na comunicação entre os serviços numa arquitetura distribuída, por exemplo com microsserviços. Nos próximos vídeos você terá acesso a bastante conhecimento sobre essa forma de comunicação e como o Micronaut facilita isso para você. 
+
+* ## O que é GRPC e a motivação do seu uso
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf2hg4pskdEKpxZg0AiPpFjbDrigJAPbs1nAPGRNZkik68lQA/viewform)
+
+    * **Bora pro curso?** [O que é GRPC e a motivação do seu uso](https://www.youtube.com/watch?v=OACwm4CYX2M&feature=youtu.be) 
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf2hg4pskdEKpxZg0AiPpFjbDrigJAPbs1nAPGRNZkik68lQA/viewform)
 
 
-O conteúdo que você acabou de consumir foi bem focado no módulo HTTP do Micronaut. Basicamente o que você precisa para construir uma aplicação com Micronaut que vai se comunicar primordialmente via tal protocolo. Agora vamos direcionar nossa atenção para o módulo de GRPC do Micronaut :). 
 
-O GRPC é a tentativa de aumentar a performance na comunicação entre os serviços numa arquitetura distribuída, por exemplo com Microsserviços. Nos próximos vídeos você ter acesso a bastante conhecimento sobre essa forma de comunicação e como o Micronaut facilita isso para você. 
 
-| O que é GRPC e a motivação do seu uso |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf2hg4pskdEKpxZg0AiPpFjbDrigJAPbs1nAPGRNZkik68lQA/viewform) |
-| [O que é GRPC e a motivação do seu uso](https://www.youtube.com/watch?v=OACwm4CYX2M&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf2hg4pskdEKpxZg0AiPpFjbDrigJAPbs1nAPGRNZkik68lQA/viewform) |
+
+
 
 | Introdução a protobuf |
 | --- |
