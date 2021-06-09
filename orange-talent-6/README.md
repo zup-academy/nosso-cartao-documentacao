@@ -334,12 +334,12 @@ Agora que você fez mais imersão teórica, vamos treinar! Neste treino você va
 
 Com o microservice de propostas implementado, chegou a hora de implementar um novo serviço, o que cuida das transações do cartão de crédito. Como é de praxe, antes de começar, vamos primeiro estudar a teoria necessária. 
 
-* ## Curso | Introdução a Apache Kafka
-    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform)
+## Curso | Introdução a Apache Kafka
+* **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform)
 
-    * **Bora pro curso?:** [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos)
+* **Bora pro curso?** [Introdução a Apache Kafka](https://www.alura.com.br/curso-online-kafka-introducao-a-streams-em-microservicos)
 
-    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform)
+* **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8M9FRGxOrpKRAwBnWH6DQJoOlMD12R0ScgOPG6Gz-OoT0Pw/viewform)
 
 Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno, mas vai te desafiar a utilizar o Kafka integrado com o Spring e te deixar ainda mais preparadx para utilizar essa forma de integração.
 
@@ -396,54 +396,54 @@ Para começar, precisamos cair de cabeça no Kotlin, que é a linguagem base par
 
 Uma coisa muito importante aqui: Você já estudou e treinou sobre a linguagem Java, tente fazer transferência de conhecimento. O que mudou foi a linguagem, mas muitos conceitos permanecem os mesmos.
 
-* ## Curso | Kotlin: primeiros passos e Orientação a Objetos
-    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform)
+## Curso | Kotlin: primeiros passos e Orientação a Objetos
+* **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform)
 
-    * **Bora pro curso?:** [Kotlin: primeiros passos e Orientação a Objetos](https://www.alura.com.br/curso-online-kotlin-orientacao-objetos)
+* **Bora pro curso?:** [Kotlin: primeiros passos e Orientação a Objetos](https://www.alura.com.br/curso-online-kotlin-orientacao-objetos)
 
-    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform)
+* **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdtkyAvrD5IKc4cB7oOOs6AC72DVxGah9Vy08bywhyBhxynPQ/viewform)
 
-* ## Curso | Kotlin: herança, polimorfismo e interface
-    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform)
+## Curso | Kotlin: herança, polimorfismo e interface
+* **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform)
 
-    * **Bora pro curso?:** [Kotlin: herança, polimorfismo e Interface](https://www.alura.com.br/curso-online-kotlin-heranca-polimorfismo-interface)
+* **Bora pro curso?:** [Kotlin: herança, polimorfismo e Interface](https://www.alura.com.br/curso-online-kotlin-heranca-polimorfismo-interface)
 
-    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform)
+* **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc2ALmj3yZbd_38BTyvXMyUPFwMa5h0P3pvnm3MRxqNtV9TAA/viewform)
 
-* ## Curso | Kotlin: recursos da linguagem com pacotes e composição 
-    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform)
+## Curso | Kotlin: recursos da linguagem com pacotes e composição 
+* **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform)
 
-    * **Bora pro curso?:** [Kotlin: recursos da linguagem com pacotes e composição](https://www.alura.com.br/curso-online-kotlin-recursos-da-linguagem-com-pacotes-e-composicao) 
+* **Bora pro curso?:** [Kotlin: recursos da linguagem com pacotes e composição](https://www.alura.com.br/curso-online-kotlin-recursos-da-linguagem-com-pacotes-e-composicao) 
 
-    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform)
+* **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScsUzKYF63yiR30CL5bmzopYZaF3G3n3T0y8wNSjcAu6mWN9w/viewform)
 
-* ## Curso | Kotlin: lidando com exceptions e referências nulas 
-    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform)
+## Curso | Kotlin: lidando com exceptions e referências nulas 
+* **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform)
 
-    * **Bora pro curso?:** [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety) 
+* **Bora pro curso?:** [Kotlin: lidando com exceptions e referências nulas](https://www.alura.com.br/curso-online-kotlin-exceptions-null-safety) 
 
-    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform)
+* **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd5UXzJTdOFziQRzJeEck-KJYyKczJCNi8Vo3DEpEpoib5fUA/viewform)
 
-* ## Curso | Kotlin: Desenvolva com coleções, arrays e listas
-    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform)
+## Curso | Kotlin: Desenvolva com coleções, arrays e listas
+* **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform)
 
-    * **Bora pro curso?:** [Kotlin:Desenvolva com coleções arrays e listas](https://cursos.alura.com.br/course/kotlin-introducao-collections-arrays-listas) 
+* **Bora pro curso?:** [Kotlin:Desenvolva com coleções arrays e listas](https://cursos.alura.com.br/course/kotlin-introducao-collections-arrays-listas) 
 
-    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform)
+* **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdUpx14GOUcO0a79VZjrlTLQZAuUTMA8zF9Ls5dn4diiZr7HA/viewform)
 
-* ## Curso | Kotlin Collections: Set e Map
-    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform)
+## Curso | Kotlin Collections: Set e Map
+* **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform)
 
-    * **Bora pro curso?:** [Kotlin Collections: Set e Map](https://www.alura.com.br/curso-online-kotlin-collections-set-map)
+* **Bora pro curso?:** [Kotlin Collections: Set e Map](https://www.alura.com.br/curso-online-kotlin-collections-set-map)
 
-    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform)
+* **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCRlxJQpilUolVl6W9K7qcstzJHSc8j-KrasqQwTYNmi9yPA/viewform)
 
-* ## Curso | Kotlin: recursos do paradigma funcional
-    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform)
+## Curso | Kotlin: recursos do paradigma funcional
+* **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform)
 
-    * **Bora pro curso?:** [Kotlin: recursos do paradigma funcional](https://www.alura.com.br/curso-online-kotlin-recursos-do-paradigma-funcional)
+* **Bora pro curso?:** [Kotlin: recursos do paradigma funcional](https://www.alura.com.br/curso-online-kotlin-recursos-do-paradigma-funcional)
 
-    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform)
+* **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSegh9gOQbjnzOq7i9HiR9huu440Fwi2B08koVZwPfkJpHCavQ/viewform)
 
 
 Com o Kotlin um pouco mais presente na sua mente, vamos agora consumir toda a teoria relativa ao Micronaut. Do mesmo jeito que era possível transferir conhecimento do Java para o Kotlin, agora você pode transferir conhecimento do mundo Spring para o mundo Micronaut :). 
@@ -452,28 +452,28 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
 ## Cursos | Zup Edu
 
-* ## O que é Micronaut ?
+* ### O que é Micronaut ?
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdoQJ8JZ0caTZbm4arfeJHx5BqKpefi52hAAQy2UVL9Bx2hBg/viewform)
 
     * **Bora pro curso?** [O que é Micronaut?](https://www.youtube.com/watch?v=FdxStVYU8xM&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdoQJ8JZ0caTZbm4arfeJHx5BqKpefi52hAAQy2UVL9Bx2hBg/viewform)
 
-* ## Setup de um projeto utilizando Micronaut
+* ### Setup de um projeto utilizando Micronaut
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfupKPjjF1Z7YkZaEvn5bmWjboyxzkNt7AlPAn_ug4eKuTyIg/viewform)
 
     * **Bora pro curso?** [Setup de um projeto utilizando Micronaut](https://www.youtube.com/watch?v=vojSldrKV8Y&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfupKPjjF1Z7YkZaEvn5bmWjboyxzkNt7AlPAn_ug4eKuTyIg/viewform)
 
-* ## Configuração do IntelliJ para o Micronaut
+* ### Configuração do IntelliJ para o Micronaut
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfOHyZV-cCjDpYS0fCWsw9zNy_woDH86mR1aR16RYQnsiazeA/viewform)
 
     * **Bora pro curso?** [Configuração do IntelliJ para o Micronaut](https://www.youtube.com/watch?v=dBXbbrG_UWU&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfOHyZV-cCjDpYS0fCWsw9zNy_woDH86mR1aR16RYQnsiazeA/viewform)
 
-* ## Recebendo dados via JSON
+* ### Recebendo dados via JSON
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfkDQPn8_NRXf4nuNWu3ivugKAaweoY-D53tWi2vH7VuqkNMw/viewform)
 
     * **Bora pro curso?** 
@@ -482,7 +482,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfkDQPn8_NRXf4nuNWu3ivugKAaweoY-D53tWi2vH7VuqkNMw/viewform)
 
-* ## Validando os dados de entrada de uma requisição
+* ### Validando os dados de entrada de uma requisição
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform)
 
     * **Bora pro curso?** 
@@ -491,7 +491,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform)
 
-* ## Conversão de um objeto de entrada para um objeto de domínio
+* ### Conversão de um objeto de entrada para um objeto de domínio
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform)
 
     * **Bora pro curso?** 
@@ -500,7 +500,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform)
 
-* ## Gravando os dados com Micronaut Data
+* ### Gravando os dados com Micronaut Data
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScEbOXJT8rwRD8SXxNPuDBz_Ufm5CSZ4-JUFstiHpS_94EbKQ/viewform)
 
     * **Bora pro curso?** 
@@ -509,14 +509,14 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScEbOXJT8rwRD8SXxNPuDBz_Ufm5CSZ4-JUFstiHpS_94EbKQ/viewform)
 
-* ## Fluxo completo para salvar um objeto no banco de dados 
+* ### Fluxo completo para salvar um objeto no banco de dados 
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8iesNl0dzwWRNunQn86JidpcRX09wHpaWkrHec5yzNdefHw/viewform)
 
     * **Bora pro curso?**[Fluxo completo para salvar um objeto no banco de dados](https://www.youtube.com/watch?v=cACkiymv-2Q&feature=youtu.be)
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf8iesNl0dzwWRNunQn86JidpcRX09wHpaWkrHec5yzNdefHw/viewform)
 
-* ## Retornando dados em JSON
+* ### Retornando dados em JSON
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform)
 
     * **Bora pro curso?** 
@@ -525,7 +525,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScCtAayVcDx1Fnj52j7BBbq5skl_yCbuqAvzKuLTHklWpY6JQ/viewform)
 
-* ## Definindo headers e status customizados
+* ### Definindo headers e status customizados
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform)
 
     * **Bora pro curso?** 
@@ -534,7 +534,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScvlEeo-RSMie5sueQMR1IfGGtWAXl6QHmGIqk8-UJgyflxPQ/viewform)
 
-* ## Recebendo dados via PUT
+* ### Recebendo dados via PUT
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdJnOZFCzkJes-T3izhcJtqhU08pQweFcS6tpOL7cLHLjM7eg/viewform)
 
     * **Bora pro curso?** 
@@ -543,7 +543,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdJnOZFCzkJes-T3izhcJtqhU08pQweFcS6tpOL7cLHLjM7eg/viewform)
 
-* ## Recebendo dados via DELETE
+* ### Recebendo dados via DELETE
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform)
 
     * **Bora pro curso?** 
@@ -552,7 +552,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc7l-kpzz972X-1p-uTVo0ktpa5CkprxBN1rR4F6KON9lQRKw/viewform)
 
-* ## Métodos que geram queries no Micronaut Data
+* ### Métodos que geram queries no Micronaut Data
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform)
 
     * **Bora pro curso?** 
@@ -562,7 +562,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSd_NhVNIw3yKYlv_PkhNElTqmmxalDzoK2VSl8AMe-z5ZgNjw/viewform)
 
 
-* ## Mapeando queries explicitamente no Micronaut Data
+* ### Mapeando queries explicitamente no Micronaut Data
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform)
 
     * **Bora pro curso?** 
@@ -571,7 +571,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfqMGIIvUrLtvKROngHgOit9XbbRKug4V0Fmd8n-CTg_5KMCw/viewform)
 
-* ## Demarcação de transação 
+* ### Demarcação de transação 
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform)
 
     * **Bora pro curso?** 
@@ -580,7 +580,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSceGdhx-ITGTSCVK092vGMWJgoxrx1fDBVk3By3DfUlS04JGw/viewform)
 
-* ## Consumindo um endpoint REST com Micronaut de forma declarativa
+* ### Consumindo um endpoint REST com Micronaut de forma declarativa
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSds2YJc52d7Gm-hB8_ejJPLuH-ljUqSm3DvtMFc-8YPjwEthg/viewform)
 
     * **Bora pro curso?** 
@@ -589,7 +589,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSds2YJc52d7Gm-hB8_ejJPLuH-ljUqSm3DvtMFc-8YPjwEthg/viewform)
 
-* ## Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON 
+* ### Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON 
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWZE3A99j7loEgDGM_1mpvCpRODHKe-feIK8SZmLV9pHyA3g/viewform)
 
     * **Bora pro curso?** 
@@ -598,7 +598,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeWZE3A99j7loEgDGM_1mpvCpRODHKe-feIK8SZmLV9pHyA3g/viewform)
 
-* ## Implementando Validação customizada com Micronaut Validation
+* ### Implementando Validação customizada com Micronaut Validation
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSepMgR6j5lYRAGbTL_NII0DU_RBuh0PCedDQG_EFYdzxBcDdQ/viewform)
 
     * **Bora pro curso?** 
@@ -607,7 +607,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSepMgR6j5lYRAGbTL_NII0DU_RBuh0PCedDQG_EFYdzxBcDdQ/viewform)
 
-* ## Micronaut Testing - como testar uma API REST
+* ### Micronaut Testing - como testar uma API REST
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf0SsaAU4SLbp1oSOO-msgLdw-FMmA1ghBBElIqst1FJnQvqA/viewform)
 
     * **Bora pro curso?** 
@@ -616,7 +616,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf0SsaAU4SLbp1oSOO-msgLdw-FMmA1ghBBElIqst1FJnQvqA/viewform)
 
-* ## Micronaut Testing - como criar mocks com Micronaut
+* ### Micronaut Testing - como criar mocks com Micronaut
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSdknLTIGWbg5KH-mjJo5AmXMTsyj0l0DuFTJVzNbmT_MMThsQ/viewform)
 
     * **Bora pro curso?** 
@@ -625,7 +625,7 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSdknLTIGWbg5KH-mjJo5AmXMTsyj0l0DuFTJVzNbmT_MMThsQ/viewform)
 
-* ## Micronaut Testing - controle transacional e banco em memória
+* ### Micronaut Testing - controle transacional e banco em memória
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfFRpEZVa4uB1AbulNcJmtZf2YiBKVj0_rAtTvGnMh6RqFPBw/viewform)
 
     * **Bora pro curso?** 
@@ -638,81 +638,90 @@ O conteúdo que você acabou de consumir foi bem focado no módulo HTTP do Micro
 
 O GRPC é a tentativa de aumentar a performance na comunicação entre os serviços numa arquitetura distribuída, por exemplo com microsserviços. Nos próximos vídeos você terá acesso a bastante conhecimento sobre essa forma de comunicação e como o Micronaut facilita isso para você. 
 
-* ## O que é GRPC e a motivação do seu uso
+* ### O que é GRPC e a motivação do seu uso
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSf2hg4pskdEKpxZg0AiPpFjbDrigJAPbs1nAPGRNZkik68lQA/viewform)
 
     * **Bora pro curso?** [O que é GRPC e a motivação do seu uso](https://www.youtube.com/watch?v=OACwm4CYX2M&feature=youtu.be) 
 
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSf2hg4pskdEKpxZg0AiPpFjbDrigJAPbs1nAPGRNZkik68lQA/viewform)
 
+* ### Introdução a protobuf
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScg_wZmcX5n98N2APt8gTHVM-BJLG03TdxbM1BpA1KrOSovPA/viewform)
 
+    * **Bora pro curso?** 
+    * [Introdução a protobuf: explicação sobre o código pronto](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be)
+    * [Introdução a protobuf: explicação enquanto constrói o código](https://www.youtube.com/watch?v=gBeQ1CgiFEU&feature=youtu.be)
 
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScg_wZmcX5n98N2APt8gTHVM-BJLG03TdxbM1BpA1KrOSovPA/viewform)
 
+* ### Expondo dados via GRPC 
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfWbPedy1YBqqSfuC_U_lVUFiz_qapqNFX7neU14XwbepP63A/viewform)
 
+    * **Bora pro curso?** 
+    * [Expondo dados via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be)
+    * [Expondo dados via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=tuZmLjCEvjI&feature=youtu.be)
 
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfWbPedy1YBqqSfuC_U_lVUFiz_qapqNFX7neU14XwbepP63A/viewform)
 
-| Introdução a protobuf |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScg_wZmcX5n98N2APt8gTHVM-BJLG03TdxbM1BpA1KrOSovPA/viewform) |
-| [Introdução a protobuf: explicação sobre o código pronto](https://www.youtube.com/watch?v=Rd7sLrPKDGM&feature=youtu.be)|
-| [Introdução a protobuf: explicação enquanto constrói o código](https://www.youtube.com/watch?v=gBeQ1CgiFEU&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScg_wZmcX5n98N2APt8gTHVM-BJLG03TdxbM1BpA1KrOSovPA/viewform) |
+* ### Consumindo um endpoint via GRPC
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSefGv2Ak4kI1I2tjcemFzACVNMQAbQg3rXfGrUGpl-9HJeXQw/viewform) 
 
-| Expondo dados via GRPC |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfWbPedy1YBqqSfuC_U_lVUFiz_qapqNFX7neU14XwbepP63A/viewform) |
-| [Expondo dados via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=_53_sQp2bR4&feature=youtu.be)|
-| [Expondo dados via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=tuZmLjCEvjI&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfWbPedy1YBqqSfuC_U_lVUFiz_qapqNFX7neU14XwbepP63A/viewform) |
+    * **Bora pro curso?** 
+    * [Consumindo um endpoint via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=ZGlxfNJkmcQ&feature=youtu.be)
+    * [Consumindo um endpoint via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=Y6ojxAQoSkM&feature=youtu.be)
 
-| Consumindo um endpoint via GRPC |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSefGv2Ak4kI1I2tjcemFzACVNMQAbQg3rXfGrUGpl-9HJeXQw/viewform) |
-| [Consumindo um endpoint via GRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=ZGlxfNJkmcQ&feature=youtu.be)|
-| [Consumindo um endpoint via GRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=Y6ojxAQoSkM&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSefGv2Ak4kI1I2tjcemFzACVNMQAbQg3rXfGrUGpl-9HJeXQw/viewform) |
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSefGv2Ak4kI1I2tjcemFzACVNMQAbQg3rXfGrUGpl-9HJeXQw/viewform) 
 
-| Retornando códigos de erro em uma API gRPC |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfDn4ur1Q-swVuDOjaeO_gbTx4Vti1nbHO71bfbE4iIlT9OvQ/viewform) |
-| [Retornando códigos de erro em uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be)|
-| [Retornando códigos de erro em uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=xcWkmNxf8JE&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfDn4ur1Q-swVuDOjaeO_gbTx4Vti1nbHO71bfbE4iIlT9OvQ/viewform) |
+* ### Retornando códigos de erro em uma API gRPC
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfDn4ur1Q-swVuDOjaeO_gbTx4Vti1nbHO71bfbE4iIlT9OvQ/viewform)
 
-| Lidando com erros retornados pela API gRPC |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform) |
-| [Lidando com erros retornados pela API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)|
-| [Lidando com erros retornados pela API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform) |
+    * **Bora pro curso?** 
+    * [Retornando códigos de erro em uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=bIuEINzEmKs&feature=youtu.be)
+    * [Retornando códigos de erro em uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=xcWkmNxf8JE&feature=youtu.be)
 
-| Healthcheck sobre HTTP |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfGfy17qPwWTM9241s9HtJm1mDIjoCmAugg5XNkkd_h_wiDVA/viewform) |
-| [Healthcheck sobre HTTP: explicação sobre o código pronto](https://www.youtube.com/watch?v=Zle0hcwd_Jw&feature=youtu.be)|
-| [Healthcheck sobre HTTP: explicação enquanto constrói o código](https://youtu.be/To32I8UPkkc) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfGfy17qPwWTM9241s9HtJm1mDIjoCmAugg5XNkkd_h_wiDVA/viewform) |
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfDn4ur1Q-swVuDOjaeO_gbTx4Vti1nbHO71bfbE4iIlT9OvQ/viewform)
 
-| Healthcheck sobre GRPC |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc9MLtLz770Ek-lUY9ESoufSbfVxwfEtaTSJL3hPgNxZX6ckQ/viewform) |
-| [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)|
-| [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc9MLtLz770Ek-lUY9ESoufSbfVxwfEtaTSJL3hPgNxZX6ckQ/viewform) |
+* ### Lidando com erros retornados pela API gRPC
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform)
 
-| Micronaut Testing - como testar uma API gRPC |
-| --- |
-| [Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeRIamgeugJz__xPDEaXCxJBRYPg09gzgmdPHtKF2EaDKh8lg/viewform) |
-| [Micronaut Testing - como testar uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=MJaXYdvUZiM&feature=youtu.be)|
-| [Micronaut Testing - como testar uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=mq3UYOQ9FqE) |
-| [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeRIamgeugJz__xPDEaXCxJBRYPg09gzgmdPHtKF2EaDKh8lg/viewform) |
+    * **Bora pro curso?** 
+    * [Lidando com erros retornados pela API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=dQYWWnnsHAc&feature=youtu.be)
+    * [Lidando com erros retornados pela API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=wiyn60QjwfQ&feature=youtu.be) 
 
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc3_w5i9nOf9s3gsidC7NG7wLXri_xCGxxp0pQT9PPx-DbpFQ/viewform)
+
+* ### Healthcheck sobre HTTP
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSfGfy17qPwWTM9241s9HtJm1mDIjoCmAugg5XNkkd_h_wiDVA/viewform)
+
+    * **Bora pro curso?** 
+    * [Healthcheck sobre HTTP: explicação sobre o código pronto](https://www.youtube.com/watch?v=Zle0hcwd_Jw&feature=youtu.be)
+    * [Healthcheck sobre HTTP: explicação enquanto constrói o código](https://youtu.be/To32I8UPkkc)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfGfy17qPwWTM9241s9HtJm1mDIjoCmAugg5XNkkd_h_wiDVA/viewform)
+
+* ### Healthcheck sobre GRPC
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSc9MLtLz770Ek-lUY9ESoufSbfVxwfEtaTSJL3hPgNxZX6ckQ/viewform)
+
+    * **Bora pro curso?** 
+    * [Healthcheck sobre GRPC: explicação sobre o código pronto](https://youtu.be/dqd-vtxVHf0)
+    * [Healthcheck sobre GRPC: explicação enquanto constrói o código](https://youtu.be/6ubGwXlyxgE)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSc9MLtLz770Ek-lUY9ESoufSbfVxwfEtaTSJL3hPgNxZX6ckQ/viewform)
+
+* ### Micronaut Testing - como testar uma API gRPC 
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeRIamgeugJz__xPDEaXCxJBRYPg09gzgmdPHtKF2EaDKh8lg/viewform)
+
+    * **Bora pro curso?** 
+    * [Micronaut Testing - como testar uma API gRPC: explicação sobre o código pronto](https://www.youtube.com/watch?v=MJaXYdvUZiM&feature=youtu.be)
+    * [Micronaut Testing - como testar uma API gRPC: explicação enquanto constrói o código](https://www.youtube.com/watch?v=mq3UYOQ9FqE)
+
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeRIamgeugJz__xPDEaXCxJBRYPg09gzgmdPHtKF2EaDKh8lg/viewform)
 
 Agora que você fez mais essa imersão teórica em boa parte do conteúdo da Orange Stack, é hora de treinar! Neste treino você vai utilizar tudo que você estudou até esse momento e um pouco mais:
 
 [Construa um sistema distribuído que simule o funcionamento do PIX](https://github.com/zup-academy/orange-stack-documentacao/tree/master/desafio-01/01-key-manager#desafio-pix)
 
-Nesse momento você já deve estar sentindo apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC.
+Nesse momento você já deve estar se sentindo apto a construir microsserviços utilizando as principais tecnologias da Orange Stack como Kotlin, Micronaut, API REST e gRPC.
 
 #### Deploy
 
@@ -750,7 +759,7 @@ E o deploy? Como você vai levar sua aplicação da sua máquina para ficar expo
 * [Explicação sobre o exemplo já implementado](https://youtu.be/9raXC_eTec8)
 * [Explicação enquanto implementa o exemplo](https://youtu.be/UfCPMRV9J-c)
 
-Você também deve consumir os conteúdos sobre Gitlab, que é uma ferramenta também utilizada dentro da Zup.
+Você também deve consumir os conteúdos sobre Gitlab, que também é uma ferramenta utilizada dentro da Zup.
 
 * [Conhecendo o Gitlab](https://youtu.be/jpZxIalh9Ig)
 * [Explicação durante criação de projetos no Gitlab](https://youtu.be/JNH2DlUllVw)
@@ -763,15 +772,16 @@ Você também deve consumir os conteúdos sobre Gitlab, que é uma ferramenta ta
 
 Nosso programa está estimado em 13 semanas e abaixo temos o cronograma. Lembre também que temos toda uma equipe pronta para te dar suporte, tirar dúvidas e te direcionar.
 
-1. Estimamos que você conclua a **fase 1** + **fase 2** até a segunda semana. Essa é uma fase muito focada em teoria e atividades de fixação
-2. Estimamos que você conclua a **fase 3** até a quarta semana.
-3. Estimamos que você conclua a **fase 4** até a oitava semana.
-3. Agora você tem até 5 semanas para fechar a **fase cinco** !
+1. Na primeira semana, você ficará totalmente focado no **Onboarding da Zup**
+2. Estimamos que você conclua a **fase 1** + **fase 2** até a terceira semana. Essa é uma fase muito focada em teoria e atividades de fixação
+3. Estimamos que você conclua a **fase 3** até a quinta semana.
+4. Estimamos que você conclua a **fase 4** até a nona semana.
+5. Agora você tem até 5 semanas para fechar a **fase cinco** !
 
 O nosso programa é intenso e exige muito esforço da sua parte. Esperamos contar com toda sua energia!
 
 ## Lembrete final
 
-Assim como um jogo de video game, aqui você também precisa passar fase por fase. Se uma fase parecer fácil para você, não tem problema, passa por ela mais rápido :). 
+Assim como um jogo de video game, aqui você também precisa passar fase por fase. Se uma fase parecer fácil para você, não tem problema, passe por ela mais rápido :). 
 
 
