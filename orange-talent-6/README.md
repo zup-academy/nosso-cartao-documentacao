@@ -244,7 +244,7 @@ Vamos começar pela teoria que vai ser praticada no primeiro microservice, o de 
 
 Aqui ainda não temos material gravado em vídeo, então por enquanto vai ser necessário ler os nossos textos :)
 
-**ATENÇÃO**: É importante lembrar que não é esperado que você acabe essa fase da leitura já conseguindo aplicar tais conceitos facilmente. A ideia é ter o primeiro contato e deixar a semente plantada na sua cabeça para que, no momento da prática, tudo seja mais facilmente acessível.
+**ATENÇÃO**: É importante lembrar que não é esperado que você acabe essa fase da leitura dos conteúdos abaixo já conseguindo aplicar tais conceitos facilmente. A ideia é ter o primeiro contato e deixar a semente plantada na sua cabeça para que, no momento da prática, tudo seja mais facilmente acessível.
 
 
 ## Curso | Docker: Criando containers sem dor de cabeça
