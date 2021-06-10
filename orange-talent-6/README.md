@@ -769,7 +769,7 @@ E o deploy? Como você vai levar sua aplicação da sua máquina para ficar expo
 * [Explicação enquanto implementa o exemplo](https://youtu.be/UfCPMRV9J-c)
 
 #### Chegamos na reta final do nosso programa, e como últimas dicas, aconselhamos que você consuma os conteúdos sobre Gitlab que também é uma ferramenta utilizada dentro da Zup.    
-  **Fizemos uma seleção de temas para te apoiar nessa etapa final dos seus estudos.**
+  **Fizemos uma seleção de temas para apoiar você nesta etapa final dos estudos:**
 
 * [Conhecendo o Gitlab](https://youtu.be/jpZxIalh9Ig)
 * [Explicação durante criação de projetos no Gitlab](https://youtu.be/JNH2DlUllVw)
