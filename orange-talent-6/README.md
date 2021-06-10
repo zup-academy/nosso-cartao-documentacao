@@ -37,7 +37,7 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
 ## Cronograma para executar todas as atividades
 
 **Dividimos o nosso cronograma em fases para apoiar você em cada etapa deste treino.**
-*Lembre também que temos toda uma equipe pronta para te dar suporte, tirar dúvidas e te direcionar.*
+*Lembre-se que temos toda uma equipe pronta para te dar suporte, tirar dúvidas e te direcionar.*
 
 1. Na primeira semana, você ficará totalmente focado no **Onboarding da Zup**
 2. Estimamos que você conclua a **fase 1** + **fase 2** até a terceira semana. Essa é uma fase muito focada em teoria e atividades de fixação
@@ -48,8 +48,6 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
 ![Cronograma turma 6](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/Cronograma%20turma%206.PNG)
   
 # FASE 1
-
-**Estimamos que você conclua a fase 1 até a terceira semana.**
 
 Queremos que você entenda a estrutura do programa e como ficar melhor                                                                                               preparadx para consumir tudo que preparamos. 
                                                                                                                                                                         Essa aqui é uma fase curta, porém fundamental! 
@@ -62,8 +60,6 @@ Queremos que você entenda a estrutura do programa e como ficar melhor          
   
 
 # FASE 2
-
-**Estimamos que você conclua a fase 2 até a terceira semana.**
 
 Nesta fase você fará uma imersão teórica sobre desenvolvimento web utilizando o paradigma de programação orientado a objetos com Java, Spring e Hibernate. 
 
@@ -193,8 +189,6 @@ Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conheci
 
 # FASE 3
 
-**Estimamos que você conclua a fase 3 até a quinta semana.**
-
 Agora que você passou por uma fase intensa de teoria, chegou a hora de treinar muito. 
 
 **Bem-vindx a fase 3 do nosso treino!**
@@ -239,8 +233,6 @@ Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento 
 
 
 # FASE 4
-
-**Estimamos que você conclua a fase 4 até a oitava semana.**
 
 Neste ponto da jornada, você deve se sentir mais confiante e mais capaz de construir API's com as tecnologias e práticas até aqui trabalhadas. Vamos para o desafio final: Construir uma API que simula o funcionamento do Credicard zero, um produto do Itaú. 
 
@@ -355,8 +347,6 @@ Chegou a hora de programar o serviço de transação. Ele é um serviço pequeno
 * **Desafio 4:** [Serviço de transação](./transacao/)
 
 # FASE 5
-
-**Estimamos que você conclua a fase 5 até a décima terceira semana.**
 
 Agora vamos para a fase final! 
 
