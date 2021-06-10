@@ -223,7 +223,9 @@ Para te deixar ainda mais preparado(a), temos alguns conteúdos sobre testes.
 * **Exercício de resolução:** [Clique aqui fazer o exercício de resolução de problema](https://docs.google.com/forms/d/e/1FAIpQLSfuzTJIal73B_WA3cfrP004jPRCUwaiz4lo0DZ8sLIey6fS5A/viewform)
  
 
-### Para apoiar você ainda mais neste tema [acesse aqui um Conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs)
+
+## Para apoiar você ainda mais neste tema [acesse aqui um conteúdo mais profundo sobre testes](../testes-automatizados-reveladores-de-bugs)
+
 
 
 Agora, com um pouco mais de teoria sobre como os testes podem ajudar no aumento da confiabilidade de execução do seu código, mergulhe no desafio de criar uma API que simula parte do Mercado Livre.
