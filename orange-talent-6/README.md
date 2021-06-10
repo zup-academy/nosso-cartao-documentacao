@@ -45,10 +45,11 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
 2. Estimamos que você conclua a **fase 1** + **fase 2** até a terceira semana. Essa é uma fase muito focada em teoria e atividades de fixação
 3. Estimamos que você conclua a **fase 3** até a quinta semana.
 4. Estimamos que você conclua a **fase 4** até a oitava semana.
-5. Agora você tem até 5 semanas para fechar a **fase cinco** !
+5. Agora você tem até 5 semanas para fechar a **fase cinco**!
 
-
-
+                  
+                              
+                               
 ![Cronograma turma 6](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/Calend%C3%A1rio-OT6-v2.png)
   
   
