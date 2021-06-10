@@ -768,7 +768,7 @@ E o deploy? Como você vai levar sua aplicação da sua máquina para ficar expo
 * [Explicação sobre o exemplo já implementado](https://youtu.be/9raXC_eTec8)
 * [Explicação enquanto implementa o exemplo](https://youtu.be/UfCPMRV9J-c)
 
-Você também deve consumir os conteúdos sobre Gitlab, que também é uma ferramenta utilizada dentro da Zup.
+### Chegamos na reta final do nosso programa, e como últimas dicas, aconselhamos que você consuma os conteúdos sobre Gitlab que também é uma ferramenta utilizada dentro da Zup. Fizemos uma seleção de temas para te apoiar nessa etapa final dos seus estudos.
 
 * [Conhecendo o Gitlab](https://youtu.be/jpZxIalh9Ig)
 * [Explicação durante criação de projetos no Gitlab](https://youtu.be/JNH2DlUllVw)
@@ -776,3 +776,8 @@ Você também deve consumir os conteúdos sobre Gitlab, que também é uma ferra
 * [Explicação de criação de um repositório no codecommit](https://youtu.be/HuB5aSPk5HI)
 * [Mirroring gitlab x codecommit explicação sobre exemplo construído](https://youtu.be/pBeF59rrCg8)
 * [Mirroring gitlab x codecommit explicação sobre exemplo enquanto constrói](https://youtu.be/9UtuOfHIlsA)
+
+Espero que você tenha aproveitado cada fase, vídeos e conteúdos preparados pelo nosso time. 
+Lembre-se que o treino foi intenso para que você estivesse preparado para esse momento tão esperado do jogo.
+
+#### Time Zup EDU
