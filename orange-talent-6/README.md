@@ -1,5 +1,7 @@
 # Bem-vindx ao programa Orange Talents
 
+![Banner Orange Talents](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/Banner-menor.png)
+
 ## Orange Talents: um programa de aceleração de carreira e evolução exponencial em tecnologia.                                                                         
 
 **Nosso programa tem duração de até 13 semanas.**   
