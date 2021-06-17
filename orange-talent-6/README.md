@@ -110,7 +110,7 @@ Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conheci
 
 * **Questionário Inicial:** [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8) 
 
-* **Bora pro curso?** [Curso - Introdução ao SQL com MySQL: Manipule e consulte dados](https://www.alura.com.br/formacao-oracle-mysql) 1° curso 
+* **Bora pro curso?** [Curso - Introdução ao SQL com MySQL: Manipule e consulte dados](https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql)  
 
 * **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/5PM1Jo11Tbp3zoJR8) 
 
@@ -121,7 +121,7 @@ Lembre-se que a ideia é que você tenha contato e que tenha um primeiro conheci
 
 * **Questionário Inicial:** [Clique aqui para responder o questionário no ínicio do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) 
 
-* **Bora pro curso?** [Curso - Consultas SQL: Avançando no SQL com MySQL](https://www.alura.com.br/formacao-oracle-mysql) 2° curso 
+* **Bora pro curso?** [Curso - Consultas SQL: Avançando no SQL com MySQL](https://cursos.alura.com.br/course/mysql-consultas-sql)  
 
 * **Questionário Final:** [Clique aqui para responder o questionário no final do curso](https://forms.gle/WDJ3pFRNM6WLkqBe6) 
 
