@@ -31,7 +31,7 @@ Quando está fácil, a chance é que você já tenha internalizado aquele conhec
 
 Por favor descreva como você pretende realizar a implementação deste desafio. 
   
-  **Para acessar o formulário [clique aqui](https://forms.gle/J3ZpzrZ3NppXUZ3t7)**
+  **Para acessar o formulário [clique aqui](https://forms.gle/zdSetX2b1pB2sqJKA)**
 
 ### **Informações de suporte geral**
 
@@ -40,5 +40,5 @@ Por favor descreva como você pretende realizar a implementação deste desafio.
 
 ### Depois de finalizar
 
-Antes de passar para a próxima funcionalidade, **envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/beXvFuHAwU3GnuMT6)**
+Antes de passar para a próxima funcionalidade, **envie o link para o diff da sua solução acessando [este formulário](https://forms.gle/faodD7dyCDGpDPQ1A)**
 
