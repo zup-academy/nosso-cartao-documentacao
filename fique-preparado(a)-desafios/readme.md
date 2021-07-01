@@ -33,7 +33,7 @@ Suas dúvidas podem ser dúvidas de alguém. Quando você tira alguma dúvida no
 
 Lembre-se: todo mundo que está no Orange Talents já está contratado(a).   
   Não existe competição por vaga.   
-  #Dica: Utilize isso a seu favor.
+  **#Dica: Utilize isso a seu favor.**
   
 Ajude a criar um senso de comunidade onde todo mundo está buscando evoluir e você, como parte integrante deste grupo, também está focado(a) nesta evolução e em alcançar seus objetivos.
 
