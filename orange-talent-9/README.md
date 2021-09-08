@@ -44,13 +44,13 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
 1. Na primeira semana, você ficará totalmente focado no **Onboarding da Zup**
 2. Estimamos que você conclua a **fase 1** + **fase 2** até a terceira semana. Essa é uma fase muito focada em teoria e atividades de fixação
 3. Estimamos que você conclua a **fase 3** até a quinta semana.
-4. Estimamos que você conclua a **fase 4** até a oitava semana.
-5. Agora você tem até 5 semanas para fechar a **fase cinco**!
+4. Estimamos que você conclua a **fase 4** até a nona semana.
+5. Agora você tem até 4 semanas para fechar a **fase cinco**!
 
                   
                               
                                
-![Cronograma turma 6](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/Calend%C3%A1rio-OT6-v2.png)
+![Cronograma turma 7](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/Calend%C3%A1rio-OT6-v2.png)
   
   
   
@@ -491,22 +491,22 @@ Um detalhe importante sobre a didática neste ponto: Dividimos cada explicação
     * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSfkDQPn8_NRXf4nuNWu3ivugKAaweoY-D53tWi2vH7VuqkNMw/viewform)
 
 * ### Validando os dados de entrada de uma requisição
-    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform)
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform)
 
     * **Bora pro curso?**
     * [Validando os dados de entrada de uma requisição: explicação em cima do código pronto](https://www.youtube.com/watch?v=Vw1uB_8EeX4&feature=youtu.be)
     * [Validando os dados de entrada de uma requisição: explicação enquanto constrói o código](https://www.youtube.com/watch?v=lyBlLDoW6xE&feature=youtu.be)  
 
-    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform)
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLScZ-ewltuyxEGH7fxCkjos4RPognh3HnfVQxSW66NPaLfhwzA/viewform)
 
 * ### Conversão de um objeto de entrada para um objeto de domínio
-    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform)
+    * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform)
 
     * **Bora pro curso?** 
     * [Conversão de um objeto de entrada para um objeto de domínio: explicação sobre o código pronto](https://www.youtube.com/watch?v=Hoi3-Plm0uo&feature=youtu.be)
     * [Conversão de um objeto de entrada para um objeto de domínio: explicação enquanto constrói o código](https://www.youtube.com/watch?v=j-NkQfiDMt0&feature=youtu.be)
 
-    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform)
+    * **Questionário:** [Clique aqui para responder o questionário no final do curso](https://docs.google.com/forms/u/1/d/e/1FAIpQLSeFykK_hK1vvCeHdf9xJCfRPwY_0d2gu9EjAgkDYO5gUThZGQ/viewform)
 
 * ### Gravando os dados com Micronaut Data
     * **Questionário:**[Clique aqui para responder o questionário no início do curso](https://docs.google.com/forms/d/e/1FAIpQLScEbOXJT8rwRD8SXxNPuDBz_Ufm5CSZ4-JUFstiHpS_94EbKQ/viewform)
