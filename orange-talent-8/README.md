@@ -50,7 +50,7 @@ Para que você se sinta e, realmente seja capaz de construir API's, você vai es
                   
                               
                                
-![Cronograma turma 7](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/Calend%C3%A1rio-OT6-v2.png)
+![Cronograma turma 7](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/Calendario-OT8.png)
   
   
   
