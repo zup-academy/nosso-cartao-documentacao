@@ -117,8 +117,8 @@ Agora a nossa configuração do consumidor está tudo ok, vamos configurar nosso
 
 ```java
 @Bean
-public ConcurrentKafkaListenerContainerFactory<String, TransactionMessage> kafkaListenerContainerFactory() {
-    ConcurrentKafkaListenerContainerFactory<String, TransactionMessage> factory = new ConcurrentKafkaListenerContainerFactory<>();
+public ConcurrentKafkaListenerContainerFactory<String, EventoDeTransacao> kafkaListenerContainerFactory() {
+    ConcurrentKafkaListenerContainerFactory<String, EventoDeTransacao> factory = new ConcurrentKafkaListenerContainerFactory<>();
     factory.setConsumerFactory(transactionConsumerFactory());
 
     return factory;
