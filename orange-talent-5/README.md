@@ -41,7 +41,7 @@ Sugerimos fortemente que você assista os videos entre 1.5 e 2x de velocidade. L
 | Java Servlet: Fundamentos da programação Web Java |
 | --- |
 | [Clique aqui para responder o questionário no início do curso](https://forms.gle/zafEBTfxUjomef1EA) |
-| [Curso - Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java) |
+| [Curso - Java Servlet: Fundamentos da programação web Java](https://cursos.alura.com.br/course/servlets-fundamentos-programacao-web-java) |
 | [Clique aqui para responder o questionário no final do curso](https://forms.gle/zafEBTfxUjomef1EA) |
 | [Clique aqui para fazer o exercício de resolução de problema](https://forms.gle/9nmFah4A33Mi67Cx5) |
 
