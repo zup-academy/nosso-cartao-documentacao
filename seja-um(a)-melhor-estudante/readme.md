@@ -90,7 +90,7 @@ Tudo que está acima depende só de você. E cada coisa vai exigir um grau e nú
 2. Quero ser convidado para palestrar no evento x
 3. Quero ser contratado para trabalhar no Netflix
 4. Quero vender pelo menos x matrículas para meu curso
-5. Quero ter x seguidores no meu canal do YoTtube
+5. Quero ter x seguidores no meu canal do Youtube
 6. Quero ter um pull request aprovado no projeto open source x
 
 Tudo acima está fora do seu controle e você não tem como garantir nada. Automaticamente este tipo de objetivo fica mais desafiador. A análise de habilidades continua valendo!
